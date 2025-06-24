@@ -1,59 +1,22 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Document, Page } from 'react-pdf';
-import * as pdfjs from 'pdfjs-dist';
+import { Document, Page, pdfjs } from 'react-pdf';
+// Use the PDFDocumentProxy type from the same version as react-pdf is using
+import type { PDFDocumentProxy } from 'react-pdf/node_modules/pdfjs-dist';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
 import './PdfViewer.css';
 
-// Set the worker source path globally only once
-// Support both development and production environments
-let workerSrc = '';
-const isElectron = window && window.navigator && window.navigator.userAgent.indexOf('Electron') > -1;
-
-if (isElectron) {
-  // In Electron production build
-  // Try multiple possible locations for the worker file
-  const possiblePaths = [
-    // Current directory relative to HTML file
-    `${window.location.href.substring(0, window.location.href.lastIndexOf('/'))}/pdf-worker/pdf.worker.min.js`,
-    // From extraResources
-    `${window.location.href.substring(0, window.location.href.lastIndexOf('/'))}/../../pdf-worker/pdf.worker.min.js`,
-    // Absolute path
-    `file:///pdf-worker/pdf.worker.min.js`
-  ];
-  
-  workerSrc = possiblePaths[0]; // Default to first path
-  console.log('Electron environment detected, trying PDF.js worker sources:');
-  possiblePaths.forEach(path => console.log(' - ' + path));
-} else {
-  // In development or web environment
-  workerSrc = `${window.location.origin}/pdf-worker/pdf.worker.min.js`;
-  console.log('Web environment detected, setting PDF.js worker source to:', workerSrc);
-}
-
-pdfjs.GlobalWorkerOptions.workerSrc = workerSrc;
+// Set the worker source path to the local worker file we copied
+pdfjs.GlobalWorkerOptions.workerSrc = `${window.location.origin}/pdf-worker/pdf.worker.js`;
 
 // Define options with multiple possible paths for resources
 const getPdfOptions = () => {
-  if (isElectron) {
-    // Try multiple base paths
-    const basePath = window.location.href.substring(0, window.location.href.lastIndexOf('/'));
-    const extraResourcesPath = `${basePath}/../../`;
-    
-    return {
-      cMapUrl: `${extraResourcesPath}cmaps/`,
-      standardFontDataUrl: `${extraResourcesPath}standard_fonts/`,
-      isEvalSupported: true,
-      useSystemFonts: true
-    };
-  } else {
-    return {
-      cMapUrl: `${window.location.origin}/cmaps/`,
-      standardFontDataUrl: `${window.location.origin}/standard_fonts/`,
-      isEvalSupported: true,
-      useSystemFonts: true
-    };
-  }
+  return {
+    cMapUrl: `${window.location.origin}/cmaps/`,
+    standardFontDataUrl: `${window.location.origin}/standard_fonts/`,
+    isEvalSupported: true,
+    useSystemFonts: true
+  };
 };
 
 const pdfOptions = getPdfOptions();
@@ -157,7 +120,7 @@ const PdfViewer: React.FC<PdfViewerProps> = ({ pdfUrl, onClose }) => {
   const documentRef = useRef<HTMLDivElement>(null);
   const [quality, setQuality] = useState<number>(2);
   const fileInputRef = useRef<HTMLInputElement>(null);
-  const [pdfDocument, setPdfDocument] = useState<pdfjs.PDFDocumentProxy | null>(null);
+  const [pdfDocument, setPdfDocument] = useState<PDFDocumentProxy | null>(null);
   const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
   const [isSearching, setIsSearching] = useState<boolean>(false);
   const [showSearchResults, setShowSearchResults] = useState<boolean>(false);
@@ -362,10 +325,10 @@ const PdfViewer: React.FC<PdfViewerProps> = ({ pdfUrl, onClose }) => {
     });
     
     loadingTask.promise
-      .then(doc => {
+      .then((doc: PDFDocumentProxy) => {
         setPdfDocument(doc);
       })
-      .catch(err => {
+      .catch((err: Error) => {
         console.error("Error loading PDF document for search:", err);
       });
       
@@ -389,6 +352,27 @@ const PdfViewer: React.FC<PdfViewerProps> = ({ pdfUrl, onClose }) => {
       setLoading(true);
       setError(null);
       console.log("Opening new PDF:", file.name);
+
+      // Debounce search
+      const timeout = setTimeout(async () => {
+        const loadingTask = pdfjs.getDocument(fileUrl);
+        
+        loadingTask.promise
+          .then((doc: PDFDocumentProxy) => {
+            setPdfDocument(doc);
+          })
+          .catch((err: Error) => {
+            console.error("Error loading PDF document for search:", err);
+          });
+      }, 300);
+
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        if (e.target) {
+          // ... existing code ...
+        }
+      };
+      reader.readAsDataURL(file);
     }
   };
 
@@ -420,16 +404,49 @@ const PdfViewer: React.FC<PdfViewerProps> = ({ pdfUrl, onClose }) => {
   };
 
   // Handle print
-  const handlePrint = () => {
-    const printWindow = window.open(currentPdfUrl);
-    if (printWindow) {
-      printWindow.addEventListener('load', () => {
-        printWindow.print();
-      });
-    } else {
-      alert("Không thể mở cửa sổ in. Vui lòng kiểm tra cài đặt trình duyệt của bạn.");
+  const handlePrint = async () => {
+    try {
+      if (!pdfDocument) {
+        console.warn("PDF document not loaded yet, skipping print.");
+        return;
+      }
+
+      const printWindow = window.open('', '_blank');
+      if (!printWindow) {
+        alert('Please allow popups to print the document.');
+        return;
+      }
+
+      printWindow.document.write('<html><head><title>Print</title></head><body>');
+      
+      const canvas = document.createElement('canvas');
+      const context = canvas.getContext('2d');
+
+      for (let i = 1; i <= pdfDocument.numPages; i++) {
+        const page = await pdfDocument.getPage(i);
+        const viewport = page.getViewport({ scale: 1.5 });
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        if (context) {
+          const renderContext = {
+            canvasContext: context,
+            viewport: viewport
+          };
+          
+          await page.render(renderContext).promise;
+          const imgData = canvas.toDataURL('image/png');
+          printWindow.document.write(`<img src="${imgData}" style="width: 100%;" />`);
+        }
+      }
+
+      printWindow.document.write('</body></html>');
+      printWindow.document.close();
+      printWindow.print();
+    } catch (err: any) {
+      console.error("Error during print:", err);
+      setError(`Lỗi khi in: ${err.message}`);
     }
-    console.log("Printing PDF");
   };
 
   // Render all pages function

@@ -1,6 +1,49 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import './App.css';
 import PdfViewer from './PdfViewer';
+import PdfDataService from './PdfDataService';
+import { GoogleGenerativeAI } from '@google/generative-ai';
+
+// Hàm chuyển đổi text markdown đơn giản sang HTML
+const formatMessage = (text: string): React.ReactNode => {
+  const lines = text.split('\n');
+  
+  return lines.map((line, index) => {
+    if (line.trim() === '') {
+      return <div key={index} className="message-line" style={{ height: '0.5em' }} />;
+    }
+    
+    // Xử lý các dòng trong danh sách
+    const listItemMatch = line.match(/^\s*•\s(.*)/);
+    if (listItemMatch) {
+      let content: React.ReactNode = listItemMatch[1];
+      // Bold
+      content = content.toString().split(/\*(.*?)\*/g).map((part, i) => i % 2 === 1 ? <strong key={i}>{part}</strong> : part);
+      // Italic
+      content = React.Children.toArray(content).map((seg: any) => typeof seg === 'string' ? seg.split(/_(.*?)_/g).map((part, i) => i % 2 === 1 ? <em key={i}>{part}</em> : part) : seg);
+
+      return (
+          <div key={index} className="message-line list-item">
+              <span className="bullet">•</span>
+              <span className="text-content">{content}</span>
+          </div>
+      )
+    }
+
+    // Xử lý các dòng khác
+    let content: React.ReactNode = line;
+    // Bold
+    content = content.toString().split(/\*(.*?)\*/g).map((part, i) => i % 2 === 1 ? <strong key={i}>{part}</strong> : part);
+    // Italic
+    content = React.Children.toArray(content).map((seg: any) => typeof seg === 'string' ? seg.split(/_(.*?)_/g).map((part, i) => i % 2 === 1 ? <em key={i}>{part}</em> : part) : seg);
+
+    return (
+      <div key={index} className="message-line">
+        {content}
+      </div>
+    );
+  });
+};
 
 // ++ NEW COMPONENT FOR SNMP STATUS
 function SystemStatusViewer() {
@@ -73,6 +116,198 @@ function SystemStatusViewer() {
   );
 }
 
+// New Chatbot component
+function Chatbot() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [messages, setMessages] = useState<{text: string, sender: 'user' | 'bot'}[]>([
+    {text: 'Xin chào! Tôi là trợ lý ảo. Tôi có thể giúp gì cho bạn về tổng đài Softswitch?', sender: 'bot'}
+  ]);
+  const [inputText, setInputText] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
+  const [isInitialized, setIsInitialized] = useState(false);
+  const messagesEndRef = useRef<HTMLDivElement>(null);
+  
+  // Reference to all menu items (PDF documents)
+  const allMenuItems = useMemo(() => [
+    // Kiến thức về chuyển mạch
+    { title: '1. Cơ sở kỹ thuật về máy điện thoại', path: '/document/1/1. Cơ sở kỹ thuật về máy điện thoại.pdf', category: 'Kiến thức về chuyển mạch' },
+    { title: '2. Kỹ thuật chuyển mạch gói VoIP', path: '/document/1/5. Kỹ thuật chuyển mạch gói.pdf', category: 'Kiến thức về chuyển mạch' },
+    { title: '3. Báo hiệu trong mạng điện thoại', path: '/document/1/6. Báo hiệu trong mạng điện thoại.pdf', category: 'Kiến thức về chuyển mạch' },
+    { title: '4. Cơ sở kỹ thuật về chuyển mạch', path: '/document/1/7. Cơ sở kỹ thuật chuyển mạch.pdf', category: 'Kiến thức về chuyển mạch' },
+    { title: '5. Tổng quan tổng đài Softswitch', path: '/document/1/3. Tổng quan về Tổng đài điện tử KTS.pdf', category: 'Kiến thức về chuyển mạch' },
+  ], []);
+
+  // Initialize PDF data service
+  useEffect(() => {
+    const initService = async () => {
+      try {
+        const pdfService = PdfDataService.getInstance();
+        await pdfService.initialize(allMenuItems);
+        setIsInitialized(true);
+        console.log("PDF data service initialized successfully");
+      } catch (error) {
+        console.error("Failed to initialize PDF data service:", error);
+      }
+    };
+    
+    initService();
+  }, [allMenuItems]);
+
+  // Scroll to bottom of chat
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [messages]);
+
+  const toggleChat = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setInputText(e.target.value);
+  };
+
+  // Initialize Google Generative AI
+  const API_KEY = 'AIzaSyBffgZToiwQU0g9_XUMMr4k78bdqaH9D00';
+  const genAI = new GoogleGenerativeAI(API_KEY);
+  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+
+  const handleSendMessage = async () => {
+    if (!inputText.trim()) return;
+    
+    const userMessage = {text: inputText, sender: 'user' as const};
+    setMessages(prev => [...prev, userMessage]);
+    setInputText('');
+    setIsLoading(true);
+    
+    try {
+      let responseText: string;
+      const pdfService = PdfDataService.getInstance();
+
+      if (isInitialized && pdfService) {
+        // Step 1: Retrieve context from documents
+        const searchResults = pdfService.searchContent(inputText);
+        
+        if (searchResults.length > 0) {
+          // Step 2 & 3: Augment and Generate with Gemini
+          const context = searchResults
+            .map(r => `Trích từ tài liệu "${r.title}":\n${r.text}`)
+            .join('\n\n---\n\n');
+
+          const prompt = `Bạn là một trợ lý ảo chuyên gia về hệ thống tổng đài EWSD. 
+Dựa vào bối cảnh được cung cấp dưới đây, hãy trả lời câu hỏi của người dùng một cách chính xác và súc tích bằng tiếng Việt. 
+Nếu thông tin không có trong bối cảnh, hãy trả lời rằng "Tôi không tìm thấy thông tin này trong các tài liệu hiện có."
+
+BỐI CẢNH:
+---
+${context}
+---
+
+CÂU HỎI: ${inputText}
+
+TRẢ LỜI:`;
+
+          const result = await model.generateContent(prompt);
+          responseText = result.response.text();
+
+        } else {
+          // Fallback if no relevant documents are found
+          responseText = 'Rất tiếc, tôi không tìm thấy tài liệu nào liên quan đến câu hỏi của bạn. Bạn có thể thử hỏi khác đi không?';
+        }
+      } else {
+        // Fallback if PDF service is not ready
+        responseText = 'Hệ thống đang khởi tạo, vui lòng đợi trong giây lát...';
+      }
+      
+      setMessages(prev => [...prev, {text: responseText, sender: 'bot'}]);
+
+    } catch (error) {
+      console.error("Error generating response with Gemini:", error);
+      setMessages(prev => [...prev, {text: "❌ Rất tiếc, đã có lỗi xảy ra khi kết nối với AI. Vui lòng thử lại sau.", sender: 'bot'}]);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      handleSendMessage();
+    }
+  };
+
+  return (
+    <div className="chatbot-container">
+      {/* Chat toggle button */}
+      <button 
+        className={`chat-toggle-button ${isOpen ? 'is-open' : ''}`}
+        onClick={toggleChat}
+        aria-label="Toggle chat"
+      >
+        {isOpen ? (
+          <i className="fas fa-times"></i>
+        ) : (
+          <img 
+            src={`${process.env.PUBLIC_URL}/asset/image-removebg-preview.png`} 
+            alt="Chat" 
+            className="chat-icon" 
+          />
+        )}
+      </button>
+      
+      {/* Chat window */}
+      {isOpen && (
+        <div className="chat-window">
+          <div className="chat-header">
+            <div className="chat-title">
+              Trợ lý ảo EWSD
+              {!isInitialized && (
+                <span className="loading-indicator" title="Đang tải dữ liệu">
+                  <i className="fas fa-sync fa-spin"></i>
+                </span>
+              )}
+            </div>
+            <button className="chat-close-btn" onClick={toggleChat}>
+              <i className="fas fa-times"></i>
+            </button>
+          </div>
+          <div className="chat-messages">
+            {messages.map((message, index) => (
+              <div key={index} className={`message ${message.sender}`}>
+                {message.sender === 'bot' 
+                  ? formatMessage(message.text)
+                  : message.text}
+              </div>
+            ))}
+            {isLoading && (
+              <div className="message bot loading">
+                <span className="loading-dot"></span>
+                <span className="loading-dot"></span>
+                <span className="loading-dot"></span>
+              </div>
+            )}
+            <div ref={messagesEndRef} />
+          </div>
+          <div className="chat-input">
+            <input
+              type="text"
+              value={inputText}
+              onChange={handleInputChange}
+              onKeyPress={handleKeyPress}
+              placeholder="Nhập câu hỏi..."
+              disabled={isLoading}
+            />
+            <button 
+              onClick={handleSendMessage}
+              disabled={isLoading || !inputText.trim()}
+            >
+              <i className="fas fa-paper-plane"></i>
+            </button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
 // Define the menu item data structure
 interface MenuItem {
   title: string;
@@ -86,6 +321,8 @@ function App() {
   const [selectedPdf, setSelectedPdf] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [showSearchResults, setShowSearchResults] = useState<boolean>(false);
+  // Add state for mobile menu
+  const [showMobileMenu, setShowMobileMenu] = useState<boolean>(false);
   
   // Create a ref for the search container
   const searchContainerRef = useRef<HTMLDivElement>(null);
@@ -164,12 +401,23 @@ function App() {
     document.body.style.backgroundAttachment = 'fixed';
     
     setLoaded(true);
+
+    // Add event listener to handle window resize
+    const handleResize = () => {
+      // Close mobile menu when resizing to desktop
+      if (window.innerWidth > 768 && showMobileMenu) {
+        setShowMobileMenu(false);
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
     
     return () => {
       // Clean up when component unmounts
       document.body.style.backgroundImage = '';
+      window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [showMobileMenu]);
 
   useEffect(() => {
     // Show search results when there's a query and hide when empty
@@ -197,9 +445,19 @@ function App() {
   }, []);
 
   const toggleMenu = (menu: string) => {
-    setActiveMenu(activeMenu === menu ? null : menu);
+    // If we're on mobile and clicking the same menu that's already active, just close it
+    if (activeMenu === menu && window.innerWidth <= 768) {
+      setActiveMenu(null);
+    } else {
+      setActiveMenu(activeMenu === menu ? null : menu);
+    }
     // Close search results when opening a menu
     setSearchQuery('');
+    // Close mobile menu when selecting an item only if submenu is present
+    if (window.innerWidth <= 768 && menu !== activeMenu) {
+      // Don't close mobile menu when toggling, only when actually selecting an item
+      // setShowMobileMenu(false);
+    }
   };
 
   const openPdf = (pdfPath: string) => {
@@ -229,7 +487,60 @@ function App() {
           </div>
           
           <nav className="main-nav">
-            <ul className="menu-list">
+            {/* Mobile menu toggle button */}
+            <button 
+              className="mobile-menu-toggle" 
+              onClick={() => setShowMobileMenu(!showMobileMenu)}
+              aria-label="Toggle menu"
+            >
+              <i className={`fas ${showMobileMenu ? 'fa-times' : 'fa-bars'}`}></i>
+            </button>
+            
+            {/* Search box for mobile view - at the top */}
+            <div className="compact-search-container" ref={searchContainerRef}>
+              <div className="search-input-wrapper">
+                <input
+                  type="text"
+                  placeholder="Tìm kiếm tài liệu..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="compact-search-input"
+                />
+                <i className="search-icon fas fa-search"></i>
+              </div>
+              
+              {showSearchResults && filteredMenuItems.length > 0 && (
+                <div className="compact-search-results">
+                  <div className="search-results-list">
+                    {filteredMenuItems.map((item, index) => (
+                      <div 
+                        key={index}
+                        className="search-result-item"
+                        onClick={() => item.path && openPdf(item.path)}
+                      >
+                        <div className="search-result-title">
+                          <span className="search-result-category-tag">{item.category}</span>
+                          <span style={{ width: '100%' }}>{item.title}</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {showSearchResults && filteredMenuItems.length === 0 && searchQuery.trim() !== '' && (
+                <div className="compact-search-results">
+                  <div className="search-results-list">
+                    <div className="search-result-item">
+                      <div className="search-result-title">
+                        Không tìm thấy kết quả phù hợp
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+            
+            <ul className={`menu-list ${showMobileMenu ? 'show' : ''}`}>
               <li 
                 className={`menu-item ${activeMenu === 'kienthuc' ? 'active' : ''}`}
                 onClick={() => toggleMenu('kienthuc')}
@@ -402,39 +713,6 @@ function App() {
                 )}
               </li>
             </ul>
-            
-            {/* Single search box in the navigation bar */}
-            <div className="compact-search-container" ref={searchContainerRef}>
-              <div className="search-input-wrapper">
-                <input
-                  type="text"
-                  placeholder="Tìm kiếm tài liệu..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="compact-search-input"
-                />
-                <i className="search-icon fas fa-search"></i>
-              </div>
-              
-              {showSearchResults && filteredMenuItems.length > 0 && (
-                <div className="compact-search-results">
-                  <div className="search-results-list">
-                    {filteredMenuItems.map((item, index) => (
-                      <div 
-                        key={index}
-                        className="search-result-item"
-                        onClick={() => item.path && openPdf(item.path)}
-                      >
-                        <div className="search-result-title">
-                          <span className="search-result-category-tag">{item.category}</span>
-                          {item.title}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
           </nav>
         </header>
 
@@ -447,7 +725,10 @@ function App() {
         )}
 
         {/* ++ ADD THE NEW SNMP STATUS VIEWER */}
-        <SystemStatusViewer />
+        {/* <SystemStatusViewer /> */}
+
+        {/* Add only the chatbot component */}
+        <Chatbot />
       </div>
     </>
   );
