@@ -1,0 +1,110 @@
+{
+  "name": "my-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "main": "public/electron.js",
+  "homepage": "./",
+  "description": "Hệ thống đào tạo thông tin liên lạc quân sự",
+  "author": "Military Telecommunications Training System",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "electron-is-dev": "^2.0.0",
+    "pdfjs-dist": "^4.8.69",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-pdf": "^9.2.1",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron:dev": "concurrently \"cross-env BROWSER=none npm start\" \"wait-on http://localhost:3000 && electron .\"",
+    "electron:build": "npm run build && electron-builder build --publish=never",
+    "electron:package:win": "npm run build && electron-builder build --win --dir --publish never",
+    "electron:package:mac": "npm run build && electron-builder build --mac --publish never",
+    "electron:package:linux": "npm run build && electron-builder build --linux --publish never"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "electron": "^28.2.1",
+    "electron-builder": "^24.9.1",
+    "wait-on": "^7.2.0"
+  },
+  "build": {
+    "appId": "com.telecomsystem.app",
+    "productName": "phần mềm huấn luyện tổng đài Softswitch",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "public",
+      "output": "dist-new"
+    },
+    "win": {
+      "icon": "public/logo.png",
+      "target": "portable",
+      "sign": false,
+      "signAndEditExecutable": false
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "perMachine": false
+    },
+    "asar": true,
+    "asarUnpack": [
+      "node_modules/pdfjs-dist/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "public/pdf-worker",
+        "to": "pdf-worker"
+      },
+      {
+        "from": "public/cmaps",
+        "to": "cmaps"
+      },
+      {
+        "from": "public/standard_fonts",
+        "to": "standard_fonts"
+      }
+    ]
+  }
+}
