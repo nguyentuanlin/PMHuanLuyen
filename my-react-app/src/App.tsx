@@ -2,7 +2,6 @@ import React, { useState, useEffect, useMemo, useRef } from 'react';
 import './App.css';
 import PdfViewer from './PdfViewer';
 import PdfDataService from './PdfDataService';
-import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // Hàm chuyển đổi text markdown đơn giản sang HTML
 const formatMessage = (text: string): React.ReactNode => {
@@ -127,6 +126,12 @@ function Chatbot() {
   const [isInitialized, setIsInitialized] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   
+  const suggestedQuestions = [
+    "Cấu trúc tổng đài Softswitch là gì?",
+    "Kỹ thuật chuyển mạch gói VoIP là gì?",
+    "Việc bảo quản, bảo dưỡng tổng đài Softswitch gồm những gì?",
+  ];
+
   // Reference to all menu items (PDF documents)
   const allMenuItems = useMemo(() => [
     // Kiến thức về chuyển mạch
@@ -166,15 +171,11 @@ function Chatbot() {
     setInputText(e.target.value);
   };
 
-  // Initialize Google Generative AI
-  const API_KEY = 'AIzaSyBffgZToiwQU0g9_XUMMr4k78bdqaH9D00';
-  const genAI = new GoogleGenerativeAI(API_KEY);
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
-
-  const handleSendMessage = async () => {
-    if (!inputText.trim()) return;
+  const handleSendMessage = async (messageOverride?: string) => {
+    const messageToSend = (messageOverride || inputText).trim();
+    if (!messageToSend) return;
     
-    const userMessage = {text: inputText, sender: 'user' as const};
+    const userMessage = {text: messageToSend, sender: 'user' as const};
     setMessages(prev => [...prev, userMessage]);
     setInputText('');
     setIsLoading(true);
@@ -185,34 +186,84 @@ function Chatbot() {
 
       if (isInitialized && pdfService) {
         // Step 1: Retrieve context from documents
-        const searchResults = pdfService.searchContent(inputText);
+        const searchResults = pdfService.searchContent(messageToSend);
         
+        let systemPrompt: string;
+        let userPrompt: string;
+
         if (searchResults.length > 0) {
-          // Step 2 & 3: Augment and Generate with Gemini
+          // Case 1: Context found, act as a document expert
           const context = searchResults
             .map(r => `Trích từ tài liệu "${r.title}":\n${r.text}`)
             .join('\n\n---\n\n');
 
-          const prompt = `Bạn là một trợ lý ảo chuyên gia về hệ thống tổng đài EWSD. 
-Dựa vào bối cảnh được cung cấp dưới đây, hãy trả lời câu hỏi của người dùng một cách chính xác và súc tích bằng tiếng Việt. 
-Nếu thông tin không có trong bối cảnh, hãy trả lời rằng "Tôi không tìm thấy thông tin này trong các tài liệu hiện có."
+          systemPrompt = `Bạn là một trợ lý ảo chuyên gia về hệ thống tổng đài Softswitch.
+Nhiệm vụ của bạn là cung cấp câu trả lời rõ ràng, có cấu trúc cho người dùng.
+
+**QUY TẮC TRẢ LỜI:**
+1.  **Luôn trả lời bằng tiếng Việt.**
+2.  **Ưu tiên hàng đầu:** Dựa vào thông tin trong "BỐI CẢNH" được cung cấp để trả lời câu hỏi.
+3.  **Cấu trúc câu trả lời:**
+    *   **Giới thiệu:** Bắt đầu bằng một câu giới thiệu ngắn gọn, trực tiếp vào vấn đề.
+    *   **Các ý chính:** Trình bày các điểm chính hoặc các bước bằng cách sử dụng danh sách có dấu gạch đầu dòng (\`•\`). Mỗi ý nên rõ ràng và súc tích.
+    *   **Kết luận:** Kết thúc bằng một đoạn tóm tắt ngắn gọn hoặc một kết luận hợp lý.
+4.  **Nếu không có bối cảnh:** Nếu "BỐI CẢNH" không chứa thông tin liên quan hoặc không được cung cấp, hãy trả lời câu hỏi dựa trên kiến thức chung của bạn về Softswitch và các chủ đề liên quan, nhưng vẫn tuân thủ cấu trúc trên.
+5.  **Giọng văn:** Chuyên nghiệp, hữu ích và dễ hiểu.`;
+          
+          userPrompt = `Dựa vào bối cảnh dưới đây (nếu có liên quan), hãy trả lời câu hỏi sau.
 
 BỐI CẢNH:
 ---
 ${context}
 ---
 
-CÂU HỎI: ${inputText}
+CÂU HỎI: ${messageToSend}
 
 TRẢ LỜI:`;
 
-          const result = await model.generateContent(prompt);
-          responseText = result.response.text();
-
         } else {
-          // Fallback if no relevant documents are found
-          responseText = 'Rất tiếc, tôi không tìm thấy tài liệu nào liên quan đến câu hỏi của bạn. Bạn có thể thử hỏi khác đi không?';
+          // Case 2: No context found, act as a general-purpose assistant
+          systemPrompt = `Bạn là một trợ lý ảo đa năng, hữu ích.
+
+**QUY TẮC TRẢ LỜI:**
+1.  **Luôn trả lời bằng tiếng Việt.**
+2.  **Cấu trúc câu trả lời:**
+    *   **Giới thiệu:** Bắt đầu bằng một câu giới thiệu ngắn gọn, trực tiếp vào vấn đề.
+    *   **Các ý chính:** Trình bày các điểm chính hoặc các bước bằng cách sử dụng danh sách có dấu gạch đầu dòng (\`•\`). Mỗi ý nên rõ ràng và súc tích.
+    *   **Kết luận:** Kết thúc bằng một đoạn tóm tắt ngắn gọn hoặc một kết luận hợp lý.
+3.  **Giọng văn:** Chuyên nghiệp, hữu ích và dễ hiểu.`;
+          
+          userPrompt = messageToSend;
         }
+
+        // --- UNIFIED GROQ API CALL ---
+        const GROQ_API_KEY = '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';
+
+        const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+          method: "POST",
+          headers: {
+            "Authorization": `Bearer ${GROQ_API_KEY}`,
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            messages: [
+              { role: "system", content: systemPrompt },
+              { role: "user", content: userPrompt }
+            ],
+            model: "llama3-8b-8192"
+          })
+        });
+
+        if (!response.ok) {
+          const errorData = await response.json();
+          console.error("Groq API Error:", errorData);
+          throw new Error(`Groq API error: ${response.statusText}`);
+        }
+        
+        const result = await response.json();
+        responseText = result.choices[0]?.message?.content || "Không nhận được phản hồi hợp lệ từ AI.";
+        // --- END OF GROQ API CALL ---
+
       } else {
         // Fallback if PDF service is not ready
         responseText = 'Hệ thống đang khởi tạo, vui lòng đợi trong giây lát...';
@@ -221,12 +272,16 @@ TRẢ LỜI:`;
       setMessages(prev => [...prev, {text: responseText, sender: 'bot'}]);
 
     } catch (error) {
-      console.error("Error generating response with Gemini:", error);
+      console.error("Error generating response with AI:", error);
       setMessages(prev => [...prev, {text: "❌ Rất tiếc, đã có lỗi xảy ra khi kết nối với AI. Vui lòng thử lại sau.", sender: 'bot'}]);
     } finally {
       setIsLoading(false);
     }
   };
+
+  const handleSuggestionClick = (question: string) => {
+    handleSendMessage(question);
+  }
 
   const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') {
@@ -277,6 +332,16 @@ TRẢ LỜI:`;
                   : message.text}
               </div>
             ))}
+            {messages.length === 1 && !isLoading && (
+              <div className="suggested-questions">
+                <p className="suggestion-title">Gợi ý cho bạn:</p>
+                {suggestedQuestions.map((q, i) => (
+                  <button key={i} className="suggestion-btn" onClick={() => handleSuggestionClick(q)}>
+                    {q}
+                  </button>
+                ))}
+              </div>
+            )}
             {isLoading && (
               <div className="message bot loading">
                 <span className="loading-dot"></span>
@@ -296,7 +361,7 @@ TRẢ LỜI:`;
               disabled={isLoading}
             />
             <button 
-              onClick={handleSendMessage}
+              onClick={() => handleSendMessage()}
               disabled={isLoading || !inputText.trim()}
             >
               <i className="fas fa-paper-plane"></i>
@@ -326,6 +391,7 @@ function App() {
   
   // Create a ref for the search container
   const searchContainerRef = useRef<HTMLDivElement>(null);
+  const navRef = useRef<HTMLElement>(null);
 
   // Collect all menu items for search
   const allMenuItems: MenuItem[] = useMemo(() => [
@@ -436,6 +502,11 @@ function App() {
         setShowSearchResults(false);
         setSearchQuery('');
       }
+      
+      // Close active menu when clicking outside of nav
+      if (navRef.current && !navRef.current.contains(event.target as Node)) {
+        setActiveMenu(null);
+      }
     }
 
     document.addEventListener('mousedown', handleClickOutside);
@@ -486,7 +557,7 @@ function App() {
             />
           </div>
           
-          <nav className="main-nav">
+          <nav className="main-nav" ref={navRef}>
             {/* Mobile menu toggle button */}
             <button 
               className="mobile-menu-toggle" 

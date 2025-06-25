@@ -850,40 +850,42 @@ body {
 
 /* Remove old search container styles that are no longer needed */
 .search-container-main {
-  display: none;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
 }
 
 /* Chatbot Styles - Completely redesigned */
 .chat-icon {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  animation: breathing 3s ease-in-out infinite;
 }
 
 .chat-toggle-button {
+  position: fixed;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   background: linear-gradient(135deg, #4a89dc 0%, #1f5bb6 100%);
   color: white;
   border: none;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 28px;
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   padding: 0;
-  position: fixed;
   bottom: 25px;
   right: 25px;
-  z-index: 1050;
+  z-index: 1000;
 }
 
 .chat-toggle-button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  transform: scale(1.1);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
 }
 
 .chat-window {
@@ -894,13 +896,13 @@ body {
   height: 520px;
   background-color: #f8f9fa;
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  z-index: 1040;
+  z-index: 1000;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  animation: slideIn 0.3s ease;
+  animation: slideIn 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 @keyframes slideIn {
@@ -915,7 +917,7 @@ body {
 }
 
 .chat-header {
-  background: linear-gradient(135deg, #4a89dc 0%, #1f5bb6 100%);
+  background: linear-gradient(135deg, #c51111, #e01c1c);
   color: white;
   padding: 15px 20px;
   font-size: 18px;
@@ -934,31 +936,30 @@ body {
 }
 
 .chat-title::before {
-  content: '';
+  content: "🔵";
+  margin-right: 8px;
+  animation: pulse 1.8s infinite;
   display: inline-block;
-  width: 12px;
-  height: 12px;
-  background-color: #4ade80;
-  border-radius: 50%;
-  margin-right: 5px;
-  animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.6);
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes breathing {
+  0%, 100% {
+    transform: scale(1);
   }
-  70% {
-    box-shadow: 0 0 0 6px rgba(74, 222, 128, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(74, 222, 128, 0);
+  50% {
+    transform: scale(1.07);
   }
 }
 
 .loading-indicator {
   margin-left: 8px;
-  font-size: 14px;
+  font-size: 12px;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -1001,22 +1002,58 @@ body {
 }
 
 .message.bot {
-  align-self: flex-start;
-  background-color: #f0f2f5;
+  background-color: #e9e9eb;
   color: #333;
+  align-self: flex-start;
   border-bottom-left-radius: 5px;
-  margin-right: 40px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  white-space: normal;
+  text-align: left;
 }
 
 .message.bot.loading {
-  background-color: #f0f2f5;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 4px;
   padding: 12px 20px;
+}
+
+.suggested-questions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 10px 0;
+  padding: 0 5px;
+  align-self: stretch;
+  animation: fadeIn 0.3s ease;
+}
+
+.suggestion-title {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 4px;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.suggestion-btn {
+  background-color: rgba(74, 137, 220, 0.1);
+  border: 1px solid rgba(74, 137, 220, 0.2);
+  border-radius: 12px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #1f5bb6;
+  text-align: left;
+  width: 100%;
+  font-family: inherit;
+}
+
+.suggestion-btn:hover {
+  background-color: rgba(74, 137, 220, 0.2);
+  border-color: rgba(74, 137, 220, 0.4);
+  transform: translateY(-1px);
 }
 
 .loading-dot {
@@ -1090,13 +1127,13 @@ body {
 }
 
 .chat-input button:disabled {
-  background: linear-gradient(135deg, #ccc 0%, #999 100%);
+  background-color: #d1d5db;
   cursor: not-allowed;
 }
 
 .message-line {
   margin-bottom: 4px;
-  line-height: 1.5;
+  text-align: left;
 }
 
 .message-line.list-item {
