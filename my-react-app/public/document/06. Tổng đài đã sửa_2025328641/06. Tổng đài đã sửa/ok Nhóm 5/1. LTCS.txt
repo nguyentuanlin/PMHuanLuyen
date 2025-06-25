@@ -1,0 +1,3216 @@
+Câu hỏi
+
+Nội dung câu hỏi, trả lời
+
+Câu 1
+
+Trong lịch sử phát triển kỹ thuật chuyển mạch một số phương thức chuyển mạch kênh đã được áp dụng trong các hệ thống tổng đài, đó là các phương thức nào?
+
+A)
+
+Chuyển mạch phân kênh theo không gian dùng cho tín hiệu liên tục; chuyển mạch phân kênh theo thời gian đối với tín hiệu rời rạc hoá (tín hiệu điều biên xung PAM; chuyển mạch số PCM (cho tín  hiệu  điều  chế xung  mã PCM).
+
+B)
+
+Chuyển mạch phân kênh theo không gian dùng cho tín hiệu rời rạc hoá (tín hiệu điều biên xung PAM) chuyển mạch phân kênh theo thời gian và chuyển mạch số PCM đối với tín hiệu liên tục.
+
+C)
+
+Chuyển mạch phân kênh theo thời gian và không gian dùng cho tín hiệu liên tục, chuyển mạch số  PCM (cho tín hiệu điều biên xung PAM)
+
+D)
+
+Chuyển mạch phân kênh theo không gian dùng cho tín hiệu liên tục; chuyển mạch phân kênh theo không  gian đối với tín hiệu rời rạc hoá (tín hiệu điều biên xung PAM; chuyển mạch số PCM (cho tín  hiệu  điều  chế xung  mã PCM).
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 2
+
+Một đa khung ( 2048 kb/s) được tạo nên bởi bao nhiêu khung cơ sở?
+
+A)
+
+8
+
+B)
+
+16
+
+C)
+
+32
+
+D)
+
+64
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 3
+
+Trong các tổng đài sô có dung lượng lớn người ta xây dựng trên cơ sở kết hợp các chuyển mạch thời gian số và chuyển mạch không gian số theo cấu trúc ghép tầng nào? 
+
+A)
+
+T-S
+
+B)
+
+S-T
+
+C)
+
+S-T-S
+
+D)
+
+T-S-T
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 4
+
+Bộ chuyển mạch không gian số thực hiện chức năng gì?
+
+A)
+
+Có thể thực hiện chức năng chuyển đổi khe thời gian
+
+B)
+
+Chỉ thực hiện chức năng chuyển đổi khe thời gian
+
+C)
+
+Vừa thực hiện chức năng chuyển đổi khe thời gian, vừa chuyển đổi tuyến PCM
+
+D)
+
+Không thể thực hiện chức năng chuyển đổi khe thời gian
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 5
+
+Bộ chuyển mạch thời gian số thực hiện chức năng gì?
+
+A)
+
+Thực hiện chức năng chuyển đổi khe thời gian
+
+B)
+
+Không thực hiện chức năng chuyển đổi khe thời gian
+
+C)
+
+Thực hiện chức năng điều khiển kết nối cuộc gọi
+
+D)
+
+Chỉ thực hiện chức năng trao đổi thông tin. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 6
+
+Tần số lấy mẫu trong công nghệ PCM được qui định là bao nhiêu?
+
+A)
+
+8KHz
+
+B)
+
+2KHz
+
+C)
+
+16KHz
+
+D)
+
+(0,3-3,4)KHz
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 7
+
+Bộ chuyển mạch tiếp thông hoàn toàn (toàn thông) là gì?
+
+A)
+
+ Bộ chuyển mạch mà mỗi đầu vào không có khả năng nối tới đầu ra bất kỳ.
+
+B)
+
+ Bộ chuyển mạch mà mỗi đầu vào  đều có khả năng nối tới đầu ra bất kỳ.
+
+C)
+
+ Bộ chuyển mạch mà mỗi đầu ra  đều có khả năng nối tới đầu ra bất kỳ.
+
+D)
+
+ Bộ chuyển mạch mà tất cả các đầu vào  đều không có khả năng nối tới đầu ra bất kỳ.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 8
+
+Trong chuyển mạch kênh, hệ thống chuyển mạch?
+
+A)
+
+Không kiểm soát thông tin trên kênh đã thiết lập.
+
+B)
+
+Kiểm soát thông tin trên kênh đã thiết lập.
+
+C)
+
+Vừa kiểm soát, vừa điều khiển thông tin trên kênh đã thiết lập.
+
+D)
+
+Vừa kiểm soát, vừa điều khiển thông tin trên kênh đã thiết lập.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 9
+
+Đặc điểm cơ bản của phương thức chuyển mạch gói?
+
+A)
+
+Có thể định tuyến cho từng gói hoặc cho tất cả các gói của cuộc gọi theo các thủ tục khác nhau.
+
+B)
+
+Định tuyến cho từng gói của cuộc gọi theo các thủ tục khác nhau.
+
+C)
+
+Không thể định tuyến cho từng gói hoặc cho tất cả các gói của cuộc gọi theo các thủ tục khác nhau.
+
+D)
+
+Không thể định tuyến cho tất cả các gói của cuộc gọi theo các thủ tục khác nhau
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 10
+
+Khái niệm xuyên nhiễu trên đường dây kim loại được hiểu như thế nào?
+
+A)
+
+Là một mạch tín hiệu truyền dẫn (có liên lạc) thì một phần năng lượng tín hiệu truyền trong mạch này sẽ thâm nhập sang mạch điện lân cận.
+
+B)
+
+Là một mạch tín hiệu dây dẫn (có liên lạc) thì một phần lớn năng lượng tín hiệu truyền trong mạch này sẽ thâm nhập sang mạch điện lân cận.
+
+C)
+
+Là một mạch tín hiệu truyền dẫn (có liên lạc) thì một phần lớn năng lượng tín hiệu truyền trong mạch này sẽ thâm nhập sang mạch điện lân cận.
+
+D)
+
+Là một mạch tín hiệu dây dẫn (có liên lạc) thì một phần năng lượng tín hiệu truyền trong mạch này sẽ tiêu hao.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 11
+
+Mục đích của việc mã hóa kênh trong truyền thông là gì? 
+
+A)
+
+Để có thể phát hiện lỗi và/ hoặc khôi phục thông tin ở phía thu khi gặp lỗi.
+
+B)
+
+Để đơn giản hệ thống truyền thông.
+
+C)
+
+Để giảm bớt thời gian truyền thông tin.
+
+D)
+
+Để tăng hiệu quả sử dụng kênh truyền.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 12
+
+Hệ thống báo hiệu R2 được phân thành bao nhiêu loại?
+
+A)
+
+Hai loại: Báo hiệu đường dây và báo hiệu thanh ghi.
+
+B)
+
+Ba loại: Báo hiệu liên kết, Báo hiệu đường dây và báo hiệu thanh ghi.
+
+C)
+
+Bốn loại: Báo hiệu liên kết, Báo hiệu kênh riêng, Báo hiệu đường dây và báo hiệu thanh ghi.
+
+D)
+
+Một loại: Báo hiệu thanh ghi.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 13
+
+Khái niệm thanh ghi ra trong báo hiệu R2 là
+
+A)
+
+Là thanh ghi bắt đầu một tuyến báo hiệu sử dụng hệ thống báo hiệu R2. Thanh ghi ra tham gia vào việc thiết lập cuộc gọi trên toàn tuyến qua việc gửi các tín hiệu thanh đi hướng đi và nhận các tín hiệu thanh ghi hướng về.
+
+B)
+
+Là thanh ghi kết thúc một tuyến báo hiệu sử dụng hệ thống báo hiệu R2. Thanh ghi vào nhận các tín hiệu thanh ghi hướng đi thông qua các chặng trước đó và gửi các tín hiệu thanh ghi hướng về.
+
+C)
+
+Là thanh ghi bắt đầu một tuyến báo hiệu sử dụng hệ thống báo hiệu S7. Thanh ghi ra tham gia vào việc thiết lập cuộc gọi trên toàn tuyến qua việc gửi các tín hiệu thanh đi hướng đi và nhận các tín hiệu thanh ghi hướng về.
+
+D)
+
+Là thanh ghi bắt đầu một tuyến báo hiệu sử dụng hệ thống báo hiệu R2. Thanh ghi vào tham gia vào việc thiết lập cuộc gọi trên toàn tuyến qua việc gửi các tín hiệu thanh đi hướng đi và nhận các tín hiệu thanh ghi hướng về.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 14
+
+Khái niệm thanh ghi vào trong báo hiệu R2  là
+
+A)
+
+Là thanh ghi bắt đầu một tuyến báo hiệu sử dụng hệ thống báo hiệu R2. Thanh ghi ra tham gia vào việc thiết lập cuộc gọi trên toàn tuyến qua việc gửi các tín hiệu thanh đi hướng đi và nhận các tín hiệu thanh ghi hướng về.
+
+B)
+
+Là thanh ghi kết thúc một tuyến báo hiệu sử dụng hệ thống báo hiệu R2. Thanh ghi vào nhận các tín hiệu thanh ghi hướng đi thông qua các chặng trước đó và gửi các tín hiệu thanh ghi hướng về.
+
+C)
+
+Là thanh ghi bắt đầu một tuyến báo hiệu sử dụng hệ thống báo hiệu S7. Thanh ghi ra tham gia vào việc thiết lập cuộc gọi trên toàn tuyến qua việc gửi các tín hiệu thanh đi hướng đi và nhận các tín hiệu thanh ghi hướng về.
+
+D)
+
+Là thanh ghi bắt đầu một tuyến báo hiệu sử dụng hệ thống báo hiệu R2. Thanh ghi vào tham gia vào việc thiết lập cuộc gọi trên toàn tuyến qua việc gửi các tín hiệu thanh đi hướng đi và nhận các tín hiệu thanh ghi hướng về.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 15
+
+Khái niệm báo hiệu từng chặng trong báo hiệu R2 
+
+A)
+
+Là phương pháp báo hiệu trong đó quá trình trao đổi báo hiệu chỉ diễn ra giữa các tổng  đài kế tiếp nhau trong việc thiết lập cuộc nối qua nhiều chặng.
+
+B)
+
+Là phương pháp báo hiệu mà thanh ghi đầu tiên có trao đổi báo hiệu lần lượt với các thanh ghi vào cho đến tận các thanh ghi vào cuối cùng trên một tuyến 9 gồm một hoặc nhiều chặng) và không có sự tái tạo tín hiệu báo hiêu tại các tổng đài tring gian.
+
+C)
+
+Là phương pháp báo hiệu trong đó quá trình trao đổi báo hiệu chỉ diễn ra giữa các tổng  đài không kế tiếp nhau trong việc thiết lập cuộc nối qua nhiều chặng.
+
+D)
+
+Là phương pháp báo hiệu mà thanh ghi đầu tiên có trao đổi báo hiệu lần lượt với các thanh ghi vào cho đến tận các thanh ghi vào cuối cùng trên một tuyến (gồm một hoặc nhiều chặng) và có sự tái tạo tín hiệu báo hiêu tại các tổng đài trung gian.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 16
+
+Khái niệm báo hiệu xuyên suốt trong báo hiệu R2 
+
+A)
+
+Là phương pháp báo hiệu trong đó quá trình trao đổi báo hiệu chỉ diễn ra giữa các tổng  đài kế tiếp nhau trong việc thiết lập cuộc nối qua nhiều chặng.
+
+B)
+
+Là phương pháp báo hiệu mà thanh ghi đầu tiên có trao đổi báo hiệu lần lượt với các thanh ghi vào cho đến tận các thanh ghi vào cuối cùng trên một tuyến 9 gồm một hoặc nhiều chặng) và không có sự tái tạo tín hiệu báo hiêu tại các tổng đài tring gian.
+
+C)
+
+Là phương pháp báo hiệu trong đó quá trình trao đổi báo hiệu chỉ diễn ra giữa các tổng  đài không kế tiếp nhau trong việc thiết lập cuộc nối qua nhiều chặng.
+
+D)
+
+Là phương pháp báo hiệu mà thanh ghi đầu tiên có trao đổi báo hiệu lần lượt với các thanh ghi vào cho đến tận các thanh ghi vào cuối cùng trên một tuyến (gồm một hoặc nhiều chặng) và có sự tái tạo tín hiệu báo hiêu tại các tổng đài trung gian.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 17
+
+Khái niệm tín hiệu chiếm mạch trong báo hiệu R2 
+
+A)
+
+Tín hiệu này gửi đi ở thời điểm bắt đầu cuộc gọi để chuyển trạng thái của mạch ở đầu gọi vào từ trạng thái rỗi sang trạng thái chiếm và chuẩn bị cho mạch gọi vào tiếp nhận các tín hiệu tiếp theo
+
+B)
+
+Tín hiệu này gửi đi để kết thúc cuộc gọi (hoàn thành hoặc khồn hoàn thành) và giải phóng các khối chuyển mạch đang giữ mạch cho cuộc gọi.
+
+C)
+
+Tín hiệu này gửi đến tổng đài gọi ra để xác nhận thiết bị ở đầu vào đã chuyển từ trạng thái rỗi sang trạng thái chiếm.
+
+D)
+
+Tín hiệu này gửi đến tổng đài gọi ra để xác nhận thuê bao bị gọi đã nhấc máy (trả lời)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 18
+
+Khái niệm tín hiệu xóa hướng đi trong báo hiệu R2 
+
+A)
+
+Tín hiệu này gửi đi ở thời điểm bắt đầu cuộc gọi để chuyển trạng thái của mạch ở đầu gọi vào từ trạng thái rỗi sang trạng thái chiếm và chuẩn bị cho mạch gọi vào tiếp nhận các tín hiệu tiếp theo
+
+B)
+
+Tín hiệu này gửi đi để kết thúc cuộc gọi (hoàn thành hoặc không hoàn thành) và giải phóng các khối chuyển mạch đang giữ mạch cho cuộc gọi.
+
+C)
+
+Tín hiệu này gửi đến tổng đài gọi ra để xác nhận thiết bị ở đầu vào đã chuyển từ trạng thái rỗi sang trạng thái chiếm.
+
+D)
+
+Tín hiệu này gửi đến tổng đài gọi ra để xác nhận thuê bao bị gọi đã nhấc máy (trả lời)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 19
+
+Khái niệm tín hiệu xác nhận chiếm trong báo hiệu R2 
+
+A)
+
+Tín hiệu này gửi đi ở thời điểm bắt đầu cuộc gọi để chuyển trạng thái của mạch ở đầu gọi vào từ trạng thái rỗi sang trạng thái chiếm và chuẩn bị cho mạch gọi vào tiếp nhận các tín hiệu tiếp theo
+
+B)
+
+Tín hiệu này gửi đi để kết thúc cuộc gọi (hoàn thành hoặc khồn hoàn thành) và giải phóng các khối chuyển mạch đang giữ mạch cho cuộc gọi.
+
+C)
+
+Tín hiệu này gửi đến tổng đài gọi ra để xác nhận thiết bị ở đầu vào đã chuyển từ trạng thái rỗi sang trạng thái chiếm.
+
+D)
+
+Tín hiệu này gửi đến tổng đài gọi ra để xác nhận thuê bao bị gọi đã nhấc máy (trả lời)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 20
+
+Khái niệm tín hiệu trả lời trong báo hiệu R2 
+
+A)
+
+Tín hiệu này gửi đi ở thời điểm bắt đầu cuộc gọi để chuyển trạng thái của mạch ở đầu gọi vào từ trạng thái rỗi sang trạng thái chiếm và chuẩn bị cho mạch gọi vào tiếp nhận các tín hiệu tiếp theo
+
+B)
+
+Tín hiệu này gửi đi để kết thúc cuộc gọi (hoàn thành hoặc khồn hoàn thành) và giải phóng các khối chuyển mạch đang giữ mạch cho cuộc gọi.
+
+C)
+
+Tín hiệu này gửi đến tổng đài gọi ra để xác nhận thiết bị ở đầu vào đã chuyển từ trạng thái rỗi sang trạng thái chiếm.
+
+D)
+
+Tín hiệu này gửi đến tổng đài gọi ra để xác nhận thuê bao bị gọi đã nhấc máy (trả lời)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 21
+
+Khái niệm tín hiệu xóa hướng về trong báo hiệu R2 trong báo hiệu R2 
+
+A)
+
+Tín hiệu này gửi đi ở thời điểm bắt đầu cuộc gọi để chuyển trạng thái của mạch ở đầu gọi vào từ trạng thái rỗi sang trạng thái chiếm và chuẩn bị cho mạch gọi vào tiếp nhận các tín hiệu tiếp theo
+
+B)
+
+Tín hiệu này gửi đi để kết thúc cuộc gọi (hoàn thành hoặc khồn hoàn thành) và giải phóng các khối chuyển mạch đang giữ mạch cho cuộc gọi.
+
+C)
+
+Tín hiệu này gửi đến tổng đài gọi ra để xác nhận thiết bị ở đầu vào đã chuyển từ trạng thái rỗi sang trạng thái chiếm.
+
+D)
+
+Tín hiệu này gửi đến tổng đài  xuất phát để chỉ ra rằng thuê bao bị gọi đã đặt máy. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 22
+
+Khái niệm tín hiệu khóa trong báo hiệu R2 
+
+A)
+
+Tín hiệu này gửi đi ở thời điểm bắt đầu cuộc gọi để chuyển trạng thái của mạch ở đầu gọi vào từ trạng thái rỗi sang trạng thái chiếm và chuẩn bị cho mạch gọi vào tiếp nhận các tín hiệu tiếp theo
+
+B)
+
+Tín hiệu này gửi đi trên mạch rỗi đến tổng đài gọi ra để xác nhận trạng thái khóa (bận) cho mạch này, bảo vệ nó chống lại tín hiệu chiếm tiếp theo.
+
+C)
+
+Tín hiệu này gửi đến tổng đài gọi ra để xác nhận thiết bị ở đầu vào đã chuyển từ trạng thái rỗi sang trạng thái chiếm.
+
+D)
+
+Tín hiệu này gửi đến tổng đài  xuất phát để chỉ ra rằng thuê bao bị gọi đã đặt máy. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 23
+
+Khái niệm tín hiệu canh phòng nhả trong báo hiệu R2 
+
+A)
+
+Tín hiệu này gửi đi ở thời điểm bắt đầu cuộc gọi để chuyển trạng thái của mạch ở đầu gọi vào từ trạng thái rỗi sang trạng thái chiếm và chuẩn bị cho mạch gọi vào tiếp nhận các tín hiệu tiếp theo
+
+B)
+
+Tín hiệu này gửi đi trên mạch rỗi đến tổng đài gọi ra để xác nhận trạng thái khóa (bận) cho mạch này, bảo vệ nó chống lại tín hiệu chiếm tiếp theo.
+
+C)
+
+Tín hiệu này gửi đến tổng đài gọi ra khi trả lời tín hiệu xóa để chỉ ra rằng tổng đài gọi ra đã hoàn toàn giải phóng thiết bị chuyển mạch ở đầu vào về trạng thái rỗi..
+
+D)
+
+Tín hiệu này gửi đến tổng đài xuất phát để chỉ ra rằng thuê bao bị gọi đã đặt máy. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 24
+
+Khái niệm tín hiệu giải phóng cưỡng bức trong báo hiệu R2 
+
+A)
+
+Tín hiệu này gửi đi từ tổng đài kiểm soát cước (tổng đài đích hoặc trung tâm tính cước) để thay thế tín hiệu xóa về sau trễ vượt thời gian, khi nhận được tín hiệu này kênh thoại giải phóng ngay lập tức.
+
+B)
+
+Tín hiệu này gửi đi trên mạch rỗi đến tổng đài gọi ra để xác nhận trạng thái khóa (bận) cho mạch này, bảo vệ nó chống lại tín hiệu chiếm tiếp theo.
+
+C)
+
+Tín hiệu này gửi đến tổng đài gọi ra khi trả lời tín hiệu xóa để chỉ ra rằng tổng đài gọi ra đã hoàn toàn giải phóng thiết bị chuyển mạch ở đầu vào về trạng thái rỗi..
+
+D)
+
+Tín hiệu này gửi đến tổng đài xuất phát để chỉ ra rằng thuê bao bị gọi đã đặt máy. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 25
+
+Hệ thống báo hiệu R2 được thực hiện theo giao thức gì?
+
+A)
+
+Giao thức X25
+
+B)
+
+Giao thức V5.2
+
+C)
+
+Giao thức bắt buộc (áp chế).
+
+D)
+
+Giao thức V5.1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 26
+
+Khái niệm tín hiệu tính cước trong báo hiệu R2 
+
+A)
+
+Tín hiệu này gửi đi từ tổng đài kiểm soát cước (tổng đài đích hoặc trung tâm tính cước) để thay thế tín hiệu xóa về sau trễ vượt thời gian, khi nhận được tín hiệu này kênh thoại giải phóng ngay lập tức.
+
+B)
+
+Tín hiệu này gửi đi trên mạch rỗi đến tổng đài gọi ra để xác nhận trạng thái khóa (bận) cho mạch này, bảo vệ nó chống lại tín hiệu chiếm tiếp theo.
+
+C)
+
+Là tín hiệu dạng xung được gửi trong quá trình đàm thoại từ tổng đài kiểm soát cước dến tổng đài xuất phát
+
+D)
+
+Tín hiệu này gửi đến tổng đài  xuất phát để chỉ ra rằng thuê bao bị gọi đã đặt máy. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 27
+
+Khái niệm thời gian nhận biết  trong báo hiệu R2 
+
+A)
+
+Là thời gian mà tín hiệu tương ứng với trạng thái 0,1 phải duy trì ở đầu ra của thiết bị đầu cuối kênh báo hiệu để thiết bị chuyển mạch có thể nhận biết được
+
+B)
+
+Tín hiệu này gửi đi trên mạch rỗi đến tổng đài gọi ra để xác nhận trạng thái khóa (bận) cho mạch này, bảo vệ nó chống lại tín hiệu chiếm tiếp theo.
+
+C)
+
+Là tín hiệu dạng xung được gửi trong quá trình đàm thoại từ tổng đài kiểm soát cước dến tổng đài xuất phát
+
+D)
+
+Tín hiệu này gửi đến tổng đài  xuất phát để chỉ ra rằng thuê bao bị gọi đã đặt máy. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 28
+
+Khái niệm tín hiệu địa chỉ đầy đủ trong báo hiệu R2 
+
+A)
+
+Tín hiệu chỉ ra rằng không cần gửi tín hiệu khác nữa và: 
+
+- Chuyển sang trạng thái thoại cho phép thuê bao chủ gọi nghe thấy hồi âm chuông hoặc âm thông báo.
+
+- Thông báo chuyển đi các tín hiệu chỉ trạng thái đường dây thuê bao bị gọi.
+
+B)
+
+Tín hiệu này gửi đi trên mạch rỗi đến tổng đài gọi ra để xác nhận trạng thái khóa (bận) cho mạch này, bảo vệ nó chống lại tín hiệu chiếm tiếp theo.
+
+C)
+
+Là tín hiệu dạng xung được gửi trong quá trình đàm thoại từ tổng đài kiểm soát cước dến tổng đài xuất phát
+
+D)
+
+Tín hiệu này gửi đến tổng đài  xuất phát để chỉ ra rằng thuê bao bị gọi đã đặt máy. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 29
+
+Báo hiệu thanh ghi bao gồm 
+
+A)
+
+Những tín hiệu liên qian đến địa chỉ, tính chất cuộc gọi
+
+B)
+
+Trạng thái kênh, trạng thái đường đây thuê bao
+
+C)
+
+Các đặc điểm khai thác và bảo dưỡng mạng lưới
+
+D)
+
+Những tín hiệu liên qian đến địa chỉ, tính chất cuộc gọi, Trạng thái kênh, trạng thái đường đây thuê bao, Các đặc điểm khai thác và bảo dưỡng mạng lưới.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 30
+
+Trong các cuộc gọi tự động sau khi bị gọi đặt máy từ 1,5 đến 3 phút  tín hiệu nào được sử dụng để kết thúc quá trình tính cước nếu chủ gọi chưa đặt máy 
+
+A)
+
+Tín hiệu xóa hướng đi 
+
+B)
+
+Tín hiệu xóa hướng về
+
+C)
+
+Tín hiệu tính cước 
+
+D)
+
+Tín hiệu giải phóng cưỡng bức 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 31
+
+Trong các cuộc gọi tự động tín hiệu nào được sử dụng để bắt đầu tính cước cho chủ gọi
+
+A)
+
+Tín hiệu xóa hướng đi 
+
+B)
+
+Tín hiệu xóa hướng về
+
+C)
+
+Tín hiệu trả lời
+
+D)
+
+Tín hiệu giải phóng cưỡng bức 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 32
+
+Các tín hiệu trạng thái đường dây thuê bao bị gọi bao gồm
+
+A)
+
+Gửi âm thông tin đặc biệt, 
+
+B)
+
+Đường dây thuê bao bận, đường dây thuê bao hỏng, số thuê bao không có trong danh bạ
+
+C)
+
+Đường dây thuê bao rỗi, tính cước. Đường dây thuê bao rỗi, không tính cước
+
+D)
+
+Gửi âm thông tin đặc biệt, Đường dây thuê bao bận, đường dây thuê bao hỏng, số thuê bao không có trong danh bạ, Đường dây thuê bao rỗi, tính cước. Đường dây thuê bao rỗi, không tính cước
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 33
+
+Trong báo hiệu R2: Hệ thống PCM30 dùng khe thời gian thứ mấy để truyền tín hiệu báo hiệu đường dây ?
+
+A)
+
+Khe 1
+
+B)
+
+Khe 16
+
+C)
+
+Khe 30
+
+D)
+
+Khe 31
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 34
+
+Tín hiệu B-1 của báo hiệu hướng về nhóm B trong hệ thống báo hiệu R2 có ý nghĩa gì? 
+
+A)
+
+Thuê bao bị gọi rỗi, yêu cầu nhận dạng cuộc gọi phá rối 
+
+B)
+
+Gửi âm hiệu đặc biệt hay thông báo về thuê bao bị gọi đã di chuyển hay thay đổi 
+
+C)
+
+Đường dây thuê bao bị gọi bận 
+
+D)
+
+Số thuê bao không có trong danh bạ 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 35
+
+Tín hiệu B-4 của báo hiệu hướng về nhóm B trong hệ thống báo hiệu R2 có ý nghĩa gì? 
+
+A)
+
+Thuê bao bị gọi rỗi, yêu cầu nhận dạng cuộc gọi phá rối 
+
+B)
+
+Xảy ra tắc nghẽn sau khi đã phát tín hiệu A-3
+
+C)
+
+Đường dây thuê bao bị gọi bận 
+
+D)
+
+Số thuê bao không có trong danh bạ 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 36
+
+Tín hiệu B-6 của báo hiệu hướng về nhóm B trong hệ thống báo hiệu R2 có ý nghĩa gì? 
+
+A)
+
+Thuê bao bị gọi rỗi, chủ gọi nghe thấy hồi âm chuông, có tính cước
+
+B)
+
+Xảy ra tắc nghẽn sau khi đã phát tín hiệu A-3
+
+C)
+
+Đường dây thuê bao bị gọi bận 
+
+D)
+
+Số thuê bao không có trong danh bạ 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 37
+
+Tín hiệu B-7 của báo hiệu hướng về nhóm B trong hệ thống báo hiệu R2 có ý nghĩa gì? 
+
+A)
+
+Thuê bao bị gọi rỗi, chủ gọi nghe thấy hồi âm chuông, không  tính cước
+
+B)
+
+Xảy ra tắc nghẽn sau khi đã phát tín hiệu A-3
+
+C)
+
+Đường dây thuê bao bị gọi bận 
+
+D)
+
+Số thuê bao không có trong danh bạ 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 38
+
+Báo hiệu thanh ghi trong báo hiệu R2 được sử dụng ở nước ta là kiểu báo hiệu nào?
+
+A)
+
+Kiểu baó hiệu bị khống chế (thực hiện theo chế độ hỏi) 
+
+B)
+
+Kiểu báo hiệu chỉ thực hiện theo chế độ đáp
+
+C)
+
+Kiểu báo hiệu không khống chế (thực hiện theo chế độ hỏi)
+
+D)
+
+Kiểu báo hiệu bị khống chế (thực hiện lần lượt theo sự hỏi và đáp)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 39
+
+Tín hiệu A-15 của báo hiệu hướng về nhóm A trong hệ thống báo hiệu R2 có ý nghĩa gì?
+
+A)
+
+Tắc nghẽn trong mạng quốc tế
+
+B)
+
+Gửi đặc tính thuê bao chủ gọi 
+
+C)
+
+Tắc nghẽn trong mạng quốc gia 
+
+D)
+
+Địa chỉ đầy đủ, thiết lập trạng thái thoại, tính cước  
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 40
+
+Tín hiệu B-2 của báo hiệu hướng về nhóm B trong hệ thống báo hiệu R2 có ý nghĩa gì? 
+
+A)
+
+Thuê bao bị gọi rỗi, yêu cầu nhận dạng cuộc gọi phá rối 
+
+B)
+
+Gửi âm hiệu đặc biệt hay thông báo về thuê bao bị gọi đã di chuyển hay thay đổi 
+
+C)
+
+Đường dây thuê bao bị gọi bận 
+
+D)
+
+Số thuê bao không có trong danh bạ 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 41
+
+Tín hiệu B-3 của báo hiệu hướng về nhóm B trong hệ thống báo hiệu R2 có ý nghĩa gì? 
+
+A)
+
+Thuê bao bị gọi rỗi, yêu cầu nhận dạng cuộc gọi phá rối 
+
+B)
+
+Gửi âm hiệu đặc biệt hay thông báo về thuê bao bị gọi đã di chuyển hay thay đổi 
+
+C)
+
+Đường dây thuê bao bị gọi bận 
+
+D)
+
+Số thuê bao không có trong danh bạ 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 42
+
+Tín hiệu B-5 của báo hiệu hướng về nhóm B trong hệ thống báo hiệu R2 có ý nghĩa gì? 
+
+A) 
+
+Thuê bao bị gọi rỗi, yêu cầu cuộc gọi phá rối. 
+
+B)
+
+Gửi âm hiệu đặc biệt hay thông báo về thuê bao bị gọi đã di chuyển hay thay đổi 
+
+C)
+
+Đường dây thuê bao bị gọi bận 
+
+D)
+
+Số thuê bao không có trong danh bạ 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 43
+
+Tín hiệu B-8 của báo hiệu hướng về nhóm B trong hệ thống báo hiệu R2 có ý nghĩa gì? 
+
+A)
+
+Đường dây thuê bao bị gọi có sự cố 
+
+B)
+
+Thuê bao bị gọi rỗi, yêu cầu nhận dạng cuộc gọi phá rối 
+
+C)
+
+Gửi âm hiệu đặc biệt hay thông báo về thuê bao bị gọi đã di chuyển hay thay đổi 
+
+D)
+
+Đường dây thuê bao bị gọi bận 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 44
+
+Trong đồng bộ mạng theo "Phương pháp đồng bộ chủ tớ" thì?
+
+A)
+
+Một đồng hồ có độ chính xác cao sẽ chi phối các đồng hồ khác.
+
+B)
+
+Các đồng hồ tham khảo lẫn nhau để duy trì đồng bộ.
+
+C)
+
+Đồng hồ tại mỗi nút là độc lập với nhau.
+
+D)
+
+Các thành phần trong mạng không cần đồng bộ.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 45
+
+Trong đồng bộ mạng theo "Phương pháp cận đồng bộ" thì?
+
+A)
+
+Đồng hồ tại mỗi nút mạng là độc lập với nhau
+
+B)
+
+Các thành phần trong mạng không cần đồng bộ
+
+C)
+
+Các đồng hồ tham khảo lẫn nhau để duy trì đồng bộ.
+
+D)
+
+Một đồng hồ có độ chính xác cao sẽ chi phối các đồng hồ khác.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 46
+
+Trong báo hiệu R2, báo hiệu thanh ghi có những phương pháp truyền tín hiệu nào?
+
+A)
+
+Truyền báo hiệu kiểu từng chặng, xuyên suốt.
+
+B)
+
+Truyền báo hiệu kiểu xuyên suốt, hỗn hợp.
+
+C)
+
+Truyền báo hiệu kiểu từng chặng, hỗn hợp.
+
+D)
+
+Truyền báo hiệu kiểu từng chặng, xuyên suốt, hỗn hợp.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 47
+
+Đối với mã đường dây HDB3, số bit 0 liên tiếp tối đa trong dãy là bao nhiêu?
+
+A)
+
+3
+
+B)
+
+4
+
+C)
+
+5
+
+D)
+
+6
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 48
+
+Cáp điện thoại có cấu tạo cơ bản gồm các thành phần nào sau đây ?
+
+A)
+
+Dây dẫn, vỏ cách điện, lớp gia cường, dây chịu lực
+
+B)
+
+Dây dẫn, dây chịu lực, vỏ cách điện
+
+C)
+
+Dây dẫn, lớp vỏ cách điện
+
+D)
+
+Dây dẫn, vỏ bảo vệ, lớp cách điện, lớp gia cường
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 49
+
+Điện trở của dây dẫn đặc trưng cho ?
+
+A)
+
+Khả năng chuyển tải dòng điện
+
+B)
+
+Khả năng cản trở dòng điện
+
+C)
+
+Cường độ dòng điện
+
+D)
+
+Khả năng khuếch đại công suất
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 50
+
+Đặc điểm nào sau đây của mã đường dây phù hợp để truyền trên đường truyền AC
+
+A)
+
+Mật độ xung dòng cao
+
+B)
+
+Chiếm ít băng thông
+
+C)
+
+Không bị hiện tượng “Signal drop”
+
+D)
+
+Mật độ xung dòng cao, Chiếm ít băng thông
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 51
+
+Một kênh thoại có tốc độ là
+
+A)
+
+64Kbps
+
+B)
+
+32Kbps
+
+C)
+
+2Mbps
+
+D)
+
+1024Kbps
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 52
+
+Điện áp tức thời trên tụ điện so với điện áp làm việc cao nhất của tụ có thể
+
+A)
+
+Cao hơn tùy ý
+
+B)
+
+Nhỏ hơn hoặc bằng
+
+C)
+
+Cao hơn không quá 150%
+
+D)
+
+Cao hơn không quá 200%
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 53
+
+Màn che tĩnh điện thường đặt ở vị trí nào của sợi cáp và có tác dụng gì?
+
+A)
+
+Màn che nằm trong cấu trúc cáp, được cấu tạo bởi một lớp kim loại mỏng sát lớp vỏ nhựa có tác dụng giảm mức nhiễu.
+
+B)
+
+Màn che nằm ngoài ruột cáp và nằm trong vỏ cáp, được cấu tạo bởi một lớp sắt mỏng sát lớp vỏ nhựa có tác dụng giảm mức nhiễu.
+
+C)
+
+Màn che nằm ngoài vỏ cáp, được cấu tạo bởi một lớp kim loại mỏng sát lớp vỏ nhựa có tác dụng giảm mức nhiễu.
+
+D)
+
+Màn che nằm trong cấu trúc cáp, được cấu tạo bởi một lớp giấy  mỏng sát lớp vỏ nhựa có tác dụng giảm mức nhiễu.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 54
+
+Loại mã nào sau đây có khả năng tự phát hiện lỗi ?
+
+A)
+
+RZ
+
+B)
+
+NRZ
+
+C)
+
+HDB3
+
+D)
+
+HBD3
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 55
+
+Tiêu hao truyền dẫn là gì?
+
+A)
+
+Mức độ tổn hao năng lượng tín hiệu
+
+B)
+
+Mức độ tổn hao năng lượng tín hiệu khi truyền dẫn trên đường truyền
+
+C)
+
+Mức độ tổn hao năng lượng tín hiệu khi liên lạc
+
+D)
+
+Mức độ tổn hao năng lượng tín hiệu khi công tác
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 56
+
+Để đánh giá chất lượng cáp điện thoại nhiều đôi người ta dùng tham số gì?
+
+A)
+
+Điện trở cách điện và điện trở vòng của các đôi dây dẫn
+
+B)
+
+Điện trở đất và điện trở vòng của các đôi dây dẫn
+
+C)
+
+Điện trở vòng của các đôi dây dẫn
+
+D)
+
+Điện dung cách điện và điện trở vòng của các đôi dây dẫn
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 57
+
+Khoảng cách giữa 2 bản cực càng lớn thì điện dung của tụ
+
+A)
+
+Càng lớn
+
+B)
+
+Không ảnh hưởng
+
+C)
+
+Tăng đến cực đại rồi giảm
+
+D)
+
+Càng nhỏ
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 58
+
+Một trong những nguyên nhân dẫn đến hiện tượng xuyên nhiễu trên đường dây kim loại là gì?
+
+A)
+
+Do hiện tượng ghép dòng điện từ mạch gây xuyên nhiễu sang mạch bị xuyên nhiễu
+
+B)
+
+Do hiện tượng ghép từ trường từ mạch gây xuyên nhiễu sang mạch bị xuyên nhiễu
+
+C)
+
+Do hiện tượng phân tán dòng điện từ mạch gây xuyên nhiễu sang mạch bị xuyên nhiễu
+
+D)
+
+Do hiện tượng phân tán từ trường từ mạch gây xuyên nhiễu sang mạch bị xuyên nhiễu
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 59
+
+Công thức sau đây đặc trưng cho linh kiện điện tử nào
+
+C=Q/U (Q là điện lượng, U là điện áp)?
+
+A)
+
+Tranzito
+
+B)
+
+Điot
+
+C)
+
+Cuộn cảm
+
+D)
+
+Tụ điện
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 60
+
+Chọn phát biểu đúng
+
+A)
+
+Dòng không đổi là dòng điện có chiều không thay đổi
+
+B)
+
+Dòng điện không đổi là dòng điện có chiều và cường độ không thay đổi theo thời gian
+
+C)
+
+Dòng điện là dòng chuyển dời của các điện tích
+
+D)
+
+Dòng điện không đổi là dòng điện có chiều thay đổi theo thời gian
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 61
+
+Điện trở của dây dẫn không phụ thuộc vào yếu tố nào sau đây:
+
+A)
+
+Chiều dài dây dẫn
+
+B)
+
+Tiết diện dây dẫn
+
+C)
+
+Vật liệu làm vỏ dây dẫn
+
+D)
+
+Điện trở suất vật liệu làm lõi
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 62
+
+Số cặp dây trong cáp cat5, cat6  là
+
+A)
+
+4
+
+B)
+
+5
+
+C)
+
+6
+
+D)
+
+8
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 63
+
+Nhóm màu chính trong luật màu của cáp điện thoại gồm các màu:
+
+A)
+
+Trắng, đỏ, đen, hồng, tím
+
+B)
+
+Trắng, đỏ, đen, vàng, tím
+
+C)
+
+Dương, cam, lục, nâu, tro
+
+D)
+
+Dương, cam, lục, nâu, đen
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 64
+
+Địa chỉ IP 192.168.1.1?
+
+A)
+
+Thuộc lớp B
+
+ B
+
+Thuộc lớp C
+
+C)
+
+Là địa chỉ riêng.
+
+D)
+
+Thuộc lớp B và lớp C
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 65
+
+Các thành phần tạo nên mạng là?
+
+A)
+
+Máy tính, hub, switch
+
+B)
+
+Network adapter, cable
+
+C)
+
+Protocol
+
+D)
+
+Máy tính, hub, switch, Network adapter, cable, Protocol
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 66
+
+Loại cáp nào chống nhiễu tốt nhất hiện nay?
+
+A)
+
+Cáp đồng trục
+
+B)
+
+Cáp FTP
+
+C)
+
+Cáp quang
+
+D)
+
+Cáp UTP (CAT 5)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 67
+
+Modem dùng để làm gì?
+
+A)
+
+Giao tiếp với máy tính
+
+B)
+
+Chuyển đổi tín hiệu quang  
+
+C)
+
+Chuyển đổi tín hiệu A/D
+
+D)
+
+Giao tiếp với mạng, Truyền dữ liệu đi xa.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 68
+
+Khi sử dụng mạng máy tính ta sẽ được các lợi ích?
+
+A)
+
+Chia sẻ tài nguyên (ổ cứng, cơ sở dữ liệu, máy in, các phần mềm tiện ích, …)
+
+B)
+
+Quản lý tập trung
+
+C)
+
+Tận dụng năng lực xử lý của các máy tính rỗi kết hợp lại để thực hiện các công việc lớn
+
+D)
+
+Chia sẻ tài nguyên (ổ cứng, cơ sở dữ liệu, máy in, các phần mềm tiện ích, …), Quản lý tập trung, Tận dụng năng lực xử lý của các máy tính rỗi kết hợp lại để thực hiện các công việc lớn
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 69
+
+Để kết nối hai máy tính với nhau ta có thể sử dụng?
+
+A)
+
+Hub
+
+B)
+
+Switch
+
+C)
+
+Nối cáp trực tiếp
+
+D)
+
+Switch, Hub, Nối cáp trực tiếp
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 70
+
+Router là 1 thiết bị dùng để?
+
+A)
+
+Định tuyến giữa các mạng
+
+B)
+
+Lọc các gói tin dư thừa
+
+C)
+
+Mở rộng một hệ thống mạng
+
+D)
+
+Định tuyến giữa các mạng Lọc các gói tin dư thừa, Mở rộng một hệ thống mạng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 71
+
+Thiết bị Hub cho phép?
+
+A)
+
+Kéo dài 1 nhánh LAN thông qua việc khuyếch đại tín hiệu truyền đến nó
+
+B)
+
+Ngăn không cho các packet thuộc loại Broadcast đi qua nó
+
+C)
+
+Giúp định tuyến cho các packets
+
+D)
+
+Kết nối nhiều máy tính lại với nhau để tạo thành một mạng LAN.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 72
+
+Giao thức mạng nào dưới đây được sử dụng trong mạng cục bộ LAN?
+
+A)
+
+TCP/IP
+
+B)
+
+NETBIOS 
+
+C)
+
+IPXS
+
+D)
+
+UDP
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 73
+
+Khái niệm tổng đài xuất phát
+
+A)
+
+Là tổng đài đầu cuối nối trực tiếp đến thuê bao chủ gọi tham gia trao đổi báo hiệu trong hệ thống báo hiệu R2
+
+B)
+
+Là tổng đài nằm giữa tổng đài đích và tổng đài xuất phát có tham gia trao đổi báo hiệu để thực hiện cuộc nối qua nhiều chặng
+
+C)
+
+Là tổng đài đầu cuối nối trực tiếp đến thuê bao bị gọi tham gia trao đổi báo hiệu trong hệ thống báo hiệu R2
+
+D)
+
+Trên một chặng  báo hiệu, trao đổi tín hiệu báo hiệu được thực hiện giữa tổng đài phía thuê bao bị gọi 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 74
+
+Khái niệm tổng đài chuyển tiếp
+
+A)
+
+Là tổng đài đầu cuối nối trực tiếp đến thuê bao chủ gọi tham gia trao đổi báo hiệu trong hệ thống báo hiệu R2
+
+B)
+
+Là tổng đài nằm giữa tổng đài đích và tổng đài xuất phát có tham gia trao đổi báo hiệu để thực hiện cuộc nối qua nhiều chặng
+
+C)
+
+Là tổng đài đầu cuối nối trực tiếp đến thuê bao bị gọi tham gia trao đổi báo hiệu trong hệ thống báo hiệu R2
+
+D)
+
+Trên một chặng  báo hiệu, trao đổi tín hiệu báo hiệu được thực hiện giữa tổng đài phía thuê bao bị gọi 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 75
+
+Khái niệm tổng đài gọi ra là
+
+A)
+
+Là tổng đài đầu cuối nối trực tiếp đến thuê bao chủ gọi tham gia trao đổi báo hiệu trong hệ thống báo hiệu R2
+
+B)
+
+Là tổng đài nằm giữa tổng đài đích và tổng đài xuất phát có tham gia trao đổi báo hiệu để thực hiện cuộc nối qua nhiều chặng
+
+C)
+
+Là tổng đài đầu cuối nối trực tiếp đến thuê bao bị gọi tham gia trao đổi báo hiệu trong hệ thống báo hiệu R2
+
+D)
+
+Trên một chặng  báo hiệu, trao đổi tín hiệu báo hiệu được thực hiện giữa tổng đài phía thuê bao chủ gọi 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 76
+
+Khái niệm tổng đài gọi vào là
+
+A)
+
+Là tổng đài đầu cuối nối trực tiếp đến thuê bao chủ gọi tham gia trao đổi báo hiệu trong hệ thống báo hiệu R2
+
+B)
+
+Là tổng đài nằm giữa tổng đài đích và tổng đài xuất phát có tham gia trao đổi báo hiệu để thực hiện cuộc nối qua nhiều chặng
+
+C)
+
+Là tổng đài đầu cuối nối trực tiếp đến thuê bao bị gọi tham gia trao đổi báo hiệu trong hệ thống báo hiệu R2
+
+D)
+
+Trên một chặng  báo hiệu, trao đổi tín hiệu báo hiệu được thực hiện giữa tổng đài phía thuê bao bị gọi 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 77
+
+Mạng Internet là sự phát triển của?
+
+A)
+
+Các hệ thống mạng LAN.
+
+B)
+
+Các hệ thống mạng WAN.
+
+C)
+
+Các hệ thống mạng Intranet.
+
+D)
+
+Các hệ thống mạng LAN, WAN, Intranet.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 78
+
+Chọn đáp án đúng về khái niệm mã HDB3
+
+A)
+
+Mã HDB3: Mã HDB3 là loại mã AMI luân phiên đảo dấu các bit 1 trong mã đó mã chỉ có tối đa 3 bít "0" liên tiếp. Đây là loại mã có mật độ phân biệt sai số bit lớn và nó được sử dụng nhiều trong các hệ thống truyền dẫn số
+
+B)
+
+Loại mã lưỡng cực mật độ cao tùy theo chỉ số N (là số bit 0 liên tiếp tối đa cho phép trong chuỗi mã lối ra) mà ta có các loại mã HDBN. Bất luận mẫu tín hiệu nhị phân như thế nào.
+
+C)
+
+Mã HDB3 là các quy luật mã hóa để truyền tín hiệu từ thiết bị này đến thiết bị khác bằng các loại đường truyền. Mỗi loại đường truyền tương thích với một loại mã.
+
+D)
+
+Mã HDB3 là các quy luật mã hóa để truyền tín hiệu từ thiết bị này đến thiết bị khác
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 79
+
+Mạng TSL đa dịch vụ được hiểu như thế nào?
+
+A)
+
+Mạng TSL đa dịch vụ là mạng có hạ tầng thông tin duy nhất dựa trên công nghệ chuyển mạch gói, triển khai các dịch vụ nhỏ hẹp
+
+B)
+
+Mạng TSL đa dịch vụ là mạng có hạ tầng thông tin duy nhất dựa trên công nghệ chuyển mạch kênh
+
+C)
+
+Mạng TSL đa dịch vụ là mạng có hạ tầng thông tin duy nhất dựa trên công nghệ chuyển mạch gói, triển khai các dịch vụ một cách đa dạng và nhanh chóng, là sự hội tụ giữa thoại và dữ liệu, giữa cố định và di động.
+
+D)
+
+Mạng TSL đa dịch vụ là mạng có hạ tầng thông tin duy nhất dựa trên máy tính triển khai các dịch vụ một cách đa dạng và nhanh chóng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 80
+
+Tốc độ luồng STM-4 là bao nhiêu?
+
+A)
+
+2160 Mbit/s
+
+B)
+
+622.08 Mbit/s
+
+C)
+
+155.52 Mbit/s
+
+D)
+
+64.02 Mbit/s
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+
+
+
+
+
+

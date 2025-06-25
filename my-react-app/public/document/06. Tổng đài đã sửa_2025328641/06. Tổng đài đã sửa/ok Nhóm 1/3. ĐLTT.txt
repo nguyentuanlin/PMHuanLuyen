@@ -1,0 +1,607 @@
+Câu hỏi
+Nội dung câu hỏi, trả lời
+
+
+Câu 1
+Trên màn hình hiển thị của ampe kìm Kyoritsu 2055 hiển thị chữ B cho biết điều gì?
+A)
+Pin lắp sai
+B)
+Pin sạc đầy
+C)
+Đang tiến hành đo
+D)
+Pin yếu
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 2
+Ampe kìm Kyoritsu 2055 có dải đo dòng diện AC là bao nhiêu?
+A)
+0 ÷ 100A/1000A
+B)
+0 ÷ 200A/1000A
+C)
+0 ÷ 600A/1000A
+D)
+0 ÷ 800A/1000A
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 3
+Dùng ampe kìm Kyoritsu 2055 để đo thông mạch thì thang đo phải để thang đo nào?
+A)
+Dòng 1 chiều
+B)
+Điện trở
+C)
+Dòng xoay chiều
+D)
+Điện áp 1 chiều
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 4
+Đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S sử dụng mấy mức nguồn ?
+A)
+Hai mức nguồn một chiều 3 V và 5V
+B)
+Hai mức nguồn một chiều 3 V và 12 V
+C)
+Hai mức nguồn một chiều 3 V và 9 V
+D)
+Hai mức nguồn một chiều 3 V và 4,5 V
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 5
+Vạch thứ hai trên mặt đồng hồ vạn năng 108-T đo giá trị gì (tính từ trên xuống)?
+A)
+Giá trị đo điện trở.
+B)
+Giá trị đo điện áp và dòng điện 1 chiều.
+C)
+Giá trị đo điện áp xoay chiều.
+D)
+Giá trị đo điện áp xoay chiều nhỏ hơn 10V.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 6
+Vạch thứ ba trên mặt đồng hồ vạn năng 108-T đo giá trị gì (tính từ trên xuống)?
+A)
+Giá trị đo điện trở.
+B)
+Giá trị đo điện áp và dòng điện 1 chiều.
+C)
+Giá trị đo điện áp xoay chiều.
+D)
+Giá trị đo điện áp xoay chiều nhỏ hơn 10V.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 7
+Dùngđồng hồ vạn năng chỉ thị kim Kyoritsu 1109S để đo điện áp xoay chiều 220V thì cần bật đồng hồ về thang đo nào để kết quả đo chính xác nhất?
+A)
+Thang đo AC 250V.
+B)
+Thang đo DC 250V.
+C)
+Thang đo AC 1000V.
+D)
+Thang đo DC 1000V.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 8
+Đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S có thang đo điện áp 1 chiều tối đa là bao nhiêu?
+A)
+50 V
+B)
+250 V
+C)
+1000 V
+D)
+1500 V
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 9
+Trên thang đo dòng điện 1 chiều (DC) mặt đồng hồ Kyoritsu 1109S có những mức nào?
+A)
+50 μA
+B)
+2,5 mA và 25 mA
+C)
+250 mA
+D)
+50 μA, 2,5 mA, 25 mA và 250 mA
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 10
+Đồng hồ mêgômer SanWa do nước nào sản xuất?
+A)
+Nhật Bản
+B)
+Hàn Quốc
+C)
+Trung Quốc
+D)
+Việt Nam
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 11
+Đồng hồ ampe kìm có thể đo được?
+A)
+ Điện áp xoay chiều, điện trở, nhiệt độ,kiểm tra dẫn điện…
+B)
+ Điện áp xoay chiều, tần số, nhiệt độ,kiểm tra dẫn điện…
+C)
+ Điện áp xoay chiều, điện trở, tần số, kiểm tra dẫn điện…
+D)
+ Điện áp xoay chiều, điện trở, tần số, nhiệt độ,kiểm tra dẫn điện…
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 12
+Đơn vị đo tụ điện kí hiệu là gì?
+A)
+R
+B)
+C
+C)
+L
+D)
+F
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 13
+Đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S có thang đo điện áp DC nhỏ nhất là bao nhiêu?
+A)
+0,1V
+B)
+0,2V
+C)
+0,3V
+D)
+0,4V
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 14
+Dùng ampe kìm Kyoritsu 2055 để đo thông mạch kết quả thế nào là tốt?
+A)
+Chỉ cần xuất hiện tiếng bíp là mạch đã thông, đoạn dây còn tốt.
+B)
+Chỉ cần xuất hiện chỉ số là mạch đã thông, đoạn dây còn tốt.
+C)
+Xuất hiện tiếng bíp và chỉ số tức là mạch đã thông, đoạn dây còn tốt.
+D)
+Xuất hiện tiếng bíp và xuất hiện giá trị của dòng điện, đoạn dây còn tốt.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 15
+Phép đo thông mạch của ampe kìm Kyoritsu 2055được áp dụng để kiểm tra những loại thiết bị, linh kiện nào? 
+A)
+Đoạn cáp quang, linh kiện quang.
+B)
+Công tắc, cầu chì, dây điện hay kết nối điện.
+C)
+Các kết nối luồng E1.
+D)
+Các mạng máy tính.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 16
+Trên thang đo điện áp 1 chiều (DC) mặt đồng hồ kim Kyoritsu 1109S có các giá trị nào?
+A)
+10 V và  50 V
+B)
+250 V và 1000V
+C)
+0,1 V; 0,5 V và 2,5 V
+D)
+0.1/0.5/2.5/10/50/250/1000V
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 17
+Đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S có thang đo dòng điện 1 chiều tối đa là?
+A)
+25 mA
+B)
+250 mA
+C)
+500 mA
+D)
+1000 mA
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 18
+Điện kế kiểu từ điện thường được dùng để đo tham số nào?
+A)
+Do trực tiếp dòng điện, điện áp 1 chiều
+B)
+Đo dòng điện 1 chiều
+C)
+Đo điện áp chiều
+D)
+Tất cả đáp án đều đúng
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 19
+Điện áp thử cách điện của đồng hồ vạn năng chỉ thị kim Kyoritsu1109S là bao nhiêu?
+A)
+5KV
+B)
+6KV
+C)
+7KV
+D)
+8KV
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 20
+Trên mặt số của 1 dụng cụ đo vôn kế có ký hiệu gì?
+A)
+Kí hiệu chữ V và giới hạn đo và độ chia nhỏ nhất của dụng cụ.
+B)
+Kí hiệu chữ VK trên dụng cụ và độ chia nhỏ nhất của dụng cụ
+C)
+Kí hiệu chữ A trên dụng cụ và độ chia nhỏ nhất của dụng cụ
+D)
+Kí hiệu chữ U trên dụng cụ và độ chia nhỏ nhất của dụng cụ
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 21
+Đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S dùng để đo điện trở nào của đôi cáp?
+A)
+Điện trở vòng
+B)
+Điện trở cách điện
+C)
+Điện dung
+D)
+Điện trở vòng và Điện trở cách điện
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 22
+Đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S có thang đo điện áp AC nhỏ nhất là bao nhiêu?
+A)
+10V
+B)
+20V
+C)
+50V
+D)
+250V
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 23
+Đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S có thang đo điện áp AC/DC lớn nhất là bao nhiêu?
+A)
+1000V
+B)
+2000V
+C)
+3000V
+D)
+5000V
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 24
+Đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S có thang đo điện trở lớn nhất là bao nhiêu?
+A)
+200kΩ
+B)
+20MΩ
+C)
+200 Ω
+D)
+200MΩ
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 25
+Đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S cho phép đo được dòng điện xoay chiều lên đến bao nhiêu?
+A)
+15A
+B)
+20A
+C)
+10A
+D)
+25A
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 26
+Phím RANGE trên đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S có chức năng gì? 
+A)
+Phím chức năng này cho phép chọn phạm vi tự động
+B)
+Phím chức năng này giúp đóng băng kết quả, thuận tiện cho quá trình theo dõi, ghi dữ liệu đo.
+C)
+Phím chức năng này có tác dụng để chụp số đo thấp nhất và cao nhất.
+D)
+Phím chức năng này để đặt vạn năng thành giá trị tham chiếu cụ thể. 
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 27
+Phím HOLD trên đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S có chức năng gì?
+A)
+Phím chức năng này cho phép chọn phạm vi tự động
+B)
+Phím chức năng này giúp đóng băng kết quả, thuận tiện cho quá trình theo dõi, ghi dữ liệu đo.
+C)
+Phím chức năng này có tác dụng để chụp số đo thấp nhất và cao nhất.
+D)
+Phím chức năng này để đặt vạn năng thành giá trị tham chiếu cụ thể. 
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 28
+Phím MIN/MAX trên đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S có chức năng gì?
+A)
+Phím chức năng này cho phép chọn phạm vi tự động
+B)
+Phím chức năng này giúp đóng băng kết quả, thuận tiện cho quá trình theo dõi, ghi dữ liệu đo.
+C)
+Phím chức năng này có tác dụng để chụp số đo thấp nhất và cao nhất.
+D)
+Phím chức năng này để đặt vạn năng thành giá trị tham chiếu cụ thể. 
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 29
+Phím REL trên đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S có chức năng gì?
+A)
+Phím chức năng này cho phép chọn phạm vi tự động
+B)
+Phím chức năng này giúp đóng băng kết quả, thuận tiện cho quá trình theo dõi, ghi dữ liệu đo.
+C)
+Phím chức năng này có tác dụng để chụp số đo thấp nhất và cao nhất.
+D)
+Phím chức năng này để đặt vạn năng thành giá trị tham chiếu cụ thể. 
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 30
+Đồng hồ vạn năng kim có đặc điểm gì?
+A)
+Đồng hồ đo được thiết kế kim di chuyển trên thang chia độ.
+B)
+Đồng hồ đo được thiết kế để đo điện áp, điện trở.
+C)
+Đồng hồ đo được thiết kế chỉ để đo điện áp xoay chiều.
+D)
+Đồng hồ đo được thiết kế kim di chuyển trên mặt chỉ thị LCD.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+
+
+

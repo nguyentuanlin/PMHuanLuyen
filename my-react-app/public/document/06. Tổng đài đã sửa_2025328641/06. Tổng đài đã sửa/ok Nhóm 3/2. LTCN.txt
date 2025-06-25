@@ -1,0 +1,2412 @@
+Câu hỏi
+
+Nội dung câu hỏi, trả lời
+
+Câu 1
+
+Kết nối giữa 2 khối: CP113 và SN trong tổng đài EWSD là khối nào?
+
+A)
+
+Khối báo hiệu kênh chung (CCNC)
+
+B)
+
+Khối tập trung thuê bao (DLU)
+
+C)
+
+Khối bộ đệm bản tin (MB)
+
+D)
+
+Nhóm đường dây trung kế (LTG)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 2
+
+Trong tổng đài EWSD những loại bộ tập trung thuê bao nào đang được sử dụng trong mạng thông tin Quân sự?
+
+A)
+
+Sử dụng 3 loại DLUA, DLUB, DLUD
+
+B)
+
+Sử dụng 2 loại DLUA và DLUD
+
+C)
+
+Chỉ có 1 loại DLUB duy nhất
+
+D)
+
+Chỉ có 1 loại DLUD duy nhất
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 3
+
+Trong tủ báo hiệu kênh chung CCNC của tổng đài EWSD tối đa bao nhiêu kênh báo hiệu?
+
+A)
+
+128 kênh
+
+B)
+
+512 kênh
+
+C)
+
+64 kênh
+
+D)
+
+254 kênh
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 4
+
+Trong tổng đài EWSD đường kết nối từ nhóm đường dây trung kế (LTG) đến khối chuyển mạch (SN) có tốc độ bao nhiêu?
+
+A)
+
+2,048 Mb/s
+
+B)
+
+6,048 Mb/s
+
+C)
+
+8,192 Mb/s
+
+D)
+
+4,096 Mb/s
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 5
+
+Dung lượng chuyển mạch lớn nhất của hệ thống tổng đài EWSD?
+
+A)
+
+252LTG
+
+B)
+
+504LTG
+
+C)
+
+1024 LTG
+
+D)
+
+2048LTG
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 6
+
+Đèn LED: L0, L1, L2 của card SASC cùng sáng vàng báo DLUD đang thực hiện chức năng gì?
+
+A)
+
+DLUD đang thực hiện chức năng xử lý các cuộc gọi ra trung kế
+
+B)
+
+DLUD đang thực hiện chức năng hoạt động tự trị.
+
+C)
+
+DLUD thực hiện chức năng đo kiểm các thuê bao.
+
+D)
+
+DLUD đang thực hiện chức năng thu nhận số quay
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 7
+
+Card nguồn nào được sử dụng trong ngăn thuê bao của bộ tập trung thuê bao DLUD trong tổng đài EWSD?
+
+A)
+
+DCCDA
+
+B)
+
+DCCDC
+
+C)
+
+DCCDM
+
+D)
+
+DCCDQ
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 8
+
+Trong bộ tập trung thuê bao DLUA của tổng đài EWSD, card nào là giao tiếp với nhóm đường dây trung kế LTG trong trường hợp kết nối xa?
+
+A)
+
+DIULDIM
+
+B)
+
+DIULDID
+
+C)
+
+DIU120A
+
+D)
+
+DIUD
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 9
+
+Trong bộ tập trung thuê bao DLUB của tổng đài EWSD, card nào là giao tiếp với nhóm đường dây trung kế LTG trong trường hợp kết nối gần?
+
+A)
+
+DIULDIM
+
+B)
+
+DIULDID
+
+C)
+
+DIU120A
+
+D)
+
+DIUD
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 10
+
+Card BDB trong bộ tập trung thuê bao DLUA của tổng đài EWSD là bộ phân tuyến có nhiệm vụ gì?
+
+A)
+
+Phân phối báo hiệu thông qua BDE đến các card thuê bao hoặc tập trung báo hiệu từ các card thuê bao đưa đến DLUC.
+
+B)
+
+Trao đổi thông tin với nhóm đường dây trung kế LTG.
+
+C)
+
+Trao đổi thông tin với bộ xử lý điều phối trong tổng đài EWSD
+
+D)
+
+Thực hiện ghép kênh và phân kênh cho DLU.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 11
+
+Câu lệnh ENTER AREACODE trong tổng đài EWSD được thực hiện khi nào?
+
+A)
+
+Thực hiện khi tạo mã vùng của một hướng trung kế.
+
+B)
+
+Thực hiện khi tạo mã vùng của khối thuê bao bắt đầu có trong tổng đài
+
+C)
+
+Thực hiện khi tạo mã định tuyến của hướng trung kế mới
+
+D)
+
+Thực hiện khi tạo mã dịch vụ cho thuê bao
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 12
+
+Bộ đệm bản tin (MB) nằm trong khối nào của tổng đài EWSD?
+
+A)
+
+Khối báo hiệu kênh chung (CCNC)
+
+B)
+
+Khối xử lý phối hợp (CP)
+
+C)
+
+Khối chuyển mạch (SN)
+
+D)
+
+Khối cấp xung đồng hồ trung tâm (CCG)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 13
+
+Trong tổng đài ALCATEL 1000E10 để tìm một số danh bạ chưa sử dụng ta dùng lệnh? 
+
+A)
+
+NLIBR: ND=, NB=;
+
+B)
+
+NLIBR : TY=, NE=;
+
+C)
+
+NLIBR: NE=, NB=;
+
+D)
+
+NLIBR: ND= , TY= ;
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 14
+
+Card cung cấp điện xoay chiều cho điện thoại đổ chuông là card nào trong CSND/MM
+
+A)
+
+TCOND
+
+B)
+
+TMLAB
+
+C)
+
+TSUC
+
+D)
+
+TFIML
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 15
+
+Trong khai báo thuê bao của tổng đài Alcatel máy cấp A có ký hiệu
+
+A)
+
+SR 1
+
+B)
+
+SR 2
+
+C)
+
+SR 3
+
+D)
+
+SR 4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 16
+
+Trong tổng đài ALCATEL1000MME10 (OCB HC) chức năng  lưu trữ số liệu hệ thống  là card
+
+A)
+
+ACDDG4AA
+
+B)
+
+ACAUX
+
+C)
+
+ACCKOM 
+
+D)
+
+ACPWUC(D)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 17
+
+Trong tổng đài ALCATEL1000E10 (OCB283) chức năng  lưu trữ số liệu hệ thống  là card
+
+A)
+
+ACDDG4AA
+
+B)
+
+ACTUJ
+
+C)
+
+ACCKOM 
+
+D)
+
+ACPWUC(D)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 18
+
+Trong tổng đài ALCATEL1000E10 (OCB283) chức năng  giao tiếp giữa người và máy  là card
+
+A)
+
+ACDDG4AA
+
+B)
+
+ACTUJ
+
+C)
+
+ACCKOM 
+
+D)
+
+ACPWUC(D)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 19
+
+Trong tổng đài ALCATEL1000E10 (OCB283) chức năng  quản lý báo hiệu số 7   là card
+
+A)
+
+ACTUJ
+
+B)
+
+ACAUX
+
+C)
+
+ICTSH
+
+D)
+
+ACHIL2
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 20
+
+Trong tổng đài ALCATEL1000E10 (OCB283) chức năng giờ thực của hệ thống nằm ở trạm:
+
+A)
+
+SMA1,SMA2
+
+B)
+
+SMA1,SMA3
+
+C)
+
+STS,SMA2
+
+D)
+
+SMA1,SMT
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 21
+
+Trong tổng đài ALCATEL1000E10(OCB 283) chức năng khởi động lại hệ thống là card
+
+A)
+
+ACCSG
+
+B)
+
+ICTSH
+
+C)
+
+ACBSG
+
+D)
+
+ACAUX
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 22
+
+Trong tổng đài ALCATEL1000E10(OCB 283) chức năng quản lý bộ thứ cấp là card
+
+A)
+
+ACCSG
+
+B)
+
+ICTSH
+
+C)
+
+ACBSG
+
+D)
+
+ACAUX
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 23
+
+Trong tổng đài ALCATEL1000MME10 (OCB HC) card RCTCA2 + RAGLR2  cung cấp ra:
+
+A)
+
+16 GLR
+
+B)
+
+16 LAH
+
+C)
+
+24 LAH
+
+D)
+
+08 GLR
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 24
+
+Trong tổng đài ALCATEL1000MME10 (OCB HC) card RCTCA2+ RALALR cung cấp ra:
+
+A)
+
+08 GLR + 01 LAH
+
+B)
+
+16 LAH +08 GLR
+
+C)
+
+08 GLR +08 LAH
+
+D)
+
+24 LAH +  01 GLR
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 25
+
+Cầu chì chống sét thuê bao tổng đài TIP 24 sử dụng loại nào?
+
+A)
+
+K5-170
+
+B)
+
+K5-110
+
+C)
+
+Chống sét hạt nổ
+
+D)
+
+K12
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 26
+
+Trạng thái Đèn V-NEG của tổng đài TIP 24:
+
+A)
+
+Sáng xanh báo hiệu nguồn +5V tốt
+
+B)
+
+Sáng xanh báo hiệu nguồn -5V tốt
+
+C)
+
+Sáng xanh báo hiệu nguồn -12V tốt
+
+D)
+
+Sáng xanh báo hiệu nguồn +12V tốt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 27
+
+Trạng thái Đèn V-POS của tổng đài TIP 24:
+
+A)
+
+Sáng xanh báo hiệu nguồn +5V tốt
+
+B)
+
+Sáng xanh báo hiệu nguồn -5V tốt
+
+C)
+
+Sáng xanh báo hiệu nguồn -12V tốt
+
+D)
+
+Sáng xanh báo hiệu nguồn +12V tốt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 28
+
+Trạng thái Đèn V-VIN của tổng đài TIP 24:
+
+A)
+
+Sáng xanh báo hiệu nguồn +5V tốt
+
+B)
+
+Sáng xanh báo hiệu nguồn -5V tốt
+
+C)
+
+Sáng xanh báo hiệu nguồn -48V tốt
+
+D)
+
+Sáng xanh báo hiệu nguồn +12V tốt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 29
+
+Cổng IPX của tổng đài TIP 24 dùng để làm gì?
+
+A)
+
+Kết nối với máy tính khai báo IPU
+
+B)
+
+Kết nối với máy tính để khai báo số liệu và quản lý dịch vụ
+
+C)
+
+Kết nối với máy tính để lấy cước
+
+D)
+
+Cả 3 đáp án đều sai
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 30
+
+Tổng đài TIP 24 sử dụng báo hiệu nào cho luồng E1?
+
+A)
+
+R2
+
+B)
+
+R5
+
+C)
+
+R7
+
+D)
+
+R9
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 31
+
+Luồng E1 của tổng đài TIP 24 có 
+
+A)
+
+30 kênh thoại đi và về
+
+B)
+
+15 kênh thoại đi và 15 kênh thoại về
+
+C)
+
+30 kênh thoại đi và 30 kênh thoại về
+
+D)
+
+10 kênh thoại đi và 20 kênh thoại về
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 32
+
+Tổng đài TIP 24 có các dịch vụ sau
+
+A)
+
+Chuyển máy tạm thời, báo thức, tự thử chuông, hotline, nghe hộ, tự gọi lại 
+
+B)
+
+Chuyển máy tạm thời, báo thức, tự thử chuông, hotline, nghe hộ
+
+C)
+
+Chuyển máy tạm thời, báo thức, tự thử chuông, hotline
+
+D)
+
+Chuyển máy tạm thời, báo thức, tự thử chuông
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 33
+
+Tổng đài TIP 24 không có dịch vụ sau
+
+A)
+
+Tự thử chuông
+
+B)
+
+Báo thức
+
+C)
+
+Hotline
+
+D)
+
+Call Center 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 34
+
+Khai báo số liệu Tổng đài TIP 24 bằng
+
+A)
+
+Máy tính và bàn PO
+
+B)
+
+Bàn PO 
+
+C)
+
+Máy tính hoặc máy điện thoại vị trí đầu tiên của tổng đài
+
+D)
+
+Chỉ bằng máy điện thoại.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 35
+
+Tổng đài TIP 24 được thiết kế 
+
+A)
+
+Ngăn thuê bao ở bên phải và ngăn điều khiển ở giữa
+
+B)
+
+Ngăn card thuê bao và ngăn card điều khiển cùng nằm trong một hộp khối khép kín, card điều khiển ở dưới, còn card thuê bao ở phía trên
+
+C)
+
+Ngăn thuê bao ở bên trái và ngăn điều khiển ở bên phải
+
+D)
+
+Ngăn thuê bao riêng và ngăn điều khiển riêng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 36
+
+Trung kế CO Tổng đài TIP 24 sử dụng
+
+A)
+
+Tín hiệu của tổng đài khác làm kênh trung kế gọi ra
+
+B)
+
+Tín hiệu nội đài làm kênh trung kế gọi ra
+
+C)
+
+Tín hiệu liên đài làm kênh trung kế gọi ra
+
+D)
+
+Tín hiệu mời gọi làm kênh trung kế gọi ra
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 37
+
+Các máy điện thoại IP của tổng đài TIP 24 kết nối với thuê bao tổng đài khác qua
+
+A)
+
+Trung kế IP
+
+B)
+
+Trung kế luồng E1
+
+C)
+
+Trung kế CO
+
+D)
+
+Trung kế IP & trung kế TDM
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 38
+
+Trung kế ĐKX của tổng đài TIP 24 dùng để
+
+A)
+
+Kết nối với tổng đài khác qua luồng E1
+
+B)
+
+Kết nối với tổng đài khác qua trung kế CO
+
+C)
+
+Kết nối với tổng đài khác qua trung kế IP
+
+D)
+
+Kết nối với máy vô tuyến điện
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 39
+
+Trong tổng đài TIP 24 kết nối trung kế TDM có
+
+A)
+
+01 luồng E1
+
+B)
+
+02 luồng E1
+
+C)
+
+03 luồng E1
+
+D)
+
+04 luồng E1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 40
+
+Trong tổng đài TIP 24 khối IPU nằm ở
+
+A)
+
+Card nguồn
+
+B)
+
+Card thuê bao
+
+C)
+
+Card CPU
+
+D)
+
+Card main đáy
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 41
+
+Đèn LED 7 đoạn của tổng đài T64SIP chỉ thị 
+
+A)
+
+Ngày, tháng, năm; giờ, phút; các tham số tương ứng với câu lệnh 
+
+B)
+
+Ngày, tháng; giờ, phút, giây; các tham số tương ứng với câu lệnh 
+
+C)
+
+Ngày, tháng; giờ, phút; các tham số tương ứng với câu lệnh 
+
+D)
+
+Ngày, tháng, năm; giờ, phút giây; các tham số tương ứng với câu lệnh 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 42
+
+Đèn RUN card nguồn của tổng đài T64SIP sáng xanh chỉ thị 
+
+A)
+
+Card nguồn đó đang cung cấp điện cho máy nắn
+
+B)
+
+Card nguồn đó đang ở chế độ dự phòng
+
+C)
+
+Card nguồn đó đang cung cấp điện áp nạp cho ắc qui
+
+D)
+
+Card nguồn đó đang cung cấp các mức điện áp ra cho tổng đài hoạt động
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 43
+
+Đèn RUN card nguồn của tổng đài T64SIP tắt chỉ thị 
+
+A)
+
+Card nguồn đó đang cung cấp điện cho máy nắn
+
+B)
+
+Card nguồn đó đang ở chế độ dự phòng nóng
+
+C)
+
+Card nguồn đó đang cung cấp điện áp nạp cho ắc qui
+
+D)
+
+Card nguồn đó đang cung cấp các mức điện áp ra cho tổng đài hoạt động
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 44
+
+Đèn chỉ thị mức điện áp 75VAC trên card nguồn của tổng đài T64SIP
+
+A)
+
+Đèn tắt là tốt
+
+B)
+
+Sáng theo nhịp điều khiển của CPU là tốt
+
+C)
+
+Sáng liên tục là tốt
+
+D)
+
+Sáng vàng là tốt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 45
+
+Đèn SYNC trên card luồng E1 của tổng đài T64SIP chỉ thị 
+
+A)
+
+Đèn tắt là tốt
+
+B)
+
+Sáng nhấp nháy là tốt
+
+C)
+
+Sáng liên tục là tốt
+
+D)
+
+Sáng vàng là tốt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 46
+
+Đèn ERR card nguồn của tổng đài T64SIP sáng đỏ chỉ thị 
+
+A)
+
+Là trạng thái CPU bị lỗi
+
+B)
+
+Là trạng thái DSP lỗi 
+
+C)
+
+Trạng thái card nguồn đó lỗi
+
+D)
+
+Trạng thái tổng đài lỗi
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 47
+
+Tổng đài T64SIP có mấy loại trung kế
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 48
+
+Thiết bị AG-MP1288 khi khai báo ở chế dộ SIP Register thì tham số Registration Mode phải để:
+
+A)
+
+Per Endpoint
+
+B)
+
+Don't register
+
+C)
+
+Per Acount
+
+D)
+
+Per Gateway
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 49
+
+Thiết bị AG-MP1288 khi khai báo ở chế dộ SIP Trunk thì tham số Registration Mode trong phần Trunk group setting phải để:
+
+A)
+
+Per Endpoint
+
+B)
+
+Don't register
+
+C)
+
+Per Acount
+
+D)
+
+Per Gateway
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 50
+
+Thiết bị AG-MP1288 hiện đang khai thác dịch vụ FAX trong tham số:
+
+Fax Signaling Method đặt:
+
+A)
+
+T.38 relay
+
+B)
+
+Fax fallback
+
+C)
+
+G711 transport
+
+D)
+
+No fax
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 51
+
+Thiết bị AG-MP1288: Khai báo bảng định tuyến chung (Routing Setting) tham số Enable tel to IP routing cần để giá trị nào sau đây để bảng định tuyến hoạt động tốt:
+
+A)
+
+Disable
+
+B)
+
+Enable
+
+C)
+
+Start only
+
+D)
+
+Enable & Disable
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 52
+
+Sợi màu nâu và nâu trắng trong cáp mạng có chức năng
+
+A)
+
+Dây dẫn điện áp 1 chiều 
+
+B)
+
+Truyền các gói dữ liệu
+
+C)
+
+Truyền các gói âm thanh
+
+D)
+
+Truyền các gói thoại
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 53
+
+Thiết bị AG-288: Khai báo bảng định tuyến gọi vào mỗi AG tối thiểu phải khai báo bao nhiêu route?
+
+A)
+
+1 route
+
+B)
+
+2 route 
+
+C)
+
+3 route
+
+D)
+
+4 route
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 54
+
+Trên thiết bị AG-MP1288, điều gì xảy ra nếu một cổng trong Ethernet Group bị mất kết nối?
+
+A)
+
+Không có tác động gì
+
+B)
+
+Thiết bị sẽ tự động chuyển sang cổng dự phòng (nếu có)
+
+C)
+
+Cả Ethernet Group sẽ ngừng hoạt động
+
+D)
+
+Cổng còn lại sẽ tự động thay đổi địa chỉ MAC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 55
+
+Trên thiết bị AG-MP1288, Tại mục Maintenance -> Configuration File, nút nào dùng để tải file INI?
+
+A)
+
+Upload File
+
+B)
+
+Export Settings
+
+C)
+
+Backup File
+
+D)
+
+Download INI Fil
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 56
+
+Trạng thái màu cam của đèn LED Sys của thiết bị AG-MP1288 báo hiệu gì?
+
+A)
+
+CPU bị lỗi
+
+B)
+
+Nhiệt độ khoang thiết bị quá cao
+
+C)
+
+Không có cảnh báo
+
+D)
+
+Các cổng FXS bị lỗi
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 57
+
+Tab nào trong Monitor hiển thị cảnh báo hiện tại trên thiết bị AG-MP1288?
+
+A)
+
+Alarms History
+
+B)
+
+Activity Logs
+
+C)
+
+Active Alarms
+
+D)
+
+Summary -> Device Status
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 58
+
+Mục nào trên giao diện Web của thiết bị AG-MP1288 hiển thị thông tin cảnh báo lịch sử?
+
+A)
+
+Monitor ->Summary ->Alarms History
+
+B)
+
+Activity Logs
+
+C)
+
+Active Alarms
+
+D)
+
+Summary -> Device Status
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 59
+
+Mục nào trên Web UI của thiết bị AG-MP1288 dùng để kiểm tra trạng thái thuê bao FXS?
+
+A)
+
+Configuration -> FXS Status
+
+B)
+
+Monitor ->VOIP STATUS -> Registration Status
+
+C)
+
+Troubleshoot -> Call Status
+
+D)
+
+Summary -> Device Status
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 60
+
+Đèn LED màu đỏ trên cổng Ethernet của thiết bị AG-MP1288 báo hiệu điều gì?
+
+A)
+
+Cổng Ethernet hoạt động bình thường
+
+B)
+
+Cổng Ethernet bị lỗi
+
+C)
+
+Cổng Ethernet chưa được cấu hình
+
+D)
+
+Cổng Ethernet đang được nâng cấp
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+
+
+
+
+
+

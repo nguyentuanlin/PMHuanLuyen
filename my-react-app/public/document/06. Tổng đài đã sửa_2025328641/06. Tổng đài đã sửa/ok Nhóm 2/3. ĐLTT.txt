@@ -1,0 +1,1210 @@
+Câu hỏi
+
+Nội dung câu hỏi, trả lời
+
+Câu 1
+
+Thang đo điện áp xoay chiều trên mặt đồng hồ Kyoritsu 1109S được ký hiệu là gì?
+
+A)
+
+AC.V
+
+B)
+
+AC.mA
+
+C)
+
+AC.A
+
+D)
+
+AC. μA
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 2
+
+Ký hiệu COM trên mặt đồng hồ Kyoritsu 1109S có chức năng gì?
+
+A)
+
+Đo tín hiệu đầu ra với tần số thấp.
+
+B)
+
+Đầu chung, cắm que đo màu đen
+
+C)
+
+Đo hệ số khuếch đại Transistor.
+
+D)
+
+Chỉnh không ôm
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 3
+
+Ký hiệu hFE trên mặt đồng hồ Kyoritsu 1109S có chức năng gì?
+
+A)
+
+Đo tín hiệu đầu ra với tần số thấp.
+
+B)
+
+Đầu chung, cắm que đo màu đen
+
+C)
+
+Đo hệ số khuếch đại Transistor.
+
+D)
+
+Chỉnh không ôm
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 4
+
+Dùng đồng hồ vạn năng kim Kyoritsu 1109S đo dòng điện thì bật đồng hồ ở thang đo nào ?
+
+A)
+
+Đặt chuyển mạch của đồng hồ ở thang DC.A – 2,5mA.
+
+B)
+
+Đặt chuyển mạch của đồng hồ ở thang DC.A – 25mA.
+
+C)
+
+Đặt chuyển mạch của đồng hồ ở thang DC.A – 50 μA.
+
+D)
+
+Đặt chuyển mạch của đồng hồ ở thang DC.A – 250mA.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 5
+
+Ký hiệu 0Ω ADJ trên mặt đồng hồ Kyoritsu 1109S có chức năng gì?
+
+A)
+
+Đo tín hiệu đầu ra với tần số thấp.
+
+B)
+
+Đầu chung, cắm que đo màu đen
+
+C)
+
+Đo điện áp cao áp DC.
+
+D)
+
+Chỉnh không ôm
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 6
+
+Trên vỏ mặt số của thiết bị có ghi diện áp 12V và có 3 vôn kế lần lượt với giới hạn đo là 20V, 6V, 10V. Đồng chí cho biết vôn kế nào là phù hợp nhất để đo hiệu điện thế giữa hai cực của nguồn điện đã cho?
+
+A)
+
+20V
+
+B)
+
+6V
+
+C)
+
+10V
+
+D)
+
+Dùng được cả 3 vôn kế trên
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 7
+
+Đồng hồ vạn năng có chức năng gì?
+
+A)
+
+Đo điện trở, đo điện áp xoay chiều, đo điện áp 1 chiều và đo dòng điện
+
+B)
+
+Chỉ đo điện trở, đo điện áp xoay chiều
+
+C)
+
+Chỉ đo điện áp 1 chiều và đo dòng điện
+
+D)
+
+Chỉ đo điện áp 1 chiều và xoay chiều
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 8
+
+Đo điện trở vòng của các đôi dây dẫn dùng dụng cụ nào?
+
+A)
+
+Đồng hồ vạn năng
+
+B)
+
+Đồng hồ Mêgaôm
+
+C)
+
+Đồng hồ SANWA
+
+D)
+
+ Đồng hồ Vôn kế 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 9
+
+Dụng cụ nào để đo điện trở cách điện giữa 2 dây?
+
+A)
+
+Mê ga ôm kế hoặc Vôn kế
+
+B)
+
+Mê ga ôm kế hoặc đồng hồ vạn năng 
+
+C)
+
+ Vôn kế và đồng hồ vạn năng 
+
+D)
+
+ Đồng hồ vạn năng và SANWA
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 10
+
+Thang đo dòng điện trên mặt đồng hồ Kyoritsu 1109S được ký hiệu là gì?
+
+A)
+
+DC.V
+
+B)
+
+DC.mA
+
+C)
+
+DC.A
+
+D)
+
+DC. μA V
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 11
+
+Công dụng của máy đo SUNSET E20C?
+
+A)
+
+Dùng để đo điện trở cách điện của luồng E1, dây cáp và các thiết bị chuyển mạch.
+
+B)
+
+Dùng để đo kiểm tra chất lượng luồng E1 và Nx64Kbps. Ngoài ra nó hỗ trợ các phần mềm đo và giám sát kênh thoại, đo báo hiệu R2/SS7…
+
+C)
+
+Dùng để đo kiểm tra và giám sát kênh thoại, đo báo hiệu R2/SS7…
+
+D)
+
+Dùng để đo kiểm tra chất lượng luồng E1, dây cáp và các thiết bị chuyển mạch.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 12
+
+Tốc độ đo lỗi bít của máy đo Sunset E20C là bao nhiêu?
+
+A)
+
+4,096Mbit/s
+
+B)
+
+2,048Mbit/s
+
+C)
+
+1024Kbit/s
+
+D)
+
+512Kbit/s
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 13
+
+Khi đo điện áp xoay chiều trên đồng hồ vạn năng số HIOKI, phải bật về thang đo có ký hiệu nào?
+
+A)
+
+V~
+
+B)
+
+A~
+
+C)
+
+AC.V~
+
+D)
+
+AC.A~
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 14
+
+Khi đo dòng điện xoay chiều trên đồng hồ vạn năng số, phải bật về thang đo có ký hiệu nào?
+
+A)
+
+V~
+
+B)
+
+A~
+
+C)
+
+AC.V~
+
+D)
+
+AC.A~
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 15
+
+Khi thực hiện đo điện trở trong mạch điện bằng đông hồ đo vạn năng  cần chú ý điều gì sau đây?
+
+A)
+
+Không bao giờ được đo điện trở trong mạch đang được cấp điện  và không để đồng hồ ở thang đo điện trở mà đo điện áp và dòng điện
+
+B)
+
+Khi đo điện trở nhỏ (cỡ <10Ω) cần để cho que đo và chân điện trở tiếp xúc tốt nếu không kết quả không chính xác
+
+C)
+
+Khi đo điện trở lớn (cỡ > 10kΩ), tay không được tiếp xúc đồng thời vào cả 2 que đo.
+
+D)
+
+Không bao giờ được đo điện trở trong mạch đang được cấp điện  và không để đồng hồ ở thang đo điện trở mà đo điện áp và dòng điện; Khi đo điện trở nhỏ (cỡ <10Ω) cần để cho que đo và chân điện trở tiếp xúc tốt nếu không kết quả không chính xác; Khi đo điện trở lớn (cỡ > 10kΩ), tay không được tiếp xúc đồng thời vào cả 2 que đo.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 16
+
+Để thực hiện chế độ đo 1 luồng E1 tại máy đo SunSet E20 thì ta chọn chế độ đo nào? 
+
+A)
+
+E1SINGL
+
+B)
+
+E1DUAL
+
+C)
+
+E1 MUX
+
+D)
+
+MUXTEST
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 17
+
+Khi đo điện áp 1 chiều bằng đồng hồ vạn năng Samwa thì đọc giá trị trên vạch chỉ số nào?
+
+A)
+
+DCV
+
+B)
+
+ACV
+
+C)
+
+μA,mA
+
+D)
+
+μV,mV
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 18
+
+Khi sử dụng đồng hồ vạn năng cần lưu ý gì?
+
+A)
+
+Tuyệt đối không để thang đo điện trở hay thang đo dòng điện khi muốn đo điện áp xoay chiều.
+
+B)
+
+Không để nhầm thang đo điện trở, đo vào nguồn AC.
+
+C)
+
+Không để nhầm thang đo điện trở khi đo điện áp DC.
+
+D)
+
+Không để nhầm thang đo điện áp khi đo điện trở.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 19
+
+Đồng chí cho biết cách đo dòng điện bằng đồng hồ vạn năng?
+
+A)
+
+Đặt đồng hồ vào thang đo dòng cao nhất; Đặt que đồng hồ nối tiếp với tải, que đỏ về chiều dương, que đen về chiều âm. Nếu kim lên thấp quá thì giảm thang đo. Nếu kim lên kịch kim thì tăng thang đo
+
+B)
+
+Đặt đồng hồ vào thang đo điện áp; Đặt que đồng hồ nối tiếp với tải, que đỏ về chiều dương, que đen về chiều âm. Nếu kim lên thấp quá thì giảm thang đo. Nếu kim lên kịch kim thì tăng thang đo
+
+C)
+
+Đặt đồng hồ vào thang đo điện trở; Đặt que đồng hồ nối tiếp với tải, que đỏ về chiều dương, que đen về chiều âm. Nếu kim lên thấp quá thì giảm thang đo. Nếu kim lên kịch kim thì tăng thang đo
+
+D)
+
+Đặt đồng hồ vào thang đo diode/ thông mạch; Đặt que đồng hồ nối tiếp với tải, que đỏ về chiều dương, que đen về chiều âm. Nếu kim lên thấp quá thì giảm thang đo. Nếu kim lên kịch kim thì tăng thang đo
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 20
+
+Đồng hồ vạn năng chỉ thị kim Kyoritsu1109S có bao nhiêu cung chia độ?
+
+A)
+
+5
+
+B)
+
+6
+
+C)
+
+7
+
+D)
+
+8
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 21
+
+Cường độ dòng điện được đo bằng dụng cụ gì?
+
+A)
+
+Nhiệt kế
+
+B)
+
+Vôn kế
+
+C)
+
+Ampe kế
+
+D)
+
+Lực kế
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 22
+
+Nguyên lý đo dòng điện?
+
+A)
+
+Mắc cơ cấu chỉ thị nối tiếp với mạch
+
+B)
+
+Dùng điện trở Shunt
+
+C)
+
+Mắc ampe kế nối tiếp với nhánh cần đo
+
+D)
+
+Mắc ampe kế song song với nhánh cần đo
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 23
+
+Nội trở của ampe kế có tác dụng gì?
+
+A)
+
+Thay đổi theo tầm đo
+
+B)
+
+Thay đổi theo dạng tín hiệu
+
+C)
+
+Không thay đổi theo tầm đo
+
+D)
+
+Thay đổi theo giá trị dòng điện cần đo
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 24
+
+Ký hiệu "Rab" thể hiện phép đo nào?
+
+A)
+
+Điện trở cách điện dây A với đất
+
+B)
+
+Điện trở cách điện dây B với đất
+
+C)
+
+Điện trở cách điện dây A với dây B
+
+D)
+
+Mạch vòng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 25
+
+Đối với đồng hồ vạn năng 108-T đo điện trở có mấy thang đo?
+
+A)
+
+2
+
+B)
+
+3
+
+C)
+
+4
+
+D)
+
+5
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 26
+
+Ký hiệu "Rae" được đọc như thế nào?
+
+A)
+
+Điện trở cách điện dây A với đất
+
+B)
+
+Điện trở cách điện dây B với đất
+
+C)
+
+Điện trở cách điện dây A với dây B
+
+D)
+
+Điện trở mạch vòng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 27
+
+Các ký tự màu cam trên mặt trước máy đo SunSet E20 chỉ hoạt động khi nào? 
+
+A)
+
+Khi phím Shift đã được nhấn và chỉ thị trên góc trái màn hình.
+
+B)
+
+Khi một phím F đã được nhấn.
+
+C)
+
+Khi thay đổi vị trí của con trỏ điều khiển.
+
+D)
+
+Khi nhấn phím F4 để thay đổi
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 28
+
+Máy đo SunSet E20 trước khi kết nối vào mạng để thực hiện phép đo phải làm gì? 
+
+A)
+
+Phải kiểm tra các giao thức kết nối.
+
+B)
+
+Phải tiến hành cài đặt máy đo trong phần TEST CONFIGURATION.
+
+C)
+
+Phải lựa chọn và định nghĩa các mẫu đo thử 
+
+D)
+
+Phải đưa ra các lựa chọn cho mỗi dòng cài đặt.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 29
+
+Trong tham số FRAMING đặt chế độ đo có CRC4 mà tín hiệu nhận được không đúng cài đặt CRC4 thì máy đo SunSet sẽ báo gì?
+
+A)
+
+Máy báo mất khung Loss of frame và có thể hiển thị CRC DET
+
+B)
+
+Máy sẽ cho kết quả không chính xác và báo lỗi.
+
+C)
+
+Máy vẫn hiển thị đồng bộ khung tốt.
+
+D)
+
+Máy đo sẽ báo mã nhận không phù hợp với các mã đã định dạng .
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 30
+
+Để thực hiện chế độ đo 2 luồng E1 tại máy đo SunSet E20 thì ta chọn chế độ đo nào? 
+
+A)
+
+E1SINGL
+
+B)
+
+E1DUAL
+
+C)
+
+E1 MUX
+
+D)
+
+MUXTEST
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+
+
+
+
+
+

@@ -1,0 +1,1605 @@
+Câu hỏi
+Nội dung câu hỏi, trả lời
+
+
+Câu 1
+Khái niệm điện trường?
+A)
+Là môi trường tồn tại xung quanh điện tích và tác dụng lực lên điện tích khác đặt trong nó
+B)
+Là môi trường tồn tại xung quanh điện tích
+C)
+Là môi trường tác dụng lực lên điện tích khác đặt trong nó
+D)
+Là môi trường bao xung quanh điện tích và tác dụng lực lên điện tích khác đặt trong nó
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 2
+Điện trường là?
+A)
+Môi trường không khí quanh điện tích
+B)
+Môi trường chứa các điện tích
+C)
+Môi trường bao quanh diện tích, gắn với điện tích và tác dụng lực điện lên các điện tích khác đặt trong nó
+D)
+Môi trường dẫn điện
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 3
+Khái niệm Cường độ điện trường? 
+A)
+Là đại lượng đặc trưng cho dòng điện
+B)
+Là đại lượng đặc trưng cho điện trường về khả năng tác dụng lực.
+C)
+Là đại lượng đặc trưng cho khả năng tác dụng lực.
+D)
+Là đại lượng đặc trưng cho điện thế
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 4
+Cường độ điện trường tại một điểm đặc trưng cho
+A)
+Thể tích vùng có điện trường là lớn hay nhỏ
+B)
+Điện trường tại điểm đó về phương diện dự trữ năng lượng
+C)
+Tác dụng lực của điện trường lên điện tích tại điểm đó
+D)
+Tốc độ dich chuyển điện tích tại điểm đó
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 5
+Cường độ điện trường là đại lượng
+A)
+Véctơ
+B)
+Vô hướng, có giá trị dương
+C)
+Vô hướng, có giá trị âm
+D)
+Véctơ, có chiều luôn hướng vào điện tích
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 6
+Công thức tính của cường độ điện trường là?
+A)
+E=F/q
+B)
+E=S/q
+C)
+E=F/I
+D)
+E=F/R
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 7
+Đơn vị tính của cường độ điện trường là?
+A)
+V/m
+B)
+V.m
+C)
+V/m2
+D)
+V.M2
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 8
+Phát biểu nào sau đây không đúng khi nói về điện trường?
+A)
+Xung quanh điện tích có điện trường, điện trường truyền tương tác điện
+B)
+Tính chất cơ bản của điện trường là tác dụng lực lên điện tích đặt trong nó
+C)
+Điện trường tĩnh là do các hạt mang điện đứng yên sinh ra
+D)
+Điện trường đều là điện trường có các đường sức song song nhưng không cách đều nhau
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 9
+Độ lớn của cường độ điện trường tại một điểm gây ra bởi một điện tích điểm không phụ thuộc 
+A)
+Độ lớn điện tích thử
+B)
+Độ lớn điện tích đó
+C)
+Khoảng cách từ điểm đang xét đến điện tích đó
+D)
+Hằng số điện môi của môi trường
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 10
+Khái niệm nào dưới đây cho biết độ mạnh yếu của điện trường tại một điểm?
+A)
+Đường sức điện
+B)
+Điện trường
+C)
+Cường độ điện trường
+D)
+Điện tích
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 11
+Khái niệm về điện thế
+A)
+Là môi trường tồn tại xung quanh điện tích và tác dụng lực lên điện tích khác đặt trong nó.
+B)
+Điện thế tại một điểm trong điện trường đặc trưng cho điện trường về phương diện tạo ra thế năng của điện tích
+C)
+Là dòng chuyển dịch có hướng của các hạt mang điện.
+D)
+Điện thế tại một điểm trong điện trường đặc trưng cho điện trường về phương diện tạo ra động năng của điện tích
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 12
+Định nghĩa điện thế là
+A)
+Điện thế tại một điểm M trong điện trường là đại lượng đặc trưng riêng cho điện trường về khả năng sinh công khi đặt nó tại một điện tích q. 
+B)
+Điện thế tại một điểm bất kì trong điện trường là đại lượng đặc trưng riêng cho điện trường về khả năng sinh lực khi đặt nó tại một điện tích q. 
+C)
+Điện thế tại một điểm M trong điện trường là đại lượng đặc trưng riêng cho điện trường về khả năng sinh ra dòng điện khi đặt nó tại một điện tích q. 
+D)
+Điện thế tại một điểm M trong điện trường là đại lượng đặc trưng riêng cho điện trường về khả năng sinh ra điện áp khi đặt nó tại một điện tích q. 
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 13
+Công thức tính của điện thế là?
+A)
+V=A/q
+B)
+V=S/q
+C)
+V=F/I
+D)
+V=F/R
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 14
+Đơn vị tính của điện thế?
+A)
+Vôn
+B)
+Ampe
+C)
+Fara
+D)
+Ôm
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 15
+Đại lượng Vôn kí hiệu là gì?
+A)
+V
+B)
+Ω
+C)
+F
+D)
+A
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 16
+Chọn câu trả lời sai: Vôn kế là dụng cụ để đo
+A)
+Hiệu điện thế giữa hai cực nguồn điện
+B)
+Hiệu điện thế giữa hai đầu bóng đèn
+C)
+Hiệu điện thế giữa hai điểm của một đoạn mạch
+D)
+Hiệu điện thế của cực dương nguồn điện hay của một điểm nào đó trên mạch
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 17
+Chọn câu trả lời đúng: Đo hiệu điện thế giữa hai cực của nguồn điện khi mạch điện hở
+A)
+Mắc vôn kế song song với 2 cực của nguồn điện. Cực dương của vôn kế nối với cực âm, cực âm nối với cực dương của nguồn điện
+B)
+Mắc vôn kế song song với 2 cực của nguồn điện. Cực dương của vôn kế nối với cực dương, cực âm nối với cực âm của nguồn điện
+C)
+Mắc vôn kế nối tiếp với 2 cực của nguồn điện. Cực dương của vôn kế nối với cực dương, cực âm nối với cực âm của nguồn điện
+D)
+Mắc vôn kế song song với 2 cực của nguồn điện. Cực âm của vôn kế nối với cực dương, cực dương nối với cực âm của nguồn điện
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 18
+Phát biểu nào dưới đây là sai?
+A)
+Vôn (V)
+B)
+Ampe (A)
+C)
+Milivôn (mV)
+D)
+Kilovôn (kV)
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 19
+Khi sử dụng vôn kế để đo hiệu điện thế thì đáp án nào không cần quan tâm?
+A)
+Kích thước của vôn kế
+B)
+Giới hạn đo và độ chia nhỏ nhất của vôn kế
+C)
+Cách mắc vôn kế trong mạch
+D)
+Kim chỉ vạch số 0 của vôn kế
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 20
+Muốn đo hiệu điện thế giữa hai đầu ổ cắm điện trong nhà, ta phải chinh trên vôn kế có giới hạn đo:
+A)
+Điện một chiều (DC), giới hạn đo bằng 220V
+B)
+Điện xoay chiều (AC), giới hạn đo nhỏ hơn 220V
+C)
+Điện một chiều (DC), giới hạn đo lớn hơn 220V
+D)
+Điện xoay chiều (AC), giới hạn đo lớn hơn 220V
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 21
+Chọn câu sai
+A)
+1V=1000mV
+B)
+1kV=1000mV
+C)
+1mV=0,001V
+D)
+1000V=1kV
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 22
+Khái niệm dòng điện?
+A)
+Là dòng chuyển dịch có hướng của các hạt mang điện.
+B)
+Là dòng chuyển dịch có hướng của các hạt mang điện tích dương.
+C)
+Là dòng chuyển dịch có hướng của các hạt mang điện tích âm.
+D)
+Là dòng chuyển dịch có hướng của các hạt không mang điện.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 23
+Đơn vị tính dòng điện
+A)
+Vôn
+B)
+Ampe
+C)
+Fara
+D)
+Ôm
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 24
+Đại lượng Ampe kí hiệu là gì?
+A)
+V
+B)
+Ω
+C)
+F
+D)
+A
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 25
+Trong đoạn mạch mắc nối tiếp, dòng điện có cường độ như thế nào tại các vị trí khác nhau?
+A)
+Khác nhau
+B)
+Có thể thay đổi
+C)
+Bằng nhau
+D)
+Cường độ sẽ thay đổi
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 26
+Các bóng đèn dùng trong gia đình được mắc song song là vì lí do nào sau đây?
+A)
+Để các bóng đèn sáng bình thường
+B)
+Để dễ dàng mắc điện hơn
+C)
+Để khi một bóng đèn hỏng, thì các bóng đèn còn lại vẫn sáng bình thường
+D)
+Để các bóng đèn sáng hơn bình thường
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 27
+Hai đèn được gọi là mắc nối tiếp với nhau nếu
+A)
+Chúng có 1 điểm chung với nhau
+B)
+Chúng có 2 điểm chung với nhau
+C)
+Chúng có 3 điểm chung với nhau
+D)
+Chúng được đặt trên hai đường thẳng song song với nhau
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 28
+Khái niệm cường độ dòng điện?
+A)
+Là lượng điện tích di chuyển qua bề mặt đó trong một đơn vị thời gian.
+B)
+Là lượng điện tích di chuyển qua bề mặt đó trong không gian nhất định.
+C)
+Là lượng ion âm di chuyển qua bề mặt đó trong một đơn vị thời gian.
+D)
+ Là lượng ion dương di chuyển qua bề mặt đó trong một đơn vị nhất định.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 29
+Kí hiệu của dòng điện?
+A)
+I
+B)
+P
+C)
+U
+D)
+δ
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 30
+Khái niệm tụ điện?
+A)
+Là một hệ hai vật dẫn đặt gần nhau và ngăn cách nhau bằng một lớp cách điện
+B)
+Là một hệ hai vật dẫn đặt gần nhau và ngăn cách nhau bằng một lớp dung môi có khả năng dẫn điện
+C)
+Là một hệ hai vật dẫn đặt gần nhau và ngăn cách nhau bằng một lớp kim loại
+D)
+Là một hệ hai vật dẫn đặt gần nhau và ngăn cách nhau bằng một lớp hợp kim
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 31
+Tụ điện được sử dụng phổ biến hiện nay là?
+A)
+Tụ điện phẳng
+B)
+Tụ điện đứng
+C)
+Tụ điện ngang
+D)
+Tụ điện nghiêng
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 32
+Kí hiệu điện dung là gì?
+A)
+A
+B)
+P
+C)
+C
+D)
+I
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 33
+Đơn vị tính của điện dung ?
+A)
+Fara
+B)
+Ôm
+C)
+Ampe
+D)
+Vôn
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 34
+1 micrôfara (kí hiệu là μF) bằng bao nhiêu fara (kí hiệu F)
+A)
+1.10-6 F.
+B)
+1.10-4 F.
+C)
+1.10-3 F.
+D)
+1.10-2 F.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 35
+1 nanôfara (kí hiệu là nF) bằng bao nhiêu fara (kí hiệu F)
+A)
+1.10-7 F.
+B)
+1.10-8 F.
+C)
+1.10-9 F.
+D)
+1.10-10 F.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 36
+1 picôfara (kí hiệu là pF) bằng bao nhiêu fara (kí hiệu F)
+A)
+1.10-12 F.
+B)
+1.10-10 F.
+C)
+1.10-9 F.
+D)
+1.10-8 F.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 37
+Tìm phát biểu sai
+A)
+Điện dung của tụ điện đặc trưng cho khả năng tích điện của tụ điện ở một hiệu điện thế nhất định
+B)
+Tụ điện là dụng cụ thường dùng để tích và phóng điện trong mạch
+C)
+Tụ điện là một hệ hai vật dẫn đặt gần nhau và cách nhau bởi một lớp cách điện
+D)
+Điện tích Q mà tụ điện tích được tỉ lệ nghịch với hiệu điện thế đặt giữa hai bản của nó
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 38
+Trường hợp nào dưới đây tạo thành một tụ điện?
+A)
+Hai bản bằng nhôm phẳng đặt song song giữa hai bản là một lớp giấy tẩm dung dịch NAOH
+B)
+Hai bản bằng nhựa phẳng đặt song song giữa hai bản là một lớp giấy tẩm dung dịch paraphin
+C)
+Hai bản bằng nhôm phẳng đặt song song giữa hai bản là một lớp giấy tẩm dung dịch paraphin
+D)
+Hai bản bằng thủy tinh đặt song song giữa hai bản là một lớp giấy tẩm dung dịch HCl
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 39
+Phát biểu nào sau đây là đúng
+A)
+Sau khi nạp điện, tụ điện có năng lượng, năng lượng đó tồn tại dưới dạng hóa năng
+B)
+Sau khi nạp điện, tụ điện có năng lượng, năng lượng đó tồn tại dưới dạng cơ năng
+C)
+Sau khi nạp điện, tụ điện có năng lượng, năng lượng đó tồn tại dưới dạng nhiệt năng
+D)
+Sau khi nạp điện, tụ điện có năng lượng, năng lượng đó là năng lượng của điện trường trong tụ điện
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 40
+Ắc qui là
+A)
+Thiết bị có khả năng biến động năng thành điện năng để tích trữ và cung cấp nguồn điện cho các thiết bị điện khác hoạt động
+B)
+Thiết bị có khả năng biến hóa năng thành điện năng để tích trữ và cung cấp nguồn điện cho các thiết bị điện khác hoạt động
+C)
+Thiết bị có khả năng biến công năng thành điện năng để tích trữ và cung cấp nguồn điện cho các thiết bị điện khác hoạt động
+D)
+Thiết bị có khả năng biến thế năng thành điện năng để tích trữ và cung cấp nguồn điện cho các thiết bị điện khác hoạt động
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 41
+Đơn vị Ah ghi trên bình ắc qui là gì?
+A)
+Là đơn vị để đo động lượng, nghĩa là dòng điện mà ắc qui có thể cung cấp trong một khoảng thời gian khi hiệu điện thế của bình tăng đến mức điện áp cắt
+B)
+Là đơn vị để đo điện lượng, nghĩa là dòng điện mà ắc qui có thể cung cấp trong một khoảng thời gian khi hiệu điện thế của bình tăng lên mức điện áp cắt
+C)
+Là đơn vị để đo điện lượng, nghĩa là dòng điện mà ắc qui có thể cung cấp trong một khoảng thời gian khi hiệu điện thế của bình giảm xuống mức điện áp cắt
+D)
+Là đơn vị để đo động lượng, nghĩa là dòng điện mà ắc qui có thể nạp trong một khoảng thời gian khi hiệu điện thế của bình giảm xuống mức điện áp cắt
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 42
+Điện áp cắt của bình ắc qui 12V là
+A)
+9,5V
+B)
+10V
+C)
+10,5V
+D)
+11V
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 43
+Bình ắc qui 12V-100Ah có dòng điện phát ra là 2A, sẽ phóng tối đa được bao nhiêu thời gian?
+A)
+20 giờ
+B)
+30 giờ
+C)
+40 giờ
+D)
+50 giờ
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 44
+Trên bình ắc qui ghi 12V là
+A)
+Điện thế danh định tại 1 đầu cực của ắc qui
+B)
+Điện thế danh định chênh lệch giữa 2 đầu cực của ắc qui
+C)
+Điện thế cố định tại 1 đầu cực của ắc qui
+D)
+Điện thế cố định giữa 2 đầu cực của ắc qui
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 45
+Khái niệm điện trở?
+A)
+Là đại lượng đặc trưng cho sự cản trở dòng điện của đường dây thông tin
+B)
+Là lượng điện tích di chuyển qua bề mặt đó trong một đơn vị thời gian.
+C)
+Là dòng chuyển dịch có hướng của các hạt mang điện.
+D)
+Là một hệ hai vật dẫn đặt gần nhau và ngăn cách nhau bằng một lớp cách điện
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 46
+Kí hiệu của điện trở?
+A)
+P
+B)
+Q
+C)
+R
+D)
+I
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 47
+Đơn vị tính của điện trở
+A)
+Ôm
+B)
+Ampe
+C)
+Fara
+D)
+Vôn
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 48
+Công thức tính điện trở của dây dẫn là?
+A)
+R =  ρ.L / S
+B)
+R =  S.L / ρ
+C)
+R =  S.ρ/ L
+D)
+R =  S.ρ. L
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 49
+Trong công thức tính điện trở (R =  ρ.L / S) thì L thể hiện tham số gì?
+A)
+Tiết diện dây dẫn
+B)
+Chiều dài dây dẫn
+C)
+Chất liệu dây dẫn
+D)
+Khả năng dẫn điện của dây dẫn
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 50
+Trong công thức tính điện trở (R =  ρ.L / S) thì S thể hiện tham số gì?
+A)
+Tiết diện dây dẫn
+B)
+Chiều dài dây dẫn
+C)
+Chất liệu dây dẫn
+D)
+Khả năng dẫn điện của dây dẫn
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 51
+Trong công thức tính điện trở (R =  ρ.L / S) thì ρ thể hiện tham số gì?
+A)
+Điện trở xuất
+B)
+Chiều dài dây dẫn
+C)
+Chất liệu dây dẫn
+D)
+Khả năng dẫn điện của dây dẫn
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 52
+Chiều dài dây dẫn càng lớn thì?
+A)
+Điện trở lớn và suy hao tín hiệu truyền trên nó càng lớn
+B)
+Điện trở lớn và suy hao tín hiệu truyền trên nó nhỏ
+C)
+Điện trở nhỏ và suy hao tín hiệu truyền trên nó càng lớn
+D)
+Điện trở nhỏ và suy hao tín hiệu truyền trên nó nhỏ
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 53
+Suất điện động của nguồn điện là đại lượng đặc trưng cho khả năng
+A)
+Sinh công của mạch điện
+B)
+Thực hiện công của nguồn điện.
+C)
+Tác dụng lực của nguồn điện
+D)
+Dự trữ điện tích của nguồn điện.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 54
+Chọn câu phát biểu đúng
+A)
+Dòng điện một chiều là dòng điện không đổi.
+B)
+Để đo cường độ dòng điện, người ta dùng ampe kế mắc song song với đoạn mạch cần đo dòng điện.
+C)
+Trong nguồn điện, dưới tác dụng của lực lạ, các hạt tải điện dương di chuyển ngược chiều điện trường từ cực âm đến cực dương
+D)
+Đường đặc tuyến vôn – ampe của các vật dẫn luôn luôn là đường thẳng qua gốc toạ độ.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 55
+Có thể tạo ra một pin điện hóa bằng cách ngâm trong dung dịch muối ăn
+A)
+Hai mảnh nhôm.
+B)
+Hai mảnh đồng.
+C)
+Hai mảnh bạc 
+D)
+Một mảnh nhôm và một mảnh kẽm
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 56
+Hai điện cực kim loại trong pin điện hóa phải
+A)
+Có cùng khối lượng
+B)
+Là hai kim loại khác nhau về phương diện hóa học
+C)
+Có cùng kích thước 
+D)
+Cùng bản chất
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 57
+Pin vôn – ta được cấu tạo gồm
+A)
+Hai cực bằng kẽm (Zn) nhúng trong dung dịch axit sunfuric (H2SO4) loãng.
+B)
+Hai cực bằng đồng (Cu) nhúng trong dung dịch axit sunfuric (H2SO4) loãng.
+C)
+Một cực bằng kẽm (Zn) một cực bằng đồng (Cu) nhúng trong axit sunfuric (H2SO4) loãng.
+D)
+Một cực bằng kẽm (Zn) một cực bằng đồng (Cu) nhúng trong dung dịch muối.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 58
+Đặc điểm chung của nguồn điện là gì?
+A)
+Có cùng hình dạng, kích thước
+B)
+Có hai cực âm và dương
+C)
+Có cùng cấu tạo
+D)
+Đều có dạng hình sin
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 59
+Phát biểu nào sau đây về nguồn điện là không đúng?
+A)
+Nguồn điện tạo ra giữa hai cực của nó một hiệu điện thế
+B)
+Nguồn điện tạo ra hai cực có điện tích cùng loại giống nhau
+C)
+Nguồn điện tạo ra và duy trì dòng điện chạy trong mạch kín
+D)
+Nguồn điện tạo ra hai cực có điện tích khác loại
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 60
+Thiết bị nào sau đây là nguồn điên
+A)
+Quạt máy
+B)
+Acquy
+C)
+Bếp lửa
+D)
+Đèn pin
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 61
+Phát biểu nào dưới đây sai
+A)
+Mạch điện kín là mạch gồm các thiết bị điện nối kín hai đầu với nhau
+B)
+Mạch điện kín là mạch nối liền các thiết bị điện với hai cực của nguồn điện
+C)
+Muốn mắc một mạch điện kín thì phải có nguồn điện và các thiết bị dùng điện cùng dây nối
+D)
+Mỗi nguồn điện đều có 2 cực, dòng điện chạy trong mạch kín nối liền các thiết bị điện với 2 cực nguồn điện
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 62
+Loại hạt nào dưới đây khi chuyển động có hướng thì không thành dòng điện
+A)
+Các hạt mang điện tích dương
+B)
+Các hạt nhân của nguyên tử
+C)
+Các nguyên tử
+D)
+Các hạt mang điện tích âm
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 63
+Tại sao có thể thắp sáng bóng đèn được lắp ở nhiều xe đạp mà chỉ dùng có một dây điện nối giữa đinamô và bóng đèn?
+A)
+Vì đinamô là một nguồn điện loại đặc biệt nên chỉ cần dùng một dây điện
+B)
+Vì bóng đèn lắp cho xe đạp là loại đặc biệt nên chỉ cần dùng một dây điện
+C)
+Vì còn có một dây điện ngầm bên trong khung xe đạp nối giữa đinamô và bóng đèn
+D)
+Vì chính khung xe đạp có tác dụng như một dây điện nữa nối giữa đinamô và bóng đèn
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 64
+Không có dòng điện chạy qua vật nào dưới đây?
+A)
+Quạt điện đang quay liên tục
+B)
+Bóng đèn điện đang phát sáng
+C)
+Thước nhựa đang bị nhiễm điện
+D)
+Rađio đang nói
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 65
+Đang có dòng điện chạy trong vật nào dưới đây?
+A)
+Một mảnh ni lông đã được cọ sát
+B)
+Chiếc pin tròn được tách riêng trên bàn
+C)
+Đồng hồ dùng pin đang chạy
+D)
+Đường dây điện trong gia đình khi không sử dụng bất cứ một thiết bị điện nào
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 66
+Chọn câu sai
+A)
+Nguồn điện có khả năng duy trì hoạt động của các thiết bị điện
+B)
+Nguồn điện tạo ra dòng điện
+C)
+Nguồn điện có thể tồn tại ở nhiều dạng khác nhau
+D)
+Nguồn điện càng lớn thì thiết bị càng mạnh
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 67
+Bit là gì?
+A)
+Bit là đơn vi đo của lượg tin tức, với tín hiệu nhi phân một xung điện chứa tối đa một lượg tin tức bằng 1 bit
+B)
+Là đơn vị lớn nhất dùng để biểu thị và đo lượng những thông tin trong hệ thống. Mỗi bít là một chữ số nhị phân 0 hoặc 1
+C)
+Là đơn vị dùng để mô tả dung lượng lưu trữ dữ liệu trên bộ nhớ của thiết bị
+D)
+Là đơn vị dùng để mô tả dung lượng lưu trữ dữ liệu và tốc độ 
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 68
+Byte là gì?
+A)
+Là đơn vị nhỏ nhất dùng để biểu thị và đo lượng thông tin trong hệ thống. Mỗi bít là một chữ số nhị phân 0 hoặc 1
+B)
+Là đơn vị lớn nhất dùng để biểu thị và đo lượng những thông tin trong hệ thống. Mỗi bít là một chữ số nhị phân 0 hoặc 1
+C)
+Là một tổ hợp gồm 8 bit, biểu diễn một ký hiệu tin tức. 
+D)
+Là đơn vị dùng để mô tả tốc độ tín hiệu trong bộ nhớ
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 69
+1 Byte bằng bao nhiêu bit?
+A)
+64
+B)
+32
+C)
+16
+D)
+8
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 70
+64 bit bằng bao nhiêu byte?
+A)
+2
+B)
+4
+C)
+6
+D)
+8
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 71
+Địa chỉ IP là gì (Internet Protocol)?
+A)
+Là giao thức Internet, là một địa chỉ đơn nhất mà những thiết bị điện tử hiện nay đang sử dụng để nhận diện và liên lạc với nhau trên mạng máy tính
+B)
+Là một hệ thống mạng dùng để kết nối các máy tính trong một phạm vi nhỏ có thể chia sẻ tài nguyên với nhau
+C)
+Là khái niệm chỉ về việc phân chia các địa chỉ IP/TCP một cách logic
+D)
+Là một nút mạng được sử dụng trong viễn thông nhằm kết nối hai mạng có giao thức truyền thông khác nhau có thể giao tiếp được với nhau
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 72
+Địa chỉ Subnet mark là gì ?
+A)
+Là giao thức Internet, là một địa chỉ đơn nhất mà những thiết bị điện tử hiện nay đang sử dụng để nhận diện và liên lạc với nhau trên mạng máy tính
+B)
+Là một hệ thống mạng dùng để kết nối các máy tính trong một phạm vi nhỏ có thể chia sẻ tài nguyên với nhau
+C)
+Là khái niệm chỉ về việc phân chia các địa chỉ IP/TCP một cách logic
+D)
+Là một nút mạng được sử dụng trong viễn thông nhằm kết nối hai mạng có giao thức truyền thông khác nhau có thể giao tiếp được với nhau
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 73
+Địa chỉ Gateway là gì?
+A)
+Là giao thức Internet, là một địa chỉ đơn nhất mà những thiết bị điện tử hiện nay đang sử dụng để nhận diện và liên lạc với nhau trên mạng máy tính
+B)
+Là một hệ thống mạng dùng để kết nối các máy tính trong một phạm vi nhỏ có thể chia sẻ tài nguyên với nhau
+C)
+Là khái niệm chỉ về việc phân chia các địa chỉ IP/TCP một cách logic
+D)
+Là địa chỉ một nút mạng được sử dụng trong viễn thông nhằm kết nối hai mạng có giao thức truyền thông khác nhau có thể giao tiếp được với nhau
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 74
+Địa chỉ MAC là gì?
+A)
+Là giao thức Internet, là một địa chỉ đơn nhất mà những thiết bị điện tử hiện nay đang sử dụng để nhận diện và liên lạc với nhau trên mạng máy tính
+B)
+Là địa chỉ một nút mạng được sử dụng trong viễn thông nhằm kết nối hai mạng có giao thức truyền thông khác nhau có thể giao tiếp được với nhau
+C)
+Là một định danh duy nhất được gán cho từng phần cứng của các thiết bị và không thể thay đổi được.
+D)
+Là địa chỉ một nút mạng được sử dụng trong viễn thông nhằm kết nối hai mạng có giao thức truyền thông khác nhau có thể giao tiếp được với nhau
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 75
+Mạng LAN là gì?
+A)
+Là một hệ thống mạng cục bộ dùng để kết nối các máy tính trong một phạm vi nhỏ có thể chia sẻ tài nguyên với nhau
+B)
+Là một hệ thống mạng bao gồm nhiều mạng LAN dùng để kết nối các máy tính trong một phạm vi lớn có thể chia sẻ tài nguyên với nhau
+C)
+Là một hệ thống mạng bao gồm nhiều mạng MAN dùng để kết nối các máy tính trong một phạm vi rộng lớn có thể chia sẻ tài nguyên với nhau
+D)
+Là giao thức mạng điều khiển cách dữ liệu được truyền qua mạng
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 76
+Mạng MAN là gì?
+A)
+Là một hệ thống mạng cục bộ dùng để kết nối các máy tính trong một phạm vi nhỏ có thể chia sẻ tài nguyên với nhau
+B)
+Là một hệ thống mạng bao gồm nhiều mạng LAN dùng để kết nối các máy tính trong một phạm vi lớn có thể chia sẻ tài nguyên với nhau
+C)
+Là một hệ thống mạng bao gồm nhiều mạng MAN dùng để kết nối các máy tính trong một phạm vi rộng lớn có thể chia sẻ tài nguyên với nhau
+D)
+Là kết nối tổng hợp của các mạng LAN, MAN, WAN
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 77
+Mạng WAN là gì?
+A)
+Là một hệ thống mạng cục bộ dùng để kết nối các máy tính trong một phạm vi nhỏ có thể chia sẻ tài nguyên với nhau
+B)
+Là một hệ thống mạng bao gồm nhiều mạng LAN dùng để kết nối các máy tính trong một phạm vi lớn có thể chia sẻ tài nguyên với nhau
+C)
+Là một hệ thống mạng bao gồm nhiều mạng MAN dùng để kết nối các máy tính trong một phạm vi rộng lớn có thể chia sẻ tài nguyên với nhau
+D)
+Là kết nối tổng hợp của các mạng LAN, MAN, WAN
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 78
+Ethernet là gì?
+A)
+Là một hệ thống mạng cục bộ dùng để kết nối các máy tính trong một phạm vi nhỏ có thể chia sẻ tài nguyên với nhau
+B)
+Là một hệ thống mạng bao gồm nhiều mạng LAN dùng để kết nối các máy tính trong một phạm vi lớn có thể chia sẻ tài nguyên với nhau
+C)
+Là một hệ thống mạng bao gồm nhiều mạng MAN dùng để kết nối các máy tính trong một phạm vi rộng lớn có thể chia sẻ tài nguyên với nhau
+D)
+Là giao thức mạng điều khiển cách dữ liệu được truyền qua mạng
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 79
+Tốc độ truyền tin là?
+A)
+Là lượng tin tức lớn nhất truyền đi trong đơn vi thời gian 1 giây, đơn vi là bit trên giây (bps)
+B)
+Là số bít không được phát đi trên đường truyền trong một giây
+C)
+Là tổng số bít được phát đi trên đường truyền trong một thời gian nào đó
+D)
+Là tốc độ truyền tải tối đa trong 1 giây.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 80
+Tốc độ kết nối mạng thường được đo bằng?
+A)
+Mbps
+B)
+Kbps
+C)
+MBps
+D)
+Nbps
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+

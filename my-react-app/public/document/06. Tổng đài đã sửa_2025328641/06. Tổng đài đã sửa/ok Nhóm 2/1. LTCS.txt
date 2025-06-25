@@ -1,0 +1,3210 @@
+Câu hỏi
+
+Nội dung câu hỏi, trả lời
+
+Câu 1
+
+Khái niệm về thông tin thoại được hiểu như thế nào?
+
+A)
+
+Là quá trình trao đổi thông tin bằng lời nói từ nơi này đến nơi khác dưới dạng biến đổi lời nói thành tín hiệu điện và truyền trong mạng điện thoại
+
+B)
+
+Là quá trình trao đổi thông tin bằng ngôn ngữ từ nơi này đến nơi khác dưới dạng biến đổi ngữ điệu thành tín hiệu điện và truyền trong mạng điện thoại
+
+C)
+
+Là quá trình biến đổi thông tin bằng ngôn ngữ từ nơi này đến nơi khác dưới dạng biến đổi ngữ điệu thành tín hiệu điện và truyền trong mạng điện thoại
+
+D)
+
+Là quá trình biến đổi thông tin bằng hành động từ nơi này đến nơi khác dưới dạng biến đổi ngữ điệu thành tín hiệu điện và truyền trong mạng điện thoại
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 2
+
+Trong thông tin thoại dải tần càng rộng thì?
+
+A)
+
+Chất lượng âm thanh càng tốt
+
+B)
+
+Chất lượng âm thanh càng nhỏ
+
+C)
+
+Chất lượng âm thanh cực đại
+
+D)
+
+Chất lượng âm thanh không tốt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 3
+
+Hai thành phần cơ bản trong thông tin thoại là ?
+
+A)
+
+Thiết bị đầu cuối là máy phát sóng. Mạng điện thoại là các tổng đài điện thoại và tuyến truyền dẫn thực hiện điều khiển kết nối và truyền dẫn tín hiệu.
+
+B)
+
+Thiết bị đầu cuối là máy thu sóng. Mạng điện thoại là các tổng đài điện thoại và tuyến truyền dẫn thực hiện điều khiển kết nối và truyền dẫn tín hiệu.
+
+C)
+
+Thiết bị đầu cuối là máy điện thoại. Mạng điện thoại là các tổng đài điện thoại và tuyến truyền dẫn thực hiện điều khiển kết nối và truyền dẫn tín hiệu.
+
+D)
+
+Thiết bị đầu cuối là máy thu phát sóng. Mạng điện thoại là các tổng đài điện thoại và tuyến truyền dẫn thực hiện điều khiển kết nối và truyền dẫn tín hiệu.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 4
+
+Khả năng nghe của con người có dải tần là bao nhiêu
+
+A)
+
+16.0000Hz đến 20.000Hz.
+
+B)
+
+17.0000Hz đến 20.000Hz.
+
+C)
+
+18.0000Hz đến 20.000Hz.
+
+D)
+
+19.0000Hz đến 20.000Hz.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 5
+
+Về phương diện tần số thì tai người cảm thụ âm thanh tốt nhất
+
+A)
+
+500Hz - 5.000Hz.
+
+B)
+
+600Hz - 6.000Hz.
+
+C)
+
+700Hz - 7.000Hz.
+
+D)
+
+800Hz - 8.000Hz.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 6
+
+Dải tần của tiếng nói người trong khoảng nào 
+
+A)
+
+80 Hz - 10.000 Hz
+
+B)
+
+90 Hz - 10.000 Hz
+
+C)
+
+100 Hz - 10.000 Hz
+
+D)
+
+80 Hz - 20.000 Hz
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 7
+
+Băng tần hiện đang sử dụng cho tín hiệu thoại truyền thống là bao nhiêu
+
+A)
+
+300 Hz - 3400 Hz
+
+B)
+
+400 Hz - 4400 Hz
+
+C)
+
+500 Hz - 5400 Hz
+
+D)
+
+600 Hz - 6400 Hz
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 8
+
+Kênh thoại cơ sở có tần số là bao nhiêu
+
+A)
+
+64 KHz
+
+B)
+
+67 KHz
+
+C)
+
+66 KHz
+
+D)
+
+65 KHz
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 9
+
+Khái niệm điện dẫn cách điện
+
+A)
+
+Là lượng dòng điện rò ra khi có dòng điện chạy qua dây dẫn
+
+B)
+
+Là lượng điện tích di chuyển qua bề mặt đó trong không gian nhất định.
+
+C)
+
+Là lượng chạy qua khi có dòng điện chạy qua dây dẫn
+
+D)
+
+Là lượng điện tích di chuyển qua bề mặt đó trong thời gian nhất định.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 10
+
+Tham số điện dẫn cách điện
+
+A)
+
+Go
+
+B)
+
+Ro
+
+C)
+
+Eo
+
+D)
+
+Io
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 11
+
+Khái niệm xuyên nhiễu trên đường dây kim loại là
+
+A)
+
+Là một mạch tín hiệu truyền dẫn (có liên lạc) thì một phần năng lượng tín hiệu truyền trong mạch này sẽ thâm nhập sang mạch điện lân cận.
+
+B)
+
+Là một mạch tín hiệu dây dẫn (có liên lạc) thì một phần lớn năng lượng tín hiệu truyền trong mạch này sẽ thâm nhập sang mạch điện lân cận.
+
+C)
+
+Là một mạch tín hiệu truyền dẫn (có liên lạc) thì một phần lớn năng lượng tín hiệu truyền trong mạch này sẽ thâm nhập sang mạch điện lân cận.
+
+D)
+
+Là một mạch tín hiệu dây dẫn (có liên lạc) thì một phần năng lượng tín hiệu truyền trong mạch này sẽ tiêu hao.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 12
+
+Có mấy loại xuyên nhiễu trên đường dây kim loại
+
+A)
+
+2
+
+B)
+
+3
+
+C)
+
+4
+
+D)
+
+5
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 13
+
+Xuyên nhiễu trên đường dây kim loại là?
+
+A)
+
+Xuyên nhiễu hiểu được, Xuyên nhiễu không hiểu được
+
+B)
+
+Xuyên nhiễu cơ bản, Xuyên nhiễu không cơ bản
+
+C)
+
+Xuyên nhiễu định tuyến, Xuyên nhiễu không định tuyến
+
+D)
+
+Xuyên nhiễu biến đổi, Xuyên nhiễu không biến đổi 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 14
+
+Nguyên nhân dẫn đến hiện tượng xuyên nhiễu là
+
+A)
+
+Do hiện tượng ghép từ trường từ mạch gây xuyên nhiễu sang mạch bị xuyên nhiễu
+
+B)
+
+Do hiện tượng ghép dòng điện từ mạch gây xuyên nhiễu sang mạch bị xuyên nhiễu
+
+C)
+
+Do hiện tượng phân tán dòng điện từ mạch gây xuyên nhiễu sang mạch bị xuyên nhiễu
+
+D)
+
+Do hiện tượng phân tán từ trường từ mạch gây xuyên nhiễu sang mạch bị xuyên nhiễu
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 15
+
+Nêu biện pháp chống xuyên nhiễu
+
+A)
+
+Bố trí dây dẫn ở vị trí hợp lý và bọc kim cho cáp
+
+B)
+
+Bố trí dây dẫn dài và bọc kim cho cáp
+
+C)
+
+Bố trí dây dẫn ở vị trí hợp lý và chống nhiễu cho cáp
+
+D)
+
+Bố trí dây dẫn ngắn và bọc kim cho cáp
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 16
+
+Nêu khái niệm máy điện thoại
+
+A)
+
+Là thiết bị đầu cuối để liên lạc qua mạng điện thoại
+
+B)
+
+Là thiết bị điều khiển trong mạng điện thoại
+
+C)
+
+Là thiết bị đầu cuối thực hiện chuyển mạch trong mạng điện thoại
+
+D)
+
+Là thiết bị đầu cuối thực hiện liên lạc thoại
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 17
+
+Phân loại theo phương pháp cấp nguồn cho máy điện thoại có mấy loại ?
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 18
+
+Phân loại theo phương pháp kết nối liên lạc phục vụ ở trạm tổng đài điện thoại có mấy loại ?
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 19
+
+Máy điện thoại điện riêng là 
+
+A)
+
+Máy điện thoại sử dụng phương pháp kết nối liên lạc bằng nhân công khi liên lạc qua tổng đài điện thoại.
+
+B)
+
+Máy điện thoại mà nguồn cấp cho máy được đấu riêng lẻ ở từng máy
+
+C)
+
+Máy điện thoại mà nguồn cấp cho máy được lấy từ tổng đài thông qua đường dây thuê bao 
+
+D)
+
+Máy điện thoại sử dụng phương pháp kết nối liên lạc tự động qua tổng đài điện thoại.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 20
+
+Máy điện thoại điện chung là 
+
+A)
+
+Máy điện thoại sử dụng phương pháp kết nối liên lạc bằng nhân công khi liên lạc qua tổng đài điện thoại.
+
+B)
+
+Máy điện thoại mà nguồn cấp cho máy được đấu riêng lẻ ở từng máy
+
+C)
+
+Máy điện thoại mà nguồn cấp cho máy được lấy từ tổng đài thông qua đường dây thuê bao 
+
+D)
+
+Máy điện thoại sử dụng phương pháp kết nối liên lạc tự động qua tổng đài điện thoại.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 21
+
+Máy điện thoại nhân công là 
+
+A)
+
+Máy điện thoại sử dụng phương pháp kết nối liên lạc bằng nhân công khi liên lạc qua tổng đài điện thoại.
+
+B)
+
+Máy điện thoại mà nguồn cấp cho máy được đấu riêng lẻ ở từng máy
+
+C)
+
+Máy điện thoại mà nguồn cấp cho máy được lấy từ tổng đài thông qua đường dây thuê bao 
+
+D)
+
+Máy điện thoại sử dụng phương pháp kết nối liên lạc tự động qua tổng đài điện thoại.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 22
+
+Máy điện thoại tự động là 
+
+A)
+
+Máy điện thoại sử dụng phương pháp kết nối liên lạc bằng nhân công khi liên lạc qua tổng đài điện thoại.
+
+B)
+
+Máy điện thoại mà nguồn cấp cho máy được đấu riêng lẻ ở từng máy
+
+C)
+
+Máy điện thoại mà nguồn cấp cho máy được lấy từ tổng đài thông qua đường dây thuê bao 
+
+D)
+
+Máy điện thoại sử dụng phương pháp kết nối liên lạc tự động qua tổng đài điện thoại.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 23
+
+Máy điện thoại TA57 là máy điện thoại gì?
+
+A)
+
+Máy điện thoại điện riêng
+
+B)
+
+Máy điện thoại điện chung
+
+C)
+
+Máy điện thoại không dùng điện
+
+D)
+
+Máy điện thoại ấn phím
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 24
+
+Máy điện thoại nhân công gồm bộ phận nào?
+
+A)
+
+Ống nói, ống nghe
+
+B)
+
+Loa; Chuông điện xoay chiều
+
+C)
+
+Máy phát điện quay tay
+
+D)
+
+Ống nói, ống nghe; Loa; Chuông điện xoay chiều; Máy phát điện quay tay.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+ D
+
+Câu 25
+
+Máy điện thoại ấn phím là máy điện thoại gì?
+
+A)
+
+Nhân công
+
+B)
+
+Tự động
+
+C)
+
+Điện riêng
+
+D)
+
+Nhân công, Tự động, Điện riêng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 26
+
+Tổng đài nhân công là
+
+A)
+
+Tổng đài mà việc kết nối mạch liên lạc cho các máy điện thoại được thực hiện bằng nhân công
+
+B)
+
+Tổng đài mà việc kết nối mạch liên lạc cho các máy điện thoại được thực hiện bằng tự động
+
+C)
+
+Tổng đài mà việc kết nối mạch liên lạc cho các  tổng đài được thực hiện bằng tự động
+
+D)
+
+Tổng đài mà việc kết nối mạch liên lạc cho các tổng đài được thực hiện bằng nhân công
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 27
+
+Phân loại tổng đài nhân công theo phương pháp cấp nguồn có mấy phương pháp
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 28
+
+Phân loại tổng đài nhân công theo dung lượng của tổng đài có mấy loại
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 29
+
+Tổng đài nhân công dung lượng nhỏ có không quá bao nhiêu thuê bao
+
+A)
+
+10
+
+B)
+
+20
+
+C)
+
+30
+
+D)
+
+40
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 30
+
+Tổng đài nhân công dung lượng trung bình có bao nhiêu thuê bao
+
+A)
+
+10 đến 20 thuê bao
+
+B)
+
+10 đến 40 thuê bao
+
+C)
+
+20 đến 40 thuê bao
+
+D)
+
+20 đến 80 thuê bao
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 31
+
+Tổng đài nhân công dung lượng lớn có bao nhiêu thuê bao
+
+A)
+
+Có trên 40 thuê bao
+
+B)
+
+Có trên 60 thuê bao
+
+C)
+
+Có trên 80 thuê bao
+
+D)
+
+Có trên 100 thuê bao
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 32
+
+Trong tổng đài nhân công bộ phận nhận tín hiệu cuộc gọi bao gồm
+
+A)
+
+Cuộn lá báo
+
+B)
+
+Buýt de
+
+C)
+
+Chuông điện 1 chiều
+
+D)
+
+Cuộn lá báo, Buýt de, Chuông điện 1 chiều
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 33
+
+Tổng đài tự động 
+
+A)
+
+Là tổng đài mà việc kết nối mạch liên lạc cho các máy điện thoại được thực hiện tự động
+
+B)
+
+Là tổng đài mà việc kết nối nút liên lạc cho các máy điện thoại được thực hiện tự động
+
+C)
+
+Là tổng đài mà việc kết nối mạch liên lạc của tổng đài cho các máy điện thoại  được thực hiện nhân công
+
+D)
+
+Là tổng đài mà việc kết nối nút liên lạc cho các máy điện thoại được thực hiện nhân công
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 34
+
+Phân cấp tổng đài tự động theo hình thức chiến thuật có mấy loại
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 35
+
+Phân cấp tổng đài tự động theo dung lượng có mấy loại
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 36
+
+Phân cấp tổng đài tự động theo công nghệ có mấy loại
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 37
+
+Các tổng đài nút là tổng đài cấp nào?
+
+A)
+
+Chiến dịch
+
+B)
+
+Chiến thuật
+
+C)
+
+Chiến lược
+
+D)
+
+Không phân loại cấp
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 38
+
+Các tổng đài cấp Quân khu, Quân đoàn  là tổng đài cấp nào?
+
+A)
+
+Chiến dịch
+
+B)
+
+Chiến thuật
+
+C)
+
+Chiến lược
+
+D)
+
+Không phân loại cấp
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 39
+
+Các tổng đài cấp Sư đoàn, BCHqs tỉnh  là tổng đài cấp nào?
+
+A)
+
+Chiến dịch
+
+B)
+
+Chiến thuật
+
+C)
+
+Chiến lược
+
+D)
+
+Không phân loại cấp
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 40
+
+Báo hiệu được chia thành mấy loại chính?
+
+A)
+
+2 loại: Báo hiệu đường dây thuê bao và báo hiệu liên tổng đài
+
+B)
+
+3 loại: Báo hiệu đường dây thuê bao, báo hiệu liên tổng đài, báo hiệu trung kế CO.
+
+C)
+
+4 loại: Báo hiệu đường dây thuê bao, báo hiệu liên tổng đài, báo hiệu trung kế CO, báo hiệu trung kế E&M.
+
+D)
+
+5 loại: Báo hiệu đường dây thuê bao, báo hiệu liên tổng đài, báo hiệu trung kế CO, báo hiệu trung kế E&M. báo hiệu trung kế E1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 41
+
+Báo hiệu đường dây thuê bao là báo hiệu được thực hiện giữa thuê bao với tổng đài hay giữa tổng đài với thuê bao bao gồm các trạng thái và tín hiệu gì?
+
+A)
+
+Trạng thái “nhấc tổ hợp”; Tín hiệu “mời quay số”, 
+
+B)
+
+Tín hiệu “mời quay số”, “hồi âm chuông”, tín hiệu “báo bận”; Một số tín hiệu đặc biệt khác
+
+C)
+
+Tín hiệu “hồi âm chuông”, tín hiệu “báo bận”; 
+
+D)
+
+Trạng thái “nhấc tổ hợp”; Tín hiệu “mời quay số”, “hồi âm chuông”, tín hiệu “báo bận”; Một số tín hiệu đặc biệt khác
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 42
+
+Báo hiệu liên tổng đài là báo hiệu được thực hiện giữa các tổng đài với nhau. Các loại tín hiệu trong báo hiệu liên tổng đài có thể là các tín hiệu nào?
+
+A)
+
+Tín hiệu công nhận chiếm, số hiệu thuê bao bị gọi. 
+
+B)
+
+Tín hiệu chiếm và tín hiệu công nhận chiếm.
+
+C)
+
+Tình trạng tắc nghẽn, xoá thuận, xoá ngược.
+
+D)
+
+Tín hiệu công nhận chiếm, số hiệu thuê bao bị gọi; tín hiệu chiếm; tình trạng tắc nghẽn, xoá thuận, xoá ngược.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 43
+
+Chức năng giám sát của báo hiệu trong mạng viễn thông?
+
+A)
+
+Giám sát và phát hiện sự thay đổi trạng thái của các đường dây thuê bao, đường dây trung kế....vv
+
+B)
+
+Giám sát các phần tử chức năng hoạt động
+
+C)
+
+Giám sát các vi mạch IC và mạch LOGIC làm việc
+
+D)
+
+Giám sát và phát hiện sự thay đổi trạng thái của đường dây trung kế.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 44
+
+Chức năng tìm chọn của báo hiệu trong mạng viễn thông liên quan đến thủ tục gì ?
+
+A)
+
+Thủ tục thiết lập cuộc gọi.
+
+B)
+
+Thủ tục truyền dữ liệu cơ sở.
+
+C)
+
+Thủ tục kiểm tra và tìm lỗi.
+
+D)
+
+Thủ tục thiết lập cuộc gọi và truyền dữ liệu cơ sở.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 45
+
+Báo hiệu trong mạng viễn thông có chức năng gì?
+
+A)
+
+Chức năng giám sát, chức năng tìm chọn, chức năng vận hành và quản lý mạng.   
+
+B)
+
+Chức năng vận hành và quản lý mạng.   
+
+C)
+
+Chức năng giám sát và chức năng tìm chọn.
+
+D)
+
+Chức năng giám sát và chức năng vận hành và quản lý mạng.   
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 46
+
+Báo hiệu liên tổng đài là báo hiệu được thực hiện giữa các tổng đài với nhau. Các loại tín hiệu trong báo hiệu liên tổng đài có thể là các tín hiệu nào? 
+
+A)
+
+Tín hiệu công nhận chiếm, số hiệu thuê bao bị gọi, tín hiệu chiếm; Tình trạng tắc nghẽn, xoá thuận, xoá ngược.
+
+B)
+
+Tín hiệu công nhận chiếm, tín hiệu chiếm; 
+
+C)
+
+Tình trạng tắc nghẽn, xoá thuận, xoá ngược.
+
+D)
+
+Tín hiệu công nhận chiếm, số hiệu thuê bao bị gọi.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 47
+
+Chức năng vận hành và quản lý mạng trong mạng viễn thông giúp cho việc sử dụng mạng  một cách có hiệu quả và tối ưu  nhất. Đó là:
+
+A)
+
+Thu thập các thông tin báo cảnh, tín hiệu đo lường kiểm tra.
+
+B)
+
+Giám sát và phát hiện sự thay đổi trạng thái của các đường dây thuê bao, đường dây trung kế....
+
+C)
+
+Thu thập các thông tin hoạt động của các phần tử.
+
+D)
+
+Giám sát và phát hiện sự thay đổi trạng thái của các đường dây thuê bao.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 48
+
+Báo hiệu kênh liên kết (CAS) là gì?
+
+A)
+
+Báo hiệu liên tổng đài mà tín hiệu báo hiệu được truyền cùng với trung kế tiếng.
+
+B)
+
+Báo hiệu liên tổng đài mà tín hiệu báo hiệu không cùng với trung kế tiếng.
+
+C)
+
+Báo hiệu liên tổng đài mà tín hiệu báo hiệu được truyền khe thời gian của kênh tiếng.
+
+D)
+
+Báo hiệu liên tổng đài mà tín hiệu báo hiệu được truyền riêng không cùng với trung kế tiếng.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 49
+
+Báo hiệu kênh chung (CCS) là gì?
+
+A)
+
+Báo hiệu liên tổng đài mà tín hiệu báo hiệu được truyền trên một đường truyền số liệu tôc độ cao độc lập với kênh tiếng.
+
+B)
+
+Báo hiệu đường dây mà tín hiệu báo hiệu được truyền trên một đường số liệu tốc độ cao độc lập với trung kế  tiếng.
+
+C)
+
+Báo hiệu kênh liên kết mà tín hiệu báo hiệu được truyền trên một đường số liệu tốc độ cao độc lập với trung kế  tiếng.
+
+D)
+
+Báo hiệu thanh ghi đài mà tín hiệu báo hiệu được truyền trên một đường số liệu tốc độ cao độc lập với trung kế  tiếng.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 50
+
+Ưu điểm của báo hiệu kênh chung là gì?
+
+A)
+
+Dung lượng của báo hiệu kênh chung lớn, thời gian thiết lập cuộc gọi nhanh, độ tin cậy của báo hiệu kênh chung cao, có độ linh hoạt cao.  
+
+B)
+
+Dung lượng của báo hiệu kênh chung, thời gian thiết lập cuộc gọi nhanh, độ tin cậy của báo hiệu kênh chung chưa cao, có độ linh hoạt cao.
+
+C)
+
+Dung lượng của báo hiệu kênh chung lớn, thời gian thiết lập cuộc gọi chậm, độ tin cậy của báo hiệu kênh chung cao, có độ linh hoạt cao. 
+
+D)
+
+Dung lượng của báo hiệu kênh chung nhỏ, thời gian thiết lập cuộc gọi lâu, độ tin cậy của báo hiệu kênh chung cao, có độ linh hoạt cao. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 51
+
+Báo hiệu R2 là loại báo hiệu nào?
+
+A)
+
+Báo hiệu kênh liên kết 
+
+B)
+
+Báo hiệu kênh rời rạc
+
+C)
+
+Báo hiệu kênh chung
+
+D)
+
+Báo hiệu kênh liên kết và báo hiệu kênh chung
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 52
+
+Hệ thống báo hiệu R2 là gì?
+
+A)
+
+Hệ thống báo hiệu mã đa tần, kênh kết hợp (kênh riêng)
+
+B)
+
+Hệ thống báo hiệu mã âm tần, kênh không kết hợp.
+
+C)
+
+Hệ thống báo hiệu thanh ghi, kênh kết hợp.
+
+D)
+
+Hệ thống báo hiệu kênh chung.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 53
+
+Hệ thống báo hiệu R2 được thiết kế để làm gì?
+
+A)
+
+Để phục vụ cho chức năng điều khiển báo hiệu giữa các tổng đài trong mạng viễn thông. 
+
+B)
+
+Để phục vụ cho chức năng điều thiết lập cuộc gọi giữa các tổng đài trong mạng viễn thông. 
+
+C)
+
+Để phục vụ cho chức năng giám sát cuộc gọi giữa các tổng đài trong mạng viễn thông. 
+
+D)
+
+Để phục vụ cho chức năng trao đổi thông tin báo hiệu giữa các tổng đài trong mạng viễn thông. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 54
+
+Hệ thống báo hiệu R2 được phân thành bao nhiêu loại?
+
+A)
+
+Hai loại: Báo hiệu đường dây và báo hiệu thanh ghi.
+
+B)
+
+Ba loại: Báo hiệu liên kết, Báo hiệu đường dây và báo hiệu thanh ghi.
+
+C)
+
+Bốn loại: Báo hiệu liên kết, Báo hiệu kênh riêng, Báo hiệu đường dây và báo hiệu thanh ghi.
+
+D)
+
+Một loại: Báo hiệu thanh ghi.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 55
+
+Hệ thống báo hiệu R2 được thực hiện theo giao thức gì?
+
+A)
+
+Giao thức X25
+
+B)
+
+Giao thức V5.2
+
+C)
+
+Giao thức bắt buộc (áp chế).
+
+D)
+
+Giao thức V5.1.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 56
+
+Các tín hiệu đường dây hướng đi trong báo hiệu R2
+
+A)
+
+Tín hiệu chiếm và tín hiệu xóa thuận.
+
+B)
+
+Tín hiệu chuông và hồi âm chuông.
+
+C)
+
+Tín hiệu mời gọi và báo bận
+
+D)
+
+Tín hiệu xóa thuận và báo bận
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 57
+
+Báo hiệu thanh ghi trong hệ thống báo hiệu R2 được sử dụng ở nước ta là kiểu báo hiệu gì?
+
+A)
+
+Kiểu báo hiệu không bị khống chế
+
+B)
+
+Kiểu báo hiệu bị khống chế
+
+C)
+
+Kiểu báo hiệu vừa khống chế vừa bắt buộc
+
+D)
+
+Kiểu báo hiệu thuê bao.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 58
+
+Trong báo hiệu R2 người ta sử dụng mã gì để truyền báo hiệu thanh ghi giữa các tổng đài?
+
+A)
+
+Mã đa tần.
+
+B)
+
+Mã HDB3
+
+C)
+
+Mã mật độ cao
+
+D)
+
+Mã lặp nhị phân
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 59
+
+Hệ  thống  báo  hiệu số  7 là gì? 
+
+A)
+
+Hệ thống  báo  hiệu  kênh chung.
+
+B)
+
+Hệ thống báo hiệu kênh riêng
+
+C)
+
+Hệ thống báo hiệu thanh ghi
+
+D)
+
+Hệ thống báo hiệu kênh riêng kết hợp
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 60
+
+Điểm báo hiệu SP (Signalling Point) là gì?
+
+A)
+
+Là nút điều khiển hay nút xử lý trong mạng báo hiệu
+
+B)
+
+Là nút chuyển giao công nghệ xử lý hay nút xử lý trong mạng báo hiệu.
+
+C)
+
+Là nút chuyển mạch hay nút xử lý trong mạng báo hiệu.
+
+D)
+
+Là nút kết nối trung kế hay nút xử lý trong mạng báo hiệu
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 61
+
+Một tổng đài như thế nào được xem như là một điểm báo hiệu SP?
+
+A)
+
+Tổng đài đó phải có điểm báo hiệu.
+
+B)
+
+Tổng đài đó được điều khiển bằng các điểm báo hiệu
+
+C)
+
+Tổng đài đó được kết nối trung kế báo hiệu.
+
+D)
+
+Tổng đài đó được điều khiển bằng chương trình lưu sẵn.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 62
+
+Tải trong tổng đài được hiểu như thế nào?
+
+A)
+
+Là tổng số trung kế kết nối của tổng đài trong một khoảng thời gian.
+
+B)
+
+Là tổng số cuộc gọi chiếm được của tổng đài trong một khoảng thời gian.
+
+C)
+
+Là tổng số thuê bao liên lạc của tổng đài trong một khoảng thời gian.
+
+D)
+
+Là tổng số thuê bao và trung kế được kết nối của tổng đài trong một khoảng thời gian.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 63
+
+Quá tải trong tổng đài được hiểu như thế nào?
+
+A)
+
+Là phần mà tổng số cuộc gọi của một tổng đài vượt quá dung lượng xử lý kỹ thuật tổng đài
+
+B)
+
+Là phần mà tổng số trung kế của một tổng đài vượt quá dung lượng kết nối kỹ thuật tổng đài
+
+C)
+
+Là phần mà tổng số thuê bao được kết nối của một tổng đài vượt quá dung lượng kỹ thuật tổng đài
+
+D)
+
+Là phần mà tổng số cuộc gọi của thuê bao và trung kế một tổng đài vượt quá dung lượng  kỹ thuật tổng đài
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 64
+
+Luồng E1 có bao nhiêu kênh thoại
+
+A)
+
+30
+
+B)
+
+31
+
+C)
+
+32
+
+D)
+
+33
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 65
+
+Luồng E1 có tốc độ 2.048Mbps là đường truyền theo tiêu chuẩn nào?
+
+A)
+
+Châu Âu
+
+B)
+
+Bắc Mỹ
+
+C)
+
+Nhật Bản
+
+D)
+
+Việt Nam
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 66
+
+Luồng T1 có tốc độ 1.544Mbps là đường truyền theo tiêu chuẩn nào?
+
+A)
+
+Châu Âu
+
+B)
+
+Bắc Mỹ
+
+C)
+
+Nhật Bản
+
+D)
+
+Việt Nam
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 67
+
+Đặc điểm chính của chuyển mạch kênh là
+
+A)
+
+Thiết lập kênh truyền nhưng không truyền thông tin trên kênh đã được thiết lập.
+
+B)
+
+Thiết lập kênh truyền rồi mới truyền thông tin trên kênh đã được thiết lập.
+
+C)
+
+Không cần thiết lập kênh truyền mà truyền thông tin ngay sau khi kết nối kênh.
+
+D)
+
+Không cần thiết lập kênh truyền mà vẫn truyền thông tin 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 68
+
+Trong chuyển mạch kênh thì hệ thống chuyển mạch
+
+A)
+
+Không kiểm soát thông tin trên kênh đã thiết lập.
+
+B)
+
+Kiểm soát thông tin trên kênh đã thiết lập.
+
+C)
+
+Vừa kiểm soát, vừa điều khiển thông tin trên kênh đã thiết lập.
+
+D)
+
+Truyền và điều khiển thông tin trên kênh đã thiết lập.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 69
+
+Chuyển mạch gói là gì
+
+A)
+
+Là các bản tin được chia thành các gói nhỏ và được truyền đến các nút mạng.
+
+B)
+
+Là các bản tin được truyền trên các nút mạng từ nút nguồn tới nút đích theo phương thức liên kết.
+
+C)
+
+Là các bản tin được chia thành các gói và được truyền cùng các tiếp đầu và tiếp cuối của gói.
+
+D)
+
+Là các gói tin được truyền từ nút nguồn tới nút đích theo phương thức báo hiệu kênh chung.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 70
+
+Đặc điểm  của phương thức chuyển mạch gói
+
+A)
+
+Có thể định tuyến cho từng gói hoặc cho tất cả các gói của cuộc gọi theo các thủ tục khác nhau.
+
+B)
+
+Định tuyến cho từng gói của cuộc gọi theo các thủ tục khác nhau.
+
+C)
+
+Không thể định tuyến cho từng gói hoặc cho tất cả các gói của cuộc gọi theo các thủ tục khác nhau.
+
+D)
+
+Không thể định tuyến cho tất cả các gói của cuộc gọi theo các thủ tục khác nhau
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 71
+
+Trong lịch sử phát triển kỹ thuật chuyển mạch một số phương thức chuyển mạch kênh đã được áp dụng trong các hệ thống tổng đài, đó là
+
+A)
+
+Chuyển mạch phân kênh theo không gian dùng cho tín hiệu liên tục; chuyển mạch phân kênh theo thời gian đối với tín hiệu rời rạc hoá (tín hiệu điều biên xung PAM; chuyển mạch số PCM (cho tín  hiệu  điều  chế xung  mã PCM).
+
+B)
+
+Chuyển mạch phân kênh theo không gian dùng cho tín hiệu rời rạc hoá (tín hiệu điều biên xung PAM) chuyển mạch phân kênh theo thời gian và chuyển mạch số PCM đối với tín hiệu liên tục.
+
+C)
+
+Chuyển mạch phân kênh theo thời gian và không gian dùng cho tín hiệu liên tục, chuyển mạch số  PCM (cho tín hiệu điều biên xung PAM)
+
+D)
+
+Chuyển mạch phân kênh theo không gian dùng cho tín hiệu số hoá chuyển mạch phân kênh theo thời gian và chuyển mạch số PCM đối với tín hiệu liên tục.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 72
+
+Tín hiệu điều biên xung PAM được viết đầy đủ là?
+
+A)
+
+Pulse Amplitude Moultion
+
+B)
+
+Pulse Amlitue Moultion
+
+C)
+
+Pulse Amlitue Modultion
+
+D)
+
+Pulse Amplitude Modulation
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 73
+
+Tín  hiệu  điều  chế xung  mã PCM được viết tắt 
+
+A)
+
+Pulse Coode Modulation
+
+B)
+
+Pulse Coode Moodulation
+
+C)
+
+Pulse Code Modulation
+
+D)
+
+Pulse Code Modultion
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 74
+
+Bộ chuyển mạch thời gian số?
+
+A)
+
+Thực hiện chức năng chuyển đổi khe thời gian
+
+B)
+
+Không thực hiện chức năng chuyển đổi khe thời gian
+
+C)
+
+Thực hiện chức năng điều khiển kết nối cuộc gọi
+
+D)
+
+Chỉ thực hiện chức năng trao đổi thông tin. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 75
+
+Công nghệ PCM có thể hiểu là công nghệ số hoá tín hiệu  trên cơ sở kênh thoại cơ bản gồm 
+
+A)
+
+Các bước lọc thông thấp, nén điều chế, mã hoá. 
+
+B)
+
+Các bước lọc thông cao, nén điều chế, mã hoá. 
+
+C)
+
+Các bước lọc thông thấp, điều chế, giải điều chế. 
+
+D)
+
+Các bước lọc thông thấp, lấy mẫu, nén-lượng tử hoá, mã hoá.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 76
+
+Tần số lấy mẫu trong công nghệ PCM là 
+
+A)
+
+8KHz
+
+B)
+
+2KHz
+
+C)
+
+16KHz
+
+D)
+
+64KHz
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 77
+
+Thao tác chuyển mạch về thời gian là gì?
+
+A)
+
+Đọc tổ hợp mã PCM từ khe thời gian ứng với thuê bao phát nó tới khe thời gian ứng với thuê bao nhận nó.
+
+B)
+
+Lưu giữ tổ hợp mã PCM từ khe thời gian ứng với thuê bao phát nó tới khe thời gian ứng với thuê bao nhận nó.
+
+C)
+
+Lưu giữ tổ hợp mã PCM từ khe thời gian ứng với thuê bao phát nó tới khe thời gian ứng với thuê bao phát nó.
+
+D)
+
+Ghi tổ hợp mã PCM từ khe thời gian ứng với thuê bao phát nó tới khe thời gian ứng với thuê bao nhận nó.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 78
+
+Bộ chuyển mạch thời gian số kiểu ghi tuần tự, đọc ngẫu nhiên làm việc theo nguyên tắc nào?
+
+A)
+
+Ghi thông tin từ các kênh đầu vào một cách tuần tự  và đọc chúng để đưa ra các kênh đầu ra một cách ngẫu nhiên
+
+B)
+
+Đọc thông tin từ các kênh đầu vào một cách tuần tự  và ghi chúng để đưa ra các kênh đầu ra một cách ngẫu nhiên
+
+C)
+
+Trao đổi thông tin từ các kênh đầu vào một cách tuần tự  và chuyển chúng đến các kênh đầu ra một cách ngẫu nhiên
+
+D)
+
+Đọc thông tin từ các kênh đầu vào một cách ngẫu nhiên và ghi chúng để đưa ra các kênh đầu ra một cách ngẫu nhiên
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 79
+
+Thao tác chuyển mạch không gian là gì?
+
+A)
+
+Nhận từ mã PCM từ tuyến này sang tuyến PCM khác.
+
+B)
+
+Chuyển từ mã PCM từ tuyến này sang tuyến PCM khác.
+
+C)
+
+Lưu giữ từ mã PCM từ tuyến này sang tuyến PCM khác.
+
+D)
+
+Nhận từ mã từ khe thời gian này sang khe thời gian khác.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 80
+
+Tổng đài IP là?
+
+A)
+
+Là tổng đài mà việc kết nối mạch liên lạc cho các máy điện thoại được thực hiện tự động
+
+B)
+
+Là tổng đài dùng giao thức Internet để thực hiện cuộc gọi điện thoại ra bên ngoài. Dữ liệu giọng nói được truyền qua mạng điện thoại thông thường
+
+C)
+
+Là tổng đài dùng giao thức Internet để thực hiện cuộc gọi điện thoại ra bên ngoài. Dữ liệu giọng nói được truyền bằng các gói dữ liệu qua Internet thay vì mạng điện thoại thông thường
+
+D)
+
+Là tổng đài dùng giao thức Internet để thực hiện cuộc gọi điện thoại ra bên ngoài
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+
+
+
+
+
+

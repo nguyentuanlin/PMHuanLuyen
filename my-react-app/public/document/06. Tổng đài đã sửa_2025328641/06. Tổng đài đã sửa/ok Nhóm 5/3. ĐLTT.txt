@@ -1,0 +1,1210 @@
+Câu hỏi
+
+Nội dung câu hỏi, trả lời
+
+Câu 1
+
+Nhược điểm của cơ cấu chỉ thị điện động là gì?
+
+A)
+
+Tiêu thụ công suất lớn, độ nhạy thấp
+
+B)
+
+Ảnh hưởng của từ trường bên ngoài lớn 
+
+C)
+
+Thang đo không đều
+
+D)
+
+Tiêu thụ công suất lớn, độ nhạy thấp; Ảnh hưởng của từ trường bên ngoài lớn; Thang đo không đều
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 2
+
+Nguyên lý đo dòng điện là gì?
+
+A)
+
+Mắc cơ cấu chỉ thị nối tiếp với mạch
+
+B)
+
+Mắc ampere kế nối tiếp với nhánh cần đo
+
+C)
+
+Dùng điện trở Shunt
+
+D)
+
+Mắc ampere kế song song với nhánh cần đo
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 3
+
+Cơ cấu chỉ thị nào hoạt động đối với dòng xoay chiều?
+
+A)
+
+Từ điện, điện từ                             
+
+B)
+
+Từ điện, điện động
+
+C)
+
+Điện từ, điện động                         
+
+D)
+
+Chỉ có điện từ
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 4
+
+Ưu điểm của cơ cấu chỉ thị từ điện là?
+
+A)
+
+Ít bị ảnh hưởng của từ trường nhiễu bên ngoài
+
+B)
+
+Độ chính xác cao, công suất tiêu thụ bé
+
+C)
+
+Thang đo chia đều
+
+D)
+
+Ít bị ảnh hưởng của từ trường nhiễu bên ngoài, Độ chính xác cao, công suất tiêu thụ bé, Thang đo chia đều.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 5
+
+Nhược điểm của cơ cấu chỉ thị từ điện là?
+
+A)
+
+Khả năng chịu quá tải kém
+
+B)
+
+Chỉ sử dụng dòng một chiều
+
+C)
+
+Dễ hư hỏng
+
+D)
+
+Khả năng chịu quá tải kém; Chỉ sử dụng dòng một chiều; Dễ hư hỏng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 6
+
+Ưu điểm của cơ cấu chỉ thị điện từ là?
+
+A)
+
+Chịu sự quá tải cao, dễ chế tạo 
+
+B)
+
+Tiêu thụ công suất bé, độ chính xác cao 
+
+C)
+
+Ảnh hưởng của từ trường bên ngoài bé
+
+D)
+
+Tiêu thụ công suất lớn, độ chính xác thấp
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 7
+
+Nhược điểm của cơ cấu chỉ thị điện từ là?
+
+A)
+
+Tiêu thụ công suất lớn 
+
+B)
+
+Ảnh hưởng của từ trường bên ngoài lớn 
+
+C)
+
+Kém chính xác, thang đo không đều
+
+D)
+
+Tiêu thụ công suất lớn; ảnh hưởng của từ trường bên ngoài lớn; kém chính xác, thang đo không đều
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 8
+
+Đo điện trở cách điện của một đôi cáp thế nào là tốt?
+
+A)
+
+Càng nhỏ càng tốt
+
+B)
+
+Càng lớn càng tốt
+
+C)
+
+Bằng 0
+
+D)
+
+Bằng 1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 9
+
+Đo điện trở mạch vòng của một đôi cáp có thiết diện bằng 0,5mm là bao nhiêu?
+
+A)
+
+100Ω
+
+B)
+
+150Ω
+
+C)
+
+175 Ω
+
+D)
+
+200Ω
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 10
+
+Đo điện trở cách điện của dây A so với đất dùng đồng hồ SANWA có giá trị bằng bao nhiêu?
+
+A)
+
+300-500Ω
+
+B)
+
+600-700Ω
+
+C)
+
+700-800Ω
+
+D)
+
+800-900Ω
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 11
+
+Đo điện trở hai đầu cuộn dây cho giá trị R= vô cùng thì?
+
+A)
+
+Cuộn dây bị ngắn mạch
+
+B)
+
+Cuộn dây bị ẩm lên điện trở tăng
+
+C)
+
+Cuộn dây bị đứt
+
+D)
+
+Cuộn dây bị chập số vòng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 12
+
+Khi gọi tên dụng cụ đo: vôn kế, ampe kế, là ta phân loại dụng cụ đo lường điện dựa theo?
+
+A)
+
+Nguyên lý làm việc
+
+B)
+
+Đại lượng cần đo và mạch đo
+
+C)
+
+Hình dạng trọng lượng và cấp chính xác
+
+D)
+
+Hình dạng bên ngoài
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 13
+
+ Sơ đồ cấu trúc cơ bản của dụng cụ đo lường?
+
+A)
+
+Chuyển đổi sơ cấp =>Cơ cấu chỉ thị =>Đại lượng cần đo => Mạch đo
+
+B)
+
+Đại lượng cần đo => Chuyển đổi sơ cấp =>Mạch đo => Cơ cấu chỉ thị
+
+C)
+
+Đại lượng cần đo=> Cơ cấu chỉ thị => chuyển đổi sơ cấp =>Mạch đo 
+
+D)
+
+Đại lượng cần đo=> Mạch đo => Chuyển đổi sơ cấp =>Cơ cấu chỉ thị
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 14
+
+Chức năng khối chuyển đổi sơ cấp của dụng cụ đo lường?
+
+A)
+
+Làm nhiệm vụ biến đổi các đại lượng đo đầu vào thành tín hiệu điện
+
+B)
+
+Làm nhiệm vụ biến đổi các đại lượng đo đầu ra thành tín hiệu điện
+
+C)
+
+Làm nhiệm vụ biến đổi các đại lượng đo đầu vào thành tín hiệu quang
+
+D)
+
+Làm nhiệm vụ biến đổi các đại lượng đo đầu vào thành tín hiệu số
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 15
+
+Công dụng của máy đo Sunset E20C?
+
+A)
+
+Dùng để đo điện trở cách điện của luồng E1, dây cáp và các thiết bị chuyển mạch.
+
+B)
+
+Dùng để đo kiểm tra chất lượng luồng E1 và Nx64Kbps. Ngoài ra nó hỗ trợ các phần mềm đo và giám sát kênh thoại, đo báo hiệu R2/SS7.....
+
+C)
+
+Dùng để đo kiểm tra và giám sát kênh thoại, đo báo hiệu R2/SS7.....
+
+D)
+
+Dùng để đo kiểm tra chất lượng luồng E1, dây cáp và các thiết bị chuyển mạch.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 16
+
+Đèn LED chỉ thị chung: BIT ERR trên mặt của máy đo SUNSET sáng đỏ khi nào?
+
+A)
+
+Khi phát hiện ra lỗi bít
+
+B)
+
+Khi máy đo phát hiện ra các lỗi
+
+C)
+
+Khi xuất hiện lỗi mã hóa trên tín hiệu thu được
+
+D)
+
+Khi máy đo không xác định được kiểu định dạng khung
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 17
+
+Với đồng hồ vạn năng cung chia độ A là cung chia thang đo nào?
+
+A)
+
+Ôm
+
+B)
+
+Ampe
+
+C)
+
+Jun
+
+D)
+
+Vôn
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 18
+
+Với đồng hồ vạn năng cung chia độ C là cung chia thang đo nào?
+
+A)
+
+Điện trở
+
+B)
+
+Điện áp
+
+C)
+
+Nội trở
+
+D)
+
+Cường độ dòng điện
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 19
+
+Với đồng hồ vạn năng cung chia độ D là cung chia thang đo nào?
+
+A)
+
+Cung chia độ xoay chiều dưới 10V
+
+B)
+
+Cung chia độ xoay chiều trên 10V
+
+C)
+
+Cung chia độ xoay chiều dưới 0,1V
+
+D)
+
+Cung chia độ xoay chiều trên 0,1V
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 20
+
+Với đồng hồ vạn năng cung chia độ E là cung chia thang đo nào?
+
+A)
+
+Là cung chia độ dòng điện xoay chiều tới 15A
+
+B)
+
+Là cung chia độ dòng điện xoay chiều tới 20A
+
+C)
+
+Là cung chia độ dòng điện xoay chiều tới 25A
+
+D)
+
+Là cung chia độ dòng điện xoay chiều tới 30A
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 21
+
+Với đồng hồ vạn năng cung chia độ F là cung chia thang đo nào?
+
+A)
+
+Là cung chia độ đo hệ số khuếch đại dòng 1 chiều của transistor - hfe.
+
+B)
+
+Là cung chia độ đo hệ số khuếch đại dòng xoay chiều của transistor - hfe.
+
+C)
+
+Là cung chia độ đo hệ số khuếch đại dòng hai chiều của transistor - hfe.
+
+D)
+
+Là cung chia độ đo hệ số khuếch đại dòng đảo chiều của transistor - hfe.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 22
+
+Khi sử dụng Mê ga ôm cần chú ý gì?
+
+A)
+
+Để Mê gôm mét xa từ trường.
+
+B)
+
+Giữ Mê gôm mét ở vị trí cân bằng.
+
+C)
+
+Không chạm tay vào vật đo.
+
+D)
+
+Để Mê gôm mét xa từ trường; giữ Mê gôm mét ở vị trí cân bằng; không chạm tay vào vật đo.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 23
+
+Với đồng hồ vạn năng cung chia độ G, H là cung chia thang đo nào?
+
+A)
+
+Là cung chia độ kiểm tra dòng điện và điện áp của tải đầu cuối.
+
+B)
+
+Là cung chia độ kiểm tra điện trở của tải đầu cuối.
+
+C)
+
+Là cung chia độ kiểm tra dòng điện của tải đầu cuối.
+
+D)
+
+Là cung chia độ kiểm tra điện áp của tải đầu cuối.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 24
+
+Với đồng hồ vạn năng cung chia độ I là cung chia thang đo nào?
+
+A)
+
+Là cung chia độ thang đo kiểm tra dB
+
+B)
+
+Là cung chia độ thang đo kiểm tra dòng điện
+
+C)
+
+Là cung chia độ thang đo kiểm tra điện trở
+
+D)
+
+Là cung chia độ thang đo kiểm tra nội trở
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 25
+
+Ưu điểm của cơ cấu chỉ thị điện động là gì?
+
+A)
+
+Có độ chính xác cao 
+
+B)
+
+Ảnh hưởng của từ trường bên ngoài bé 
+
+C)
+
+Độ nhạy cao
+
+D)
+
+Tiêu thụ công suất bé
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 26
+
+Sử dụng đồng hồ Mê gôm mét SANWA cần chuẩn bị những bước gì?
+
+A)
+
+Lấy que đo ra khỏi túi, tách cho dây que đo thẳng không xoắn vào nhau, que đo màu đỏ cắm vào trụ L của đồng hồ, que màu đen cắm vào trụ E.
+
+B)
+
+Lấy que đo ra khỏi túi, tách cho dây que đo thẳng xoắn vào nhau, que đo màu đỏ cắm vào trụ L của đồng hồ, que màu đen cắm vào trụ A.
+
+C)
+
+Lấy que đo ra khỏi túi, tách cho dây que đo thẳng xoắn vào nhau, que đo màu đỏ cắm vào trụ A của đồng hồ, que màu đen cắm vào trụ E.
+
+D)
+
+Lấy que đo ra khỏi túi, tách cho dây que đo thẳng xoắn vào nhau, que đo màu đỏ cắm vào trụ E của đồng hồ, que màu đen cắm vào trụ L.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 27
+
+Tốc độ đo lỗi bít của máy đo Sunset E20C là bao nhiêu?
+
+A)
+
+4,096Mbit/s
+
+B)
+
+2,048Mbit/s
+
+C)
+
+1024Kbit/s
+
+D)
+
+512Kbit/s
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 28
+
+Ký hiệu “Rae” được đọc như thế nào?
+
+A)
+
+Điện trở cách điện dây A với đất
+
+B)
+
+Điện trở cách điện dây B với đất
+
+C)
+
+Điện trở cách điện dây A với dây B
+
+D)
+
+Điện trở mạch vòng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 29
+
+Ký hiệu “Rbe”được đọc như thế nào?
+
+A)
+
+Điện trở cách điện dây A với đất
+
+B)
+
+Điện trở cách điện dây B với đất
+
+C)
+
+Điện trở cách điện dây A với dây B
+
+D)
+
+Điện trở mạch vòng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 30
+
+Nếu máy đo SUNSET không khởi động được thì phải kiểm tra phần nào của máy?
+
+A)
+
+Số serial trên thân máy và trên card phải trùng nhau
+
+B)
+
+Số serial trên thân máy và trên card phải không trùng nhau
+
+C)
+
+Tắt nguồn của máy và bật lại
+
+D)
+
+Tắt nguồn của máy dợi khoảng 10 phút và bật lại
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+
+
+
+
+
+

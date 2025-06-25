@@ -1,0 +1,4010 @@
+Câu hỏi
+
+Nội dung câu hỏi, trả lời
+
+Câu 1
+
+Giao tiếp SDC: CCNC là đường kết nối giữa khối nào với khối nào của tổng đài EWSD?
+
+A)
+
+Giao tiếp giữa LTG và SN bằng đường SDC tốc độ truyền 8Mb/s. 
+
+B)
+
+Giao tiếp giữa SN và CCNC cho trao đổi tín hiệu báo hiệu số 7 giữa CCNC và LTG.
+
+C)
+
+Giao tiếp giữa SN và MBU: LTG cho trao đổi bản tin giữa LTG và CP.
+
+D)
+
+Giao tiếp giữa bộ điều khiển nhóm chuyển mạch SGC trong SN và MBU: SGC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 2
+
+Giao tiếp SDC: SGC là đường kết nối giữa khối nào với khối nào của tổng đài EWSD?
+
+A)
+
+Giao tiếp giữa LTG và SN bằng đường SDC tốc độ truyền 8Mb/s. 
+
+B)
+
+Giao tiếp giữa SN và CCNC cho trao đổi tín hiệu báo hiệu số 7 giữa CCNC là LTG.
+
+C)
+
+Giao tiếp giữa SN và MBU: LTG cho trao đổi bản tin giữa LTG và CP.
+
+D)
+
+Giao tiếp giữa bộ điều khiển nhóm chuyển mạch SGC trong SN và MBU: SGC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 3
+
+Đèn LED M tại card BDCG của DLUA trong tổng đài EWSD sáng vàng thể hiện gì?
+
+A)
+
+Bộ tạo đồng hồ hoạt động ở chế độ chủ. 
+
+B)
+
+Bộ tạo đồng hồ hoạt động ở chế độ tớ.
+
+C)
+
+Bộ tạo đồng hồ bị lỗi phần cứng.
+
+D)
+
+Bộ tạo đồng hồ bị mất đồng bộ với tổng đài trung tâm.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 4
+
+Card nào sau đây là đơn vị xử lý nhóm trong LTGM của tổng đài EWSD?
+
+A)
+
+Card GSM
+
+B)
+
+Card GPL
+
+C)
+
+Card SSM16B
+
+D)
+
+Card TSMB
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 5
+
+Card nào sau đây là đơn vị chuyển mạch nhóm trong LTGM của tổng đài EWSD?
+
+A)
+
+Card GSM
+
+B)
+
+Card GPL
+
+C)
+
+Card SSM16B
+
+D)
+
+Card SGC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 6
+
+Trong tổng đài EWSD dung lượng 63 LTG có tầng chuyển mạch thời gian và không gian, vậy 2 tầng chuyển mạch này về phần cứng được bố trí như thế nào?
+
+A)
+
+Được bố trí nằm trong cùng một ngăn.
+
+B)
+
+Tầng chuyển mạch thời gian được bố trí  cùng một ngăn với LTG
+
+C)
+
+Tầng chuyển mạch không gian được bố trí  cùng một ngăn với LTG
+
+D)
+
+Chuyển mạch thời gian và không gian được bố trí thành 2 ngăn độc lập với nhau
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 7
+
+Card nào sau đây thuộc bộ tập trung thuê bao DLUB của tổng đài EWSD?
+
+A)
+
+Card BDCG
+
+B)
+
+Card BDE
+
+C)
+
+Card DLUS
+
+D)
+
+Card DLUC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 8
+
+Card nào sau đây thuộc bộ tập trung thuê bao DLUD của tổng đài EWSD?
+
+A)
+
+Card GCG
+
+B)
+
+Card BD
+
+C)
+
+Card DLUC
+
+D)
+
+Card RGMG
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 9
+
+Card nào sau đây thuộc bộ tập trung thuê bao DLUA của tổng đài EWSD?
+
+A)
+
+Card GCG
+
+B)
+
+Card BD
+
+C)
+
+Card DLUC
+
+D)
+
+Card DLUS
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 10
+
+Trong một DLUD của tổng đài EWSD phần cứng được bố trí mấy card BD?
+
+A)
+
+2
+
+B)
+
+3
+
+C)
+
+4
+
+D)
+
+6
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 11
+
+Trong một DLUA của tổng đài EWSD phần cứng được bố trí mấy card BDB?
+
+A)
+
+2
+
+B)
+
+3
+
+C)
+
+4
+
+D)
+
+6
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 12
+
+Trong một DLUA của tổng đài EWSD phần cứng được bố trí mấy card BDE?
+
+A)
+
+6
+
+B)
+
+8
+
+C)
+
+10
+
+D)
+
+12
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 13
+
+Cáp thuê bao của DLU loại 64 đôi được chia làm mấy quát?
+
+A)
+
+2
+
+B)
+
+4
+
+C)
+
+6
+
+D)
+
+8
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 14
+
+Chức năng đo kiểm của DLU được thể hiện trên card nào?
+
+A)
+
+FMTU và LCMM
+
+B)
+
+EMSP và SASC
+
+C)
+
+EMSP và LCMM
+
+D)
+
+SASC và FMTU
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 15
+
+Chức năng hoạt động tự trị của bộ tập trung thuê bao DLU được thể hiện ở card nào trong DLUA
+
+A)
+
+FMTU và LCMM
+
+B)
+
+EMSP và SASC
+
+C)
+
+EMSP và LCMM
+
+D)
+
+SASC và FMTU
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 16
+
+Chức năng cấp điện áp rung chuông và điện áp cho đồng hồ đo xung tính cước là card nào trong DLUA?
+
+A)
+
+BDCG
+
+B)
+
+RGMG
+
+C)
+
+DLUC
+
+D)
+
+BDB
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 17
+
+Để biết được trạng thái làm việc của các card thuê bao trong DLU, nhân viên tổng đài EWSD dùng câu lệnh nào?
+
+A)
+
+STATDLU
+
+B)
+
+SELDLUPORT
+
+C)
+
+STATDLUMOD
+
+D)
+
+STATDLUEQ
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 18
+
+Lựa chọn cổng theo yêu cầu của nhân viên tổng đài trong DLU, nhân viên tổng đài EWSD dùng câu lệnh nào?
+
+A)
+
+STATDLU
+
+B)
+
+SELDLUPORT
+
+C)
+
+STATDLUMOD
+
+D)
+
+STATDLUEQ
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 19
+
+Bus phân phối tín hiệu báo hiệu từ card điều khiển tới các card thuê bao và ngược lại, trong DLUA là card nào?
+
+A)
+
+BDCG
+
+B)
+
+BDE
+
+C)
+
+DLUC
+
+D)
+
+RGMG
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 20
+
+Bus phân phối tín hiệu báo hiệu từ card điều khiển tới các card thuê bao và ngược lại, trong DLUD là card nào?
+
+A)
+
+BDCG
+
+B)
+
+BDE
+
+C)
+
+DLUC
+
+D)
+
+BD
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 21
+
+Trong CSN1G của tổng đài ALCATEL khi logic 1 hoạt động, logic 0 lỗi thì:
+
+A)
+
+Đèn D1, D2 trên card TSUC sáng đỏ	
+
+B)
+
+Đèn D1, D4 trên card TSUC sáng đỏ
+
+C)
+
+Đèn D2, D3 trên card TSUC sáng đỏ 
+
+D)
+
+Đèn D1, D3 trên card TSUC sáng đỏ 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 22
+
+Trong CSNMM (HD) của tổng đài ALCATEL khi có cảnh báo về CSN thì
+
+A)
+
+Đèn 5 trên card TCPOSB (F) sáng đỏ
+
+B)
+
+Đèn 6 trên card TCPOSB (F) sáng đỏ 
+
+C)
+
+Đèn 1 trên card TCPOSB (F) sáng đỏ	
+
+D)
+
+Đèn 7 trên card TCPOSB (F) sáng đỏ
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 23
+
+Trong CSNMM-D của tổng đài ALCATEL khi truyền dẫn tốt thì:
+
+A)
+
+Đèn 5 trên card TCTRS sáng đỏ
+
+B)
+
+Đèn 6 trên card TCTRS  sáng đỏ 
+
+C)
+
+Đèn 7 trên card TCTRS sáng đỏ 
+
+D)
+
+Đèn 0 trên card TCTRS luôn nháy đỏ	
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 24
+
+Trong CSNMM-L của tổng đài ALCATEL mỗi card TCID kết nối tới trạm chuyển mạch SMX tối đa:
+
+A)
+
+01 GLR
+
+B)
+
+08 GLR 
+
+C)
+
+02 GLR
+
+D)
+
+16 GLR 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 25
+
+Trong CSNMM-L của tổng đài ALCATEL đèn D0 trên card TCID sáng đỏ:
+
+A)
+
+GLR 3 lỗi
+
+B)
+
+GLR0 lỗi 
+
+C)
+
+GLR 2 lỗi
+
+D)
+
+GLR 1 lỗi 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 26
+
+Trong CSNMM-L của tổng đài ALCATEL đèn D1 trên card TCID sáng đỏ:
+
+A)
+
+GLR 3 lỗi
+
+B)
+
+GLR0 lỗi 
+
+C)
+
+GLR 2 lỗi
+
+D)
+
+GLR 1 lỗi 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 27
+
+Trong CSN1G của tổng đài ALCATEL khi muốn reset toàn bộ CSN thì:
+
+A)
+
+Bật khóa V4 trên card TSUC
+
+B)
+
+Bật khóa V3 trên card TSUC 
+
+C)
+
+Bật khóa V1 trên card TSUC 
+
+D)
+
+Bật khóa V2 trên card TSUC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 28
+
+Trong tổng đài ALCATEL để khai báo mới một đầu số dùng cho nội đài ta làm các bước sau:
+
+A)
+
+MILCR=>ACHCR=>INDCR=>ABOCR
+
+B)
+
+MILCR=>FSCCR=>ACHCR=>INDCR 
+
+C)
+
+MILCR=>ACHCR=>INDCR=>FSCCR
+
+D)
+
+MILCR=>ACHCR=>PRECR=>INDCR
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 29
+
+Trong tổng đài ALCATEL để khai báo thêm  một đầu số dùng cho nội đài ta làm các bước sau:
+
+A)
+
+MILCR=>ACHCR=>INDCR 
+
+B)
+
+MILCR=>PRECR=>INDCR
+
+C)
+
+MILCR=>INDCR=>FSCCR
+
+D)
+
+MILCR=>INDCR
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 30
+
+Trong tổng đài ALCATEL1000E10 (OCB283) mỗi card ACHIL của trạm SMA  quản lý tối đa bao nhiêu kênh ( COC) báo hiệu số 7
+
+A)
+
+04 kênh
+
+B)
+
+8 kênh
+
+C)
+
+16 kênh
+
+D)
+
+32 kênh
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 31
+
+Trong tổng đài ALCATEL1000E10 (OCB283) nhóm GLR do trạm chuyển mạch SMX  cấp ra và được đấu đến trạm?
+
+A)
+
+SMA,SMT,CSNL
+
+B)
+
+SMC,SMT,SMM
+
+C)
+
+SMA,SMT,CSND
+
+D)
+
+SMC,SMX,SMM
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 32
+
+Trong tổng đài ALCATEL mỗi CN kết nối tới UCX tối đa
+
+A)
+
+4 LRI
+
+B)
+
+8 LRI
+
+C)
+
+12 LRI
+
+D)
+
+16 LRI
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 33
+
+Trong tổng đài ALCATEL1000E10 (OCB283) trạm trung kế SMT cung cấp ra các luồng E1 và được đấu đến:
+
+A)
+
+Các tổng đài khác, bộ tập trung thuê bao xa (CSND), film thông báo.
+
+B)
+
+Các tổng đài khác, bộ tập trung thuê bao xa (CSND), trạm SMA
+
+C)
+
+Bộ tập trung thuê bao xa (CSND), film thông báo, trạm SMC
+
+D)
+
+Các tổng đài khác, bộ tập trung thuê bao gần (CSNL), film thông báo
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 34
+
+Trong tổng đài ALCATEL1000E10 (OCB283) trạm cung cấp thiết bị phụ trợ SMA có chức năng
+
+A)
+
+Cung cấp TON, xung đa tần
+
+B)
+
+Cung cấp giờ thực cho tổng đài
+
+C)
+
+Quản lý báo hiệu số 7, báo hiệu V5.2
+
+D)
+
+Cung cấp giờ thực cho tổng đài,Cung cấp TON, xung đa tần,Quản lý báo hiệu số 7, báo hiệu V5.2
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 35
+
+Trong tổng đài ALCATEL để đưa một thuê bao  ra khỏi nhóm thuê bao ta dùng lệnh:
+
+A)
+
+GLPRE: NDG = , ND =
+
+B)
+
+GLPAD: NDG = , ND =
+
+C)
+
+GLXAD: NDG = , ND = 
+
+D)
+
+GLXRE: NDG = , ND =
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 36
+
+Trong tổng đài ALCATEL khi đo một thuê bao nếu thuê bao đó bị đứt thì:
+
+A)
+
+L5 = 0 
+
+B)
+
+L8 = 0  
+
+C)
+
+L7 = 0
+
+D)
+
+L8 = ***
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 37
+
+Trong tổng đài ALCATEL khi đo một thuê bao nếu thuê bao đó bị chập thì:
+
+A)
+
+L5 = 0 
+
+B)
+
+L8 = 0  
+
+C)
+
+L7 = 0
+
+D)
+
+L8 = ***
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 38
+
+Trong tổng đài ALCATEL1000E10 (OCB283)  trạm điều khiển chính SMC có các phần mềm điều khiển sau
+
+A)
+
+MR, MQ, TR, TX, PC, GX
+
+B)
+
+ETA, MQ, TR, TX, PC, GX
+
+C)
+
+CC, MQ, TR, TX, PC, GX
+
+D)
+
+MR, GS, TR, TX, PC, GX
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 39
+
+Trong tổng đài ALCATEL  kết quả đo một thuê bao phụ thuộc vào:
+
+A)
+
+Chủng loại máy 
+
+B)
+
+Giá trị của từng ngưỡng đo
+
+C)
+
+Thuê bao đang đặt máy 
+
+D)
+
+Chủng loại máy , Giá trị của từng ngưỡng đo, Thuê bao đang đặt máy 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 40
+
+Trong mạng thông tin quân sự hiện nay giữa hai tổng đài sử dụng báo hiệu R2 thì kênh báo hiệu được truyền trên:
+
+A)
+
+TS 1 của mỗi luồng
+
+B)
+
+TS 0 của mỗi luồng
+
+C)
+
+TS 16 của mỗi luồng
+
+D)
+
+TS 31 của mỗi luồng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 41
+
+Tổng đài TZ32 do hãng nào sản xuất?
+
+A)
+
+Hãng PANASONIC của Nhật sản xuất
+
+B)
+
+Hãng TECAPRO của Việt Nam sản xuất
+
+C)
+
+Hãng ALCATEL của Pháp sản xuất
+
+D)
+
+Hãng SIEMEN của Đức sản xuất
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 42
+
+Tổng đài TZ32 có mấy card điều khiển
+
+A)
+
+4
+
+B)
+
+3
+
+C)
+
+2
+
+D)
+
+1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 43
+
+Danh bạ của tổng đài TZ32 có thể đánh số?
+
+A)
+
+8 số
+
+B)
+
+7 số
+
+C)
+
+6 số
+
+D)
+
+3 số
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 44
+
+Tổng đài TZ32 có ít nhất mấy card điều khiển
+
+A)
+
+4
+
+B)
+
+3
+
+C)
+
+2
+
+D)
+
+1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 45
+
+Trên một cổng thuê bao tổng đài TZ32 có thể sử dụng
+
+A)
+
+Các máy điện thoại thông thường
+
+B)
+
+Các máy điện thoại từ thạch (TA57)
+
+C)
+
+Các máy vô tuyến điện 
+
+D)
+
+Các máy điện thoại thông thường hoặc các máy điện thoại từ thạch (TA57)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 46
+
+Khai báo số liệu tổng đài TZ32 bằng
+
+A)
+
+Máy tính 
+
+B)
+
+Máy trực PO
+
+C)
+
+Máy chuyên dụng của tổng đài TZ32
+
+D)
+
+Máy tính có phần mềm tổng đài TZ32 có cùng version 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 47
+
+Tổng đài TZ32 có tối đa
+
+A)
+
+4 cổng trung kế CO
+
+B)
+
+8 cổng trung kế CO
+
+C)
+
+12 cổng trung kế CO
+
+D)
+
+16 cổng trung kế CO
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 48
+
+Tổng đài TZ32 có tối đa
+
+A)
+
+1024 cổng thuê bao
+
+B)
+
+512 cổng thuê bao
+
+C)
+
+256 cổng thuê bao
+
+D)
+
+128 cổng thuê bao
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 49
+
+Tổng đài TZ32 có tối đa
+
+A)
+
+10 trung kế IP
+
+B)
+
+100 trung kế IP
+
+C)
+
+1000 trung kế IP
+
+D)
+
+10000 trung kế IP
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 50
+
+Card luồng E1 Tổng đài TZ32 có tối đa
+
+A)
+
+8 cổng trung kế E1
+
+B)
+
+6 cổng trung kế E1
+
+C)
+
+4 cổng trung kế E1
+
+D)
+
+2 cổng trung kế E1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 51
+
+Tổng đài TZ32 có tối đa mấy ngăn thuê bao
+
+A)
+
+4
+
+B)
+
+3
+
+C)
+
+2
+
+D)
+
+1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 52
+
+Một ngăn thuê bao của tổng đài TZ32 có?
+
+A)
+
+512 thuê bao 
+
+B)
+
+256 thuê bao 
+
+C)
+
+128 thuê bao 
+
+D)
+
+64 thuê bao 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 53
+
+Tổng đài TZ32 có các loại trung kế sau
+
+A)
+
+CO; luồng E1; IP; ĐKX; E&M
+
+B)
+
+CO; luồng E1; IP; ĐKX
+
+C)
+
+CO; luồng E1; IP;
+
+D)
+
+CO; luồng E1; ĐKX; E&M
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 54
+
+Card AN trong tổng đài TZ 32 để làm gì?
+
+A)
+
+Kết nối đến tổng đài TIP 24 khi ở chế độ LTU
+
+B)
+
+Kết nối đến tổng đài TIP 24 khi ở chế độ tổng đài
+
+C)
+
+Kết nối song song tổng đài TIP 24 
+
+D)
+
+Kết nối nối tiếp tổng đài TIP 24 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 55
+
+Trong tổng đài TZ32 card nguồn có số lượng tối đa là?
+
+A)
+
+02
+
+B)
+
+04 
+
+C)
+
+06 
+
+D)
+
+08 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 56
+
+Card nguồn tổng đài TZ32 cung cấp các mức điện áp?
+
+A)
+
+Cung cấp nguồn +5v, -5v,+12v, -48v, 75VAC cho toàn bộ hoạt động của tổng đài
+
+B)
+
+Cung cấp nguồn +5v,+12v, -48v, 75VAC cho toàn bộ hoạt động của tổng đài
+
+C)
+
+Cung cấp nguồn +5v, -5v,+12v, -12V, -48v, 75VAC cho toàn bộ hoạt động của tổng đài
+
+D)
+
+Cung cấp nguồn +5v, -5v,+12v, -48v, +48V, 75VAC cho toàn bộ hoạt động của tổng đài
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 57
+
+Trong tổng đài TZ32 card nguồn sử dụng tối thiểu là?
+
+A)
+
+04
+
+B)
+
+03 
+
+C)
+
+02 
+
+D)
+
+01 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 58
+
+Trong tổng đài TZ32 card nguồn hoạt động bình thường khi
+
+A)
+
+Tất cả các đèn sáng xanh liên tục
+
+B)
+
+Tất cả các đèn sáng xanh liên tục riêng đèn 75VAC tắt
+
+C)
+
+Tất cả các đèn sáng xanh liên tục riêng đèn 75VAC nháy theo nhịp điều khiển của CPU
+
+D)
+
+Tất cả các đèn sáng xanh và chớp theo nhịp điều khiển của CPU
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 59
+
+Trong tổng đài TZ32 card nguồn phải
+
+A)
+
+Cắm đúng vị trí của card nguồn và có thể tráo đổi 2 card cho nhau
+
+B)
+
+Cắm vào bất kỳ vị trí nào trên tổng đài
+
+C)
+
+Cắm đúng vị trí của card nguồn và không thể tráo đổi 2 card cho nhau
+
+D)
+
+Cắm đúng vị trí của card nguồn và có thể tráo đổi 2 card cho nhau nhưng phải chuyển đổi Jum trên card
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 60
+
+Một Card thuê bao tổng đài TZ32 có chức năng
+
+A)
+
+Cung cấp 8 cổng thuê bao analog hoặc từ thạch
+
+B)
+
+Cung cấp 16 cổng thuê bao analog
+
+C)
+
+Cung cấp 16 cổng thuê bao từ thạch
+
+D)
+
+Cung cấp 16 cổng thuê bao analog hoặc từ thạch
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 61
+
+Trong tổng đài TZ32 dung lượng thuê bao tối đa có thể sử dụng là
+
+A)
+
+512 cổng thuê bao analog 
+
+B)
+
+256 cổng thuê bao analog hoặc từ thạch
+
+C)
+
+512 cổng thuê bao analog hoặc 512 cổng thuê bao từ thạch
+
+D)
+
+512 cổng thuê bao analog và 512 cổng thuê bao từ thạch
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 62
+
+Trong tổng đài TZ32 card thuê bao phải
+
+A)
+
+Cắm đúng vị trí của card thuê bao và không thể tráo đổi các card cho nhau
+
+B)
+
+Cắm bất kỳ vị trí có ghi TB trên khung rack và có thể tráo đổi các card thuê bao cho nhau
+
+C)
+
+Cắm bất kỳ vào vị trí nào trên khung rack và có thể tráo đổi các card cho nhau
+
+D)
+
+Cắm đúng vị trí của card thuê bao và có thể tráo đổi các card cho nhau nhưng phải chuyển đổi Jum trên card
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 63
+
+Trong tổng đài TZ32 dung lượng card thuê bao tối đa có thể sử dụng là
+
+A)
+
+64
+
+B)
+
+32
+
+C)
+
+16
+
+D)
+
+8
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 64
+
+Trong tổng đài TZ32 card thuê bao đang hoạt động có thể
+
+A)
+
+Rút ra, cắm vào không làm hỏng card
+
+B)
+
+Phải tắt nguồn sau đó mới thực hiện rút card
+
+C)
+
+Rút card nguồn ra trước sau đó rút card thuê bao
+
+D)
+
+Rút ra, cắm vào không làm hỏng card, nhưng thuê bao nào đang hoạt động sẽ bị rớt cuộc gọi
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 65
+
+Trong tổng đài TZ32
+
+A)
+
+Ngăn thuê bao và ngăn điều khiển cùng nằm trên một ngăn
+
+B)
+
+Ngăn thuê bao và ngăn điều khiển nằm trên các ngăn riêng biệt
+
+C)
+
+Ngăn thuê bao năm bên trái và ngăn điều khiển nằm bên phải
+
+D)
+
+Ngăn thuê bao năm bên phải và ngăn điều khiển nằm bên trái
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 66
+
+Thiết bị AG-MP1288 hỗ trợ những chuẩn mã hóa âm thanh nào?
+
+A)
+
+G711, G723.1, G726, G729, G.722, Opus
+
+B)
+
+G711, G729
+
+C)
+
+G711
+
+D)
+
+G729
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 67
+
+Giao thức báo hiệu sử dụng trên AG-MP1288?
+
+A)
+
+SIP
+
+B)
+
+H323
+
+C)
+
+Báo hiệu số 7
+
+D)
+
+R2
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 68
+
+Thiết bị AG-MP1288 có thể giám sát những thông tin gì trên giao diện Web?
+
+A)
+
+Log Message
+
+B)
+
+Trạng thái của thiết bị AG và các thông số: IP, Firrmware, Type, serial number, trạng thái báo cổng, thông số cuộc gọi.
+
+C)
+
+Báo cảnh, lịch sử báo cảnh.
+
+D)
+
+Cả 3 phương án trên.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 69
+
+Thiết bị AG-MP1288 hỗ trợ những tính năng, dịch vụ thoại nào?
+
+A)
+
+Hiển thị số chủ gọi, tự động thực hiện cuộc gọi khi nhấc máy, chuyển tiếp cuộc gọi, thoại hội nghị.
+
+B)
+
+Hiển thị số chủ gọi, tự động thực hiện cuộc gọi khi nhấc máy, chuyển tiếp cuộc gọi, thoại hội nghị, chặn cuộc gọi.
+
+C)
+
+Hiển thị số chủ gọi, tự động thực hiện cuộc gọi khi nhấc máy, chuyển tiếp cuộc gọi, thoại hội nghị, quay số tắt, chặn cuộc gọi.
+
+D)
+
+Hiển thị số chủ gọi, tự động thực hiện cuộc gọi khi nhấc máy, chuyển tiếp cuộc gọi, thoại hội nghị, quay số tắt, chặn cuộc gọi, thu, nghe, xóa thông báo và DISA.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 70
+
+Thiết bị  AG-MP1288 hỗ trợ giao thức truyền dữ liệu nào?
+
+A)
+
+RTP, SRTP
+
+B)
+
+TCP, UDP, RTP
+
+C)
+
+UDP, TCP, RTP, SRTP
+
+D)
+
+UDP, TCP, RTP, SRTP, HTTP
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 71
+
+Chức năng chính của thiết bị AG MP-1288 là gì?
+
+A)
+
+Chuyển đổi tín hiệu video
+
+B)
+
+Là bộ tập trung thuê bao thoại analog
+
+C)
+
+Kết nối mạng LAN
+
+D)
+
+Chuyển đổi dữ liệu quang
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 72
+
+Trên thiết bị AG-MP1288 có những Module nào được phép thay nóng?
+
+A)
+
+Module quạt, module nguồn
+
+B)
+
+Module nguồn, bảng mạch FXS
+
+C)
+
+Module nguồn, module CPU
+
+D)
+
+Module nguồn
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 73
+
+Thiết bị AG-MP1288 kết nối với tổng đài SS bằng?
+
+A)
+
+Luồng E1
+
+B)
+
+Luồng FE
+
+C)
+
+Luồng GE
+
+D)
+
+Luồng SDH
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 74
+
+Thiết bị AG-MP1288 mỗi card thuê bao cung cấp ra bao nhiêu thuê bao?
+
+A)
+
+72
+
+B)
+
+24
+
+C)
+
+96
+
+D)
+
+128
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 75
+
+Thiết bị AG-MP1288 địa chỉ mặc định của nhà sản xuất là: 
+
+A)
+
+192.168.0.2
+
+B)
+
+192.168.0.1
+
+C)
+
+192.168.1.2
+
+D)
+
+192.168.1.1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 76
+
+Thiết bị AG-MP1288 có những bảng mạch nào?
+
+A)
+
+Bảng mạch nguồn, bảng mạch CPU, bảng mạch FXS
+
+B)
+
+Bảng mạch nguồn,bảng mạch CPU,bảng mạch FXS, bảng mạch luồng E1
+
+C)
+
+Bảng mạch nguồn, bảng mạch CPU, bảng mạch FXS, bảng mạch báo hiệu SIP.
+
+D)
+
+Bảng mạch nguồn, bảng mạch CPU, bảng mạch FXS, bảng mạch báo hiệu số 7.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 77
+
+Đèn LED TEL phía trước thiết bị AG-MP1288 có màu đỏ là cảnh báo gì?
+
+A)
+
+Phát hiện lỗi của card FXS
+
+B)
+
+Phát hiện lỗi ở ít nhất một khay FXS
+
+C)
+
+Không phát hiện thấy khay FXS nào trong khung máy
+
+D)
+
+Trong giai đoạn khởi động ban đầu, phát hiện lỗi ở ít nhất một khay FXS, không phát hiện thấy khay FXS nào trong khung máy, một cổng FXS bị lỗi (out of service)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 78
+
+Mỗi bảng mạch FXS của thiết bị AG-MP1288 có bao nhiêu tín hiệu thuê bao?
+
+A)
+
+16
+
+B)
+
+32
+
+C)
+
+24
+
+D)
+
+72
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 79
+
+Thiết bị AG-MP1288:Trạng thái màu xám của cổng FXS thể hiện điều gì?
+
+A)
+
+Cổng đang rảnh rỗi
+
+B)
+
+Cổng đang hoạt động
+
+C)
+
+Cổng bị lỗi
+
+D)
+
+Cổng chưa cấu hình đúng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 80
+
+Trên thiết bị AG-MP1288, điện áp đầu vào của khối nguồn DC là bao nhiêu?
+
+A)
+
+110 V
+
+B)
+
+(40 ÷ 60) V
+
+C)
+
+220 V
+
+D)
+
+20 ÷ 30) V
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 81
+
+Thiết bị AG-144 có bao nhiêu bảng mạch FXS?
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 82
+
+Thiết bị AG-72 có bao nhiêu bảng mạch FXS?
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 83
+
+Thiết bị AG-MP1288 có bao nhiêu modul nguồn?
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 84
+
+Cáp thuê bao của thiết bị AG-MP1288 có bao nhiêu đôi?
+
+A)
+
+16
+
+B)
+
+24
+
+C)
+
+32
+
+D)
+
+25
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 85
+
+Trên thiết bị AG-MP1288, trạng thái màu cam của đèn LED Sys báo hiệu gì?
+
+A)
+
+CPU bị lỗi
+
+B)
+
+Nhiệt độ khoang thiết bị quá cao
+
+C)
+
+Không có cảnh báo
+
+D)
+
+Các cổng FXS bị lỗi
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 86
+
+Trong cáp mạng, sợi nào có chức năng truyền các gói âm thanh?
+
+A)
+
+Sợi màu nâu
+
+B)
+
+Sợi màu cam
+
+C)
+
+Sợi xanh lam, Sợi màu trắng
+
+D)
+
+Sợi màu trắng nâu
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 87
+
+Cáp điện thoại nhiều đôi được cấu tạo gồm các thành phần nào?
+
+A)
+
+Dây dẫn (ruột, lõi cáp), chất cách điện, vỏ bảo vệ và lớp gia cường.
+
+B)
+
+Gồm ruột, lõi cáp, vỏ bảo vệ và lớp gia cường.
+
+C)
+
+Dây dẫn (ruột, lõi cáp), vỏ bảo vệ và lớp gia cường.
+
+D)
+
+Dây dẫn, lớp giấy bảo vệ và lớp gia cường.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 88
+
+Tính năng kỹ thuật của Đồng hồ Mêgômmét SANWA?
+
+A)
+
+Đồng hồ điện tử do Trung quốc sản xuất,có độ chính xác không cao, có khả năng đo trị số cách điện cao từ  0,5 đến 2000 MΩ dùng để đo điện trở cách điện.
+
+B)
+
+Đồng hồ điện tử do Nhật bản sản xuất,có độ chính xác cao, có khả năng đo trị số cách điện cao từ  0,5 đến 2000 MΩ dùng để đo điện trở cách điện.
+
+C)
+
+Đồng hồ điện tử do Hàn Quốc sản xuất,có độ chính xác cao, có khả năng đo trị số cách điện cao từ  0,5 đến 2000 MΩ dùng để đo điện trở cách điện.
+
+D)
+
+Đồng hồ điện tử do Mỹ sản xuất,có độ chính xác cao, có khả năng đo trị số cách điện cao từ  0,5 đến 2000 MΩ dùng để đo điện trở cách điện.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 89
+
+Khi có sét đánh, tụ điện trong cầu chì 5 tiếp điểm sẽ:
+
+A)
+
+Hấp thụ năng lượng sét bảo vệ thiết bị
+
+B)
+
+Bị đánh thủng, dòng điện được truyền xuống đất
+
+C)
+
+Ngăn dòng điện chạy qua
+
+D)
+
+Ngăn điện áp cao
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 90
+
+Đặc điểm chính của cáp Mỹ?
+
+A)
+
+Cáp Mỹ có nhiều loại phân biệt với nhau bằng lớp bọc kim và vỏ bảo vệ.mỗi nhóm thường có 20 đôi, luật màu dựa trên sự kết hợp của 5 màu, gồm 5 màu chính và 5 màu phụ, mỗi nhóm có 1 dây buộc nhóm có màu khác nhau.
+
+B)
+
+Cáp Mỹ có nhiều loại phân biệt với nhau bằng lớp bọc kim và vỏ bảo vệ.mỗi nhóm thường có 25 đôi, luật màu dựa trên sự kết hợp của 10 màu, gồm 5 màu chính và 5 màu phụ, mỗi nhóm có 1 dây buộc nhóm có màu khác nhau.
+
+C)
+
+Cáp Mỹ có nhiều loại phân biệt với nhau bằng lớp bọc kim và vỏ bảo vệ.mỗi nhóm thường có 30 đôi, luật màu dựa trên sự kết hợp của 15 màu, gồm 5 màu chính và 10 màu phụ, mỗi nhóm có 1 dây buộc nhóm có màu khác nhau.
+
+D)
+
+Cáp Mỹ có nhiều loại phân biệt với nhau bằng lớp bọc kim và vỏ bảo vệ.mỗi nhóm thường có 50 đôi, luật màu dựa trên sự kết hợp của15 màu, gồm 10 màu chính và 5 màu phụ, mỗi nhóm có 1 dây buộc nhóm có màu khác nhau.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 91
+
+Sự khác nhau giữa bảo an 5 điểm K5-110, K5-170 và phạm vi ứng dụng?
+
+A)
+
+Bảo an 5 điểm K5-110, hạt ga cá điện áp phóng điện 150v, hạt sỉdator, điện áp ghim 220v. Sử dụng bảo vệ cho card thuê bao tổng đài( TOCA, TOTEL, M3)Bảo an 5 điểm K5-170, hạt ga cá điện áp phóng điện 380v, hạt sỉdator, điện áp ghim 170v. Sử dụng bảo vệ cho card thuê bao tổng đài( ALCATEL, HICOM, AT&T)
+
+B)
+
+Bảo an 5 điểm K5-110, hạt ga cá điện áp phóng điện 110v, hạt sỉdator, điện áp ghim 220v. Sử dụng bảo vệ cho card thuê bao tổng đài( TOCA, TOTEL, M3)Bảo an 5 điểm K5-170, hạt ga cá điện áp phóng điện 250v, hạt sỉdator, điện áp ghim 110v. Sử dụng bảo vệ cho card thuê bao tổng đài( ALCATEL, HICOM, AT&T)
+
+C)
+
+Bảo an 5 điểm K5-110, hạt ga cá điện áp phóng điện 150v, hạt sỉdator, điện áp ghim 110v. Sử dụng bảo vệ cho card thuê bao tổng đài( TOCA, TOTEL, M3)Bảo an 5 điểm K5-170, hạt ga cá điện áp phóng điện 230v, hạt sỉdator, điện áp ghim 170v. Sử dụng bảo vệ cho card thuê bao tổng đài( ALCATEL, HICOM, AT&T)
+
+D)
+
+Bảo an 5 điểm K5-110, hạt ga cá điện áp phóng điện 150v, hạt sỉdator, điện áp ghim 230v. Sử dụng bảo vệ cho card thuê bao tổng đài( TOCA, TOTEL, M3)Bảo an 5 điểm K5-170, hạt ga cá điện áp phóng điện 230v, hạt sỉdator, điện áp ghim 250v. Sử dụng bảo vệ cho card thuê bao tổng đài( ALCATEL, HICOM, AT&T)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 92
+
+Chức năng sợi màu trắng và xanh lam trong cáp mạng
+
+A)
+
+Truyền gói âm thanh
+
+B)
+
+Truyền gói thoại
+
+C)
+
+Truyền gói dữ liệu
+
+D)
+
+Dẫn điện áp 1 chiều
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 93
+
+Phiến chống sét bảo an 5 điểm (K5-110, K5-170….) tại các MDF của tổng đài nhằm mục đích gì?
+
+A)
+
+Bảo vệ card thuê bao cho tổng đài tránh sự cố sét đánh lan truyền trên đường dây thuê bao
+
+B)
+
+Bảo vệ an toàn cho người khai thác
+
+C)
+
+Chống sét cho tổng đài
+
+D)
+
+Bảo vệ đường dây trung kế
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 94
+
+Suy hao truyền dẫn trên cáp Mỹ là bao nhiêu?
+
+A)
+
+Khoảng 0,6 đến 1,85 dB/Km
+
+B)
+
+Khoảng 0,5 đến 1,85 dB/Km
+
+C)
+
+Khoảng 0,4 đến 1,85 dB/Km
+
+D)
+
+Khoảng 0,3 đến 1,85 dB/Km
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 95
+
+Lõi chữ thập trong cáp mạng có tác dụng:
+
+A)
+
+Chống nhiều, tăng độ cứng
+
+B)
+
+Tăng cự ly truyền tải
+
+C)
+
+Tăng độ cứng, tang cự ly truyền tải
+
+D)
+
+Chống nhiễu, tang cự ly truyền tải
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 96
+
+Nguyên nhân dẫn đến hiện tượng xuyên nhiễu trên đường dây kim loại là gì?
+
+A)
+
+Do hiện tượng ghép từ trường từ mạch gây xuyên nhiễu sang mạch bị xuyên nhiễu
+
+B)
+
+Do hiện tượng ghép dòng điện từ mạch gây xuyên nhiễu sang mạch bị xuyên nhiễu
+
+C)
+
+Do hiện tượng phân tán dòng điện từ mạch gây xuyên nhiễu sang mạch bị xuyên nhiễu
+
+D)
+
+Do hiện tượng phân tán từ trường từ mạch gây xuyên nhiễu sang mạch bị xuyên nhiễu
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 97
+
+Máy điện thoại TA57 là máy điện thoại gi?
+
+A)
+
+Máy điện thoại không dây
+
+B)
+
+Máy điện thoại điện chung
+
+C)
+
+Máy điện thoại không dùng điện
+
+D)
+
+Máy điện thoại ấn phím
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 98
+
+Khái niệm về cáp dã chiến loại nhẹ?
+
+A)
+
+Cáp dã chiến loại nhẹ là một loại cáp đối xứng, được chế tạo đặc biệt để sử dụng trong điều kiện cơ động dã ngoại, có thể triển khai thu hồi nhanh.
+
+B)
+
+Cáp dã chiến loại nhẹ là một loại cáp không đối xứng, được chế tạo đặc biệt để sử dụng trong điều kiện cơ động dã ngoại, có thể triển khai thu hồi nhanh.
+
+C)
+
+Cáp dã chiến loại nhẹ là một loại cáp đối xứng, được chế tạo như các loại cáp khác để sử dụng trong điều kiện cơ động dã ngoại, có thể triển khai thu hồi nhanh.
+
+D)
+
+Cáp dã chiến loại nhẹ là một loại cáp đối xứng, được chế tạo có lõi bằng kẽm để sử dụng trong điều kiện cơ động dã ngoại, có thể triển khai thu hồi nhanh.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 99
+
+Các biện pháp chống xuyên nhiễu trên đường dây là?
+
+A)
+
+Bố trí dây dẫn ở vị trí hợp lý và bọc kim cho cáp
+
+B)
+
+Bố trí dây dẫn dài và bọc kim cho cáp
+
+C)
+
+Bố trí dây dẫn ở vị trí hợp lý và chống nhiễu cho cáp
+
+D)
+
+Bố trí dây dẫn ngắn và bọc kim cho cáp
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 100
+
+Cáp thẳng chủ yếu dùng để nối giữa
+
+A)
+
+Các thiết bị giống nhau
+
+B)
+
+Các thiết bị không giống nhau
+
+C)
+
+Không phân biệt thiết bị
+
+D)
+
+Tùy vào thiết bị
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+
+
+
+
+
+

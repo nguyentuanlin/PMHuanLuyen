@@ -1,0 +1,1210 @@
+Câu hỏi
+
+Nội dung câu hỏi, trả lời
+
+Câu 1
+
+Theo tiêu chuẩn nghành viễn thông điện trở tiếp đất của tổng đài bao gồm những loại điện trở nào?
+
+A)
+
+Điện trở tiếp đất công tác.
+
+B)
+
+Điện trở mạch vòng và điên trở tiếp đất.
+
+C)
+
+Điện trở tiếp đất bảo vệ.
+
+D)
+
+Điện trở tiếp đất công tác và điện trở tiếp đất bảo vệ.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 2
+
+Theo tiêu chuẩn nghành viễn thông dung lượng tổng đài ≤ 500 số thì điện trở tiếp đất công tác là bao nhiêu?
+
+A)
+
+≤ 10,0 Ω
+
+B)
+
+≤ 5, 0 Ω
+
+C)
+
+≤ 2,5 Ω
+
+D)
+
+≤ 0,5 Ω
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 3
+
+Theo tiêu chuẩn nghành viễn thông dung lượng tổng đài ≤ 500 số thì điện trở tiếp đất bảo vệ là bao nhiêu?
+
+A)
+
+≤ 100 Ω
+
+B)
+
+≤ 10,0 Ω
+
+C)
+
+≤ 5 Ω
+
+D)
+
+≤ 2,5 Ω
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 4
+
+Theo tiêu chuẩn nghành viễn thông dung lượng tổng đài ≤ 100 số thì điện trở tiếp đất bảo vệ là bao nhiêu?
+
+A)
+
+≤ 100 Ω
+
+B)
+
+≤ 10,0 Ω
+
+C)
+
+≤ 5 Ω
+
+D)
+
+≤ 2,5 Ω
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 5
+
+Theo tiêu chuẩn nghành viễn thông dung lượng tổng đài ≤ 100 số thì điện trở tiếp đất công tác là bao nhiêu?
+
+A)
+
+≤ 10,0 Ω
+
+B)
+
+≤ 5, 0 Ω
+
+C)
+
+≤ 2,5 Ω
+
+D)
+
+≤ 0,5 Ω
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 6
+
+Theo tiêu chuẩn nghành viễn thông tổng đài phải có các thiết bị bảo vệ chống điện áp lạ trên đường dây thuê bao, trung kế khi điện áp lạ có giá trị bao nhiêu? 
+
+A)
+
+≥ 110V
+
+B)
+
+≥ 120V
+
+C)
+
+≥ 130V
+
+D)
+
+≥ 125V
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 7
+
+Chỉ tiêu điện trở đất của toàn bộ trạm  kỹ thuật số quân sự cấp 1 là?
+
+A)
+
+≤ 3Ω
+
+B)
+
+≤ 4Ω
+
+C)
+
+≤ 5Ω
+
+D)
+
+≤ 6Ω
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 8
+
+Chỉ tiêu điện trở đất của toàn bộ trạm kỹ thuật số quân sự cấp 2 là?
+
+A)
+
+≤ 3Ω
+
+B)
+
+≤ 4Ω
+
+C)
+
+≤ 5Ω
+
+D)
+
+≤ 6Ω
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 9
+
+Chỉ tiêu điện trở đất của toàn bộ trạm kỹ thuật số quân sự cấp 3 là?
+
+A)
+
+≤ 4Ω
+
+B)
+
+≤ 3Ω
+
+C)
+
+≤ 5Ω
+
+D)
+
+≤ 6Ω
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 10
+
+Trách nhiệm quản lý và ghi chép các loại sổ công tác kỹ thuật đối với các đơn vị thông tin có cơ quan kỹ thuật là ai?
+
+A)
+
+Chủ nhiệm kỹ thuật là người trực tiếp chịu trách nhiệm trước chỉ huy về triển khai hệ thống sổ sách, hướng dẫn và kiểm tra việc ghi chép.
+
+B)
+
+Lữ đoàn trưởng là người trực tiếp chịu trách nhiệm trước đơn vị về triển khai hệ thống sổ sách, hướng dẫn và kiểm tra việc ghi chép.
+
+C)
+
+Lữ đoàn phó phụ trách công tác kỹ thuật là người trực tiếp chịu trách nhiệm trước chỉ huy về triển khai hệ thống sổ sách, hướng dẫn và kiểm tra việc ghi chép.
+
+D)
+
+Phó chủ nhiệm kỹ thuật là người trực tiếp chịu trách nhiệm trước chỉ huy về triển khai hệ thống sổ sách, hướng dẫn và kiểm tra việc ghi chép.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 11
+
+Sổ theo dõi, quản lý trang bị kỹ thuật thông tin có công dụng để làm gì?
+
+A)
+
+Để theo dõi thống kê trang bị kỹ thuật thông tin hàng quý của cấp lữ đoàn, tiểu đoàn thông tin và các đơn vị tương đương, tình hình tăng giảm và theo dõi trang bị gửi đi sửa chữa trong quý.
+
+B)
+
+Để theo dõi thống kê trang bị kỹ thuật thông tin hàng tuần của cấp lữ đoàn, tiểu đoàn thông tin và các đơn vị tương đương, tình hình tăng giảm và theo dõi trang bị gửi đi sửa chữa trong quý.
+
+C)
+
+Để theo dõi thống kê trang bị kỹ thuật thông tin hàng tháng của cấp lữ đoàn, tiểu đoàn thông tin và các đơn vị tương đương, tình hình tăng giảm và theo dõi trang bị nhận sửa chữa trong tháng.
+
+D)
+
+Để theo dõi thống kê trang bị kỹ thuật thông tin hàng quý của cấp tiểu đoàn thông tin và các đơn vị tương đương, tình hình xuất nhập và theo dõi trang bị ở trong kho.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 12
+
+Sổ dự trù vật tư kỹ thuật có công dụng để làm gì?
+
+A)
+
+Để đề nghị cơ quan kỹ thuật cấp trên bảo đảm vật tư phục vụ bảo quản, bảo dưỡng kỹ thuật cấp 1 và sửa chữa nhỏ các trang bị kỹ thuật của cấp tiểu đoàn, đại đội, trạm (xưởng) sửa chữa thông tin.
+
+B)
+
+Để xây dựng kế hoạch bảo dưỡng kỹ thuật cấp 1 các trang bị kỹ thuật của cấp tiểu đoàn, đại đội thông tin trực thuộc và tương đương.
+
+C)
+
+Để xây dựng kế hoạch bảo quản trang bị kỹ thuật, phòng trạm máy thông tin hàng tuần của cấp tiểu đoàn, đại đội thông tin và tương đương.
+
+D)
+
+Để theo dõi thống kê trang bị kỹ thuật thông tin hàng tháng của cấp lữ đoàn, tiểu đoàn thông tin và các đơn vị tương đương, tình hình tăng giảm và theo dõi trang bị nhận sửa chữa trong tháng.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 13
+
+Tại sao phải báo cáo công tác kỹ thuật?
+
+A)
+
+Báo cáo công tác kỹ thuật để người chỉ huy và cơ quan kỹ thuật cấp trên nắm được trình độ chuyên môn của cấp dưới; đồng thời có sự chỉ đạo và có các biện pháp cần thiết nhằm hoàn thành nhiệm vụ công tác kỹ thuật. 
+
+B)
+
+Báo cáo công tác kỹ thuật để người chỉ huy và cơ quan kỹ thuật cấp trên nắm được tình hình, khả năng, mức độ hoàn thành nhiệm vụ, kế hoạch của cấp dưới; đồng thời có sự chỉ đạo và có các biện pháp cần thiết nhằm hoàn thành nhiệm vụ công tác kỹ thuật. 
+
+C)
+
+Báo cáo công tác kỹ thuật để người chỉ huy và cơ quan kỹ thuật cấp trên nắm được tình trạng hoạt động của các trang bị; đồng thời có sự chỉ đạo và có các biện pháp cần thiết nhằm duy trì các chỉ tiêu kỹ thuật. 
+
+D)
+
+Báo cáo công tác kỹ thuật để người chỉ huy và cơ quan kỹ thuật cấp trên nắm được thực trạng tổ chức biên chế nhân viên kỹ thuật; đồng thời có sự chỉ đạo biên chế đúng trình độ của nhân viên
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 14
+
+Công dụng của sổ công tác kỹ thuật?
+
+A)
+
+Để theo dõi công tác kỹ thuật hàng tháng của trung đội, tiểu đội và các tổ (trạm) thông tin.
+
+B)
+
+Để theo dõi công tác kỹ thuật hàng tuần của trung đội, tiểu đội và các tổ (trạm) thông tin.
+
+C)
+
+Để theo dõi công tác kỹ thuật hàng ngày của trung đội, tiểu đội và các tổ (trạm) thông tin.
+
+D)
+
+Để theo dõi công tác kỹ thuật hàng quý của trung đội, tiểu đội và các tổ (trạm) thông tin.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 15
+
+Cấp nào lập kế hoạch bảo quản tuần tại các trạm thông tin?
+
+A)
+
+Cấp trung đội thông tin
+
+B)
+
+Cấp đại đội thông tin
+
+C)
+
+Cấp tiểu đội thông tin 
+
+D)
+
+Cấp tiểu đoàn thông tin
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 16
+
+Theo điều lệ công tác kỹ thuật thông tin nội dung công tác BĐKT thông tin cho trang bị thông tin gồm mấy nội dung?
+
+A)
+
+06 nội dung: Chuẩn bị sử dụng; Bảo quản; Bảo dưỡng; Cất giữ; Tăng hạn sử dụng, Sửa chữa.
+
+B)
+
+04 nội dung: Chuẩn bị sử dụng; Bảo quản; Bảo dưỡng; Cất giữ.
+
+C)
+
+05 nội dung: Chuẩn bị sử dụng; Bảo quản; Bảo dưỡng; Cất giữ; sửa chữa
+
+D)
+
+03 nội dung: Chuẩn bị sử dụng; Bảo quản; Bảo dưỡng; 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 17
+
+Theo điều lệ công tác kỹ thuật QĐND Việt nam ban hành ngày 19/01/2023 của BQP có mấy hình thức huấn luyện tại đơn vị?
+
+A)
+
+04 hình thức: Huấn luyện thường xuyên theo qui định; Bổ túc, tập huấn, hội thi, hội thao kỹ thuật; Huấn luyện, kiểm tra đánh giá năng lực, trình độ CMKT đối với NVKT sau huấn luyện; Diễn tập.
+
+B)
+
+03 hình thức: Huấn luyện thường xuyên theo qui định; Bổ túc, tập huấn, hội thi, hội thao kỹ thuật; Bồi dưỡng, nâng bậc, giữ bậc.
+
+C)
+
+02 hình thức: Huấn luyện thường xuyên theo qui định; Bổ túc, tập huấn, hội thi, hội thao kỹ thuật; 
+
+D)
+
+01 hình thức: Huấn luyện thường xuyên theo qui định; 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 18
+
+Theo điều lệ công tác kỹ thuật có mấy đối tượng quản lý kỹ thuật?
+
+A)
+
+04 đối tượng: VKTBKT; Cơ sở kỹ thuật; Cán bộ NVKT; Vật tư kỹ thuật. 
+
+B)
+
+05 đối tượng: VKTBKT; Cơ sở kỹ thuật; Cán bộ NVKT; Vật tư kỹ thuật; Ngân sách kỹ thuật.
+
+C)
+
+03 đối tượng: VKTBKT; Cơ sở kỹ thuật; Cán bộ NVKT; 
+
+D)
+
+02 đối tượng: VKTBKT; Cán bộ NVKT
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 19
+
+Cuộc vận động 50 có mấy mục tiêu?
+
+A)
+
+02 mục tiêu: Quản lý tốt VKTBKT; Khai thác VKTBKT tốt, bền;
+
+B)
+
+03 mục tiêu: Quản lý tốt VKTBKT; Khai thác VKTBKT tốt, bền; Bảo đảm an toàn (cho VKTBKT và an toàn giao thông);
+
+C)
+
+04 mục tiêu: Quản lý tốt VKTBKT; Khai thác VKTBKT tốt, bền; Bảo đảm an toàn (cho VKTBKT và an toàn giao thông); Thực hành tiết kiệm;
+
+D)
+
+05 mục tiêu: Quản lý tốt VKTBKT; Khai thác VKTBKT tốt, bền; Bảo đảm an toàn (cho VKTBKT và an toàn giao thông); Thực hành tiết kiệm; Chống lãng phí;
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 20
+
+Câu phát biểu nào sai so với Nội quy kỷ luật và an toàn lao động khi làm việc trên cao
+
+A)
+
+Nhất thiết phải đeo dây an toàn tại những nơi đã quy định.
+
+B)
+
+Cấm đùa nghịch, leo trèo qua lan can an toàn, qua cửa sổ.
+
+C)
+
+Không được đi dép lê, đi giày có đế dễ trượt.
+
+D)
+
+Không nhất thiết phải đeo dây an toàn tại những nơi đã quy định.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 21
+
+Câu nào sai so với Yêu cầu đối với người làm việc trên cao là?
+
+A)
+
+Có giấy chứng nhận đã học tập và kiểm tra đạt yêu cầu về an toàn lao động do giám đốc đơn vị xác nhận.
+
+B)
+
+Đã được trang bị và hướng dẫn sử dụng các phương tiện bảo vệ cá nhân khi làm việc trên cao: dây an toàn,quần áo, giày, mũ bảo hộ lao động
+
+C)
+
+Từ 16 tuổi trở lên.
+
+D)
+
+Có giấy chứng nhận đảm bảo sức khỏe làm việc trên cao do cơ quan y tế
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 22
+
+Câu nào không đúng so với nội dung của ngày kỹ thuật theo Điều lệ công tác kỹ thuật QĐNDVN
+
+A)
+
+Kiểm tra, bảo quản vũ khí trang bị kỹ thuật
+
+B)
+
+Làm vệ sinh và tu bổ khu kỹ thuật
+
+C)
+
+Huấn luyện kỹ thuật   
+
+D)
+
+Thống kê sổ sách kỹ thuật
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 23
+
+Công tác kỹ thuật theo Điều lệ CTKT QĐNDVN ban hành ngày 19/01/2023 gồm mấy nội dung ?
+
+A)
+
+5
+
+B)
+
+6
+
+C)
+
+7
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 24
+
+Câu nào sai so với Đối tượng quản lý kỹ thuật theo Điều lệ CTKT QĐNDVN?
+
+A)
+
+Vũ khí trang bị kỹ thuật
+
+B)
+
+Cơ sở kỹ thuật
+
+C)
+
+Cán bộ nhân viên kỹ thuật
+
+D)
+
+Chỉ huy các cấp kỹ thuật
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 25
+
+Câu nào sai so với Quản lý VKTBKT theo Điều lệ CTKT QĐNDVN?
+
+A)
+
+Quản lý số lượng;
+
+B)
+
+Quản lý danh mục.
+
+C)
+
+Quản lý chất lượng;
+
+D)
+
+Quản lý đồng bộ.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 26
+
+Câu nào sai so với Các nội dung công tác BĐKT cho trang bị theo Điều lệ CTKT QĐNDVN?
+
+A)
+
+Chuẩn bị sử dụng trang bị kỹ thuật
+
+B)
+
+Bảo dưỡng kỹ thuật
+
+C)
+
+Thời hạn sử dụng
+
+D)
+
+Sửa chữa trang bị kỹ thuật
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 27
+
+Câu nào sai so với Điều lệ CTKT QĐNDVN mọi quân nhân, công nhân viên quốc phòng trước khi sử dụng VKTBKT.
+
+A)
+
+Được huấn luyện thông thạo cách sử dụng, nắm chắc tính năng chiến kỹ thuật của VKTBKT và các quy định về an toàn
+
+B)
+
+Tiến hành kiểm tra và thực hiện các bước chuẩn bị kỹ thuật theo đúng quy định về chuẩn bị sử dụng từng loại VKTBKT
+
+C)
+
+Chuẩn bị sử dụng vũ khí trang bị kỹ thuật cường độ cao
+
+D)
+
+Công tác bảo quản là trách nhiệm của người trực tiếp quản lý, sử dụng vũ khí trang bị kỹ thuật, được tiến hành tại chỗ
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 28
+
+Các hình thức trong bảo dưỡng kỹ thuật gồm
+
+A)
+
+Bảo dưỡng kỹ thuật định kỳ và Bảo dưỡng kỹ thuật không định kỳ
+
+B)
+
+Bảo dưỡng kỹ thuật theo tháng
+
+C)
+
+Bảo dưỡng kỹ thuật theo quý
+
+D)
+
+Bảo dưỡng kỹ thuật theo năm
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 29
+
+Kế hoạch bảo quản tuần cấp Tiểu đoàn do ai xây dựng?
+
+A)
+
+Do Trợ lý hoặc nhân viên Kỹ thuật lập
+
+B)
+
+Do Trợ lý Kỹ thuật lập
+
+C)
+
+Do Tiểu đoàn trưởng lập
+
+D)
+
+Do Phó Tiểu đoàn trưởng về kỹ thuật lập
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 30
+
+Câu nào sai so với 06 nội dung Thực hiện ngày kỹ thuật ở đơn vị
+
+A)
+
+Kiểm tra tình trạng kỹ thuật và đồng bộ của vũ khí trang bị kỹ thuật
+
+B)
+
+Thực hiện các biện pháp phòng ngừa hư hỏng, sự cố kỹ thuật
+
+C)
+
+Kiểm tra hồ sơ, sổ sách ghi chép thống kê
+
+D)
+
+Chu kỳ sửa chữa của từng loại theo quy định của chuyên ngành kỹ thuật
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+
+
+
+
+
+

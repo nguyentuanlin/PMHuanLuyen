@@ -1,0 +1,3210 @@
+Câu hỏi
+
+Nội dung câu hỏi, trả lời
+
+Câu 1
+
+Nguyên lý truyền tin qua mạng viễn thông?
+
+A)
+
+Tin tức→Thiết bị đầu cuối→tín hiệu điện→mạng viễn thông→tín hiệu điện→thiết bị đầu cuối→tin tức.
+
+B)
+
+Thiết bị đầu cuối→tín hiệu điện→mạng viễn thông→tín hiệu điện→thiết bị đầu cuối.
+
+C)
+
+Tin tức→Thiết bị đầu cuối →mạng viễn thông →thiết bị đầu cuối→tin tức.
+
+D)
+
+Tin tức →tín hiệu điện→mạng viễn thông→tín hiệu điện→ tin tức.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 2
+
+Tốc độ cao nhất của ghép kênh PDH là bao nhiêu?
+
+A)
+
+34 Mb/s
+
+B)
+
+140 Mb/s
+
+C)
+
+155 Mb/s
+
+D)
+
+8 Mb/s
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 3
+
+Tốc độ bít cơ sở của ghép kênh SDH là bao nhiêu
+
+A)
+
+155 Mb/s
+
+B)
+
+8 Mb/s
+
+C)
+
+140 Mb/s
+
+D)
+
+34 Mb/s
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 4
+
+Dung lượng kênh truyền được hiểu như thế nào?
+
+A)
+
+Dung lượng kênh truyền là tốc độ truyền tin cực đại trên kênh.
+
+B)
+
+Dung lượng kênh truyền là tốc độ truyền tin trung bình
+
+C)
+
+Dung lượng kênh truyền là tốc độ truyền tin nhỏ nhất
+
+D)
+
+Dung lượng kênh truyền là tốc độ truyền tin
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 5
+
+Khái niệm nhận tin trong 1 hệ thống thông tin?
+
+A)
+
+Là nơi trao đổi tín hiệu
+
+B)
+
+Là nơi sản sinh ra các tin cần truyền đến nơi nhận tin.
+
+C)
+
+Là môi trường để truyền tín hiệu. 
+
+D)
+
+Là nơi khôi phục lại tin tức ban đầu đã phát đi từ nguồn tin.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 6
+
+Khái niệm nguồn tin trong 1 hệ thống thông tin?
+
+A)
+
+Là nơi sản sinh ra các tin cần truyền đến nơi nhận tin.
+
+B)
+
+Là nơi cung cấp thông tin
+
+C)
+
+Là nơi tin truyền đến
+
+D)
+
+Là nơi tiếp nhận thông tin
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 7
+
+Tín hiệu tương tự là gì?
+
+A)
+
+Là tín hiệu liên tục
+
+B)
+
+Có tần số dòng điện thay đổi
+
+C)
+
+Đây là tín hiệu liên tục theo thời gian. Biên độ, pha hoặc tần số dòng điện thay đổi liên tục theo thời gian.
+
+D)
+
+Có biên độ thay đổi liên tục.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 8
+
+Quy tắc chung xây dựng trường chuyển mạch nhiều tầng?
+
+A)
+
+Phải theo nguyên tắc 1:1, đồng tên 
+
+B)
+
+Số đầu ra của mỗi bộ chuyển mạch tầng trước phải bằng số bộ chuyển mạch tầng sau.
+
+C)
+
+Số đầu vào của các bộ chuyển mạch tầng sau bằng số bộ chuyển mạch tầng trước. 
+
+D)
+
+Phải theo nguyên tắc 1:1, đồng tên; Số đầu ra của mỗi bộ chuyển mạch tầng trước phải bằng số bộ chuyển mạch tầng sau; Số đầu vào của các bộ chuyển mạch tầng sau bằng số bộ chuyển mạch tầng trước.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 9
+
+Mô hình OSI gồm có mấy lớp?
+
+A)
+
+6 lớp
+
+B)
+
+5 lớp
+
+C)
+
+7 lớp
+
+D)
+
+8 lớp
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 10
+
+ Hệ thống báo hiệu kênh chung số 7 (CCS7) có cấu trúc gồm mấy lớp? 
+
+A)
+
+4 lớp
+
+B)
+
+5 lớp
+
+C)
+
+7 lớp
+
+D)
+
+8 lớp
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 11
+
+Mô hình OSI là  gì?
+
+A)
+
+Là một cơ sở dành cho việc chuẩn hoá các hệ thống truyền thông, nó được nghiên cứu và xây dựng bởi tổ chức ISO.
+
+B)
+
+Là một giao thức truyền thông
+
+C)
+
+Là 1 thiết bị mạng
+
+D)
+
+Là cơ sở để sản xuất thiết bị.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 12
+
+Mã HDB3 là gì?
+
+A)
+
+Mã HDB3: Mã HDB3 là loại mã AMI luân phiên đảo dấu các bit 1 trong mã đó mã chỉ có tối đa 3 bít "0" liên tiếp. Đây là loại mã có mật độ phân biệt sai số bit lớn và nó được sử dụng nhiều trong các hệ thống truyền dẫn số
+
+B)
+
+Loại mã lưỡng cực mật độ cao tùy theo chỉ số N (là số bit 0 liên tiếp tối đa cho phép trong chuỗi mã lối ra) mà ta có các loại mã HDBN. Bất luận mẫu tín hiệu nhị phân như thế nào. 
+
+C)
+
+Mã HDB3 là các quy luật mã hóa để truyền tín hiệu từ thiết bị này đến thiết bị khác bằng các loại đường truyền. Mỗi loại đường truyền tương thích với một loại mã.
+
+D)
+
+Mã HDB3 là các quy luật mã hóa để truyền tín hiệu từ thiết bị này đến thiết bị khác
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 13
+
+Trong mô hình OSI tầng nào có nhiệm vụ tạo lập các khung, gửi chúng tới các kênh truyền thông thông qua tầng vật lý, nhận khung, kiểm tra lỗi, chuyển khung không có lỗi lên tầng mạng, đồng thời điều khiển tắc nghẽn?
+
+A)
+
+Tầng ứng dụng 
+
+B)
+
+Tầng vật lý 
+
+C)
+
+Tầng liên kết dữ liệu
+
+D)
+
+Tầng phiên
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 14
+
+Khái niệm về công nghệ ATM?
+
+A)
+
+ATM là công nghệ chuyển mạch không bao gồm khía cạnh truyền dẫn. 
+
+B)
+
+ATM là công nghệ bao gồm cả khía cạnh truyền dẫn và khía cạnh chuyển mạch.
+
+C)
+
+ATM là công nghệ bao gồm cả khía cạnh truyền dẫn và khía cạnh chuyển mạch kênh.
+
+D)
+
+ATM là công nghệ bao gồm cả khía cạnh truyền dẫn và khía cạnh chuyển mạch bản tin.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 15
+
+VoIP là gì? 
+
+A)
+
+VoIP (Voice Over IP) là một công nghệ cho phép truyền giọng nói sử dụng giao thức mạng IP.
+
+B)
+
+VoIP (Voice Over IP) là một công nghệ cho phép truyền điện năng  sử dụng giao thức mạng IP.
+
+C)
+
+VoIP (Voice Over IP) là một công nghệ cho phép truyền file sử dụng giao thức mạng IP.
+
+D)
+
+VoIP (Voice Over IP) là một công nghệ cho phép truyền văn bản sử dụng giao thức mạng IP.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 16
+
+Điện thoại IP (IP phone) là gì?
+
+A)
+
+Là loại điện thoại sử dụng công nghệ VoIP, chạy trong mạng LAN và có kết nối với mạng truyền số liệu IP.
+
+B)
+
+Là loại điện thoại sử dụng công nghệ ASI, chạy trong mạng LAN và có kết nối với mạng truyền số liệu IP.
+
+C)
+
+Là loại điện thoại sử dụng công nghệ TDM, chạy trong mạng LAN và có kết nối với mạng truyền số liệu IP.
+
+D)
+
+Là loại điện thoại sử dụng công nghệ Analog, chạy trong mạng LAN và có kết nối với mạng truyền số liệu IP.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 17
+
+Mạng LAN gồm những thành phần cơ bản nào?
+
+A)
+
+Gồm có máy chủ (server), các thiết bị mở rộng (Repeater, Hub, Switch, Bridge), máy tính trạm (client), card mạng (Network Interface Card – NIC) và dây cáp (cable) để kết nối các máy tính lại với nhau. 
+
+B)
+
+Gồm các mạng máy tính được kết nối vơi nhau thông qua thiết bị truyền dẫn.
+
+C)
+
+Gồm có máy chủ (server), các thiết bị mở rộng (Switch, Bridge), máy tính trạm (client) để kết nối các máy tính lại với nhau. Mạng LAN có thể được kết nối với nhau theo mô hình Bus, Ring, Star hoặc hỗn hợp
+
+D)
+
+Gồm các thiết bị mở rộng (Repeater, Hub, Switch, Bridge), máy tính trạm (client), card mạng (Network Interface Card – NIC) và dây cáp (cable) để kết nối các máy tính lại với nhau. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 18
+
+Chuyển mạch gói là gì?
+
+A)
+
+Là các bản tin được chia thành các gói nhỏ và được truyền đến các nút mạng.
+
+B)
+
+Là các bản tin được truyền trên các nút mạng từ nút nguồn tới nút đích theo phương thức liên kết.
+
+C)
+
+Là các bản tin được chia thành các gói và được truyền cùng các tiếp đầu và tiếp cuối của gói.
+
+D)
+
+Là các gói tin được truyền từ nút nguồn tới nút đích theo phương thức báo hiệu kênh chung.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 19
+
+Ghép kênh theo tần số là gì?
+
+A)
+
+Ghép kênh phân chia theo tần số là phương pháp biến đổi tín hiệu của các kênh về tần số sao cho khi sắp xếp lên trục tần số  mỗi kênh có một  băng tần riêng không trùng nhau. (các kênh khác nhau về tần số).
+
+B)
+
+Là phương pháp biến đổi tín hiệu của các kênh về thời gian sao cho tại mỗi thời điểm trên trục thời gian chỉ truyền tín hiệu của một kênh (các kênh không trùng nhau về thời gian).
+
+C)
+
+Ghép kênh phân chia theo tần số là phương pháp biến đổi tín hiệu của các kênh về tần số sao cho khi sắp xếp lên trục tần số  mỗi kênh có một  băng tần riêng  trùng nhau. (các kênh khác nhau về tần số).
+
+D)
+
+Ghép kênh phân chia theo tần số là phương pháp biến đổi tín hiệu của các kênh về tần số sao cho khi sắp xếp lên trục tần số  mỗi kênh có một  băng tần trùng nhau. (các kênh khác nhau về tần số).
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 20
+
+Ghép kênh theo thời gian là gì?
+
+A)
+
+Là phương pháp biến đổi tín hiệu của các kênh về thời gian sao cho tại mỗi thời điểm trên trục thời gian chỉ truyền tín hiệu của một kênh (các kênh không trùng nhau về thời gian).
+
+B)
+
+Là  phương pháp biến đổi tín hiệu của các kênh về tần số sao cho khi sắp xếp lên trục tần số  mỗi kênh có một  băng tần riêng không trùng nhau. (các kênh khác nhau về tần số).
+
+C)
+
+Là phương pháp biến đổi tín hiệu của một kênh về thời gian sao cho tại mỗi thời điểm trên trục thời gian chỉ truyền tín hiệu của hai kênh (các kênh không trùng nhau về thời gian).
+
+D)
+
+Là phương pháp biến đổi tín hiệu của các kênh về thời gian sao cho tại mỗi thời điểm trên trục thời gian, tín hiệu của nhiều kênh được truyền (các kênh không trùng nhau về thời gian).
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 21
+
+Mạng viễn thông thế hệ mới NGN -Next Generation Network được hiểu như thế nào?
+
+A)
+
+NGN là mạng hội tụ cả thoại, video và dữ liệu trên cùng một cơ sở hạ tầng dựa trên nền tảng IP, làm việc trên cả phương tiện truyền thông vô tuyến và hữu tuyến.
+
+B)
+
+NGN là sự tích hợp cấu trúc mạng hiện tại với cấu trúc mạng đa dịch vụ dựa trên cơ sở hạ tầng có sẵn, với sự hợp nhất các hệ thống quản lý và điều khiển
+
+C)
+
+NGN là sự tích hợp mạng PSTN dựa trên kỹ thuật TDM và mạng chuyển mạch gói dựa trên kỹ thuật IP/ATM. 
+
+D)
+
+NGN là mạng hội tụ cả thoại, video.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 22
+
+Đặc điểm chính của chuyển mạch kênh là gì?
+
+A)
+
+Thiết lập kênh truyền nhưng không truyền thông tin trên kênh đã được thiết lập.
+
+B)
+
+Thiết lập kênh truyền rồi mới truyền thông tin trên kênh đã được thiết lập.
+
+C)
+
+Không cần thiết lập kênh truyền mà truyền thông tin ngay sau khi kết nối kênh.
+
+D)
+
+Không cần thiết lập kênh truyền mà vẫn truyền thông tin 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 23
+
+Báo hiệu đường dây thuê bao là báo hiệu được sử dụng để?
+
+A)
+
+Thực hiện báo hiệu giữa các tổng đài
+
+B)
+
+Thực hiện báo hiệu giữa tổng đài nội hạt và thuê bao
+
+C)
+
+Thực hiện báo hiệu cho các liên mạng 
+
+D)
+
+Thực hiện kết nối thoại
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 24
+
+Nhược điểm của báo hiệu kênh liên kết là gì?
+
+A)
+
+Thời gian thiết lập cuộc gọi lâu
+
+B)
+
+Dung lượng của báo hiệu kênh liên kết nhỏ
+
+C)
+
+Độ tin cậy của báo hiệu kênh liên kết không cao
+
+D)
+
+Thời gian thiết lập cuộc gọi lâu; Dung lượng của báo hiệu kênh liên kết nhỏ; Độ tin cậy của báo hiệu kênh liên kết không cao
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 25
+
+Khung sơ cấp có 32 từ mã 8 bít ( 32 khe thời gian) được đánh số từ khe số 0 đến khe số 31, vậy khe số 0 dùng để làm nhiệm vụ gì ?
+
+A)
+
+Để báo hiệu kênh thoại
+
+B)
+
+Để đồng bộ khung
+
+C)
+
+Để truyền tín hiệu thoại
+
+D)
+
+Để truyền số liệu
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 26
+
+Khung sơ cấp có 32 từ mã 8 bít ( 32 khe thời gian) được đánh số từ khe số 0 đến khe số 31, vậy khe số 16 dùng để làm nhiệm vụ gì ?
+
+A)
+
+Báo hiệu kênh thoại
+
+B)
+
+Đồng bộ khung
+
+C)
+
+Truyền tín hiệu thoại
+
+D)
+
+Để truyền số liệu
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 27
+
+Khung sơ cấp có 32 từ mã 8 bít ( 32 khe thời gian) được đánh số từ khe số 0 đến khe số 31, vậy từ khe số 1÷15 và 17÷31 có làm nhiệm vụ gì ?
+
+A)
+
+Báo hiệu kênh thoại
+
+B)
+
+Đồng bộ khung
+
+C)
+
+Truyền tín hiệu thoại
+
+D)
+
+Để truyền số liệu
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 28
+
+Ký hiệu PAM ( pulseAmplitude Modulation) có ý nghĩa gì?
+
+A)
+
+Điều biên xung
+
+B)
+
+Điều mã xung
+
+C)
+
+Đồng bộ khung
+
+D)
+
+Đồng bộ đa khung
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 29
+
+Mã HDB3 ( high density bipolar 3) có những ưu điểm gì ?
+
+A)
+
+Chỉ tồn tại các dãy có 3 bít 0 liên tiếp trở xuống
+
+B)
+
+Không bị hiện tượng Signal Droop
+
+C)
+
+Có khả năng phát hiện lỗi, là tín hiệu trong suốt
+
+D)
+
+Chỉ tồn tại các dãy có 3 bít 0 liên tiếp trở xuống; Không bị hiện tượng Signal Droop; Có khả năng phát hiện lỗi, là tín hiệu trong suốt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 30
+
+Mã HDB3 ( high density bipolar 3) được sử dụng như thế nào?
+
+A)
+
+Chỉ dùng trong hệ thống 2,048 Mb/s.
+
+B)
+
+Chỉ dùng trong hệ thống 1,544 Mb/s.
+
+C)
+
+Dùng trong hệ thống 2,048 Mb/s: hệ thống 34,368Mb/s. Được sử dụng trong mạng LAN.
+
+D)
+
+Dùng trong hệ thống 2,048 Mb/s: hệ thống 34,368Mb/s. Được sử dụng trong mạng WAN.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 31
+
+Ký hiệu PDH (Plesiochronous Digital Hierarchy) có nghĩa là gì
+
+A)
+
+Phân cấp số cận đồng bộ  
+
+B)
+
+Phân cấp số đồng bộ 
+
+C)
+
+Cận đồng bộ 
+
+D)
+
+Đồng bộ 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 32
+
+Tổng đài SPC được hiểu như thế nào?
+
+A)
+
+Là tổng đài điện tử số có chương trình điều khiển được lưu sẵn.
+
+B)
+
+Là tổng đài điện tử số có chương trình điều khiển không được lưu sẵn.
+
+C)
+
+Là tổng đài điện tử số có chương trình điều khiển bằng chuyển mạch số.
+
+D)
+
+Là tổng đài điện tử số có chương trình điều khiển bằng máy tính truy nhập từ xa.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 33
+
+ Tổng đài SPC có cấu trúc thành hai hệ thống chính đó là?
+
+A)
+
+Hệ thống thoại và Hệ thống xử lý điều khiển.
+
+B)
+
+Hệ thống thoại và Hệ thống xử lý báo hiệu.
+
+C)
+
+Hệ thống thoại và Hệ thống kết nối với tổng đài khác.
+
+D)
+
+Hệ thống thoại và Hệ thống xử lý cảnh báo.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 34
+
+Trong tổng đài SPC hệ thống thoại có thể chia thành các phân hệ nào? 
+
+A)
+
+Phân hệ thuê bao và báo hiệu thuê bao, phân hệ trung kế và báo hiệu trung kế, phân hệ chuyển mạch.
+
+B)
+
+Phân hệ thuê bao và báo hiệu thuê bao, phân hệ trung kế và báo hiệu trung kế, phân hệ báo hiệu kênh chung.
+
+C)
+
+Phân hệ thuê bao, phân hệ trung kế, phân hệ báo hiệu kênh chung và phân hệ chuyển mạch
+
+D)
+
+Phân hệ thuê bao, phân hệ trung kế, phân hệ báo hiệu kênh chung, phân hệ điều khiển
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 35
+
+Trong tổng đài SPC phân hệ chuyển mạch nhóm thường bao gồm các thành phần nào?
+
+A)
+
+ Mạng chuyển mạch nhóm, bộ điều khiển  chuyển mạch  và  một số khối chức năng tuỳ thuộc vào từng loại tổng đài.
+
+B)
+
+Bộ điều khiển  chuyển mạch  và  một số khối chức năng tuỳ thuộc vào từng loại tổng đài.
+
+C)
+
+Bộ điều khiển  chuyển mạch thue bao và  một số khối chức năng tuỳ thuộc vào từng loại tổng đài.
+
+D)
+
+Bộ điều khiển chuyển mạch  trung kế và  một số khối chức năng tuỳ thuộc vào từng loại tổng đài.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 36
+
+Trong tổng đài SPC phân hệ trung kế và báo hiệu trung kế bao gồm?
+
+A)
+
+ Các mạch giao tiếp các loại trung kế tương tự ATIC-Analog trunk interface circuit, trung kế số (DTIC-Digital trunk Interface), xử lý tín hiệu trung kế số, xử lý báo hiệu trung kế và các bộ điều khiển kèm theo.
+
+B)
+
+ Các mạch giao tiếp các loại thuê bao tương tự ATIC-Analog trunk interface circuit, trung kế số (DTIC-Digital trunk Interface), xử lý tín hiệu trung kế số, xử lý báo hiệu trung kế và các bộ điều khiển kèm theo.
+
+C)
+
+ Các mạch giao tiếp các loại trung kế tương tự ATIC-Analog trunk interface circuit, trung kế số (DTIC-Digital trunk Interface), xử lý tín hiệu thuê bao số, xử lý báo hiệu trung kế và các bộ điều khiển kèm theo.
+
+D)
+
+ Các mạch giao tiếp các loại trung kế tương tự ATIC-Analog trunk interface circuit, trung kế số (DTIC-Digital trunk Interface), xử lý tín hiệu trung kế số, xử lý báo hiệu trung kế và các bộ chuyển mạch kèm theo.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 37
+
+Tổng đài SPC phân hệ xử lý và phân phối báo hiệu bao gồm các thiết bị gì?
+
+A)
+
+Các thiết bị thu, phát báo hiệu, xử lý và phân phối báo hiệu cung cấp kết quả xử lý cho các bộ điều khiển chuyển mạch và xử lý tín hiệu điều khiển. 
+
+B)
+
+Các thiết bị thu, phát báo hiệu, xử lý và phân phối báo hiệu cung cấp kết quả xử lý cho các bộ điều khiển chuyển mạch và xử lý cuộc gọi.
+
+C)
+
+Các thiết bị thu, phát báo hiệu, xử lý và phân phối báo hiệu cung cấp kết quả xử lý cho các bộ điều khiển trung kế và xử lý cuộc gọi.
+
+D)
+
+Các thiết bị thu, phát tín hiệu xử lý và phân phối báo hiệu cung cấp kết quả xử lý cho các bộ điều khiển chuyển mạch và xử lý cuộc gọi.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 38
+
+Truyền tin qua mạng viễn thông được hiểu như thế nào?
+
+A)
+
+Là hình thức truyền thông tin từ nơi này tới nơi khác bằng cách sử dụng tín hiệu điện, điện từ, quang điện thông qua các thiết bị mạng.
+
+B)
+
+Là hình thức truyền thông tin sử dụng tín hiệu điện thoại thông qua các thiết bị mạng
+
+C)
+
+Là hình thức truyền thông tin sử dụng tín hiệu quang điện thông qua các thiết bị mạng.
+
+D)
+
+Là hình thức truyền thông tin từ nơi này tới nơi khác bằng cách sử dụng tín hiệu điện từ thông qua các thiết bị mạng.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 39
+
+Mạng viễn thông bao gồm các thành phần cơ bản nào?
+
+A)
+
+Thiết bị đầu cuối, trung tâm chuyển mạch và các tuyến truyền dẫn.
+
+B)
+
+Các máy điện thoại, các tổng đài và các thiết bị truyền dẫn
+
+C)
+
+Các máy tính, các thiết bị truyền số liệu và các thiết bị truyền dẫn
+
+D)
+
+Các thiết bị đầu cuối, các tổng đài nhân công và các thiết bị truyền dẫn.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 40
+
+Trong hệ thống chuyển mạch yếu tố nào ảnh hưởng trực tiếp đến chất lượng phục vụ QoS của hệ thống?
+
+A)
+
+Quản lý, điều hành
+
+B)
+
+Bảo quản, bảo dưỡng.
+
+C)
+
+Đồng bộ
+
+D)
+
+Báo hiệu
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 41
+
+Để các thành phần chính trong mạng viễn thông như các thiết bị đầu cuối, các trung tâm chuyển mạch, các tuyến truyền dẫn hoạt động phối hợp nhịp nhàng với nhau thì giữa chúng cần phải có?
+
+A)
+
+Quản lý
+
+B)
+
+Điều khiển.
+
+C)
+
+Nhân viên khai thác.
+
+D)
+
+Báo hiệu.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 42
+
+Các tổng đài nhân công thuộc chuyển mạch nào?
+
+A)
+
+Chuyển mạch kênh
+
+B)
+
+Chuyển mạch gói
+
+C)
+
+Chuyển mạch bản tin
+
+D)
+
+Chuyển mạch địa chỉ.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 43
+
+Bộ chuyển mạch không gian tương tự ứng dụng để sản xuất cho những loại tổng đài nào?
+
+A)
+
+Để xây dựng trường chuyển mạch của các tổng đài phân kênh theo không gian.
+
+B)
+
+Để xây dựng trường chuyển mạch của các tổng đài phân kênh theo thời gian gian.
+
+C)
+
+Để xây dựng trường chuyển mạch của các tổng đài kết hợp cả TDM và IP
+
+D)
+
+Để xây dựng trường chuyển mạch của các tổng đài IP.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 44
+
+Tín hiệu số là gì?
+
+A)
+
+Là tín hiệu liên tục theo thời gian
+
+B)
+
+Đây là tìn hiệu rời rạc theo tần số
+
+C)
+
+Đây là tìn hiệu liên tục theo tần số
+
+D)
+
+Đây là tìn hiệu rời rạc theo biên độ
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 45
+
+Tốc độ của kênh thoại là gì?
+
+A)
+
+Tốc độ của một kênh thoại số là số bit (hoặc bội của nó) được truyền 
+
+B)
+
+Là tốc độ bít
+
+C)
+
+Tốc độ của một kênh thoại số là số bit (hoặc bội của nó) được truyền đi trong một quãng thời gian nào đó. 
+
+D)
+
+Tốc độ của một kênh thoại số là số bit (hoặc bội của nó) nhận được
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 46
+
+Quá trình lấy mẫu tín hiệu trong điều chế PCM tương ứng tổ hợp mã  bao nhiêu bit?
+
+A)
+
+8 Bít
+
+B)
+
+6 Bít
+
+C)
+
+4 Bít
+
+D)
+
+2 Bít
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 47
+
+Công nghệ PCM (Pulse Code Modulation) có thể hiểu như thế nào?
+
+A)
+
+Là công nghệ số hoá tín hiệu trên cơ sở kênh thoại cơ bản.
+
+B)
+
+Là công nghệ truyền liên tục trên kênh thoại.
+
+C)
+
+Là công nghệ chia gói tin thành nhiều gói nhỏ để truyền trên đường truyền.
+
+D)
+
+Là công nghệ chuyển mạch kênh.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 48
+
+Tần số lấy mẫu theo công nghệ PCM được quy định là bao nhiêu?
+
+A)
+
+8 Khz
+
+B)
+
+6 Khz
+
+C)
+
+4 Khz
+
+D)
+
+2 Khz
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 49
+
+Cáp thông tin là gì?
+
+A)
+
+Hai hay nhiều đôi dây được cách điện với nhau xoắn theo quy luật 
+
+B)
+
+Hai hay nhiều đôi dây xoắn theo quy luật được đặt trong vỏ bảo vệ 
+
+C)
+
+Hai hay nhiều đôi dây được cách điện, xoắn đều với nhau
+
+D)
+
+Hai hay nhiều đôi dây được cách điện với nhau xoắn theo quy luật được đặt trong vỏ bảo vệ. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 50
+
+Cáp Vinadaisung do nước nào sản xuất?
+
+A)
+
+Triều Tiên
+
+B)
+
+Mỹ
+
+C)
+
+Nhật
+
+D)
+
+Việt Nam và Nam Triều Tiên
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 51
+
+Trong một sợi cáp được chia ra các Quard, để phân biệt thứ tự Quard căn cứ vào đâu?
+
+A)
+
+Màu chính
+
+B)
+
+Màu phụ
+
+C)
+
+Màu chỉ quấn
+
+D)
+
+Màu của từng đôi cáp
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 52
+
+Chuyển mạch nào thực hiện chức năng chuyển từ mã PCM của kênh trên tuyến PCM đầu vào nào đó tới kênh có cùng thứ tự với nó trên một trong các tuyến PCM đầu ra của bộ chuyển mạch?
+
+A)
+
+Chuyển mạch kênh
+
+B)
+
+Chuyển mạch số
+
+C)
+
+Chuyển mạch không gian số
+
+D)
+
+Chuyển mạch thời gian số
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 53
+
+Hãy so sánh số ngăn nhớ C-MEM và T-MEM trong bộ chuyển mạch thời gian số kiểu ghi ngẫu nhiên và đọc ngẫu nhiên?
+
+A)
+
+Số ngăn nhớ của C-MEM lớn hơn số ngăn nhớ của T-MEM.
+
+B)
+
+Số ngăn nhớ của C-MEM nhỏ hơn số ngăn nhớ của T-MEM.
+
+C)
+
+Số ngăn nhớ của C-MEM bằng số ngăn nhớ của T-MEM.
+
+D)
+
+Số ngăn nhớ của C-MEM lớn hơn 2 lần số ngăn nhớ của T-MEM.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 54
+
+Hãy so sánh số ngăn nhớ C-MEM và T-MEM trong bộ chuyển mạch thời gian số kiểu ghi ngẫu nhiên và đọc tuần tự?
+
+A)
+
+Số ngăn nhớ của C-MEM lớn hơn số ngăn nhớ của T-MEM.
+
+B)
+
+Số ngăn nhớ của C-MEM nhỏ hơn số ngăn nhớ của T-MEM.
+
+C)
+
+Số ngăn nhớ của C-MEM bằng số ngăn nhớ của T-MEM.
+
+D)
+
+Số ngăn nhớ của C-MEM lớn hơn 2 lần số ngăn nhớ của T-MEM.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 55
+
+Bộ chuyển mạch không gian số điều khiển theo đầu ra (điều khiển theo cột) thì bộ nhớ C-MEM có số ngăn nhớ như thế nào?
+
+A)
+
+ Mỗi hàng có số ngăn nhớ bằng với dung lượng của tuyến PCM. 
+
+B)
+
+ Mỗi cột có số ngăn nhớ bằng với dung lượng của tuyến PCM. 
+
+C)
+
+ Mỗi cột có số ngăn nhớ lớn hơn dung lượng của tuyến PCM. 
+
+D)
+
+ Mỗi cột có số ngăn nhớ nhỏ hơn dung lượng của tuyến PCM. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 56
+
+Bộ nhớ T-MEM trong chuyển mạch thời gian có chức năng cơ bản nào?
+
+A)
+
+Lưu giữ các tín hiệu PCM của luồng đầu vào, khi có sự điều khiển từ C- MEM thì nó lấy tín hiệu PCM này kết nối với luồng đầu ra thích hợp.
+
+B)
+
+Điều khiển quá trình đọc thông tin đã lưu trong C-MEM
+
+C)
+
+Nhớ tạm các tín hiêu PCM chứa trong mỗi khe thời gian phia đầu vào để tạo độ trễ thích hợp theo yêu cầu
+
+D)
+
+Điều khiển quá trình ghi thông tin đã lưu trong C-MEM
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 57
+
+Chuyển mạch thời gian số T gồm 2 thành phần chính là?
+
+A)
+
+Bộ nhớ T- MEM và bộ nhớ điều khiển C-MEM.
+
+B)
+
+Ma trận chuyển mạch và bộ nhớ điều khiển C-MEM
+
+C)
+
+Ma trận chuyển mạch và khối điều khiển chuyển mạch.
+
+D)
+
+Bộ nhớ T-MEM và khối điều khiển chuyển mạch nội bộ.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 58
+
+Địa chỉ của thuê bao chủ gọi và thuê bao bị gọi trong báo hiệu R2 thuộc tín hiệu nhóm nào? 
+
+A)
+
+ Thuộc tín hiệu hướng đi nhóm I trong Báo hiệu R2.
+
+B)
+
+ Thuộc tín hiệu hướng đi nhóm II trong Báo hiệu R2.
+
+C)
+
+ Thuộc tín hiệu hướng về nhóm I trong Báo hiệu R2.
+
+D)
+
+ Thuộc tín hiệu hướng về nhóm II trong Báo hiệu R2.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 59
+
+Chỉ thị về đặc tính cuộc gọi và thuê bao chủ gọi, trong báo hiệu R2 thuộc tín hiệu nhóm nào?
+
+A)
+
+ Thuộc tín hiệu hướng đi nhóm I trong Báo hiệu R2.
+
+B)
+
+ Thuộc tín hiệu hướng đi nhóm II trong Báo hiệu R2.
+
+C)
+
+ Thuộc tín hiệu hướng về nhóm I trong Báo hiệu R2.
+
+D)
+
+ Thuộc tín hiệu hướng về nhóm II trong Báo hiệu R2.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 60
+
+Bộ nhớ điều khiển trong chuyển mạch số được hiểu như thế nào?
+
+A)
+
+Là bộ nhớ lưu trữ tuần tự của các yêu cầu cuộc gọi.
+
+B)
+
+Là bộ nhớ lưu trữ không tuần tự của các yêu cầu cuộc gọi.
+
+C)
+
+Là bộ nhớ lưu trữ các thông tin của các yêu cầu kết nối cuộc gọi.
+
+D)
+
+Là bộ nhớ lưu trữ tuần tự tín hiệu điều khiển các kết nối cuộc gọi.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 61
+
+Địa chỉ MAC là?
+
+A)
+
+Địa chỉ lớp 3 được router xử lý cho việc định tuyến
+
+B)
+
+Địa chỉ lớp 4 được gắn vào cổng dịch vụ
+
+C)
+
+Có thể thay đổi bằng  TCP/IP của window
+
+D)
+
+Địa chỉ lớp 2 được gắn cứng vào card mạng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 62
+
+Giao thức phổ biến được sử dụng trong mạng INTERNET hiện nay?
+
+A)
+
+Ethernet
+
+B)
+
+TCP/IP
+
+C)
+
+IEEE
+
+D)
+
+OSI
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 63
+
+Điểm báo hiệu SP (Signalling Point) là gì?
+
+A)
+
+Là nút điều khiển hay nút xử lý trong mạng báo hiệu
+
+B)
+
+Là nút chuyển giao công nghệ xử lý hay nút xử lý trong mạng báo hiệu.
+
+C)
+
+Là nút chuyển mạch hay nút xử lý trong mạng báo hiệu.
+
+D)
+
+Là nút Kết nối trung kế hay nút xử lý trong mạng báo hiệu
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 64
+
+Lớp Lõi dây điện thoại dã chiến được cấu tạo từ chất gì? 
+
+A)
+
+Bằng các sợi sắt, đồng soắn lại với nhau.
+
+B)
+
+Bằng các sợi kim loại, đồng soắn lại với nhau.
+
+C)
+
+Bằng các sợi sắt, kẽm soắn lại với nhau.
+
+D)
+
+Bằng các sợi chì, đồng soắn lại với nhau.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 65
+
+Màn che tĩnh điện thường đặt ở vị trí nào của sợi cáp và có tác dụng gì?
+
+A)
+
+Màn che nằm ngoài vỏ cáp, được cấu tạo bởi một lớp kim loại mỏng sát lớp vỏ nhựa có tác dụng giảm mức nhiễu.
+
+B)
+
+Màn che nằm ngoài ruột cáp và nằm trong vỏ cáp, được cấu tạo bởi một lớp sắt mỏng sát lớp vỏ nhựa có tác dụng giảm mức nhiễu.
+
+C)
+
+Màn che nằm trong cấu trúc cáp, được cấu tạo bởi một lớp kim loại mỏng sát lớp vỏ nhựa có tác dụng giảm mức nhiễu.
+
+D)
+
+Màn che nằm trong cấu trúc cáp, được cấu tạo bởi một lớp giấy mỏng sát lớp vỏ nhựa có tác dụng giảm mức nhiễu.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 66
+
+Quá trình biến đồi A/D được thực hiện bởi phương pháp nào?
+
+A)
+
+Điều xung mã (PCM) 
+
+B)
+
+Điều chế biên độ
+
+C)
+
+Điều chế tần số
+
+D)
+
+Điều chế pha
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 67
+
+Mạng chuyển mạch của tổng đài điện tử thường có cấu trúc như thế nào?
+
+A)
+
+Mạng chuyển mạch của tổng đài có cấu trúc phụ thuộc vào dung lượng của từng loại tổng đài và thiết kế riêng của từng hãng sản suất.
+
+B)
+
+Mạng chuyển mạch của tổng đài có cấu trúc phụ không thuộc vào dung lượng của từng loại tổng đài và thiết kế riêng của từng hãng sản suất.
+
+C)
+
+Mạng chuyển mạch của tổng đài có cấu trúc phụ thuộc vào dung lượng của từng loại tổng đài và thiết kế giống nhau với tất cả các hãng sản suất.
+
+D)
+
+Mạng chuyển mạch của tổng đài có cấu trúc phụ không thuộc vào dung lượng của từng loại tổng đài và được thiết kếchung của các hãng sản suất.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 68
+
+Điểm truyền báo hiệu STP (Signalling Transfer Point) là gì? 
+
+A)
+
+Điểm báo hiệu mà thông tin báo hiệu thu được trên một kênh báo hiệu và sau đó chuyển giao cho kênh khác mà không xử lý nội dung tin báo.
+
+B)
+
+Điểm báo hiệu mà thông tin báo hiệu thu được trên một kênh báo hiệu và sau đó chuyển giao cho kênh khác mà nội dung tin báo xử lý.
+
+C)
+
+Điểm báo hiệu mà thông tin báo hiệu gửi trên một kênh báo hiệu và sau đó chuyển giao cho kênh khác mà không xử lý nội dung tin báo.
+
+D)
+
+Điểm báo hiệu mà thông tin báo hiệu phát đi trên một kênh báo hiệu và sau đó xử lý nội dung tin báo.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 69
+
+Trong tổng đài điều khiển theo chương trình lưu trữ SPC thì phân hệ nào điều khiển toàn bộ sự hoạt động của tổng đài?
+
+A)
+
+Phân hệ xử lý trung tâm CPS
+
+B)
+
+Phân hệ báo hiệu SiGS
+
+C)
+
+Phân hệ ứng dụng APS
+
+D)
+
+Phân hệ báo hiệu SwNS
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 70
+
+Hệ thống báo hiệu R2 dùng mã gì để truyền thông tin báo hiệu giữa các tổng đài trong mạng viễn thông?
+
+A)
+
+Mã đa tần MFC
+
+B)
+
+Mã HDB3
+
+C)
+
+Mã AMI
+
+D)
+
+Mã NRZ
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 71
+
+Trong chuyển mạch số tín hiệu đầu vào bộ chuyển mạch phải là tín hiệu nào?
+
+A)
+
+Tín hiệu tương tự
+
+B)
+
+Tín hiệu số
+
+C)
+
+Tín hiệu số dạng PCM
+
+D)
+
+Tín hiệu rời rạc dạng PAM
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 72
+
+Mã NRZ được sử dụng trong trường hợp nào?
+
+A)
+
+Dùng trong mã hóa dạng từ trường
+
+B)
+
+Dùng trong thiết bị ghép kênh, vi ba số, truyền dẫn quang, giao tiếp RS232
+
+C)
+
+Mã NRZ được sử dụng cho hệ thống tốc độ cao như SONET/SDH nhưng phải được ngẫu nhiên hóa
+
+D)
+
+Mã NRZ được sử dụng cho hệ thống tốc độ cao như SONET/SDH nhưng phải được ngẫu nhiên hóa; Dùng trong thiết bị ghép kênh, vi ba số, truyền dẫn quang, giao tiếp RS232 và dùng trong mã hóa dạng từ trường.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 73
+
+Mã AMI (Alternate Mark Invesion) được sử dụng như thế nào?
+
+A)
+
+Chỉ dùng trong hệ thống 1,544 Mb/s (g703), trong các ứng dụng về giọng nói (voice)
+
+B)
+
+Chỉ dùng trong hệ thống 2,048 Mb/s (G703), trong các ứng dụng về giọng nói (voice)
+
+C)
+
+Dùng trong hệ thống 2,048 Mb/s và hệ thống 1,544 Mb/s
+
+D)
+
+Dùng trong hệ thống 4,096 Mb/s
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 74
+
+Mã đường dây là gì?
+
+A)
+
+Mã đường dây là mã trở về không nghĩa là có sự trở về điện áp 0 (V) trong thời gian tồn tại của bít 1
+
+B)
+
+Mã đường dây là quy luật chung cho các luật mã hoá để truyền tín hiệu số liệu từ thiết bị này sang thiết bị khác thông qua môi trường truyền dẫn là đường dây.
+
+C)
+
+Mã đường dây là không trở về mức 0 trong thời gian tồn tại của bít 1 các giá trị điện áp và dòng điện không trở về không.   
+
+D)
+
+Mã đường dây là tên gọi chung cho các luật mã hoá, các bít số liệu nhị phân 0 và 1 thành các giá trị điện áp hoặc dòng điện để chuyển các số liệu đó từ thiết bị này sang thiết bị khác hoặc giữa mạch điện này sang mạch điện khác.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 75
+
+Điều chế là gì?
+
+A)
+
+Điều chế tín hiệu là quá trình biến đổi một hay nhiều thông số của một tín hiệu tuần hoàn theo sự thay đổi một tín hiệu mang thông tin cần truyền đi xa
+
+B)
+
+Điều chế tín hiệu là quá trình biến đổi tín hiệu  
+
+C)
+
+Điều chế tín hiệu là quá trình biến đổi thông số của một tín hiệu
+
+D)
+
+Điều chế tín hiệu là quá trình biến đổi một hay nhiều thông số 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 76
+
+Giải điều chế là gì?
+
+A)
+
+Là quá trình biến đổi tín hiệu  
+
+B)
+
+Là quá trình tách lấy tín hiệu thông tin 
+
+C)
+
+Là quá trình tách lấy tín hiệu thông tin ra khỏi sóng mang cao tần
+
+D)
+
+Là nơi khôi phục lại tin tức ban đầu đã phát đi từ nguồn tin.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 77
+
+Mục đích của bước lọc thấp trong điều chế PCM là gì?
+
+A)
+
+Là chia biên độ mẫu thành các mức sau đó lấy tròn biên độ xung đến mức gần nhất.
+
+B)
+
+Là rời rạc hoá tín hiệu về mặt thời gian.
+
+C)
+
+Lọc thấp nhằm hạn chế nhiễu
+
+D)
+
+Lọc thấp nhằm hạn chế băng tần truyền dẫn của tín hiệu liên tục cần truyền. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 78
+
+Khái niệm điều chế theo tần số FSK?
+
+A)
+
+FSK là phương pháp điều chế trong đó tần số của sóng mang thay đổi
+
+B)
+
+FSK là phương pháp điều chế trong đó tần số của sóng mang thay đổi theo quy luật của tín hiệu số đầu ra
+
+C)
+
+FSK là phương pháp điều chế  biên độ và pha của sóng mang không thay đổi
+
+D)
+
+FSK là phương pháp điều chế trong đó tần số của sóng mang thay đổi theo quy luật của tín hiệu số đầu vào, biên độ và pha của sóng mang không thay đổi
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 79
+
+Cơ sở nào để lựa chọn băng tần điện thoại?
+
+A)
+
+Khả năng nói của con người; độ rõ, độ hiểu, độ trung thực; hiệu quả của thiết bị và kênh truyền.
+
+B)
+
+Khả năng nói, nghe của con người; độ rõ, độ hiểu, độ trung thực; hiệu quả của thiết bị và kênh truyền.
+
+C)
+
+Khả năng nghe của con người; độ rõ, độ hiểu, độ trung thực.
+
+D)
+
+Khả năng nghe của con người; độ rõ, độ hiểu, độ trung thực; hiệu quả của thiết bị.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 80
+
+Ghép kênh PCM là gì?
+
+A)
+
+Là ghép các từ mã (byte) của các kênh thông tin số có tốc độ 32 kbit/s thành luồng PCM. 
+
+B)
+
+Là ghép các từ mã (byte) của các kênh thông tin số có tốc độ 64 kbit/s thành luồng PCM. 
+
+C)
+
+Là ghép các từ mã (byte) của các kênh thông tin số có tốc độ 13kbit/s thành luồng PCM. 
+
+D)
+
+Là ghép các từ mã (byte) của các kênh thông tin số có tốc độ 128 kbit/s thành luồng PCM. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+
+
+
+
+
+

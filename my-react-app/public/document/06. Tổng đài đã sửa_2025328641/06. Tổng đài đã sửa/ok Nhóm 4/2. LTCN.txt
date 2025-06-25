@@ -1,0 +1,2410 @@
+Câu hỏi
+
+Nội dung câu hỏi, trả lời
+
+Câu 1
+
+Quản lý trung kế trong tổng đài EWSD có trạng thái trung kế là C7SF. Trạng thái khóa kênh này là gì?
+
+A)
+
+Kênh dành riêng cho báo hiệu bị lỗi
+
+B)
+
+Tổng đài đối phương dùng lệnh quản lý để điều khiển hóa.
+
+C)
+
+Trạng thái này được thiết lập cho trung kế CCS7 
+
+D)
+
+LTG không nhận được thông báo từ tổng đài đối phương 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 2
+
+Trong mạng thông tin quân sự hai tổng đài kết nối với nhau bằng báo hiệu số 7. Khi khai báo để nối thông lên lạc thì
+
+A)
+
+ Kênh báo hiệu giữa hai đài không trùng nhau
+
+B)
+
+Kênh báo hiệu giữa hai đài phải trùng nhau ;Số kênh thoại giữa hai đài phải tương thích với nhau; Điểm báo hiệu khai trong lệnh là điểm báo hiệu của đài đối.
+
+C)
+
+Điểm báo hiệu khai trong lệnh là điểm báo hiệu của đài mình
+
+D)
+
+Số kênh thoại giữa hai đài không cần tương thích với nhau
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 3
+
+Trong tổng đài EWSD: Giao tiếp SDC: LTG là đường kết nối giữa các khối: 
+
+A)
+
+LTG và SN bằng đường SDC tốc độ truyền 8Mb/s. 
+
+B)
+
+ SN và CCNC 
+
+C)
+
+SN và MBU: LTG 
+
+D)
+
+Bộ điều khiển nhóm chuyển mạch SGC trong SN và MBU: SGC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 4
+
+Đối với các cuộc gọi liên đài, các kênh chỉ được giải phóng hoàn toàn khi?
+
+A)
+
+Cả thuê bao chủ gọi và bị gọi đang giữ máy
+
+B)
+
+Thuê bao chủ gọi đang đàm thoại 
+
+C)
+
+Cả thuê bao chủ gọi và bị gọi đặt máy; Thuê bao chủ gọi đặt máy;  Một trong hai thuê bao chủ gọi hoặc bị gọi đặt máy.
+
+D)
+
+ Cả thuê bao chủ gọi và bị gọi đang đàm thoại
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 5
+
+Trong tổng đài EWSD: Giao tiếp SDC: TSG là đường kết nối giữa các khối: 
+
+A)
+
+LTG và SN 
+
+B)
+
+SN và CCNC 
+
+C)
+
+SN và MBU: LTG 
+
+D)
+
+Bộ điều khiển nhóm chuyển mạch SGC trong SN và MBU: SGC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 6
+
+Trên thiết bị AG-MP1288, tại sao cần kiểm tra tab Registration Status ?
+
+A)
+
+Để theo dõi trạng thái quạt làm mát
+
+B)
+
+Để kiểm tra tình trạng đăng ký thuê bao
+
+C)
+
+Để xem IP của tổng đài
+
+D)
+
+Để kiểm tra phiên bản firmware
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 7
+
+File nào lưu cấu hình sao lưu từ thiết bị AG-MP1288?
+
+A)
+
+BOARD_SN<Serial>.INI
+
+B)
+
+CONFIG_AG.INI
+
+C)
+
+FXS_CONFIG.CLI
+
+D)
+
+SYSTEM_BACKUP.LOG
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 8
+
+Trên thiết bị AG-MP1288, mục nào trên Web UI dùng để kiểm tra trạng thái thuê bao FXS?
+
+A)
+
+Configuration -> FXS Status
+
+B)
+
+Monitor ->VOIP STATUS -> Registration Status
+
+C)
+
+Troubleshoot -> Call Status
+
+D)
+
+Summary -> Device Status
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 9
+
+Trên thiết bị AG-MP1288, mục nào trên giao diện Web hiển thị thông tin cảnh báo lịch sử?
+
+A)
+
+Monitor ->Summary ->Alarms History
+
+B)
+
+Activity Logs
+
+C)
+
+Active Alarms
+
+D)
+
+Summary -> Device Status
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 10
+
+Trên thiết bị AG-MP1288, tab nào trong Monitor hiển thị cảnh báo hiện tại trên thiết bị?
+
+A)
+
+Alarms History
+
+B)
+
+Activity Logs
+
+C)
+
+Active Alarms
+
+D)
+
+Summary -> Device Status
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 11
+
+Card nào sau đây nằm trong khối báo hiệu số 7 của tổng đài EWSD? 
+
+A)
+
+Card MH: SIMP 
+
+B)
+
+ Card IOP:LAU
+
+C)
+
+Card LAUB 
+
+D)
+
+Card T/RM: SYPC 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 12
+
+Khối chuyển mạch (SNB) của tổng đài EWSD bao gồm card nào?
+
+A)
+
+Card T/RC và card MDM
+
+B)
+
+Card IOP:TA và card T/RC
+
+C)
+
+Card SGCB , card SSM16B và card TSMB
+
+D)
+
+Card GPL và card GSM
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 13
+
+Trên thiết bị AG-MP1288, trạng thái “Registered” của thuê bao FXS thể hiện điều gì
+
+A)
+
+Thuê bao đã đăng ký thành công
+
+B)
+
+Thuê bao chưa hoạt động
+
+C)
+
+Có lỗi kết nối với tổng đài
+
+D)
+
+SIP bị xung đột
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 14
+
+Trên thiết bị AG-MP1288, để reset trạng thái cổng FXS, cần thao tác ở mục nào trên giao diện Web?
+
+A)
+
+Monitor -> Port Status
+
+B)
+
+Maintenance -> Configuration File
+
+C)
+
+Troubleshoot -> Message Log
+
+D)
+
+Administration -> Reset Port
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 15
+
+Trên thiết bị AG-MP1288, Tại mục Maintenance -> Configuration File, nút nào dùng để tải file INI?
+
+A)
+
+Upload File
+
+B)
+
+Export Settings
+
+C)
+
+Backup File
+
+D)
+
+Download INI Fil
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 16
+
+Trên thiết bị AG-MP1288, điều gì xảy ra nếu một cổng trong Ethernet Group bị mất kết nối?
+
+A)
+
+Không có tác động gì
+
+B)
+
+Thiết bị sẽ tự động chuyển sang cổng dự phòng (nếu có)
+
+C)
+
+Cả Ethernet Group sẽ ngừng hoạt động
+
+D)
+
+Cổng còn lại sẽ tự động thay đổi địa chỉ MAC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 17
+
+Trên thiết bị AG-MP1288, nếu cần một IP Interface chỉ dành cho báo hiệu thì cần cấu hình IP Interface loại nào?
+
+A)
+
+OAMP
+
+B)
+
+Media
+
+C)
+
+Control
+
+D)
+
+OAMP + Control
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 18
+
+Trên thiết bị AG-MP1288, để tạo một IP Interface chỉ truyền thoại thì cần cấu hình IP Interface loại nào?
+
+A)
+
+OAMP
+
+B)
+
+Media
+
+C)
+
+Control
+
+D)
+
+OAMP + Media
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 19
+
+Trong CSN1G của tổng đài ALCATEL chức năng cấp điện áp chuông cho thuê bao là card:
+
+A)
+
+TPOLX
+
+B)
+
+TCRMT 
+
+C)
+
+TPOS
+
+D)
+
+TOND80
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 20
+
+Trong CSNMM (HD) của tổng đài ALCATEL chức năng cấp điện áp chuông cho thuê bao là card
+
+A)
+
+TCRMT 
+
+B)
+
+TPOS
+
+C)
+
+TPOLX
+
+D)
+
+TCOND
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 21
+
+Trong CSN1G của tổng đài ALCATEL chức năng cấp nguồn -54v cho đường dây thuê bao card
+
+A)
+
+TCRMT 
+
+B)
+
+TPOS
+
+C)
+
+TSURV2
+
+D)
+
+TPOLX
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 22
+
+Trong CSN1G của tổng đài ALCATEL khi logic 0 hoạt động thì:
+
+A)
+
+Đèn D1 trên card TSUC sáng đỏ	
+
+B)
+
+Đèn D2 trên card TSUC sáng đỏ 
+
+C)
+
+Đèn D4 trên card TSUC sáng đỏ
+
+D)
+
+Đèn D3 trên card TSUC sáng đỏ
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 23
+
+Trong CSN1G của tổng đài ALCATEL khi logic 1 hoạt động thì
+
+A)
+
+Đèn D1 trên card TSUC sáng đỏ	
+
+B)
+
+Đèn D4 trên card TSUC sáng đỏ
+
+C)
+
+Đèn D3 trên card TSUC sáng đỏ 
+
+D)
+
+Đèn D2 trên card TSUC sáng đỏ 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 24
+
+Trong CSN1G của tổng đài ALCATEL khi logic 0 hoạt động, logic 1 lỗi thì:
+
+A)
+
+Đèn D1, D4 trên card TSUC sáng đỏ
+
+B)
+
+Đèn D1, D2 trên card TSUC sáng đỏ	
+
+C)
+
+Đèn D2, D3 trên card TSUC sáng đỏ 
+
+D)
+
+Đèn D1, D3 trên card TSUC sáng đỏ 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 25
+
+Cầu chì chống sét thuê bao tổng đài T64SIP sử dụng loại nào?
+
+A)
+
+K5-170
+
+B)
+
+K5-110
+
+C)
+
+Chống sét hạt nổ
+
+D)
+
+K12
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 26
+
+Cổng J45 của card CPU bên trên tổng đài T64SIP dùng để làm gì?
+
+A)
+
+Kết nối với máy tính khai báo IPU
+
+B)
+
+Kết nối với máy tính để khai báo số liệu và quản lý dịch vụ
+
+C)
+
+Kết nối với máy tính để lấy cước
+
+D)
+
+Kết nối với máy tính để khai báo IPX
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 27
+
+Tổng đài T64SIP sử dụng báo hiệu nào cho luồng E1?
+
+A)
+
+R2
+
+B)
+
+R5
+
+C)
+
+R7
+
+D)
+
+R9
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 28
+
+Luồng E1 của tổng đài T64SIP có 
+
+A)
+
+30 kênh thoại đi và về
+
+B)
+
+15 kênh thoại đi và 15 kênh thoại về
+
+C)
+
+30 kênh thoại đi và 30 kênh thoại về
+
+D)
+
+10 kênh thoại đi và 20 kênh thoại về
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 29
+
+Tổng đài T64SIP có các dịch vụ sau
+
+A)
+
+Chuyển máy tạm thời, báo thức, tự thử chuông, hotline, nghe hộ, tự gọi lại 
+
+B)
+
+Chuyển máy tạm thời, báo thức, tự thử chuông, hotline, nghe hộ
+
+C)
+
+Chuyển máy tạm thời, báo thức, tự thử chuông, hotline
+
+D)
+
+Chuyển máy tạm thời, báo thức, tự thử chuông
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 30
+
+Tổng đài T64SIP không có dịch vụ sau
+
+A)
+
+Tự thử chuông
+
+B)
+
+Call Waiting
+
+C)
+
+Hotline
+
+D)
+
+Call Center 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 31
+
+Khai báo số liệu Tổng đài T64SIP bằng
+
+A)
+
+Máy tính và bàn PO
+
+B)
+
+Máy tính cài phần mềm tổng đài hoặc máy điện thoại vị trí đầu tiên của tổng đài
+
+C)
+
+Máy tính cài phần mềm tổng đài tương ứng theo Version của card CPU hoặc máy điện thoại vị trí đầu tiên của tổng đài
+
+D)
+
+Máy chuyên dụng của tổng đài
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 32
+
+Tổng đài T64SIP được thiết kế 
+
+A)
+
+Card thuê bao ở bên phải và card điều khiển ở giữa
+
+B)
+
+Card thuê bao và Card điều khiển cùng nằm trên một ngăn
+
+C)
+
+Card thuê bao ở bên trái và Card điều khiển ở bên phải
+
+D)
+
+Ngăn thuê bao riêng và ngăn điều khiển riêng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 33
+
+Trung kế CO Tổng đài T64SIP sử dụng
+
+A)
+
+Tín hiệu của tổng đài khác làm kênh trung kế gọi ra
+
+B)
+
+Tín hiệu nội đài làm kênh trung kế gọi ra
+
+C)
+
+Tín hiệu liên đài làm kênh trung kế gọi ra
+
+D)
+
+Tín hiệu mời gọi làm kênh trung kế gọi ra
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 34
+
+Các máy điện thoại IP của tổng đài T64SIP kết nối với thuê bao tổng đài khác qua
+
+A)
+
+Trung kế IP 
+
+B)
+
+Trung kế E&M
+
+C)
+
+Trung kế CO
+
+D)
+
+Trung kế ĐKX
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 35
+
+Trung kế ĐKX của tổng đài T64SIP dùng để
+
+A)
+
+Kết nối với tổng đài khác qua luồng E1
+
+B)
+
+Kết nối với tổng đài khác qua trung kế CO
+
+C)
+
+Kết nối với tổng đài khác qua trung kế IP
+
+D)
+
+Kết nối với máy vô tuyến điện
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 36
+
+Trong tổng đài T64SIP kết nối trung kế TDM có
+
+A)
+
+01 luồng E1
+
+B)
+
+02 luồng E1
+
+C)
+
+03 luồng E1
+
+D)
+
+04 luồng E1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 37
+
+Trong tổng đài T64SIP khối IPU nằm ở
+
+A)
+
+Card nguồn
+
+B)
+
+Card thuê bao
+
+C)
+
+Card CPU
+
+D)
+
+Card luồng E1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 38
+
+Đèn LED 7 đoạn của tổng đài T128N chỉ thị 
+
+A)
+
+Ngày, tháng, năm; giờ, phút; các tham số tương ứng với câu lệnh 
+
+B)
+
+Ngày, tháng; giờ, phút, giây; các tham số tương ứng với câu lệnh 
+
+C)
+
+Ngày, tháng; giờ, phút; các tham số tương ứng với câu lệnh 
+
+D)
+
+Ngày, tháng, năm; giờ, phút giây; các tham số tương ứng với câu lệnh 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 39
+
+Đèn RUN card nguồn của tổng đài T128N sáng xanh chỉ thị
+
+A)
+
+Card nguồn đó đang cung cấp điện cho máy nắn
+
+B)
+
+Card nguồn đó đang ở chế độ dự phòng
+
+C)
+
+Card nguồn đó đang cung cấp điện áp nạp cho ắc qui
+
+D)
+
+Card nguồn đó đang cung cấp các mức điện áp ra cho tổng đài hoạt động
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 40
+
+Card AN của tổng đài T128N dùng để
+
+A)
+
+Kết nối với tổng đài khác qua luồng E1
+
+B)
+
+Kết nối với tổng đài khác qua trung kế CO
+
+C)
+
+Kết nối với tổng đài khác qua trung kế IP
+
+D)
+
+Kết nối với tổng đài TIP 24 ở chế độ LTU
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 41
+
+Đèn chỉ thị mức điện áp 75VAC trên card nguồn của tổng đài T128N
+
+A)
+
+Đèn tắt là tốt
+
+B)
+
+Sáng theo nhịp điều khiển của CPU là tốt
+
+C)
+
+Sáng liên tục là tốt
+
+D)
+
+Đèn sáng vàng là tốt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 42
+
+Đèn đồng bộ trên card luồng E1 của tổng đài T128N chỉ thị 
+
+A)
+
+Đèn tắt là tốt
+
+B)
+
+Sáng nhấp nháy là tốt
+
+C)
+
+Sáng liên tục là tốt
+
+D)
+
+Đèn sáng vàng là tốt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 43
+
+Đèn ERR card nguồn của tổng đài T128N sáng chỉ thị 
+
+A)
+
+Trạng thái CPU bị lỗi
+
+B)
+
+Trạng thái DSP lỗi 
+
+C)
+
+Trạng thái card nguồn đó lỗi
+
+D)
+
+Trạng thái tổng đài lỗi
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 44
+
+Tổng đài T128N có mấy loại trung kế
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 45
+
+Cổng IPU của tổng đài T128N dùng để làm gì
+
+A)
+
+Kết nối với máy tính khai báo IPU
+
+B)
+
+Kết nối với máy tính để quản lý dịch vụ
+
+C)
+
+Kết nối với máy tính để lấy cước
+
+D)
+
+Kết nối với máy tính để lưu dữ liệu
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 46
+
+Trở kháng luồng E1 của tổng đài T128N?
+
+A)
+
+75 Ω
+
+B)
+
+120 Ω
+
+C)
+
+75 Ω và 120 Ω
+
+D)
+
+75 Ω hoặc 120 Ω
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 47
+
+Cấu hình 0 của tổng đài T128N bao gồm
+
+A)
+
+Danh bạ nội bộ là 100 ÷ 227, có hai máy PO là 100 và 101, Class của các thuê bao  ở mức 1, riêng máy trực PO1 ở mức 3, hai hướng TK CO, có 04 luồng E1, có 01 trung kế TDM kết nối thuê bao analog sang thuê bao IP
+
+B)
+
+Danh bạ nội bộ là 100 ÷ 227, có hai máy PO là 100 và 101, Class của các thuê bao  ở mức 1, riêng máy trực PO1 ở mức 3, hai hướng TK CO, có 01 luồng E1
+
+C)
+
+Danh bạ nội bộ là 100 ÷ 227, có hai máy PO là 100 và 101, Class của các thuê bao  ở mức 1, riêng máy trực PO1 ở mức 3, có 01 luồng E1
+
+D)
+
+Danh bạ nội bộ là 100 ÷ 227, có hai máy PO là 100 và 101, Class của các thuê bao  ở mức 1, có 01 luồng E1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 48
+
+Cầu chì chống sét thuê bao tổng đài T128N sử dụng loại nào?
+
+A)
+
+K5-170
+
+B)
+
+K5-110
+
+C)
+
+Chống sét hạt nổ
+
+D)
+
+K12
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 49
+
+Cổng J45 bên trên card CPU của tổng đài T128N dùng để làm gì?
+
+A)
+
+Kết nối với máy tính khai báo IPU
+
+B)
+
+Kết nối với máy tính để khai báo số liệu và quản lý dịch vụ
+
+C)
+
+Kết nối với máy tính để lấy cước
+
+D)
+
+Kết nối với máy tính khai báo IPX
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 50
+
+Tổng đài T128N có thể sử dụng báo hiệu nào cho luồng E1?
+
+A)
+
+R2
+
+B)
+
+R5
+
+C)
+
+R7
+
+D)
+
+R2&CCS7
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 51
+
+Cự ly truyền tải tối đa của cáp Cat 5 theo tiêu chuẩn là
+
+A)
+
+50m
+
+B)
+
+75m
+
+C)
+
+200m
+
+D)
+
+100m
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 52
+
+Nội dung kiểm tra, đánh giá chất lượng của dây điện thoại dã chiến?
+
+A)
+
+Kiểm tra tiết diện, độ bền
+
+B)
+
+Kiểm tra chất lượng dẫn điện, cách điện
+
+C)
+
+Kiểm tra chiều dài của dây, chất lượng dẫn điện, cách điện của dây
+
+D)
+
+Kiểm tra độ suy hao, chiều dài của dây
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 53
+
+Cầu chì 5 tiếp điểm gồm bao nhiêu tụ điện 
+
+A)
+
+4
+
+B)
+
+3
+
+C)
+
+2
+
+D)
+
+1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 54
+
+Một sợi cáp điện thoại nhiều đôi được đánh giá là cáp tốt khi nào ?
+
+A)
+
+Khi có trên 50% tổng số sợi đo có kết quả tốt
+
+B)
+
+Khi có trên 75% tổng số sợi đo có kết quả tốt
+
+C)
+
+Khi có trên 50% số sợi chưa sử dụng đo có kết quả tốt
+
+D)
+
+Khi có trên 75% số sợi chưa sử dụng có kết quả tốt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 55
+
+Sợi cáp có 1 đầu sử dụng tiêu chuẩn T568A, đầu còn lại sử dụng chuẩn T568B là cáp gì ?
+
+A)
+
+Cáp thẳng
+
+B)
+
+Cáp chéo
+
+C)
+
+Không xác định được
+
+D)
+
+Cáp mạng cat6
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 56
+
+Sợi quang dùng trong viễn thông được chế tạo bằng chất liệu gì ?
+
+A)
+
+Thủy tinh hoặc nhựa
+
+B)
+
+Thủy tinh
+
+C)
+
+Nhựa
+
+D)
+
+Kim loại
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 57
+
+Có bao nhiêu các kiểm tra chất lượng dẫn điện của dây điện thoại dã chiến ?
+
+A)
+
+2
+
+B)
+
+3
+
+C)
+
+4
+
+D)
+
+5
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 58
+
+Khi mắc máy lẻ vào đôi dây bị hỏng, quay thấy nhẹ thì hiện tượng là do
+
+A)
+
+Dây bị đứt
+
+B)
+
+Dây bị chập
+
+C)
+
+Không kết luận được
+
+D)
+
+Tần số quay chưa đủ
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 59
+
+Sợi màu nâu và nâu trắng trong cáp mạng có chức năng
+
+A)
+
+Truyền gói thoại
+
+B)
+
+Truyền gói dữ liệu
+
+C)
+
+Truyền gói âm thanh
+
+D)
+
+Dẫn điện áp 1 chiều
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 60
+
+Vật liệu làm vỏ cáp điện thoại có tác dụng gì? 
+
+A)
+
+Bảo vệ ruột cáp với độ dẻo, độ bền, độ dai cần thiết để tránh sự cố khi thi công và đảm bảo an toàn cho cáp trong điều kiện làm việc.
+
+B)
+
+Bảo vệ ruột cáp với độ bền cần thiết để tránh sự cố khi thi công và đảm bảo an toàn cho cáp trong điều kiện làm việc.
+
+C)
+
+Bảo vệ ruột cáp với độ cứng cần thiết để tránh sự cố khi thi công và đảm bảo an toàn cho cáp trong điều kiện làm việc.
+
+D)
+
+Bảo vệ ruột cáp với độ dẻo cần thiết để tránh sự cố khi thi công và đảm bảo an toàn cho cáp trong điều kiện làm việc.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+
+
+
+
+
+

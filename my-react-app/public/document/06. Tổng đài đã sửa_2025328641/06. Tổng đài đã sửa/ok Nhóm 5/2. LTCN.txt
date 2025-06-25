@@ -1,0 +1,2418 @@
+Câu hỏi
+
+Nội dung câu hỏi, trả lời
+
+Câu 1
+
+ Quản lý hệ thống tổng đài EWSD được chia thành các mức quyền, thông tin trong những mức quyền là gì?
+
+A)
+
+Những lệnh được sử dụng để duy trì hoạt động hệ thống trong bất kỳ tình huống nào.
+
+B)
+
+Những giá trị về thuê bao, trung kế để duy trì hoạt động của khối DLU và LTG trong bất kỳ tình huống nào
+
+C)
+
+Những giá trị về khối xử lý CP113 để duy trì hoạt động của tổng đài trong bất kỳ tình huống nào.
+
+D)
+
+Những thông tin về báo hiệu kế để duy trì hoạt động tổng đài trong bất kỳ tình huống nào?
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 2
+
+Các card sau đây, những card nào nằm trong phần điều khiển của khối báo hiệu kênh chung (CCNC) trong tổng đài EWSD?
+
+A)
+
+Card IOP:TA , Card IOP:MB, Card PMU: SIMP
+
+B)
+
+Card PMU: SIMP, Card MH: SIMP,Card SIPA 
+
+C)
+
+Card CCGA, Card CCGB, Card T/RC 
+
+D)
+
+Card CCGB, Card T/RC, Card MH: SIMP
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 3
+
+Trong tổng đài EWSD thì chuyển mạch SN nằm ở vị trí trung gian và được đấu nối với tất cả các khối chức năng nào?
+
+A)
+
+CP, CCNC, LTG.
+
+B)
+
+LTG,DLU, MB
+
+C)
+
+CP,DLU, OMT
+
+D)
+
+LTG,DLU, CCNC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 4
+
+Đường kết nối SDC: CCNC trong tổng đài EWSD là giao tiếp giữa khối nào?  
+
+A)
+
+LTG và CCNC
+
+B)
+
+DLU và CCNC
+
+C)
+
+SN và CCNC
+
+D)
+
+CP và CCNC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 5
+
+Card BDCG trong bộ tập trung thuê bao DLUA của tổng đài EWSD hoạt động ở chế độ chủ thì đèn nào sáng?
+
+A)
+
+Đèn LCM sáng vàng 
+
+B)
+
+Đèn DCM sáng vàng.
+
+C)
+
+Đèn M sáng vàng
+
+D)
+
+Đèn M không sáng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 6
+
+Đường kết nối SDC: TSG trong tổng đài EWSD là giao tiếp giữa khối?
+
+A)
+
+SN và MBU: LTG cho trao đổi bản tin giữa LTG và CP.
+
+B)
+
+LTG và MBU: LTG cho trao đổi bản tin giữa LTG và CP.
+
+C)
+
+CCNC và MBU: LTG cho trao đổi bản tin giữa LTG và CP.
+
+D)
+
+MB và MBU: LTG cho trao đổi bản tin giữa LTG và CP.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 7
+
+Card nào sau đây thuộc khối chuyển mạch SN của tổng đài EWSD?
+
+A)
+
+Card GCG
+
+B)
+
+Card GSM
+
+C)
+
+Card SGCB
+
+D)
+
+Card GPL
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 8
+
+Đèn LED IN trong Card DIUD của tổng đài EWSD sáng màu đỏ cho biết thông tin gì?
+
+A)
+
+Card DIUD bị lỗi phần cứng hoặc cấu hình DLU sai.
+
+B)
+
+Card DIUD bị lỗi phần mềm nạp vào từ OMT.
+
+C)
+
+Card DIUD bị lỗi cắm sai vị trí.
+
+D)
+
+Card DIUD bị lỗi do chưa kết nối với tổng đài trung tâm.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 9
+
+Đèn LED MA0 trong card DIUD của tổng đài EWSD sáng đỏ cho biết mất đồng bộ khung xung PCM30 đầu gần ở luồng số bao nhiêu?
+
+A)
+
+Trên luồng số 1
+
+B)
+
+Trên luồng số 0
+
+C)
+
+Trên luồng số 2
+
+D)
+
+Trên luồng số 4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 10
+
+Đèn LED MA1 trong card DIUD của tổng đài EWSD sáng đỏ cho biết mất đồng bộ khung xung PCM30 đầu gần ở luồng số bao nhiêu?
+
+A)
+
+Trên luồng số 1
+
+B)
+
+Trên luồng số 0
+
+C)
+
+Trên luồng số 2
+
+D)
+
+Trên luồng số 4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 11
+
+Tổng đài EWSD có kích thước chiều cao, dài, rộng là bao nhiêu?
+
+A)
+
+2450mm x 880mm x600 mm 
+
+B)
+
+2250mm x 880mm x600 mm 
+
+C)
+
+2200mm x 880mm x600 mm 
+
+D)
+
+2150mm x 880mm x600 mm 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 12
+
+Trong tổng đài EWSD có card IOP: TA nằm trong khối nào, thực hiện chức năng gì?
+
+A)
+
+Là card nằm trong khối xử lý điều phối CP 113 và là bộ xử lý vào ra cho thời gian và cảnh báo
+
+B)
+
+Là card nằm trong khối MB và là card xử lý vào ra cho thiết bị vận hành và bảo dưỡng;
+
+C)
+
+Là card nằm trong khối xử lý điều phối CP 113 và là card xử lý vào ra cho đường truyền số liệu.
+
+D)
+
+Là card nằm trong khối MB và là card xử lý vào ra cho đường truyền số liệu.A
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 13
+
+Trong tổng đài ALCATEL1000E10 (OCB283) chức năng thiết lập và giải phóng các cuộc gọi thuộc phần mềm nào của trạm SMC
+
+A)
+
+TX    
+
+B)
+
+TR
+
+C)
+
+MR
+
+D)
+
+MQ
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 14
+
+Card giao tiếp giữa ma trận chuyển mạch RCX với các CN là card nào
+
+A)
+
+Card TCHLR
+
+B)
+
+Card TCOND
+
+C)
+
+Card TSUC
+
+D)
+
+Card TPOL
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 15
+
+Trong tổng đài ALCATEL có sử dụng chùm kênh báo hiệu SS7 thì mỗi điểm báo hiệu của đài đối có thể tạo được tối đa:
+
+A)
+
+04 chùm kênh báo hiệu
+
+B)
+
+03 chùm kênh báo hiệu
+
+C)
+
+01 chùm kênh báo hiệu
+
+D)
+
+02 chùm kênh báo hiệu
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 16
+
+Trong tổng đài ALCATEL có sử dụng chùm kênh báo hiệu SS7 thì mỗi điểm báo hiệu của đài đối có thể tạo được tối đa:
+
+A)
+
+04  kênh báo hiệu
+
+B)
+
+03  kênh báo hiệu
+
+C)
+
+02  kênh báo hiệu
+
+D)
+
+16  kênh báo hiệu
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 17
+
+Trong tổng đài ALCATEL các bước đầy đủ để tạo một hướng liên lạc mới ta làm các lệnh  sau: 
+
+A)
+
+MICCR=>FSCCR=>CTMO=>ACHIN=>ACHCR=>PREIN
+
+=>PRECR(nếu cần)=>INDCR =>PREIN
+
+B)
+
+EQTIN=>MICCR=>FSCCR=>CTMO=>ACHIN=>ACHCR
+
+=>PREIN=>PRECR(nếu cần)=>INDCR
+
+C)
+
+ MICCR=>FSCCR=>CTMO=>ACHIN=>ACHCR=>PREIN
+
+=>PRECR(nếu cần)=>INDCR
+
+D)
+
+MICCR=>FSCCR=>CTMO=>ACHIN=>ACHCR=>PREIN
+
+=>PRECR(nếu cần)=>INDCR=> ACHCR
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 18
+
+Trong tổng đài ALCATEL để tìm địa chỉ phần cứng của một luồng ta dùng lệnh: 
+
+A)
+
+EQTIN:  ALFR=
+
+B)
+
+EQTIN:  AMET=
+
+C)
+
+EQTIN:  AFCT=
+
+D)
+
+EQTIN:  AFUR=
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 19
+
+Trong tổng đài ALCATEL để tìm địa chỉ phần mềm của một luồng ta dùng lệnh: 
+
+A)
+
+EQTIN:  AFUR
+
+B)
+
+EQTIN:  AFLR=
+
+C)
+
+EQTIN:  AFCT=
+
+D)
+
+EQTIN:  AMET=
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 20
+
+Trong tổng đài ALCATEL  có sử dụng trạm SMT2G để tạo một luồng dùng cho trung kế  báo hiệu R2 ta dùng lệnh: 
+
+A)
+
+MICCR: AFCT=, AMET=, TYMIC=, VV=OUI
+
+B)
+
+MICCR: AFLR=, AMET=, TYMIC=, VV=OUI
+
+C)
+
+MICCR: AFUR=, AMET=, TYMIC=, VV=OUI
+
+D)
+
+MICCR: AFLR=, AMET=, TYMIC=, VV=NON
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 21
+
+Trong tổng đài ALCATEL đang  sử dụng trạm SMT2G để tạo một luồng dùng cho trung kế  báo hiệu SS7 ta dùng lệnh: 
+
+A)
+
+MICCR: AFLR=, AMET=, TYMIC=, VV=OUI
+
+B)
+
+MICCR: AFCT=, AMET=, TYMIC=, VV=OUI
+
+C)
+
+MICCR: AFUR=, AMET=, TYMIC=, VV=OUI
+
+D)
+
+MICCR: AFLR=, AMET=, TYMIC=, VV=NON
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 22
+
+Trong tổng đài ALCATEL  đang  sử dụng trạm SMB(CAXT) để tạo một luồng dùng cho trung kế  báo hiệu R2 ta dùng lệnh:
+
+A)
+
+MICCR: AFCT=, AM=, MIC=, TYMIC=, VV=OUI
+
+B)
+
+MICCR: AFLR=, AMET=, TYMIC=, VV=NON
+
+C)
+
+MICCR: AFUR=, AMET=, TYMIC=, VV=OUI
+
+D)
+
+MICCR: AFLR=, AM=, MIC= ,TYMIC=, VV=OUI
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 23
+
+Trong tổng đài ALCATEL  đang sử dụng trạm SMB(CAXT) để tạo một luồng dùng cho trung kế  báo hiệu SS7 ta dùng lệnh:
+
+A)
+
+MICCR: AFCT=, AM=, MIC=, TYMIC=, VV=OUI
+
+B)
+
+MICCR: AFLR=, AM=, MIC= ,TYMIC=, VV=OUI
+
+C)
+
+MICCR: AFUR=, AMET=, TYMIC=, VV=OUI
+
+D)
+
+MICCR: AFLR=, AM=, MIC=, TYMIC=, VV=NON
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 24
+
+Trong tổng đài ALCATEL  đang sử dụng trạm SMB(CAXT) để loop một  luồng E1 về hai phía ta dùng lệnh:
+
+A)
+
+MICMOM: AFLR=, REBOL=2:
+
+B)
+
+MICMOM: AFLR=, REBOL=1:
+
+C)
+
+MICMOM: AFUR=, REBOL=3:
+
+D)
+
+MICMOM: AFLR=, REBOL=3:
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 25
+
+Luồng E1 của tổng đài T128N có 
+
+A)
+
+30 kênh thoại đi và về
+
+B)
+
+15 kênh thoại đi và 15 kênh thoại về
+
+C)
+
+30 kênh thoại đi và 30 kênh thoại về
+
+D)
+
+10 kênh thoại đi và 20 kênh thoại về
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 26
+
+Tổng đài T128N có các dịch vụ sau
+
+A)
+
+Chuyển máy tạm thời, báo thức, tự thử chuông, hotline, nghe hộ, tự gọi lại 
+
+B)
+
+Chuyển máy tạm thời, báo thức, tự thử chuông, hotline, nghe hộ
+
+C)
+
+Chuyển máy tạm thời, báo thức, tự thử chuông, hotline
+
+D)
+
+Chuyển máy tạm thời, báo thức, tự thử chuông
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 27
+
+Tổng đài T128N không có dịch vụ sau
+
+A)
+
+Tự thử chuông
+
+B)
+
+Call Waiting
+
+C)
+
+Hotline
+
+D)
+
+Call Center 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 28
+
+Khai báo số liệu Tổng đài T128N bằng
+
+A)
+
+Máy tính và bàn PO
+
+B)
+
+Máy tính hoặc máy điện thoại vị trí đầu tiên của tổng đài, hoặc bàn PO
+
+C)
+
+Máy tính hoặc máy điện thoại vị trí đầu tiên của tổng đài
+
+D)
+
+Máy tính chuyên dùng của tổng đài
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 29
+
+Tổng đài T128N được thiết kế 
+
+A)
+
+Card thuê bao ở bên phải và card điều khiển ở giữa
+
+B)
+
+Card thuê bao và Card điều khiển cùng nằm trên một ngăn
+
+C)
+
+Card thuê bao ở bên trái và Card điều khiển ở bên phải
+
+D)
+
+Ngăn Card thuê bao riêng và ngăn Card điều khiển riêng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 30
+
+Trung kế CO Tổng đài T128N sử dụng
+
+A)
+
+Tín hiệu của tổng đài khác làm kênh trung kế gọi ra
+
+B)
+
+Tín hiệu nội đài làm kênh trung kế gọi ra
+
+C)
+
+Tín hiệu liên đài làm kênh trung kế gọi ra
+
+D)
+
+Tín hiệu mời gọi làm kênh trung kế gọi ra
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 31
+
+Các máy điện thoại IP của tổng đài T128N kết nối với thuê bao tổng đài khác qua
+
+A)
+
+Trung kế IP 
+
+B)
+
+Trung kế IP&Trung kế TDM
+
+C)
+
+Trung kế CO
+
+D)
+
+Trung kế ĐKX
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 32
+
+Trung kế ĐKX của tổng đài T128N dùng để
+
+A)
+
+Kết nối với tổng đài khác qua luồng E1
+
+B)
+
+Kết nối với tổng đài khác qua trung kế CO
+
+C)
+
+Kết nối với tổng đài khác qua trung kế IP
+
+D)
+
+Kết nối với máy vô tuyến điện
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 33
+
+Trong tổng đài T128N kết nối trung kế TDM có
+
+A)
+
+01 kênh
+
+B)
+
+02 kênh
+
+C)
+
+03 kênh
+
+D)
+
+04 kênh
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 34
+
+Trong tổng đài T128N khối IPU nằm ở
+
+A)
+
+Card IPX
+
+B)
+
+Card IPU
+
+C)
+
+Card CPU
+
+D)
+
+Card luồng E1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 35
+
+Trên thiết bị AG-MP1288, khi thay đổi địa chỉ IP của OAMP Interface, điều gì sẽ xảy ra?
+
+A)
+
+Kết nối với thiết bị sẽ bị mất và cần đăng nhập lại bằng địa chỉ mới
+
+B)
+
+Thiết bị sẽ tự động cập nhật mà không mất kết nối
+
+C)
+
+Các cuộc gọi SIP đang diễn ra sẽ không bị ảnh hưởng
+
+D)
+
+Không có ảnh hưởng gì
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 36
+
+Trên thiết bị AG-MP1288, khi cấu hình IP Interface, tham số "Prefix Length" được dùng để?
+
+A)
+
+Xác định độ dài của subnet mask
+
+B)
+
+Chỉ định địa chỉ Default Gateway
+
+C)
+
+Định tuyến lưu lượng báo hiệu và thoại
+
+D)
+
+Chặn truy cập từ mạng ngoài
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 37
+
+Trên thiết bị AG-MP1288, khi cần khai báo một cổng kết hợp tất cả các chức năng OAMP, Media và Control thì phải chọn Application Type nào?
+
+A)
+
+OAMP + Media
+
+B)
+
+Media + Control
+
+C)
+
+OAMP + Control
+
+D)
+
+OAMP + Media + Control
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 38
+
+Trên thiết bị AG-MP1288, tham số “Default Gateway” khi khai báo IP Network có chức năng gì?
+
+A)
+
+Định tuyến lưu lượng đến Router lớp biên kết nối AG
+
+B)
+
+Xác định số bit subnet mask của mạng TSL kết nối AG
+
+C)
+
+Định nghĩa IP của thiết bị quản lý
+
+D)
+
+Chỉ áp dụng cho lưu lượng SIP
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 39
+
+Trên thiết bị AG-MP1288, giao diện IP mặc định có tên gì và được gán chỉ mục nào?
+
+A)
+
+"admin" – Index #1
+
+B)
+
+"default" – Index #0
+
+C)
+
+"O+M+C" – Index #0
+
+D)
+
+"network" – Index #1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 40
+
+Trên thiết bị AG-MP1288, để reset trạng thái cổng FXS, cần thao tác ở mục nào trên giao diện Web?
+
+A)
+
+Monitor -> Port Status
+
+B)
+
+Maintenance -> Configuration File
+
+C)
+
+Troubleshoot -> Message Log
+
+D)
+
+Administration -> Reset Port
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 41
+
+Thiết bị AG-MP1288: Trong bảng định tuyến gọi vào AG tham số “Source Phone Pattern” có ý nghĩa: 
+
+A)
+
+Là các thuê bao của AG được  gọi ra ngoài qua tổng đài SS
+
+B)
+
+Là các thuê bao của AG mà các thuê thuê bao khác gọi đến
+
+C)
+
+Là các thuê bao mà thuê bao của AG gọi đến qua tổng đài SS 
+
+D)
+
+Là các thuê bao của mạng tổng đài quân sự được  gọi vào AG (Số chủ gọi)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 42
+
+Thiết bị AG-MP1288: Trong bảng định tuyến gọi vào AG tham số “Destination Phone Pattern” có ý nghĩa: 
+
+A)
+
+Là các thuê bao của AG được  gọi ra ngoài qua tổng đài SS
+
+B)
+
+Là các thuê bao của AG mà các thuê thuê bao khác gội đến (Số bị gọi)
+
+C)
+
+Là các thuê bao mà thuê bao của AG gọi đến qua tổng đài SS 
+
+D)
+
+Là các thuê bao của mạng tổng đài quân sự được  gọi vào AG
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 43
+
+Thiết bị AG-MP1288: Trong bảng định tuyến gọi ra SS tham số “Source Phone Pattern” có ý nghĩa: 
+
+A)
+
+Là các thuê bao của AG được  gọi ra ngoài qua tổng đài SS (Số chủ gọi)
+
+B)
+
+Là các thuê bao của  tổng đài SS được gọi vào AG
+
+C)
+
+Là các thuê bao của mạng tổng đài quân sự được gọi ra ngoài qua tổng đài SS
+
+D)
+
+Là các thuê bao của mạng tổng đài quân sự được  gọi vào AG
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 44
+
+Thiết bị AG-MP1288: Khai báo bảng định tuyến gọi vào mỗi AG tối thiểu phải khai báo bao nhiêu route?
+
+A)
+
+1 route
+
+B)
+
+2 route 
+
+C)
+
+3 route
+
+D)
+
+4 route
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 45
+
+Thiết bị AG-MP1288: Các bước thu hồi một thuê bao đơn?
+
+A)
+
+ Thu hồi phần Trunk group
+
+B)
+
+Thu hồi phần xác thực Authentication
+
+C)
+
+Thu hồi phầnTrunk Groups setting
+
+D)
+
+Thu hồi phần Trunk group và phần xác thực Authentication
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 46
+
+Thiết bị AG-MP1288: Khai báo tham số ProxySet có ý nghĩa gì?
+
+A)
+
+Khai báo địa chỉ cổng của đài đối mà AG kết nối trực tiếp.
+
+B)
+
+Khai báo địa chỉ cổng của đài đối mà AG không kết nối đến
+
+C)
+
+Khai báo địa chỉ cổng của đài bất kỳ trên hệ thống 
+
+D)
+
+Khai báo địa chỉ cổng của thiết bị SW
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 47
+
+Thiết bị AG-MP1288: khai báo tham số Media Realms có ý nghĩa gì?
+
+A)
+
+Khai báo cổng truyền kênh báo hiệu 
+
+B)
+
+Khai báo cổng truyền dữ liệu thoại 
+
+C)
+
+Khai báo cổng truyền dữ liệu hình ảnh
+
+D)
+
+Khai báo cổng truyễn dữ liệu thoại và báo hiệu
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 48
+
+Thiết bị AG-MP1288 muốn không hoạt động tự trị khi mất đường truyền cần khai báo tham sô: 
+
+A)
+
+Redundancy Mode: Parking
+
+B)
+
+Redundancy Mode: Homing
+
+C)
+
+Redundancy Mode: Setting
+
+D)
+
+Redundancy Mode: Testing
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 49
+
+Thiết bị AG-MP1288 khai báo tham số SIPInterface có ý nghĩa gì?
+
+A)
+
+Khai báo số cổng và loại cổng mang báo hiệu R2
+
+B)
+
+Khai báo số cổng và loại cổng mang báo hiệu SS7
+
+C)
+
+Khai báo số cổng và loại cổng mang báo hiệu SIP
+
+D)
+
+Khai báo số cổng và loại cổng mang báo hiệu SS7 và SIP
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 50
+
+Kết nối với cổng RS-232 của thiết bị AG-MP1288 để làm gì?
+
+A)
+
+Cấu hình địa chỉ IP OAMP thông qua CLI.
+
+B)
+
+Sửa đổi địa chỉ giao diện OAMP.
+
+C)
+
+Truy cập giao diện Web.
+
+D)
+
+Truy cập thiết bị bằng địa chỉ IP OAMP mới.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 51
+
+Một sợi cáp điện thoại nhiều đôi được đánh giá là cáp tốt khi nào ?
+
+A)
+
+Khi có trên 50% tổng số sợi đo có kết quả tốt
+
+B)
+
+Khi có trên 75% tổng số sợi đo có kết quả tốt
+
+C)
+
+Khi có trên 50% số sợi chưa sử dụng đo có kết quả tốt
+
+D)
+
+Khi có trên 75% số sợi chưa sử dụng có kết quả tốt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 52
+
+Dòng điện khi sét đánh đi qua cầu chì sẽ gây ra hiện tượng
+
+A)
+
+Đứt hạt chì
+
+B)
+
+Thủng tụ
+
+C)
+
+Hạt chì không đứt
+
+D)
+
+Đứt hạt chì và thủng tụ
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 53
+
+Sợi quang dùng trong viễn thông được chế tạo bằng chất liệu gì ?
+
+A)
+
+Thủy tinh hoặc nhựa
+
+B)
+
+Thủy tinh
+
+C)
+
+Nhựa
+
+D)
+
+Kim loại
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 54
+
+Sợi màu nâu và nâu trắng trong cáp mạng có chức năng
+
+A)
+
+Dây dẫn điện áp 1 chiều
+
+B)
+
+Truyền các gói dữ liệu
+
+C)
+
+Truyền các gói âm thanh
+
+D)
+
+Truyền các gói thoại
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 55
+
+Sợi cáp có 1 đầu sử dụng tiêu chuẩn T568A, đầu còn lại sử dụng chuẩn T568B là cáp gì ?
+
+A)
+
+Cáp thẳng
+
+B)
+
+Cáp chéo
+
+C)
+
+Không xác định được
+
+D)
+
+Cáp mạng cat6
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 56
+
+Cầu chì 5 tiếp điểm gồm bao nhiêu tụ điện 
+
+A)
+
+4
+
+B)
+
+3
+
+C)
+
+2
+
+D)
+
+1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 57
+
+Cự ly truyền tải tối đa của cáp Cat 5 theo tiêu chuẩn là
+
+A)
+
+50m
+
+B)
+
+75m
+
+C)
+
+200m
+
+D)
+
+100m
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 58
+
+Mục đích của việc sử dụng luật màu trong cáp nhiều đôi là để
+
+A)
+
+Nhanh chóng nhận biết thứ tự đôi dây
+
+B)
+
+Hạn chế xuyên nhiều tín hiệu
+
+C)
+
+Tiết kiệm được thể tích ống dẫn.
+
+D)
+
+Nhanh chóng nhận biết thứ tự đôi dây; Hạn chế xuyên nhiều tín hiệu; Tiết kiệm được thể tích ống dẫn 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 59
+
+Tốc độ của kênh thoại số cơ bản là bao nhiêu?
+
+A)
+
+64 kbít/s (64Kbps).
+
+B)
+
+32 kbit/s (32Kbps).
+
+C)
+
+16 kbit/s (16Kbps).
+
+D)
+
+8 kbit/s (8Kbps).
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 60
+
+Trong cáp mạng, sợi nào có chức năng làm phương tiện truyền các gọi thoại
+
+A)
+
+Trắng và cam
+
+B)
+
+Trắng và xanh lá cây
+
+C)
+
+Xanh lam
+
+D)
+
+Xanh lá cây
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+
+
+
+
+
+

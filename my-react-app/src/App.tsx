@@ -2,6 +2,8 @@ import React, { useState, useEffect, useMemo, useRef } from 'react';
 import './App.css';
 import PdfViewer from './PdfViewer';
 import PdfDataService from './PdfDataService';
+import Quiz, { QuizSection } from './Quiz';
+import QuizMenu from './QuizMenu';
 
 // Hàm chuyển đổi text markdown đơn giản sang HTML
 const formatMessage = (text: string): React.ReactNode => {
@@ -44,82 +46,11 @@ const formatMessage = (text: string): React.ReactNode => {
   });
 };
 
-// ++ NEW COMPONENT FOR SNMP STATUS
-function SystemStatusViewer() {
-  const [status, setStatus] = useState<any>(null);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      // Gọi đến backend service chạy trên cổng 3001
-      fetch('http://localhost:3001/api/device-status')
-        .then(response => {
-          if (!response.ok) {
-            // Lấy thông điệp lỗi từ body của backend nếu có
-            return response.json().then(err => { throw new Error(err.error || 'Network response was not ok') });
-          }
-          return response.json();
-        })
-        .then(data => {
-          setStatus(data);
-          setError(null); // Clear previous error on success
-        })
-        .catch(err => {
-          console.error("Fetch error:", err);
-          setError(err.message);
-        });
-    }, 5000); // Lặp lại việc lấy dữ liệu mỗi 5 giây
-
-    return () => clearInterval(interval); // Dọn dẹp khi component bị unmount
-  }, []); // Chạy 1 lần khi component được mount
-
-  let content;
-  if (error) {
-    content = <p style={{ color: 'red' }}>Lỗi khi lấy dữ liệu: {error}</p>;
-  } else if (!status) {
-    content = <p>Đang tải dữ liệu giám sát...</p>;
-  } else {
-    // Chuyển đổi uptime từ giây thành ngày, giờ, phút, giây
-    const uptimeInSeconds = status.uptimeInSeconds || 0;
-    const days = Math.floor(uptimeInSeconds / (3600*24));
-    const hours = Math.floor(uptimeInSeconds % (3600*24) / 3600);
-    const minutes = Math.floor(uptimeInSeconds % 3600 / 60);
-    const seconds = Math.floor(uptimeInSeconds % 60);
-    const uptimeString = `${days}d ${hours}h ${minutes}m ${seconds}s`;
-
-    content = (
-      <>
-        <p><strong>Mô tả:</strong> {status.description || 'N/A'}</p>
-        <p><strong>Thời gian hoạt động:</strong> {uptimeString}</p>
-      </>
-    );
-  }
-
-  return (
-    <div style={{
-      position: 'fixed',
-      bottom: '10px',
-      left: '10px',
-      background: 'rgba(255, 255, 255, 0.9)',
-      padding: '10px 20px',
-      borderRadius: '8px',
-      boxShadow: '0 2px 10px rgba(0,0,0,0.2)',
-      border: '1px solid #ccc',
-      zIndex: 1000,
-      maxWidth: '400px',
-      fontSize: '14px'
-    }}>
-      <h3 style={{ marginTop: 0, borderBottom: '1px solid #eee', paddingBottom: '5px', fontSize: '16px' }}>Trạng thái thiết bị SNMP</h3>
-      {content}
-    </div>
-  );
-}
-
 // New Chatbot component
 function Chatbot() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<{text: string, sender: 'user' | 'bot'}[]>([
-    {text: 'Xin chào! Tôi là trợ lý ảo. Tôi có thể giúp gì cho bạn về tổng đài Softswitch?', sender: 'bot'}
+    {text: 'Xin chào! Tôi là trợ lý ảo A40. Tôi có thể giúp gì cho bạn về tổng đài Softswitch?', sender: 'bot'}
   ]);
   const [inputText, setInputText] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -313,7 +244,7 @@ TRẢ LỜI:`;
         <div className="chat-window">
           <div className="chat-header">
             <div className="chat-title">
-              Trợ lý ảo EWSD
+              Trợ lý ảo A40
               {!isInitialized && (
                 <span className="loading-indicator" title="Đang tải dữ liệu">
                   <i className="fas fa-sync fa-spin"></i>
@@ -380,6 +311,104 @@ interface MenuItem {
   category: string; // Category/section name
 }
 
+// ++ FUNCTION TO PARSE QUIZ FILES
+const parseQuizFile = (text: string, title: string): QuizSection => {
+    const questions: { id: number, numberLabel: string, question: string, options: string[], answer: string }[] = [];
+    const lines = text.replace(/\r/g, '').split('\n');
+
+    let i = 0;
+    while (i < lines.length) {
+        const line = lines[i]?.trim();
+
+        // Find the start of a question
+        if (line && line.match(/^Câu \d+/)) {
+            const numberLabel = line;
+            i++; // Move to the next line
+
+            // Find question text (next non-empty line)
+            let questionText = '';
+            while (i < lines.length && !lines[i]?.trim()) { i++; } // Skip empty lines
+            if (i < lines.length) {
+                questionText = lines[i]?.trim();
+                i++;
+            }
+
+            const options: string[] = [];
+            let answer = '';
+
+            // Loop until we find the next question or end of file
+            while (i < lines.length && !lines[i]?.trim().match(/^Câu \d+/)) {
+                const currentLine = lines[i]?.trim();
+
+                if (!currentLine) { // Skip empty lines
+                    i++;
+                    continue;
+                }
+
+                // Check for an option (e.g., "A)")
+                if (currentLine.match(/^[A-H]\)/)) {
+                    let optionText = currentLine;
+                    
+                    // If option text is on a separate line
+                    if (optionText.length <= 2) {
+                        let nextLineIndex = i + 1;
+                        // Find next non-empty line
+                        while (nextLineIndex < lines.length && !lines[nextLineIndex]?.trim()) {
+                            nextLineIndex++;
+                        }
+
+                        if (nextLineIndex < lines.length) {
+                            const nextLineText = lines[nextLineIndex]?.trim();
+                            // If the next line is not another option or the answer key
+                            if (!nextLineText.match(/^[A-H]\)/) && !nextLineText.startsWith('Đáp án')) {
+                                optionText += ` ${nextLineText}`;
+                                i = nextLineIndex; // Move parser to the line with option text
+                            }
+                        }
+                    }
+                    options.push(optionText);
+                } 
+                // Check for the answer line
+                else if (currentLine.startsWith('Đáp án')) {
+                    let nextLineIndex = i + 1;
+                    // Find next non-empty line for the answer
+                    while (nextLineIndex < lines.length && !lines[nextLineIndex]?.trim()) {
+                        nextLineIndex++;
+                    }
+
+                    if (nextLineIndex < lines.length) {
+                        answer = lines[nextLineIndex]?.trim();
+                    }
+                    // Break from this inner loop once answer is found
+                    break;
+                }
+                i++;
+            }
+
+            // Only add the question if it's valid
+            if (questionText && options.length > 0 && answer) {
+                questions.push({
+                    id: questions.length + 1,
+                    numberLabel,
+                    question: questionText,
+                    options,
+                    answer,
+                });
+            }
+             // The outer loop will continue from the new 'i' position
+        } else {
+            i++;
+        }
+    }
+    
+    // Add a check here before returning
+    if (questions.length === 0 && lines.length > 10) { 
+        console.warn(`Parsing finished for "${title}", but no questions were found. The file format might be incorrect.`);
+    }
+
+    return { title, questions };
+};
+
 function App() {
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
   const [loaded, setLoaded] = useState(false);
@@ -389,6 +418,11 @@ function App() {
   // Add state for mobile menu
   const [showMobileMenu, setShowMobileMenu] = useState<boolean>(false);
   
+  // ++ QUIZ STATE
+  const [quizSections, setQuizSections] = useState<QuizSection[] | null>(null);
+  const [showQuiz, setShowQuiz] = useState<boolean>(false);
+  const [quizResult, setQuizResult] = useState<{score: number, total: number} | null>(null);
+
   // Create a ref for the search container
   const searchContainerRef = useRef<HTMLDivElement>(null);
   const navRef = useRef<HTMLElement>(null);
@@ -405,8 +439,8 @@ function App() {
     // Khai thác sử dụng tổng đài Softswitch
     { title: '1. Cấu trúc tổng đài Softswitch', path: '/document/2/1. Cấu trúc tổng đài Softswitch.pdf', category: 'Khai thác sử dụng tổng đài Softswitch' },
     { title: '2. HSKT tổng đài Softswitch', path: '/document/2/2. HSKT tổng đài Softswitch.pdf', category: 'Khai thác sử dụng tổng đài Softswitch' },
-    { title: '3. Quản lý số liệu tổng đài (File excel)', path: '/document/2/3. Quản lý số liệu tổng đài.xlsx', category: 'Khai thác sử dụng tổng đài Softswitch' },
-    { title: '4. Nhật ký kỹ thuật (file excel)', path: '/document/2/4. Nhật ký kỹ thuật.xlsx', category: 'Khai thác sử dụng tổng đài Softswitch' },
+    { title: '3. Quản lý số liệu tổng đài ', path: '/document/2/3. Quản lý số liệu tổng đài.xlsx', category: 'Khai thác sử dụng tổng đài Softswitch' },
+    { title: '4. Nhật ký kỹ thuật ', path: '/document/2/4. Nhật ký kỹ thuật.xlsx', category: 'Khai thác sử dụng tổng đài Softswitch' },
     { title: '5. Khai thác, sử dụng tổng đài Softswitch', path: '/document/2/5. Khai thác, sử dụng tổng đài Softswitch.pdf', category: 'Khai thác sử dụng tổng đài Softswitch' },
     { title: '6. Hướng dẫn Backup-Restore', path: '/document/2/6. Hướng dẫn Backup-Restore.pdf', category: 'Khai thác sử dụng tổng đài Softswitch' },
     { title: '7. Hướng dẫn khai thác sử dụng OVOC', path: '/document/2/7. Hướng dẫn khai thác sử dụng OVOC.pdf', category: 'Khai thác sử dụng tổng đài Softswitch' },
@@ -543,6 +577,150 @@ function App() {
   const closePdf = () => {
     setSelectedPdf(null);
   };
+  
+  // ++ FUNCTION TO START A QUIZ
+  const startQuiz = async (quizId: string) => {
+    const quizGroups: { [key: string]: { files: string[], titles: string[] } } = {
+      'nhom1': {
+        files: [
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 1/1. LTCS.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 1/2. LTCN.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 1/3. ĐLTT.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 1/4. CTKT.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 1/5. N,KCT.txt',
+        ],
+        titles: [ 'Lý thuyết cơ sở', 'Lý thuyết chuyển mạch', 'Đường dây thông tin', 'Chuyển mạch kỹ thuật số', 'Kênh và kết cuối' ]
+      },
+      'nhom2': {
+        files: [
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 2/1. LTCS.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 2/2. LTCN.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 2/3. ĐLTT.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 2/4. CTKT.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 2/5. N,KCT.txt',
+        ],
+        titles: [ 'Lý thuyết cơ sở', 'Lý thuyết chuyển mạch', 'Đường dây thông tin', 'Chuyển mạch kỹ thuật số', 'Kênh và kết cuối' ]
+      },
+      'nhom3': {
+        files: [
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 3/1. LTCS.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 3/2. LTCN.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 3/3. ĐLTT.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 3/4. CTKT.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 3/5. N,KCT.txt',
+        ],
+        titles: [ 'Lý thuyết cơ sở', 'Lý thuyết chuyển mạch', 'Đường dây thông tin', 'Chuyển mạch kỹ thuật số', 'Kênh và kết cuối' ]
+      },
+      'nhom4': {
+        files: [
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 4/1. LTCS.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 4/2. LTCN.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 4/3. ĐLTT.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 4/4. CTKT.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 4/5. N,KCT.txt',
+        ],
+        titles: [ 'Lý thuyết cơ sở', 'Lý thuyết chuyển mạch', 'Đường dây thông tin', 'Chuyển mạch kỹ thuật số', 'Kênh và kết cuối' ]
+      },
+      'nhom5': {
+        files: [
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 5/1. LTCS.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 5/2. LTCN.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 5/3. ĐLTT.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 5/4. CTKT.txt',
+          '/document/06. Tổng đài đã sửa_2025328641/06. Tổng đài đã sửa/ok Nhóm 5/5. N,KCT.txt',
+        ],
+        titles: [ 'Lý thuyết cơ sở', 'Lý thuyết chuyển mạch', 'Đường dây thông tin', 'Chuyển mạch kỹ thuật số', 'Kênh và kết cuối' ]
+      },
+    };
+
+    const selectedGroup = quizGroups[quizId];
+
+    if (selectedGroup) {
+      try {
+        const sections: QuizSection[] = [];
+        for (let i = 0; i < selectedGroup.files.length; i++) {
+          const response = await fetch(process.env.PUBLIC_URL + selectedGroup.files[i]);
+          if (!response.ok) {
+            throw new Error(`Failed to load quiz file: ${selectedGroup.files[i]}`);
+          }
+          const text = await response.text();
+          const section = parseQuizFile(text, selectedGroup.titles[i]);
+          sections.push(section);
+        }
+        
+        const totalQuestions = sections.reduce((total, section) => total + section.questions.length, 0);
+        if (totalQuestions === 0) {
+            // If parsing succeeds but finds no questions, show the error modal.
+            setQuizResult({ score: 0, total: 0 });
+            return;
+        }
+
+        setQuizSections(sections);
+        setShowQuiz(true);
+        setSelectedPdf(null); // Close any open PDF
+
+      } catch (error) {
+        console.error("Lỗi khi tải dữ liệu bài kiểm tra:", error);
+        // If fetching files fails, show the error modal.
+        setQuizResult({ score: 0, total: 0 });
+      }
+    } else if (quizId === 'nhom6') {
+        alert('Chức năng đang được phát triển');
+    }
+  };
+
+  const handleQuizComplete = (score: number, total: number) => {
+    setShowQuiz(false);
+    setQuizSections(null);
+    setQuizResult({ score, total });
+  };
+
+  const getResultMessage = (score: number, total: number) => {
+    if (total === 0) {
+        return (
+            <div className="result-message-container">
+                <p className="result-message neutral">
+                    Không thể tải câu hỏi hoặc bài kiểm tra này không có câu hỏi nào.
+                </p>
+            </div>
+        );
+    }
+    const percentage = (score / total) * 100;
+
+    if (percentage >= 80) {
+        return (
+            <div className="result-message-container">
+                <span className="result-icon">🎉</span>
+                <p className="result-message success">
+                    Xuất sắc! Bạn đã làm rất tốt!
+                </p>
+            </div>
+        );
+    } else if (percentage >= 50) {
+        return (
+            <div className="result-message-container">
+                <span className="result-icon">👍</span>
+                <p className="result-message decent">
+                    Khá lắm! Hãy tiếp tục cố gắng nhé!
+                </p>
+            </div>
+        );
+    } else {
+        return (
+            <div className="result-message-container">
+                <span className="result-icon">💪</span>
+                <p className="result-message encouragement">
+                    Đừng bỏ cuộc! Ôn tập lại và thử lại nào. Bạn sẽ làm được!
+                </p>
+            </div>
+        );
+    }
+  };
+
+  // ++ RENDER QUIZ AS A FULL PAGE
+  if (showQuiz && quizSections) {
+    return <Quiz sections={quizSections} onQuizComplete={handleQuizComplete} />;
+  }
 
   return (
     <>
@@ -761,33 +939,14 @@ function App() {
                 <i className="menu-icon fas fa-clipboard-check"></i>
                 Thi kiểm tra
                 {activeMenu === 'thikiem' && !showSearchResults && (
-                  <div className="submenu">
-                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/5/1. Thi kiểm tra NVCM nhóm 1.pdf'); }}>
-                      1. Thi kiểm tra NVCM nhóm 1
-                    </div>
-                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/5/2. Thi kiểm tra NVCM nhóm 2.pdf'); }}>
-                      2. Thi kiểm tra NVCM nhóm 2
-                    </div>
-                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/5/3. Thi kiểm tra NVCM nhóm 3.pdf'); }}>
-                      3. Thi kiểm tra NVCM nhóm 3
-                    </div>
-                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/5/4. Thi kiểm tra NVCM nhóm 4.pdf'); }}>
-                      4. Thi kiểm tra NVCM nhóm 4
-                    </div>
-                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/5/5. Thi kiểm tra NVCM nhóm 5.pdf'); }}>
-                      5. Thi kiểm tra NVCM nhóm 5
-                    </div>
-                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/5/6. Thi kiểm tra NVCM nhóm 6.pdf'); }}>
-                      6. Thi kiểm tra NVCM nhóm 6
-                    </div>
-                  </div>
+                  <QuizMenu startQuiz={startQuiz} />
                 )}
               </li>
             </ul>
           </nav>
         </header>
 
-        {selectedPdf && (
+        {selectedPdf && !showQuiz && (
           <div className="pdf-modal">
             <div className="pdf-modal-content">
               <PdfViewer pdfUrl={selectedPdf} onClose={closePdf} />
@@ -795,10 +954,21 @@ function App() {
           </div>
         )}
 
-        {/* ++ ADD THE NEW SNMP STATUS VIEWER */}
-        {/* <SystemStatusViewer /> */}
+        {quizResult && (
+          <div className="quiz-result-modal">
+              <div className="quiz-result-content">
+                  <h3 className="result-title">Kết quả bài kiểm tra</h3>
+                  <p className="result-score">
+                      Điểm của bạn: <strong>{quizResult.score} / {quizResult.total}</strong>
+                  </p>
+                  {getResultMessage(quizResult.score, quizResult.total)}
+                  <button className="result-close-btn" onClick={() => setQuizResult(null)}>
+                      OK
+                  </button>
+              </div>
+          </div>
+        )}
 
-        {/* Add only the chatbot component */}
         <Chatbot />
       </div>
     </>

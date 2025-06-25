@@ -1,0 +1,1210 @@
+Câu hỏi
+
+Nội dung câu hỏi, trả lời
+
+Câu 1
+
+Phương pháp đo dòng điện?
+
+A)
+
+Mắc cơ cấu chỉ thị nối tiếp với mạch
+
+B)
+
+Dùng điện trở Shunt
+
+C)
+
+Mắc ampe kế nối tiếp với nhánh cần đo
+
+D)
+
+Mắc ampe kế song song với nhánh cần đo
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 2
+
+Quy tắc an toàn khi sử dụng biến dòng kết hợp với ampere kế xoay chiều là gì?
+
+A)
+
+Nối đất cuộn dây thứ cấp của biến dòng
+
+B)
+
+Không để hở mạch cuộn dây sơ cấp khi đã có dòng vào thứ cấp
+
+C)
+
+Không để hở mạch cuộn dây thứ cấp khi đã có dòng vào sơ cấp
+
+D)
+
+Nối đất cuộn dây sơ cấp của biến dòng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 3
+
+Trong đồng hồ vạn năng  kí hiệu V.DC là của thang đo nào?
+
+A)
+
+Đo điện áp 1 chiều
+
+B)
+
+Đo điện áp xoay chiều
+
+C)
+
+Đo cường độ dòng điện
+
+D)
+
+Đo điện dung
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 4
+
+Trong đồng hồ vạn năng  kí hiệu V.AC là của thang đo nào?
+
+A)
+
+Đo điện áp 1 chiều
+
+B)
+
+Đo điện áp xoay chiều
+
+C)
+
+Đo cường độ dòng điện
+
+D)
+
+Đo điện dung
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 5
+
+Trong đo lường, sai số ngẫu nhiên thường được gây ra bởi?
+
+A)
+
+Người thực hiện
+
+B)
+
+Môi trường
+
+C)
+
+Đại lượng cần đo
+
+D)
+
+Người thực hiện, môi trường, đại lượng cần đo
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 6
+
+Đối với đồng hồ vạn năng 108-T đo điện trở có mấy thang đo?
+
+A)
+
+2
+
+B)
+
+3
+
+C)
+
+4
+
+D)
+
+5
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 7
+
+Một thiết bị đo có độ nhạy càng lớn thì sai số do thiết bị đo gây sẽ như thế nào?
+
+A)
+
+Càng bé                                
+
+B)
+
+Càng lớn
+
+C)
+
+Tùy thuộc phương pháp đo
+
+D)
+
+Không thay đổi
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 8
+
+Đèn LED chỉ thị chung: BIT ERR trên mặt của máy đo SUNSET E20 sáng đỏ khi nào?
+
+A)
+
+Khi phát hiện ra lỗi bít
+
+B)
+
+Khi máy đo phát hiện ra các lỗi
+
+C)
+
+Khi xuất hiện lỗi mã hóa trên tín hiệu thu được
+
+D)
+
+Khi máy đo không xác định được kiểu định dạng khung
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 9
+
+Đèn LED chỉ thị chung: PAT SYNC trên mặt của máy đo SUNSET E20 sáng đỏ khi nào?
+
+A)
+
+Khi máy đo mất đồng bộ với tín hiệu đo thử thu được
+
+B)
+
+Khi máy đo phát hiện ra các lỗi bít
+
+C)
+
+Khi xuất hiện lỗi mã hóa trên tín hiệu thu được
+
+D)
+
+Khi máy đo không xác định được kiểu định dạng khung
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 10
+
+Đèn LED chỉ thị chung: PAT SYNC trên mặt của máy đo SUNSET E20 sáng xanh khi nào?
+
+A)
+
+Khi máy đo đồng bộ được với tín hiệu đo thử thu được
+
+B)
+
+Khi máy đo không  phát hiện ra các lỗi bít
+
+C)
+
+Khi xuất hiện lỗi mã hóa trên tín hiệu thu được
+
+D)
+
+Khi máy đo không xác định được kiểu định dạng khung
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 11
+
+Đèn LED chỉ thị chung: POWER trên mặt của máy đo SUNSET E20 sáng xanh khi nào?
+
+A)
+
+Khi máy đo không  phát hiện ra các lỗi bít
+
+B)
+
+Khi máy đo đồng bộ được với tín hiệu đo thử thu được
+
+C)
+
+Khi bật nguồn máy đo có nguồn cung cấp đầy đủ
+
+D)
+
+Khi máy đo có nguồn cung cấp không đầy đủ
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 12
+
+Đèn LED chỉ thị chung: BATTERY trên mặt của máy đo SUNSET E20 sáng xanh khi nào?
+
+A)
+
+Khi máy không được nạp điện
+
+B)
+
+Khi pin đang được nạp điện
+
+C)
+
+Khi pin không được nạp điện
+
+D)
+
+Khi pin hỏng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 13
+
+Đèn LED chỉ thị chung: BATTERY trên mặt của máy đo SUNSET E20 sáng đỏ  khi nào?
+
+A)
+
+Khi nguồn điện cấp cho máy đo rơi xuống mức thấp.
+
+B)
+
+Khi nguồn pin của máy đo đang được nạp đầy.
+
+C)
+
+Khi nguồn pin của máy đo đang trong quá trình nạp
+
+D)
+
+Tất cả các đáp án trên đều sai
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 14
+
+Khi đèn BATTERY trên mặt của máy đo SUNSET E20 sáng đỏ, sau bao nhiêu phút máy đo tự động ngắt nguồn.
+
+A)
+
+10 phút
+
+B)
+
+15 phút
+
+C)
+
+20 phút
+
+D)
+
+25 phút
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 15
+
+Đèn Led hiển thị cho cả hai line 1&Line 2 trên mặt máy SUNSET E20 Đèn SIGNAL sáng xanh khi nào?
+
+A)
+
+Khi máy đo thu được chính xác luồng tín hiệu 2.048Mbps
+
+B)
+
+Khi máy đo thu được chính xác luồng tín hiệu 1.048Mbps
+
+C)
+
+Khi máy đo thu được chính xác luồng tín hiệu 4.096Mbps
+
+D)
+
+Khi máy đo thu được chính xác luồng tín hiệu 144kb
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 16
+
+Đèn Led hiển thị cho cả hai line 1&Line 2 trên mặt máy SUNSET E20: Đèn SIGNAL sáng đỏ khi nào?
+
+A)
+
+Khi máy đo mất tín hiệu 
+
+B)
+
+Khi máy đo thu được luồng tín hiệu 1.048Mbps
+
+C)
+
+Khi máy đo thu được luồng tín hiệu 64kb
+
+D)
+
+Khi máy đo thu được chính xác luồng tín hiệu 144kb
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 17
+
+Đèn Led hiển thị cho cả hai line 1&Line 2 trên mặt máy SUNSET E20: Đèn PCM-31, PCM-30 sáng xanh khi nào?
+
+A)
+
+Khi máy đo phát hiện được kiểu định dạng khung đã chọn trong phần TEST CONFIGURATOIN.
+
+B)
+
+Khi máy đo không  phát hiện ra các lỗi bít
+
+C)
+
+Khi máy đo đồng bộ được với tín hiệu đo thử thu được
+
+D)
+
+Khi máy đo thu được luồng tín hiệu 64kb
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 18
+
+Đèn Led hiển thị cho cả hai line 1&Line 2 trên mặt máy SUNSET E20: Đèn PCM-31, PCM-30 sáng đỏ khi nào?
+
+A)
+
+Khi máy đo không phát hiện được kiểu định dạng khung đã chọn trong phần TEST CONFIGURATOIN.
+
+B)
+
+Khi máy đo không  phát hiện ra các lỗi bít
+
+C)
+
+Khi máy đo đồng bộ được với tín hiệu đo thử thu được
+
+D)
+
+Khi máy đo thu được chính xác luồng tín hiệu 144kb
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 19
+
+Đèn Led hiển thị cho cả hai line 1&Line 2 trên mặt máy SUNSET E20: Đèn PCM-31, PCM-30 không sáng khi nào?
+
+A)
+
+Khi tín hiệu không chọn kiểu định dạng khung.
+
+B)
+
+Khi máy đo không thu  được luồng tín hiệu 1.048Mbps
+
+C)
+
+Khi máy đo không thu  được luồng tín hiệu 64kb
+
+D)
+
+Khi máy đo không thu được chính xác luồng tín hiệu 144kb
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 20
+
+Đèn Led hiển thị cho cả hai line 1&Line 2 trên mặt máy SUNSET E20:  Đèn AIS sáng đỏ khi nào?
+
+A)
+
+Khi phát hiện thấy có tín hiệu cảnh báo trên đầu thu
+
+B)
+
+Khi máy  đo không đồng bộ được với tín hiệu đo thử thu được
+
+C)
+
+Khi máy đo thu được chính xác luồng tín hiệu 144kb
+
+D)
+
+Khi máy đo đồng bộ được với tín hiệu đo thử thu được
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 21
+
+Đèn Led hiển thị cho cả hai line 1&Line 2 trên mặt máy SUNSET E20: Đèn CODE ERR sáng đỏ khi nào?
+
+A)
+
+Khi xuất hiện lỗi mã hóa trên tín hiệu thu được
+
+B)
+
+Khi phát hiện thấy có tín hiệu cảnh báo trên đầu thu
+
+C)
+
+Khi máy  đo không đồng bộ được với tín hiệu đo thử thu được
+
+D)
+
+Khi máy đo không thu  được luồng tín hiệu 1.048Mbps
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 22
+
+Đèn Led hiển thị cho cả hai line 1&Line 2 trên mặt máy SUNSET E20: Đèn CRC DETsáng xanh khi nào?
+
+A)
+
+Khi khai báo kích hoạt CRC trong phần TEST CONFIGURATOIN và CRC-4 được xác định bằng máy đo.
+
+B)
+
+Khi khai báo kích hoạt CRC trong phần TEST CONFIGURATOIN và CRC-4  không được xác định bằng máy đo.
+
+C)
+
+Khi không khai báo kích hoạt CRC trong phần TEST CONFIGURATOIN và CRC-4 được xác định bằng máy đo.
+
+D)
+
+Khi không khai báo kích hoạt CRC trong phần TEST CONFIGURATOIN 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 23
+
+Đèn Led hiển thị cho cả hai line 1&Line 2 trên mặt máy SUNSET E20: Đèn CRC DET sáng đỏ khi nào?
+
+A)
+
+Khi khai báo kích hoạt CRC trong phần TEST CONFIGURATOIN và CRC-4 được xác định bằng máy đo.
+
+B)
+
+Khi khai báo kích hoạt CRC trong phần TEST CONFIGURATOIN và CRC-4  không được xác định bằng máy đo.
+
+C)
+
+Khi không khai báo kích hoạt CRC trong phần TEST CONFIGURATOIN và CRC-4 được xác định bằng máy đo.
+
+D)
+
+Khi không khai báo kích hoạt CRC trong phần TEST CONFIGURATOIN 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 24
+
+Đèn Led hiển thị cho cả hai line 1&Line 2 trên mặt máy SUNSET E20: Đèn CRC DET không sáng  khi nào?
+
+A)
+
+Khi khai báo kích hoạt CRC trong phần TEST CONFIGURATOIN và CRC-4 được xác định bằng máy đo.
+
+B)
+
+Khi khai báo kích hoạt CRC trong phần TEST CONFIGURATOIN và CRC-4  không được xác định bằng máy đo.
+
+C)
+
+Khi không khai báo kích hoạt CRC trong phần TEST CONFIGURATOIN và CRC-4 được xác định bằng máy đo.
+
+D)
+
+Khi không khai báo kích hoạt CRC trong phần TEST CONFIGURATOIN 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 25
+
+Đèn Led hiển thị cho cả hai line 1&Line 2 trên mặt máy SUNSET E20: Đèn ERROR sáng đỏ khi nào?
+
+A)
+
+Chỉ phát hiện khi lỗi bít 
+
+B)
+
+Chỉ phát hiện khi lỗi khung.
+
+C)
+
+Khi phát hiện thấy bất cứ lỗi nào trong quá trình đo
+
+D)
+
+Chỉ phát hiện khi lỗi không xác định được kiểu định dạng khung
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 26
+
+Đèn Led hiển thị cho cả hai line 1&Line 2 trên mặt máy SUNSET E20: Đèn ALARM sáng đỏ khi nào?
+
+A)
+
+Khi phát hiện ra lỗi cảnh báo tín hiệu đồng bộ khung FAS ALM
+
+B)
+
+Khi phát hiện ra lỗi cảnh báo tín hiệu đa khung mfas alm
+
+C)
+
+Khi phát hiện ra lỗi tín hiệu cảnh báo AIS trên khe TS16
+
+D)
+
+Cả 3 nội dung trên
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 27
+
+Trước khi đưa máy đo SUNSET E20 kết nối vào mạng ta phải: 
+
+A)
+
+Cấp nguồn cho máy đo
+
+B)
+
+Đấu máy vào vị trí cần đo
+
+C)
+
+Cài đặt cấu hình cho máy đo trong mục TEST CONFIGURATOIN
+
+D)
+
+Cả 3 nội dung trên
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 28
+
+Để thực hiện các phép đo luồng trong máy SUNSET E20 ta lựa chọn menu chính sau:
+
+A)
+
+TEST  CONFIGURATOIN
+
+B)
+
+TEST  PATTENRN
+
+C)
+
+MEASUREMENT
+
+D)
+
+OTHER MEASUREMENTS
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 29
+
+Để thực hiện chế độ đo ghép luồng E1 tại máy đo SUNSET E20 thì ta chọn chế độ đo nào? 
+
+A)
+
+E1SINGL
+
+B)
+
+E1DUAL
+
+C)
+
+E1 MUX
+
+D)
+
+MUXTEST
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 30
+
+Chế độ đo 2 luồng E1 là chế độ nào? 
+
+A)
+
+E1SINGL
+
+B)
+
+E1 MUX
+
+C)
+
+E1DUAL
+
+D)
+
+MUXTEST
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+
+
+
+
+
+

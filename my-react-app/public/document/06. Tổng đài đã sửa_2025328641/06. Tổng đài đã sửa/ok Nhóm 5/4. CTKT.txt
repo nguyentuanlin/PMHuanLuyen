@@ -1,0 +1,1206 @@
+Câu hỏi
+
+Nội dung câu hỏi, trả lời
+
+Câu 1
+
+Trách nhiệm quản lý và ghi chép các loại sổ công tác kỹ thuật đối với các đơn vị thông tin có cơ quan kỹ thuật là ai?
+
+A)
+
+Chủ nhiệm kỹ thuật là người trực tiếp chịu trách nhiệm trước chỉ huy về triển khai hệ thống sổ sách, hướng dẫn và kiểm tra việc ghi chép.
+
+B)
+
+Lữ đoàn trưởng là người trực tiếp chịu trách nhiệm trước đơn vị về triển khai hệ thống sổ sách, hướng dẫn và kiểm tra việc ghi chép.
+
+C)
+
+Lữ đoàn phó phụ trách công tác kỹ thuật là người trực tiếp chịu trách nhiệm trước chỉ huy về triển khai hệ thống sổ sách, hướng dẫn và kiểm tra việc ghi chép.
+
+D)
+
+Phó chủ nhiệm kỹ thuật là người trực tiếp chịu trách nhiệm trước chỉ huy về triển khai hệ thống sổ sách, hướng dẫn và kiểm tra việc ghi chép.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 2
+
+Sổ theo dõi, quản lý trang bị kỹ thuật thông tin có công dụng để làm gì?
+
+A)
+
+Để theo dõi thống kê trang bị kỹ thuật thông tin hàng quý của cấp lữ đoàn, tiểu đoàn thông tin và các đơn vị tương đương, tình hình tăng giảm và theo dõi trang bị gửi đi sửa chữa trong quý.
+
+B)
+
+Để theo dõi thống kê trang bị kỹ thuật thông tin hàng tuần của cấp lữ đoàn, tiểu đoàn thông tin và các đơn vị tương đương, tình hình tăng giảm và theo dõi trang bị gửi đi sửa chữa trong quý.
+
+C)
+
+Để theo dõi thống kê trang bị kỹ thuật thông tin hàng tháng của cấp lữ đoàn, tiểu đoàn thông tin và các đơn vị tương đương, tình hình tăng giảm và theo dõi trang bị nhận sửa chữa trong tháng.
+
+D)
+
+Để theo dõi thống kê trang bị kỹ thuật thông tin hàng quý của cấp tiểu đoàn thông tin và các đơn vị tương đương, tình hình xuất nhập và theo dõi trang bị ở trong kho.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 3
+
+Sổ dự trù vật tư kỹ thuật có công dụng để làm gì?
+
+A)
+
+Để đề nghị cơ quan kỹ thuật cấp trên bảo đảm vật tư phục vụ bảo quản, bảo dưỡng kỹ thuật cấp 1 và sửa chữa nhỏ các trang bị kỹ thuật của cấp tiểu đoàn, đại đội, trạm (xưởng) sửa chữa thông tin.
+
+B)
+
+Để xây dựng kế hoạch bảo dưỡng kỹ thuật cấp 1 các trang bị kỹ thuật của cấp tiểu đoàn, đại đội thông tin trực thuộc và tương đương.
+
+C)
+
+Để xây dựng kế hoạch bảo quản trang bị kỹ thuật, phòng trạm máy thông tin hàng tuần của cấp tiểu đoàn, đại đội thông tin và tương đương.
+
+D)
+
+Để theo dõi thống kê trang bị kỹ thuật thông tin hàng tháng của cấp lữ đoàn, tiểu đoàn thông tin và các đơn vị tương đương, tình hình tăng giảm và theo dõi trang bị nhận sửa chữa trong tháng.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 4
+
+Tại sao phải báo cáo công tác kỹ thuật?
+
+A)
+
+Báo cáo công tác kỹ thuật để người chỉ huy và cơ quan kỹ thuật cấp trên nắm được trình độ chuyên môn của cấp dưới; đồng thời có sự chỉ đạo và có các biện pháp cần thiết nhằm hoàn thành nhiệm vụ công tác kỹ thuật. 
+
+B)
+
+Báo cáo công tác kỹ thuật để người chỉ huy và cơ quan kỹ thuật cấp trên nắm được tình hình, khả năng, mức độ hoàn thành nhiệm vụ, kế hoạch của cấp dưới; đồng thời có sự chỉ đạo và có các biện pháp cần thiết nhằm hoàn thành nhiệm vụ công tác kỹ thuật. 
+
+C)
+
+Báo cáo công tác kỹ thuật để người chỉ huy và cơ quan kỹ thuật cấp trên nắm được tình trạng hoạt động của các trang bị; đồng thời có sự chỉ đạo và có các biện pháp cần thiết nhằm duy trì các chỉ tiêu kỹ thuật. 
+
+D)
+
+Báo cáo công tác kỹ thuật để người chỉ huy và cơ quan kỹ thuật cấp trên nắm được thực trạng tổ chức biên chế nhân viên kỹ thuật; đồng thời có sự chỉ đạo biên chế đúng trình độ của nhân viên
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 5
+
+Công dụng của sổ công tác kỹ thuật?
+
+A)
+
+Để theo dõi công tác kỹ thuật hàng tháng của trung đội, tiểu đội và các tổ (trạm) thông tin.
+
+B)
+
+Để theo dõi công tác kỹ thuật hàng tuần của trung đội, tiểu đội và các tổ (trạm) thông tin.
+
+C)
+
+Để theo dõi công tác kỹ thuật hàng ngày của trung đội, tiểu đội và các tổ (trạm) thông tin.
+
+D)
+
+Để theo dõi công tác kỹ thuật hàng quý của trung đội, tiểu đội và các tổ (trạm) thông tin.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 6
+
+Cấp nào lập kế hoạch bảo quản tuần tại các trạm thông tin?
+
+A)
+
+Cấp trung đội thông tin
+
+B)
+
+Cấp đại đội thông tin
+
+C)
+
+Cấp tiểu đội thông tin 
+
+D)
+
+Cấp tiểu đoàn thông tin
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 7
+
+Bảo quản, bảo dưỡng đối với hệ thống tổng đài cần chú ý điều gì?
+
+A)
+
+Tuyệt đối không được dừng hoạt động đối với các tổng đài nút. 
+
+B)
+
+Phải chuyển vị trí của các thuê bao quan trọng sang vị trí khác trước khi bảo dưỡng phần cứng bảng mạch có thuê bao đó.
+
+C)
+
+Không tự ý thay đổi tham số cấu hình tổng đài, không được tháo lắp bảng mạch tổng đài ở trạng thái cấp nguồn (đối với tổng đài nút).
+
+D)
+
+Tuyệt đối không được dừng hoạt động đối với các tổng đài nút; Phải chuyển vị trí của các thuê bao quan trọng sang vị trí khác trước khi bảo dưỡng phần cứng bảng mạch có thuê bao đó; Không tự ý thay đổi tham số cấu hình tổng đài, không được tháo lắp bảng mạch tổng đài ở trạng thái cấp nguồn (đối với tổng đài nút).
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 8
+
+Một trong các yêu cầu về bảo dưỡng hệ thống của tổng đài dung lượng lớn phải có phần xử lý lỗi để làm gì?
+
+A)
+
+Phát hiện lỗi
+
+B)
+
+Định vị lỗi phần cứng
+
+C)
+
+Tự khắc phục lỗi
+
+D)
+
+Phát hiện lỗi; Định vị lỗi phần cứng; Tự khắc phục lỗi
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 9
+
+Tổng đài dung lượng nhỏ có các thiết bị bảo vệ chống điện áp lạ trên đường dây thuê bao, trung kế khi điện áp lạ có giá trị bao nhiêu?
+
+A)
+
+≥ 100V
+
+B)
+
+≥ 110V
+
+C)
+
+≥ 150V
+
+D)
+
+≥ 170V
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 10
+
+Theo quy định nghành viễn thông môi trường làm việc của tổng đài dung lượng nhỏ cho phép?
+
+A)
+
+Nhiệt độ: từ 0 đến 80ºC; Độ ẩm tương đối: từ 20 đến 80%
+
+B)
+
+Nhiệt độ: từ 0 đến 50ºC; Độ ẩm tương đối: từ 20 đến 80%
+
+C)
+
+Nhiệt độ: từ 0 đến 50ºC; Độ ẩm tương đối: từ 50 đến 80%
+
+D)
+
+Nhiệt độ: từ 10 đến 50ºC ; Độ ẩm tương đối: từ 20 đến 80%
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 11
+
+Hệ thống thoát sét cho một trạm máy thông tin gồm?
+
+A)
+
+Thiết bị cắt điện áp cao, cắt lọc sét, có nhiệm vụ bảo vệ khi lưới điện tăng cao và cắt lọc xung sét lan truyền trên đường nguồn AC, bảo đảm an toàn cho các thiết bị sử dụng điện.
+
+B)
+
+Thiết bị cắt điện áp cao, thiết bị chống quá dòng, thiết bị ổn áp.
+
+C)
+
+Bộ biến đổi nguồn AC/DC, Thiết bị biến đổi nguồn 48VDC thành điện áp 220VAC/50Hz cung cấp điện xoay chiều có dạng sóng " sin" chuẩn.
+
+D)
+
+Hệ thống dây tiếp đất của các thiết bị được lối tới bảng đồng đấu đất chung gian, từ đây được lối bằng cáp đồng ≥ m50 tới tổ tiếp đất, hệ thống này có nhiệm vụ thoát sét khi bị xung sét lan truyền, tiếp đất chống nhiễu cho tất cả các thiết bị, chống dò điện, an toàn cho thiết bị và người sử dụng.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 12
+
+Thành phần chính trong hệ thống nguồn điện của trạm máy thông tin?
+
+A)
+
+Tổ máy phát điện.Thiết bị ổn áp xoay chiềuBộ biến đổi nguồn AC/DC (chỉnh lưu)Bộ phối hợp, chia điện 1 chiều (BC 4863, tủ điện….).Bộ biến đổi nguồn DC/AC (UPS, Inverter)Tổ Ac Quy 48VDCDàn pin năng lượng mặt trời.
+
+B)
+
+Tổ máy phát điện.Thiết bị ổn áp xoay chiềuBộ biến đổi nguồn AC/DC ( chỉnh lưu)Bộ biến đổi nguồn AC/DC ( chỉnh lưu)Bộ phối hợp, chia điện 1 chiều ( BC 4863, tủ điện….).
+
+C)
+
+Thiết bị cắt điện áp cao, thiết bị chống quá dòng, thiết bị ổn áp.
+
+D)
+
+Thiết bị cắt điện áp cao, cắt lọc sét, có nhiệm vụ bảo vệ khi lưới điện tăng cao và cắt lọc xung sét lan truyền trên đường nguồn AC, bảo đảm an toàn cho các thiết bị sử dụng điện.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 13
+
+Cơ sở kỹ thuật gồm?
+
+A)
+
+Trung tâm bảo đảm kỹ thuật; Các kho trang bị vật tư cấp Lữ đoàn và Tiểu đoàn.
+
+B)
+
+Các trạm kỹ thuật cấp Tiểu đoàn; Các tổ kỹ thuật cấp đại đội (đối với các đại đội phân tán)
+
+C)
+
+Các trạm nạp, trạm nguồn điện, nhà xe.
+
+D)
+
+Trung tâm bảo đảm kỹ thuật; Các kho trang bị vật tư cấp Lữ đoàn và Tiểu đoàn; Các trạm kỹ thuật cấp Tiểu đoàn; Các tổ kỹ thuật cấp đại đội (đối với các đại đội phân tán); Các trạm nạp, trạm nguồn điện, nhà xe.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 14
+
+Sửa chữa trang bị thông tin nhằm mục đích gì?
+
+A)
+
+Nhằm khắc phục các hỏng hóc và điều chỉnh các tham số kỹ thuật để phục hồi các chỉ tiêu và tính năng kỹ chiến thuật của trang bị
+
+B)
+
+Nhằm khắc phục các hỏng hóc để phục hồi các trang bị thông tin và đưa trang bị vào khai thác
+
+C)
+
+Nhằm khắc phục các hỏng hóc để phục hồi các chỉ tiêu và tính năng kỹ chiến thuật của trang bị
+
+D)
+
+Nhằm điều chỉnh các tham số kỹ thuật để phục hồi các chỉ tiêu và tính năng kỹ chiến thuật của trang bị
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 15
+
+Niêm cất trang bị thông tin nhằm mục đích gì?
+
+A)
+
+Nhằm hạn chế tác động xấu của môi trường đến chất lượng trang bị. Giữ trang bị không bị xuống cấp trong thời gian quy định trước khi đưa vào sử dụng.
+
+B)
+
+Nhằm để giữ trang bị không bị xuống cấp trong thời gian quy định trước khi đưa vào sử dụng.
+
+C)
+
+Nhằm hạn chế tác động xấu của môi trường đến chất lượng trang bị. 
+
+D)
+
+Nhằm hạn chế tác động xấu côn trùng đến chất lượng trang bị. Giữ trang bị không bị xuống cấp trong thời gian quy định trước khi đưa vào sử dụng.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 16
+
+Bảo quản, bảo dưỡng đối với hệ thống tổng đài cần chú ý điều gì?
+
+A)
+
+Tuyệt đối không được dừng hoạt động đối với các tổng đài nút. 
+
+B)
+
+Phải chuyển vị trí của các thuê bao quan trọng sang vị trí khác trước khi bảo dưỡng phần cứng bảng mạch có thuê bao đó.
+
+C)
+
+Không tự ý thay đổi tham số cấu hình tổng đài, không được tháo lắp bảng mạch tổng đài ở trạng thái cấp nguồn (đối với tổng đài nút).
+
+D)
+
+Tuyệt đối không được dừng hoạt động đối với các tổng đài nút; Phải chuyển vị trí của các thuê bao quan trọng sang vị trí khác trước khi bảo dưỡng phần cứng bảng mạch có thuê bao đó; Không tự ý thay đổi tham số cấu hình tổng đài, không được tháo lắp bảng mạch tổng đài ở trạng thái cấp nguồn (đối với tổng đài nút).
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 17
+
+Để bảo đảm khai thác hết tính năng của trang bị và bảo đảm TTLL vững chắc, các trang bị thông tin phải bảo đảm các điều kiện gì?
+
+A)
+
+Chất lượng từ cấp 2 trở lên; chưa qua sửa chữa lớn
+
+B)
+
+Chất lượng từ cấp 3 trở lên; có đầy đủ phụ tùng, đồng bộ
+
+C)
+
+Chất lượng từ cấp 2 trở lên; có đầy đủ phụ tùng, đồng bộ
+
+D)
+
+Chất lượng từ cấp 3 trở lên; chưa qua sửa chữa lớn
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 18
+
+Quản lý đồng bộ theo trang bị là?
+
+A)
+
+Đồng bộ trang bị chính, trang bị bổ trợ, trang bị dự phòng
+
+B)
+
+Đồng bộ trang bị bổ trợ, trạng bị dự phòng, trang bị niêm cất
+
+C)
+
+Đồng bộ trang bị bảo đảm, trang bị dự phòng, trang bị niêm cất
+
+D)
+
+Đồng bộ trang bị chính, trang bị bổ trợ, trang bị bảo đảm
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 19
+
+Thời gian sửa chữa nhỏ được qui định như thế nào?
+
+A)
+
+Không quá 3 ngày
+
+B)
+
+Không quá 1 tuần
+
+C)
+
+Không quá 1 tháng
+
+D)
+
+Tùy theo khả năng sửa chữa
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 20
+
+Thời gian sửa vừa được qui định như thế nào?
+
+A)
+
+Không quá 3 ngày
+
+B)
+
+Không quá 1 tuần
+
+C)
+
+Không quá 1 tháng
+
+D)
+
+Tùy theo khả năng sửa chữa
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 21
+
+Hệ thống sổ sách quản lý trang bị, vật tư kỹ thuật gồm?
+
+A)
+
+Lý lịch máy
+
+B)
+
+Sổ theo dõi biến động của trang bị
+
+C)
+
+Hệ thống sổ sách quản lý và xuất nhập kho
+
+D)
+
+Lý lịch máy; Sổ theo dõi biến động của trang bị; Hệ thống sổ sách quản lý và xuất nhập kho
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 22
+
+Quản lý cơ sở kỹ thuật thông tin gồm nội dung gì?
+
+A)
+
+Quản lý khả năng và năng lực hoàn thành nhiêm vụ theo chức năng, nhiêm vụ mà cơ sở kỹ thuật đó được giao.
+
+B)
+
+Quản lý tình hình số lượng, chất lượng, cơ cấu đội ngũ cán bộ, nhân viên kỹ thuật của cơ sở kỹ thuật.
+
+C)
+
+Quản lý trang bị kỹ thuật theo biên chế của cơ sở kỹ thuật
+
+D)
+
+Quản lý tình hình số lượng, chất lượng trang bị kỹ thuật theo biên chế
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 23
+
+Khu kỹ thuật cấp Tiểu đoàn gồm?
+
+A)
+
+Trạm sửa chữa; kho kỹ thuật; trạm nạp điện.
+
+B)
+
+Trạm sửa chữa; kho kỹ thuật; trạm nạp điện; nhà để xe thông tin.
+
+C)
+
+Trạm sửa chữa; kho kỹ thuật; trạm nạp điện; nhà để xe thông tin; kho xăng dầu.
+
+D)
+
+Trạm sửa chữa; kho kỹ thuật; trạm nạp điện; nhà để xe thông tin; kho xăng dầu; phòng máy thông tin
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 24
+
+Trong điều lệ công tác kỹ thuật QĐNDVN, cơ sở kỹ thuật (CSKT) được hiểu như thế nào?
+
+A)
+
+CSKT gồm: Cơ sở bảo đảm kỹ thuật (BĐKT); cơ sở đào tạo, huấn luyện; cơ sở nghiên cứu KHKT và cơ sở thông tin KHKT quân sự
+
+B)
+
+CSKT gồm: Cơ sở bảo BĐKT; cơ sở nghiên cứu KHKT và cơ sở thông tin KHKT quân sự
+
+C)
+
+CSKT gồm: Cơ sở bảo đảm kỹ thuật (BĐKT); cơ sở đào tạo, huấn luyện và cơ sở nghiên cứu KHKT
+
+D)
+
+CSKT gồm: Cơ sở đào tạo, huấn luyện và cơ sở thông tin KHKT quân sự
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 25
+
+Công tác kiểm tra kỹ thuật là trách nhiệm của ai?
+
+A)
+
+Là trách nhiệm của chủ nhiệm kỹ thuật và cơ quan kỹ thuật
+
+B)
+
+Là trách nhiệm của CNKT,cơ quan kỹ thuật và các chuyên ngành kỹ thuật
+
+C)
+
+Là trách nhiệm của CNKT,cơ quan cùng cấp, cơ quan kỹ thuật và các chuyên ngành kỹ thuật
+
+D)
+
+Là trách nhiệm của người chỉ huy, CNKT và các chuyên ngành kỹ thuật
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 26
+
+Phục hồi các tính năng của trang bị, sửa chữa hoặc thay thế những bộ phận hao mòn hoặc hư hỏng là một trong các nội dung của sửa chữa nào?
+
+A)
+
+Sửa chữa nhỏ
+
+B)
+
+Sửa chữa vừa
+
+C)
+
+Sửa chữa lớn
+
+D)
+
+Sửa chữa nhỏ, vừa, lớn
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 27
+
+Các trang bị thông tin khi đưa đi sửa chữa phải:
+
+A)
+
+Đầy đủ phụ tùng đồng bộ và trang bị phụ đi kèm, không được tháo gỡ lấy, tráo đổi linh kiện hoặc giữ lại phụ tùng đồng bộ của trang bị.
+
+B)
+
+Vệ sinh làm sạch bên trong, bên ngoài trang bị.
+
+C)
+
+Có biên bản ghi rõ tình trạng hư hỏng, số lượng phụ tùng kèm theo của từng trang bị.
+
+D)
+
+Đầy đủ phụ tùng đồng bộ và trang bị phụ đi kèm, không được tháo gỡ lấy, tráo đổi linh kiện hoặc giữ lại phụ tùng đồng bộ của trang bị; Vệ sinh làm sạch bên trong, bên ngoài trang bị; Có biên bản ghi rõ tình trạng hư hỏng, số lượng phụ tùng kèm theo của từng trang bị.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 28
+
+Thời hạn sửa chữa lớn trang bị tính từ khi nhận đến khi trả lại cho đơn vị quản lý sử dụng được quy định như sau:
+
+A)
+
+Không quá 1 tuần
+
+B)
+
+Không quá 1 tháng
+
+C)
+
+Không quá 3 tháng
+
+D)
+
+Phụ thuộc năng lực của đơn vị sửa chữa
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 29
+
+Nội dung quản lý cán bộ, nhân viên kỹ thuật thông tin gồm?
+
+A)
+
+Tình hình số lượng, chất lượng, cơ cấu đội ngũ cán bộ, nhân viên kỹ thuật.  
+
+B)
+
+Tình hình đào tạo, bồi dưỡng, quản lý, sử dụng đội ngũ cán bộ, nhân viên kỹ thuật.
+
+C)
+
+Tình hình số lượng, chất lượng, cơ cấu đội ngũ cán bộ, nhân viên kỹ thuật; Tình hình đào tạo, bồi dưỡng, quản lý, sử dụng đội ngũ cán bộ, nhân viên kỹ thuật.
+
+D)
+
+Tình hình số lượng, chất lượng, quản lý, sử dụng đội ngũ cán bộ, nhân viên kỹ thuật.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 30
+
+Qui định thời gian tổ chức sơ kết CVĐ “ Quản lý, khai thác VKTBKT tốt, bền, an toàn, tiết kiệm và an toàn giao thông” ở cấp Binh chủng?
+
+A)
+
+1 năm/lần 
+
+B)
+
+2 năm/lần
+
+C)
+
+2,5 năm/lần
+
+D)
+
+5 năm/lần
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+
+

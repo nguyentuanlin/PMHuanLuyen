@@ -1,0 +1,4010 @@
+Câu hỏi
+
+Nội dung câu hỏi, trả lời
+
+Câu 1
+
+Tổng đài EWSD là tổng đài điện tử kỹ thuật số dung lượng lớn được sử dụng ở các tổng trạm thông tin?
+
+A)
+
+Cấp chiến dịch. 
+
+B)
+
+Cấp chiến lược
+
+C)
+
+Cấp chiến thuật 
+
+D)
+
+Cấp chiến dịch và cấp chiến lược
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 2
+
+Quản lý trung kế trong tổng đài EWSD có trạng thái trung kế là BPRM. Trạng thái khóa kênh này là gì?
+
+A)
+
+Khi tổng đài đối phương thực hiện khóa kênh nhưng báo hiệu trung kế không gửi báo cáo trạng thái khóa này về hướng đối diện (tổng đài mình).
+
+B)
+
+Trạng thái này được thiết lập khi tổng đài đối phương thực hiện khóa kênh và báo hiệu trung kế đã gửi báo cáo trạng thái khóa này về hướng đối diện. 
+
+C)
+
+Trạng thái khóa bảo dưỡng.
+
+D)
+
+Trạng thái này được thiết lập bằng lệnh MML để chuẩn bị cho kiểm tra trung kế.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 3
+
+Các thuê bao kết nối tới bộ tập trung thuê bao DLU có sử dụng dịch vụ do tổng đài EWSD cung cấp không?
+
+A)
+
+Đều có khả năng sử dụng toàn bộ mọi loại hình dịch vụ mà hệ thống EWSD cung cấp.
+
+B)
+
+Không có khả năng sử dụng toàn bộ mọi loại hình dịch vụ mà hệ thống EWSD cung cấp.
+
+C)
+
+Nếu là thuê bao analog thì có thể sử dụng được các dịch vụ của tổng đài EWSD cung cấp.
+
+D)
+
+Chỉ có thể sử dụng được một số dịch vụ do tổng đài EWSD cung cấp.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 4
+
+Trong tổng đài EWSD trạng thái hoạt động tốt của DLU là trạng thái nào?
+
+A)
+
+ACT- NON
+
+B)
+
+ACT- DST
+
+C)
+
+ACT -NAC
+
+D)
+
+ACT -MBL
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 5
+
+Đèn LED M trong card BDCG của DLUA sáng vàng thể hiện gì?
+
+A)
+
+Bộ tạo đồng hồ hoạt động ở chế độ chủ.
+
+B)
+
+Bộ tạo đồng hồ hoạt động ở chế độ tớ.
+
+C)
+
+Bộ tạo đồng hồ bị lỗi phần cứng.
+
+D)
+
+Bộ tạo đồng hồ bị mất đồng bộ với tổng đài trung tâm.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 6
+
+Quản lý trung kế trong tổng đài EWSD có trạng thái trung kế là BMNT. Trạng thái khóa kênh này là gị?
+
+A)
+
+Khi tổng đài đối phương thực hiện khóa kênh nhưng báo hiệu trung kế không gửi báo cáo trạng thái khóa này về hướng đối diện (tổng đài mình).
+
+B)
+
+Trạng thái này được thiết lập khi tổng đài đối phương thực hiện khóa kênh và báo hiệu trung kế đã gửi báo cáo trạng thái khóa này về hướng đối diện. 
+
+C)
+
+Trạng thái khóa bảo dưỡng.
+
+D)
+
+Trạng thái này được thiết lập bằng lệnh MML để chuẩn bị cho kiểm tra trung kế.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 7
+
+Các thuê bao trong bộ tập trung thuê bao DLU có sử dụng dịch vụ do tổng đài EWSD cung cấp không?
+
+A)
+
+Đều có khả năng sử dụng toàn bộ mọi loại hình dịch vụ mà hệ thống EWSD cung cấp.
+
+B)
+
+Không có khả năng sử dụng toàn bộ mọi loại hình dịch vụ mà hệ thống EWSD cung cấp.
+
+C)
+
+Nếu là thuê bao analog thì có thể sử dụng được các dịch vụ của tổng đài EWSD cung cấp.
+
+D)
+
+Chỉ có thể sử dụng được một số dịch vụ do tổng đài EWSD cung cấp.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 8
+
+Trong 1 tủ DLUA của tổng đài EWSD được bố trí tối đa bao nhiêu card thuê bao?
+
+A)
+
+118 card
+
+B)
+
+119 card
+
+C)
+
+110 card
+
+D)
+
+108 card
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 9
+
+Trong 1 tủ DLUB của tổng đài EWSD được bố trí tối đa bao nhiêu card thuê bao?
+
+A)
+
+118 card
+
+B)
+
+119 card
+
+C)
+
+110 card
+
+D)
+
+108 card
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 10
+
+Trong 1 tủ DLUD của tổng đài EWSD được bố trí tối đa bao nhiêu card thuê bao?
+
+A)
+
+118 card
+
+B)
+
+119 card
+
+C)
+
+110 card
+
+D)
+
+108 card
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 11
+
+Tủ DLU của tổng đài EWSD có chiều cao bao nhiêu?
+
+A)
+
+2450mm
+
+B)
+
+2250mm
+
+C)
+
+2550mm
+
+D)
+
+2350mm
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 12
+
+Chức năng xử lý cuộc gọi được thực hiện ở khối nào trong tổng đài EWSD?
+
+A)
+
+CCG
+
+B)
+
+SN
+
+C)
+
+DLU
+
+D)
+
+LTG
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 13
+
+Trong tổng đài EWSD, tạo điểm báo hiệu gốc cần dùng câu lệnh nào sau đây?
+
+A)
+
+CRC7OP
+
+B)
+
+CRC7DP
+
+C)
+
+CRC7USER
+
+D)
+
+CRNUC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 14
+
+Card BDB trong bộ tập trung thuê bao DLUA của tổng đài EWSD là bộ phân tuyến có nhiệm vụ gì?
+
+A)
+
+Phân phối báo hiệu thông qua BDE đến các card thuê bao hoặc tập trung báo hiệu từ các card thuê bao đưa đến DLUC.
+
+B)
+
+Trao đổi thông tin với nhóm đường dây trung kế LTG.
+
+C)
+
+Trao đổi thông tin với bộ xử lý điều phối trong tổng đài EWSD
+
+D)
+
+Thực hiện ghép kênh và phân kênh cho DLU.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 15
+
+Khối CCNC trong tổng đài EWSD có nhiệm vụ gì?
+
+A)
+
+Xử lý báo hiệu giữa các tổng đài theo tiêu chuẩn báo hiệu số 7
+
+B)
+
+Xử lý báo hiệu giữa các tổng đài theo tiêu chuẩn báo hiệu R2
+
+C)
+
+Xử lý báo hiệu giữa các tổng đài theo tiêu chuẩn báo hiệu kênh kết hợp
+
+D)
+
+Xử lý báo hiệu giữa các tổng đài theo tiêu chuẩn báo hiệu quốc gia.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 16
+
+Mỗi shelf thuê bao trong DLU cho phép bố trí bao nhiêu card thuê bao?
+
+A)
+
+8 card
+
+B)
+
+16 card
+
+C)
+
+15 card
+
+D)
+
+32 card
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 17
+
+Card trung kế CO có trong tổng đài nào?
+
+A)
+
+Tổng đài ALCATELOCB283
+
+B)
+
+Tổng đài ALCATELHC3.3
+
+C)
+
+Tổng đài ALCATEL4400
+
+D)
+
+Tổng đài ALCATELHC3.1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 18
+
+Cáp thuê bao dùng cho DLU trong tổng đài EWSD có bao nhiêu đôi?
+
+A)
+
+16 và 64 đôi
+
+B)
+
+16 và 32 đôi
+
+C)
+
+32 và 64 đôi
+
+D)
+
+64 và 128 đôi
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 19
+
+Mỗi conecter của cáp thuê bao dùng cho DLU của tổng đài EWSD có bao nhiêu đôi?
+
+A)
+
+8 đôi
+
+B)
+
+16 đôi
+
+C)
+
+24 đôi
+
+D)
+
+4 đôi
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 20
+
+Trong tổng đài EWSD, khi cần xóa 1 kênh trung kế thì kênh trung kế đó phải có trạng thái nào sau đây?
+
+A)
+
+BMNT
+
+B)
+
+BADM
+
+C)
+
+BBAC
+
+D)
+
+BPRM
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 21
+
+Trong tổng đài ALCATEL phần mềm HD thuộc trạm xử lý
+
+A)
+
+SMX
+
+B)
+
+SMA
+
+C)
+
+SMT
+
+D)
+
+SMC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 22
+
+Trong tổng đài ALCATEL phần mềm COM thuộc trạm xử lý
+
+A)
+
+SMX
+
+B)
+
+SMA
+
+C)
+
+SMT
+
+D)
+
+SMC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 23
+
+Trong tổng đài ALCATEL phần mềm OM thuộc trạm xử lý
+
+A)
+
+SMM
+
+B)
+
+SMA
+
+C)
+
+SMT
+
+D)
+
+SMC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 24
+
+Trong tổng đài ALCATEL phần mềm URM thuộc trạm xử lý
+
+A)
+
+SMX
+
+B)
+
+SMA
+
+C)
+
+SMT
+
+D)
+
+SMC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 25
+
+Trong tổng đài ALCATEL phần mềm BT thuộc trạm 
+
+A)
+
+SMX
+
+B)
+
+SMA
+
+C)
+
+STS
+
+D)
+
+SMC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 26
+
+Trong tổng đài ALCATEL phần mềm AN có chức năng
+
+A)
+
+Tạo tone (GT), Thu phát tín hiệu đa tần (RGF).
+
+B)
+
+Giờ thực của tổng đài
+
+C)
+
+Thoại hội nghị
+
+D)
+
+Quản lý báo hiêu V5.2
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 27
+
+Trong tổng đài ALCATEL1000E10 (OCB283) mỗi trạm SMX cung cấp tối đa
+
+A)
+
+16 GLR
+
+B)
+
+32 GLR
+
+C)
+
+64 GLR
+
+D)
+
+48 GLR
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 28
+
+Trong tổng đài ALCATEL1000MME10 (OCB HC) mỗi card RCTCA2 cung cáp ra:
+
+A)
+
+16 GLR
+
+B)
+
+32 GLR
+
+C)
+
+64 GLR
+
+D)
+
+48 GLR
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 29
+
+Trong mạng thông tin quân sự hiện nay tổng đài ALCATEL quản lý các kiểu CSN sau
+
+A)
+
+CSN1G, CSNHD, CSNE
+
+B)
+
+CSND, CSNHD, CSNMM
+
+C)
+
+CSN1G, CSNL, CSNMM
+
+D)
+
+CSN1G, CSNHD, CSNMM
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 30
+
+Trong tổng đài ALCATEL mỗi bộ tập trung thuê bao (CSN) cung cấp ra tối đa:
+
+A)
+
+2048 thuê bao analog
+
+B)
+
+512 thuê bao analog
+
+C)
+
+5120 thuê bao analog
+
+D)
+
+1024 thuê bao analog
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 31
+
+Trong tổng đài ALCATEL mỗi tủ điều khiển chính của CSN1G (CSNB) cung cấp ra tối đa:
+
+A)
+
+2048 thuê bao analog
+
+B)
+
+512 thuê bao analog
+
+C)
+
+5120 thuê bao analog
+
+D)
+
+1024 thuê bao analog
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 32
+
+Trong tổng đài ALCATEL mỗi tủ điều khiển chính của CSNMM  hoặc CSNHD cung cấp ra tối đa:
+
+A)
+
+2048 thuê bao analog
+
+B)
+
+512 thuê bao analog
+
+C)
+
+5120 thuê bao analog
+
+D)
+
+1024 thuê bao analog
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 33
+
+Trong tổng đài ALCATEL mỗi bộ tập trung thuê bao xa (CSND)kết nối về tổng đài trung tâm tối đa:
+
+A)
+
+2 E1
+
+B)
+
+4 E1
+
+C)
+
+16 E1
+
+D)
+
+8 E1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 34
+
+Trong tổng đài ALCATEL mỗi bộ tập trung thuê bao gần (CSNL) kết nối về tổng đài trung tâm tối đa
+
+A)
+
+2 LR
+
+B)
+
+4 LR
+
+C)
+
+16 LR
+
+D)
+
+8 LR
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 35
+
+Trong tổng đài ALCATEL mỗi CN cung cấp tối đa
+
+A)
+
+256 thuê bao analog
+
+B)
+
+512 thuê bao analog
+
+C)
+
+5120 thuê bao analog
+
+D)
+
+1024 thuê bao analog
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 36
+
+Trong tổng đài ALCATEL mỗi CN quản lý  tối đa
+
+A)
+
+8 card thuê bao analog
+
+B)
+
+16 card thuê bao analog
+
+C)
+
+32 card thuê bao analog
+
+D)
+
+48 card thuê bao analog
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 37
+
+Trong tổng đài ALCATEL mỗi CN kết nối tới UCX tối đa
+
+A)
+
+8 LRI
+
+B)
+
+16 LRI
+
+C)
+
+4 LRI
+
+D)
+
+2 LRI
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 38
+
+Trong tổng đài ALCATEL mỗi Card thuê bao analog cung cấp tối đa
+
+A)
+
+12 thuê bao analog
+
+B)
+
+16 thuê bao analog
+
+C)
+
+24 thuê bao analog
+
+D)
+
+08 thuê bao analog
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 39
+
+Trong tổng đài ALCATEL1000MME10 (OCB HC) mỗi card BBASE cung cấp ra: 
+
+A)
+
+48 GLR
+
+B)
+
+256 GLR
+
+C)
+
+64 GLR
+
+D)
+
+32 GLR
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 40
+
+Trong tổng đài ALCATEL1000MME10 (OCB HC) chức năng xử lý chính là card
+
+A)
+
+ACMPR
+
+B)
+
+ACPWUC(D)
+
+C)
+
+AATRA
+
+D)
+
+ACAUX
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 41
+
+Tổng đài T64SIP do hãng nào sản xuất?
+
+A)
+
+Hãng PANASONIC của Nhật sản xuất
+
+B)
+
+Hãng TECAPRO của Việt Nam sản xuất
+
+C)
+
+Hãng ALCATEL của Pháp sản xuất
+
+D)
+
+Hãng SIEMEN của Đức sản xuất
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 42
+
+Kích thước của tổng đài T64SIP là?
+
+A)
+
+425 x 325x 340 mm
+
+B)
+
+525 x 325x 340 mm
+
+C)
+
+625 x 325x 340 mm
+
+D)
+
+725 x 325x 340 mm
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 43
+
+Danh bạ của tổng đài T64SIP có thể đánh số?
+
+A)
+
+8 số
+
+B)
+
+7 số
+
+C)
+
+6 số
+
+D)
+
+3 số
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 44
+
+Lưu cước danh định của tổng đài T64SIP là
+
+A)
+
+1000 cuộc
+
+B)
+
+2000 cuộc
+
+C)
+
+3000 cuộc
+
+D)
+
+4000 cuộc
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 45
+
+Trên một cổng thuê bao tổng đài T64SIP có thể sử dụng
+
+A)
+
+Các máy điện thoại thông thường
+
+B)
+
+Các máy điện thoại từ thạch (TA57)
+
+C)
+
+Các máy vô tuyến điện 
+
+D)
+
+Máy điện thoại thông thường hoặc máy điện thoại từ thạch (TA57)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 46
+
+Khai báo số liệu tổng đài T64SIP bằng
+
+A)
+
+Máy tính có phần mềm tổng đài
+
+B)
+
+Máy trực PO
+
+C)
+
+Máy chuyên dụng của tổng đài T64SIP
+
+D)
+
+Máy tính có phần mềm tổng đài T64SIP có cùng version hoặc máy điện thoại thông thường được đấu vào cổng đầu tiên của tổng đài
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 47
+
+Tổng đài T64SIP có tối đa
+
+A)
+
+2 cổng trung kế CO
+
+B)
+
+4 cổng trung kế CO
+
+C)
+
+6 cổng trung kế CO
+
+D)
+
+8 cổng trung kế CO
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 48
+
+Tổng đài T64SIP có tối đa
+
+A)
+
+8 cổng trung kế ĐKX
+
+B)
+
+6 cổng trung kế ĐKX
+
+C)
+
+4 cổng trung kế ĐKX
+
+D)
+
+2 cổng trung kế ĐKX
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 49
+
+Tổng đài T64SIP có tối đa
+
+A)
+
+10 trung kế IP
+
+B)
+
+100 trung kế IP
+
+C)
+
+1000 trung kế IP
+
+D)
+
+10000 trung kế IP
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 50
+
+Tổng đài T64SIP sử dụng 
+
+A)
+
+8 cổng trung kế E1
+
+B)
+
+6 cổng trung kế E1
+
+C)
+
+4 cổng trung kế E1
+
+D)
+
+2 cổng trung kế E1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 51
+
+Tổng đài T64SIP có tối đa
+
+A)
+
+100 thuê bao IP
+
+B)
+
+1000 thuê bao IP
+
+C)
+
+10000 thuê bao IP
+
+D)
+
+100000 thuê bao IP
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 52
+
+Dung lượng thuê bao và trung kế E1 của tổng đài T64SIP là?
+
+A)
+
+64 thuê bao và 2 E1
+
+B)
+
+48 thuê bao và 2 E1
+
+C)
+
+64 thuê bao và 1 E1
+
+D)
+
+32 thuê bao và 2 E1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 53
+
+Dung lượng trung kế CO và trung kế ĐKX của tổng đài T64SIP là?
+
+A)
+
+8 CO, 4 ĐKX
+
+B)
+
+4 CO, 4 ĐKX
+
+C)
+
+4 CO , 8 ĐKX
+
+D)
+
+8 CO, 8 ĐKX
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 54
+
+Trên khung mặt trước tổng đài T64SIP có các ký hiệu gì?
+
+A)
+
+Các vị trí cắm các loại bảng mạch, đèn hiển thị  LED 7 đoạn, công tắc nguồn của tổng đài
+
+B)
+
+Các chữ các loại bảng mạch, đèn hiển thị 8 LED, công tắc từng ngăn tủ của tổng đài
+
+C)
+
+Các vị trí cắm các loại bảng mạch, đèn hiển thị  LED 7 đoạn, 8 cổng RJ45 để kết nối đến các điện thoại IP
+
+D)
+
+Các chữ các loại bảng mạch, Công tắc nguồn của tổng đài.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 55
+
+Trong tổng đài T64SIP card nguồn có số lượng tối đa là?
+
+A)
+
+04
+
+B)
+
+03 
+
+C)
+
+02 
+
+D)
+
+01 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 56
+
+Card nguồn tổng đài T64SIP cung cấp các mức điện áp?
+
+A)
+
+Cung cấp nguồn +5v, -5v,+12v, -48v, 75VAC cho toàn bộ hoạt động của tổng đài
+
+B)
+
+Cung cấp nguồn +5v,+12v, -48v, 75VAC cho toàn bộ hoạt động của tổng đài
+
+C)
+
+Cung cấp nguồn +5v, -5v,+12v, -12V, -48v, 75VAC cho toàn bộ hoạt động của tổng đài
+
+D)
+
+Cung cấp nguồn +5v, -5v,+12v, -48v, +48V, 75VAC cho toàn bộ hoạt động của tổng đài
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 57
+
+Trong tổng đài T64SIP card nguồn sử dụng tối thiểu là?
+
+A)
+
+04
+
+B)
+
+03 
+
+C)
+
+02 
+
+D)
+
+01 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 58
+
+Trong tổng đài T64SIP card nguồn hoạt động bình thường khi
+
+A)
+
+Tất cả các đèn sáng xanh liên tục
+
+B)
+
+Tất cả các đèn sáng xanh liên tục riêng đèn 75VAC tắt
+
+C)
+
+Tất cả các đèn sáng xanh liên tục riêng đèn 75VAC nháy theo nhịp điều khiển của CPU
+
+D)
+
+Tất cả các đèn sáng xanh và chớp theo nhịp điều khiển của CPU
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 59
+
+Trong tổng đài T64SIP card nguồn phải
+
+A)
+
+Cắm đúng vị trí của card nguồn và có thể tráo đổi 2 card cho nhau
+
+B)
+
+Cắm vào bất kỳ vị trí nào trên tổng đài
+
+C)
+
+Cắm đúng vị trí của card nguồn và không thể tráo đổi 2 card cho nhau
+
+D)
+
+Cắm đúng vị trí của card nguồn và có thể tráo đổi 2 card cho nhau nhưng phải chuyển đổi Jum trên card
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 60
+
+Một Card thuê bao tổng đài T64SIP có chức năng
+
+A)
+
+Cung cấp 8 cổng thuê bao analog hoặc từ thạch
+
+B)
+
+Cung cấp 8 cổng thuê bao analog
+
+C)
+
+Cung cấp 8 cổng thuê bao từ thạch
+
+D)
+
+Cung cấp 16 cổng thuê bao analog hoặc từ thạch
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 61
+
+Trong tổng đài T64SIP dung lượng thuê bao tối đa có thể sử dụng là
+
+A)
+
+8 cổng thuê bao analog hoặc từ thạch
+
+B)
+
+64 cổng thuê bao analog hoặc từ thạch
+
+C)
+
+32 cổng thuê bao analog hoặc 32 cổng thuê bao từ thạch
+
+D)
+
+64 cổng thuê bao analog và 64 cổng thuê bao từ thạch
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 62
+
+Trong tổng đài T64SIP card thuê bao phải
+
+A)
+
+Cắm đúng vị trí của card thuê bao và không thể tráo đổi các card cho nhau
+
+B)
+
+Cắm bất kỳ vị trí có ghi TB trên khung rack và có thể tráo đổi các card thuê bao cho nhau
+
+C)
+
+Cắm bất kỳ vào vị trí nào trên khung rack và có thể tráo đổi các card cho nhau
+
+D)
+
+Cắm đúng vị trí của card thuê bao và có thể tráo đổi các card cho nhau nhưng phải chuyển đổi Jum trên card
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 63
+
+Trong tổng đài T64SIP dung lượng card thuê bao tối đa có thể sử dụng là
+
+A)
+
+08
+
+B)
+
+16
+
+C)
+
+32
+
+D)
+
+64
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 64
+
+Trong tổng đài T64SIP card thuê bao đang hoạt động có thể
+
+A)
+
+Rút ra, cắm vào không làm hỏng card
+
+B)
+
+Phải tắt nguồn sau đó mới thực hiện rút card
+
+C)
+
+Rút card nguồn ra trước sau đó rút card thuê bao
+
+D)
+
+Rút ra, cắm vào không làm hỏng card, nhưng thuê bao nào đang hoạt động sẽ bị rớt cuộc gọi
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 65
+
+Trong tổng đài T64SIP
+
+A)
+
+Card thuê bao và card CPU cùng nằm trên một ngăn
+
+B)
+
+Card thuê bao ở một ngăn còn card CPU nằm ở một ngăn khác
+
+C)
+
+Card thuê bao nằm bên trái ngăn và card CPU nằm bên phải ngăn
+
+D)
+
+Card thuê bao nằm bên phải ngăn và card CPU nằm bên trái ngăn
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 66
+
+Tổng đài TIP 24 do hãng nào sản xuất?
+
+A)
+
+Hãng PANASONIC của Nhật sản xuất
+
+B)
+
+Hãng TECAPRO của Việt Nam sản xuất
+
+C)
+
+Hãng ALCATEL của Pháp sản xuất
+
+D)
+
+Hãng SIEMEN của Đức sản xuất
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 67
+
+Kích thước của tổng đài TIP 24 là?
+
+A)
+
+260 x 269,65 x90
+
+B)
+
+270 x 269,65 x100
+
+C)
+
+280 x 269,65 x110
+
+D)
+
+290 x 269,65 x120
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 68
+
+Danh bạ của tổng đài TIP 24 có thể đánh số? 
+
+A)
+
+5 số
+
+B)
+
+6 số
+
+C)
+
+7 số
+
+D)
+
+8 số
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 69
+
+Trên một cổng thuê bao tổng đài TIP 24 có thể sử dụng
+
+A)
+
+Các máy điện thoại thông thường
+
+B)
+
+Các máy điện thoại từ thạch (TA57)
+
+C)
+
+Các máy vô tuyến điện 
+
+D)
+
+Các máy điện thoại thông thường hoặc các máy điện thoại từ thạch (TA57)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 70
+
+Khai báo số liệu tổng đài TIP 24 bằng
+
+A)
+
+Máy tính có phần mềm tổng đài
+
+B)
+
+Máy trực PO
+
+C)
+
+Máy chuyên dụng của tổng đài TIP 24
+
+D)
+
+Máy tính có phần mềm tổng đài TIP 24 cùng version hoặc máy điện thoại thông thường được đấu vào cổng đầu tiên của tổng đài
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 71
+
+Tổng đài TIP 24 có tối đa
+
+A)
+
+2 cổng trung kế CO
+
+B)
+
+4 cổng trung kế CO
+
+C)
+
+6 cổng trung kế CO
+
+D)
+
+8 cổng trung kế CO
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 72
+
+Tổng đài TIP 24 có tối đa
+
+A)
+
+8 cổng trung kế ĐKX
+
+B)
+
+6 cổng trung kế ĐKX
+
+C)
+
+4 cổng trung kế ĐKX
+
+D)
+
+2 cổng trung kế ĐKX
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 73
+
+Tổng đài TIP 24 sử dụng
+
+A)
+
+4 cổng trung kế E1
+
+B)
+
+3 cổng trung kế E1
+
+C)
+
+2 cổng trung kế E1
+
+D)
+
+1 cổng trung kế E1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 74
+
+Tổng đài TIP 24 có tối đa
+
+A)
+
+24 cổng thuê bao
+
+B)
+
+28 cổng thuê bao
+
+C)
+
+48 cổng thuê bao
+
+D)
+
+64 cổng thuê bao
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 75
+
+Dung lượng thuê bao và trung kế E1 của tổng đài TIP 24 là?
+
+A)
+
+64 thuê bao và 2 E1
+
+B)
+
+48 thuê bao và 2 E1
+
+C)
+
+28 thuê bao và 1 E1
+
+D)
+
+24 thuê bao và 1 E1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 76
+
+Dung lượng trung kế CO và trung kế ĐKX của tổng đài TIP 24 là?
+
+A)
+
+8 CO, 8 ĐKX
+
+B)
+
+4 CO, 4 ĐKX
+
+C)
+
+4 CO , 8 ĐKX
+
+D)
+
+2 CO, 2 ĐKX
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 77
+
+Hai cổng trung kế CO của tổng đài TIP 24
+
+A)
+
+Nằm trên cùng một card
+
+B)
+
+Nằm trên hai card khác nhau
+
+C)
+
+Nằm trên hai card thuê bao khác nhau
+
+D)
+
+Nằm trên card CPU
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 78
+
+Hai cổng trung kế ĐKX của tổng đài TIP 24
+
+A)
+
+Nằm trên cùng một card
+
+B)
+
+Nằm trên hai card khác nhau
+
+C)
+
+Nằm trên hai card thuê bao khác nhau
+
+D)
+
+Nằm trên card CPU
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 79
+
+Trong tổng đài TIP 24 card nguồn có số lượng là?
+
+A)
+
+04
+
+B)
+
+03 
+
+C)
+
+02 
+
+D)
+
+01 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 80
+
+Nguồn tổng đài TIP 24 sử dụng
+
+A)
+
+-48VDC
+
+B)
+
+-53VDC
+
+C)
+
+-48VDC ÷ -53VDC
+
+D)
+
+-11VDC ÷ -52VDC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 81
+
+Đèn RUN tổng đài TIP 24 hoạt động ở chế độ LTU
+
+A)
+
+Sáng nhấp nháy nhanh
+
+B)
+
+Sáng nhấp nháy chậm
+
+C)
+
+Sáng liên tục
+
+D)
+
+Đèn tắt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 82
+
+Đèn RUN tổng đài TIP 24 hoạt động ở chế độ tổng đài
+
+A)
+
+Sáng nhấp nháy nhanh
+
+B)
+
+Sáng nhấp nháy chậm
+
+C)
+
+Sáng liên tục
+
+D)
+
+Đèn tắt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 83
+
+Thiết bị AG-MP1288 có mấy cổng có thể kết nối vào mạng TSLqs?
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 84
+
+Khai báo IPU trong tổng đài TIP 24 sử dụng cổng nào
+
+A)
+
+IPX
+
+B)
+
+LAN1
+
+C)
+
+COM
+
+D)
+
+RS232
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 85
+
+Trong tổng đài TIP 24 dung lượng thuê bao tối đa có thể sử dụng là
+
+A)
+
+28 cổng thuê bao analog hoặc từ thạch
+
+B)
+
+24 cổng thuê bao analog hoặc từ thạch
+
+C)
+
+12 cổng thuê bao analog hoặc 12 cổng thuê bao từ thạch
+
+D)
+
+14 cổng thuê bao analog hoặc từ thạch
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 86
+
+Phiến chống sét bảo an 5 điểm (K5-110, K5-170….) tại các MDF của tổng đài nhằm mục đích gì?
+
+A)
+
+Bảo vệ card thuê bao cho tổng đài tránh sự cố sét đánh lan truyền trên đường dây thuê bao
+
+B)
+
+Bảo vệ an toàn cho người khai thác
+
+C)
+
+Chống sét cho tổng đài
+
+D)
+
+Tất cả các phưong án trên
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 87
+
+Điện thoại IP (IP phone) là gì?
+
+A)
+
+Là loại điện thoại sử dụng công nghệ VoIP, chạy trong mạng LAN và có kết nối với mạng truyền số liệu IP.
+
+B)
+
+Là loại điện thoại sử dụng công nghệ ASI, chạy trong mạng LAN và có kết nối với mạng truyền số liệu IP.
+
+C)
+
+Là loại điện thoại sử dụng công nghệ TDM, chạy trong mạng LAN và có kết nối với mạng truyền số liệu IP.
+
+D)
+
+Là loại điện thoại sử dụng công nghệ Analog, chạy trong mạng LAN và có kết nối với mạng truyền số liệu IP.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 88
+
+Sự khác nhau giữa bảo an 5 điểm K5-110, K5-170 và phạm vi ứng dụng?
+
+A)
+
+Bảo an 5 điểm K5-110, hạt ga cá điện áp phóng điện 150v, hạt sỉdator, điện áp ghim 220v. Sử dụng bảo vệ cho card thuê bao tổng đài( TOCA, TOTEL, M3)Bảo an 5 điểm K5-170, hạt ga cá điện áp phóng điện 380v, hạt sỉdator, điện áp ghim 170v. Sử dụng bảo vệ cho card thuê bao tổng đài( ALCATEL, HICOM, AT&T)
+
+B)
+
+Bảo an 5 điểm K5-110, hạt ga cá điện áp phóng điện 110v, hạt sỉdator, điện áp ghim 220v. Sử dụng bảo vệ cho card thuê bao tổng đài( TOCA, TOTEL, M3)Bảo an 5 điểm K5-170, hạt ga cá điện áp phóng điện 250v, hạt sỉdator, điện áp ghim 110v. Sử dụng bảo vệ cho card thuê bao tổng đài( ALCATEL, HICOM, AT&T)
+
+C)
+
+Bảo an 5 điểm K5-110, hạt ga cá điện áp phóng điện 150v, hạt sỉdator, điện áp ghim 110v. Sử dụng bảo vệ cho card thuê bao tổng đài( TOCA, TOTEL, M3)Bảo an 5 điểm K5-170, hạt ga cá điện áp phóng điện 230v, hạt sỉdator, điện áp ghim 170v. Sử dụng bảo vệ cho card thuê bao tổng đài( ALCATEL, HICOM, AT&T)
+
+D)
+
+Bảo an 5 điểm K5-110, hạt ga cá điện áp phóng điện 150v, hạt sỉdator, điện áp ghim 230v. Sử dụng bảo vệ cho card thuê bao tổng đài( TOCA, TOTEL, M3)Bảo an 5 điểm K5-170, hạt ga cá điện áp phóng điện 230v, hạt sỉdator, điện áp ghim 250v. Sử dụng bảo vệ cho card thuê bao tổng đài( ALCATEL, HICOM, AT&T)
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 89
+
+Thiết bị AG-MP1288 có những bảng mạch nào?
+
+A)
+
+Bảng mạch nguồn, bảng mạch CPU, bảng mạch FXS
+
+B)
+
+Bảng mạch nguồn,bảng mạch CPU,bảng mạch FXS, bảng mạch luồng E1
+
+C)
+
+Bảng mạch nguồn, bảng mạch CPU, bảng mạch FXS, bảng mạch báo hiệu SIP.
+
+D)
+
+Bảng mạch nguồn, bảng mạch CPU, bảng mạch FXS, bảng mạch báo hiệu số 7.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 90
+
+Thiết bị AG-MP1288 có mấy cổng có thể kết nối vào mạng TSLqs?
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 91
+
+Thiết bị AG-MP1288 mỗi card thuê bao cắm ra mấy sợi cáp thuê bao?
+
+A)
+
+3
+
+B)
+
+1
+
+C)
+
+2
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 92
+
+Thiết bị AG-MP1288 mỗi card thuê bao cung cấp ra bao nhiêu thuê bao?
+
+A)
+
+72
+
+B)
+
+24
+
+C)
+
+96
+
+D)
+
+128
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 93
+
+Thiết bị AG-MP1288 có tối đa bao nhiêu khe bảng mạch FXS?
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 94
+
+Thiết bị AG-MP1288 mỗi cáp thuê bao được đấu đến bao nhiêu thuê bao?
+
+A)
+
+25 
+
+B)
+
+24
+
+C)
+
+48
+
+D)
+
+72
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 95
+
+Mỗi bảng mạch FXS của thiết bị AG-MP1288 có bao nhiêu tín hiệu thuê bao?
+
+A)
+
+16
+
+B)
+
+32
+
+C)
+
+24
+
+D)
+
+72
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 96
+
+Thiết bị AG-144 có bao nhiêu bảng mạch FXS?
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 97
+
+Thiết bị AG-72 có bao nhiêu bảng mạch FXS?
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 98
+
+Thiết bị AG-MP1288 có bao nhiêu modul nguồn?
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 99
+
+Cáp thuê bao của thiết bị AG-MP1288 có bao nhiêu đôi?
+
+A)
+
+16
+
+B)
+
+24
+
+C)
+
+32
+
+D)
+
+25
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 100
+
+Chức năng chính của thiết bị AG MP-1288 là gì?
+
+A)
+
+Chuyển đổi tín hiệu video
+
+B)
+
+Là bộ tập trung thuê bao thoại analog
+
+C)
+
+Kết nối mạng LAN
+
+D)
+
+Chuyển đổi dữ liệu quang
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+
+
+
+
+
+

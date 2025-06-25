@@ -1,0 +1,1208 @@
+Câu hỏi
+Nội dung câu hỏi, trả lời
+
+
+Câu 1
+Khối đơn vị chức năng nào sau đây thuộc tổng đài EWSD?
+A)
+Khối chuyển mạch (SMX)
+B)
+Khối Báo hiệu kệnh chung (CCNC)
+C)
+Khối tập trung thuê bao (CSN)
+D)
+Khối kết nối trung kế (SMT) 
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 2
+Trong tổng đài EWSD khối nào được kết nối tới nhóm đường dây trung kế LTG?
+A)
+Khối tập trung thuê bao DLU, chuyển mạch SN và bảng cảnh báo SYP
+B)
+Khối tập trung thuê bao DLU, chuyển mạch SN và khối xủ lý chính CP113
+C)
+Khối tập trung thuê bao DLU, chuyển mạch SN và hệ thống thông báo số
+D)
+Khối tập trung thuê bao DLU, chuyển mạch SN và khối báo hiệu kênh chung
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 3
+Để biết nhanh tình trạng hoạt động của tổng đài EWSD ngoài các câu lệnh, nhân viên khai thác phải căn cứ vào đâu?
+A)
+Quan sát màn hình máy tính khai thác tổng đài (OMT)
+B)
+Quan sát các đèn hiển thị trên từng card trong tổng đài.
+C)
+Quan sát trên bảng đèn cảnh báo SYP.
+D)
+Chỉ cần quan sát trên màn hình máy tính khai thác (OMT) không cần gõ lệnh.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 4
+Bảng đèn cảnh báo SYP có những mức cảnh báo nào?
+A)
+Mức cảnh báo nguy hiểm, khẩn cấp, thông thường.
+B)
+Mức cảnh báo khẩn cấp, thông thường.
+C)
+Mức cảnh báo xa, gần.
+D)
+Chỉ có mức cảnh báo thông thường và nhân viên đều phải xử lý ngay.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 5
+Bộ tập trung thuê bao DLU được kết nối trực tiếp với khối nào trong tổng đài EWSD?
+A)
+Khối chuyển mạch SN
+B)
+Khối báo hiệu kênh chung CCNC
+C)
+Khối xử lý điều phối CP113 
+D)
+Nhóm đường dây trung kế LTG
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 6
+Chức năng nào là của bộ tập trung thuê bao DLU?
+A)
+Tập trung lưu thoại của đường dây thuê bao
+B)
+Phân phối báo hiệu thông qua BDE đến các card thuê bao hoặc tập trung báo hiệu từ các card thuê bao đưa đến DLUC.
+C)
+Trao đổi thông tin với nhóm đường dây trung kế LTG.
+D)
+Trao đổi thông tin với bộ xử lý điều phối CP113 trong tổng đài EWSD
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 7
+Đường kết nối từ nhóm đường dây trung kế (LTG) đến khối chuyển mạch (SN) trong tổng đài EWSD có tốc độ bao nhiêu?
+A)
+2,048 Mb/s
+B)
+6,048 Mb/s
+C)
+4,096 Mb/s
+D)
+8,192 Mb/s
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 8
+Đồng chí cho biết: tên card thuê bao của bộ tập trung thuê bao DLUD trong tổng đài EWSD đang được sử dụng trong mạng thông tin Quân sự?
+A)
+Card SLMAITF, SLMAFPE
+B)
+Card SLMACOS, SLMAFPE
+C)
+Card SLMAFPE, SLMAFPS
+D)
+Card SLMAFPS, SLMAITF
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 9
+Card EMSP thực hiện điều khiển hoạt động tự trị của DLUA từ khi nào?
+A)
+Khi tất cả các đường truyền kết nối với LTG bị mất.
+B)
+Khi việc kết nối giữa các thuê bao trong cùng DLUA bị mất.
+C)
+Khi có sự can thiệp của nhân viên khai thác DLU
+D)
+Khi có 1 trong 2 card điều khiển bị lỗi
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 10
+Card BDB trong bộ tập trung thuê bao DLUA của tổng đài EWSD là bộ phân tuyến có nhiệm vụ gì?
+A)
+Phân phối báo hiệu thông qua BDE đến các card thuê bao hoặc tập trung báo hiệu từ các card thuê bao đưa đến DLUC.
+B)
+Trao đổi thông tin với nhóm đường dây trung kế LTG.
+C)
+Trao đổi thông tin với bộ xử lý điều phối CP113 trong tổng đài EWSD
+D)
+Thực hiện ghép kênh và phân kênh cho DLU.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 11
+Lệnh CONF trong tổng đài EWSD được dùng khi nào?
+A)
+Thay đổi trạng thái hoạt động của đối tượng được đặt vào trạng thái cấu hình và chuyển đổi.
+B)
+Chỉ thực hiện chức năng thay đổi trạng thái làm việc của DLU
+C)
+Thay đổi dữ liệu của một đối tượng đã có hoặc thêm vào một số dữ liệu mới cho đối tượng xác định trong câu lệnh.
+D)
+Đưa đối tượng đang được kích hoạt xuống trạng thái không làm việc, nhưng không làm mất đối tượng. 
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 12
+Chức năng lệnh STAT trong tổng đài EWSD là gì?
+A)
+Hiển thị dữ liệu xác định của một đối tượng.
+B)
+Hiển thị trạng thái hoạt động của đối tượng.
+C)
+Kích hoạt đối tượng có sẵn hoặc kích hoạt chức năng hệ thống.
+D)
+Chỉ có chức năng hiển thị các khối chính trong tổng đài
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 13
+Trong mạng thông tin quân sự hiện nay tổng đài của hãng ALCATEL nằm ở cấp chiến lược, chiến dịch sử dụng phần mềm điều khiển phiên bản:
+A)
+R22, R24, R25
+B)
+R22, R24, R25, R27
+C)
+R20, R22, R24, R2
+D)
+R20, R22, R25, R27
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 14
+Trong mạng thông tin quân sự tổng đài điện tử kỹ thuật số đầu tiên được lắp đặt tại Lữ đoàn 205 Binh chủng Thông tin nhằm đảm bảo thông tin cho SCH BQP là tổng đài ALCATEL cấu hình?
+A)
+COMFACT
+B)
+OCB283- P2
+C)
+OCB HC3.1- S
+D)
+OCB HC3.4 – S
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 15
+Tổng đài Alcatel có bao nhiêu điểm báo hiệu?
+A)
+1
+B)
+2
+C)
+3
+D)
+4
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 16
+Trong mạng thông tin quân sự hiện nay tổng đài của hãng ALCATEL có các thế hệ tổng đài nào?
+A)
+ALCATEL 1000E10 (OCB283), ALCATEL 1000MM E10 (OCB HC3.1), ALCATEL 1000MM E10 (OCB HC3.4).
+B)
+ALCATEL 1000E10 (OCB283); ALCATEL 1000MM E10 (OCB HC3.4);ALCATEL 1000MM E10 (OCB HC3.1); ALCATEL 1000MM E10 (OCB HC3.3).
+C)
+ALCATEL 1000E10 (OCB283), ALCATEL 1000MM E10 (OCB HC3.1), ALCATEL 1000MME10 (OCB HC3.4), ALCATEL 1000MME10 (OCB HC3.3);  ALCATEL 4400; OXE;
+D)
+ALCATEL 1000E10 (OCB283); ALCATEL 1000MM E10 (OCB HC3.4);ALCATEL 1000MM E10 (OCB HC3.1); ALCATEL 1000MM E10 (OCB HC3.3); OXE; 
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 17
+Trong cách viết tên tổng đài ALCATEL sau đây cách viết nào đúng, đủ:
+A)
+Tổng đài ALCATEL 1000 E10 (OCB HC3.4)
+B)
+Tổng đài ALCATEL 1000MM E10 (OCB HC3.4)
+C)
+Tổng đài ALCATEL 1000MM E10 (OCB 283)
+D)
+Tổng đài ALCATEL 1000MM (OCB HC3.4)
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 18
+Thế hệ tổng đài ALCATEL 1000MM E10 (OCB HC) sử dụng chuyển mạch:
+A)
+Kênh theo thời gian S-T-S
+B)
+Kênh theo thời gian T-S-T
+C)
+Kênh theo thời gian ATM
+D)
+Nhãn đa giao thức MPLS
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 19
+Thế hệ tổng đài ALCATEL 1000MM E10 (OCB HC) có ma trận chuyển mạch cung cấp ra tối đa:
+A)
+2048 LR
+B)
+1024GLR
+C)
+2048GLR
+D)
+512GLR
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 20
+Thế hệ tổng đài ALCATEL 1000 E10 (OCB 283) có ma trận chuyển mạch cung cấp tối đa ra:
+A)
+2048 LR
+B)
+1024GLR
+C)
+2048GLR
+D)
+512GLR
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 21
+Trong tổng đài ALCATEL tốc độ của một đường LR là:
+A)
+2,048Mb/s
+B)
+4,096 Mb/s
+C)
+512Mb/s
+D)
+8,096Mb/s
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 22
+Trong tổng đài ALCATEL tốc độ của một đường LRI là:
+A)
+2,048Mb/s
+B)
+4,096 Mb/s
+C)
+512Mb/s
+D)
+8,096Mb/s
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 23
+Thế hệ tổng đài ALCATEL 1000MM E10 (OCB HC) cho phép đấu nối cực đại
+A)
+400.000 thuê bao và 16.000 luồng E1
+B)
+400.000 thuê bao và 60.000 luồng E1
+C)
+200.000 thuê bao và 60.000 luồng E1
+D)
+400.000 thuê bao và 16.000 luồng E1
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 24
+Tổng đài ALCATEL1000E10 (OCB283) có cấu trúc các trạm chức năng cơ bản sau:
+A)
+SMA, SMT, SMC, STS, SMM
+B)
+SMA, SMX, SMT, SMB, SMM,STS
+C)
+SMA, SMX, SMT, SMC, SML
+D)
+SMA, SMX, SMT, SMC, STS, SMM
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 25
+Thiết bị AG-MP1288 có thể giám sát những thông tin gì trên giao diện Web?
+A)
+Log Message
+B)
+Trạng thái của thiết bị AG và các thông số: IP, Firrmware, Type, serial number, trạng thái báo cổng, thông số cuộc gọi.
+C)
+Báo cảnh, lịch sử báo cảnh.
+D)
+Cả 3 phương án trên.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 26
+Đèn LED TEL phía trước thiết bị AG-MP1288 có màu đỏ là cảnh báo gì?
+A)
+Phát hiện lỗi của card FXS
+B)
+Phát hiện lỗi ở ít nhất một khay FXS
+C)
+Không phát hiện thấy khay FXS nào trong khung máy
+D)
+Trong giai đoạn khởi động ban đầu, phát hiện lỗi ở ít nhất một khay FXS, không phát hiện thấy khay FXS nào trong khung máy, một cổng FXS bị lỗi (out of service)
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 27
+Thiết bị AG-MP1288 kết nối với tổng đài SS bằng?
+A)
+Luồng E1
+B)
+Luồng FE
+C)
+Luồng GE
+D)
+Luồng SDH
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 28
+Khi cấu hình thiết bị AG-MP1288 khai báo tham số của hệ thống cần cài đặt những thông tin gì? 
+A)
+Cài đặt địa chỉ IP
+B)
+Cài đặt đồng bộ thời gian NTP
+C)
+Cài đặt tên thiết bị
+D)
+Cài đặt địa chỉ IP, đồng bộ thời gian và đặt tên cho thiết bị
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 29
+Khi cấu hình thiết bị AG-MP1288 khai báo tham số báo hiệu SIP, cần cấu hình trường thông tin nào?
+A)
+Cấu hình Proxyset
+B)
+Cấu hình IP Groups
+C)
+Cấu hình Proxy & Registration
+D)
+Cấu hình Proxyset, IP Groups và Proxy & Registration
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 30
+Thiết bị AG-MP1288: Các bước thu hồi một thuê bao đơn?
+A)
+ Thu hồi phần Trunk group
+B)
+Thu hồi phần xác thực Authentication
+C)
+Thu hồi phầnTrunk Groups setting
+D)
+Thu hồi phần Trunk group và phần xác thực Authentication
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 31
+Thiết bị AG-MP1288: Khai báo bảng định tuyến gọi ra mỗi AG tối thiểu phải khai báo bao nhiêu route?
+A)
+1 route
+B)
+2 route 
+C)
+3 route
+D)
+4 route
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 32
+Thiết bị AG-MP1288: Khai báo bảng định tuyến gọi vào mỗi AG tối thiểu phải khai báo bao nhiêu route?
+A)
+1 route
+B)
+2 route 
+C)
+3 route
+D)
+4 route
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 33
+Thiết bị AG-MP1288: Trong bảng định tuyến gọi ra SS tham số “Destination Phone Pattern” có ý nghĩa: 
+A)
+Là các thuê bao của AG được  gọi ra ngoài qua tổng đài SS
+B)
+Là các thuê bao của  tổng đài SS được gọi vào AG
+C)
+Là các thuê bao mà thuê bao của AG gọi đến qua tổng đài SS (Số bị gọi)
+D)
+Là các thuê bao của mạng tổng đài quân sự được  gọi vào AG
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 34
+Thiết bị AG-MP1288: Trong bảng định tuyến gọi vào AG tham số “Destination Phone Pattern” có ý nghĩa: 
+A)
+Là các thuê bao của AG được  gọi ra ngoài qua tổng đài SS
+B)
+Là các thuê bao của AG mà các thuê thuê bao khác gội đến (Số bị gọi)
+C)
+Là các thuê bao mà thuê bao của AG gọi đến qua tổng đài SS 
+D)
+Là các thuê bao của mạng tổng đài quân sự được  gọi vào AG
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 35
+Thiết bị AG-MP1288: Trong bảng định tuyến gọi vào AG tham số “Source Phone Pattern” có ý nghĩa: 
+A)
+Là các thuê bao của AG được  gọi ra ngoài qua tổng đài SS
+B)
+Là các thuê bao của AG mà các thuê thuê bao khác gọi đến
+C)
+Là các thuê bao mà thuê bao của AG gọi đến qua tổng đài SS 
+D)
+Là các thuê bao của mạng tổng đài quân sự được  gọi vào AG (Số chủ gọi)
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 36
+Trên thiết bị AG-MP1288, khi thay đổi địa chỉ IP của OAMP Interface, điều gì sẽ xảy ra?
+A)
+Kết nối với thiết bị sẽ bị mất và cần đăng nhập lại bằng địa chỉ mới
+B)
+Thiết bị sẽ tự động cập nhật mà không mất kết nối
+C)
+Các cuộc gọi SIP đang diễn ra sẽ không bị ảnh hưởng
+D)
+Không có ảnh hưởng gì
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 37
+Luồng E1 sử dụng trở kháng 75 Ω khi nào?
+A)
+Khi luồng E1 dùng cáp đồng trục để kết nối với truyền dẫn
+B)
+Khi luồng E1 dùng cáp HDB3 để kết nối với truyền dẫn
+C)
+Khi luồng E1 dùng cáp quang để kết nối với truyền dẫn
+D)
+Khi luồng E1 dùng cáp điện để kết nối với truyền dẫn
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 38
+Luồng E1 sử dụng trở kháng 120 Ω khi nào?
+A)
+Khi luồng E1 dùng cáp đồng trục để kết nối với truyền dẫn
+B)
+Khi luồng E1 dùng cáp HDB3 để kết nối với truyền dẫn
+C)
+Khi luồng E1 dùng cáp quang để kết nối với truyền dẫn
+D)
+Khi luồng E1 dùng cáp điện để kết nối với truyền dẫn
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 39
+Trung kế CO sử dụng
+A)
+Tín hiệu của tổng đài khác làm kênh trung kế gọi ra
+B)
+Tín hiệu nội đài làm kênh trung kế gọi ra
+C)
+Tín hiệu liên đài làm kênh trung kế gọi ra
+D)
+Tín hiệu mời gọi làm kênh trung kế gọi ra
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 40
+Trên thiết bị AG-MP1288, kiểm tra danh sách IP Interfaces đang hoạt động trong mục nào?
+A)
+IP Interface Table
+B)
+Kiểm tra qua CLI
+C)
+Xóa và tạo lại IP Interfaces
+D)
+Khởi động lại thiết bị
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 41
+Trên thiết bị AG-MP1288, một Ethernet Group có thể chứa tối đa bao nhiêu cổng?
+A)
+1 cổng
+B)
+2 cổng
+C)
+3 cổng
+D)
+4 cổng
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 42
+Trên thiết bị AG-MP1288, điều gì xảy ra nếu một cổng trong Ethernet Group bị mất kết nối?
+A)
+Không có tác động gì
+B)
+Thiết bị sẽ tự động chuyển sang cổng dự phòng (nếu có)
+C)
+Cả Ethernet Group sẽ ngừng hoạt động
+D)
+Cổng còn lại sẽ tự động thay đổi địa chỉ MAC
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 43
+Trên thiết bị AG-MP1288, trạng thái kết nối của một cổng Ethernet được hiển thị bằng màu nào khi có kết nối mạng?
+A)
+Xanh lá cây
+B)
+Đỏ
+C)
+Vàng
+D)
+Xanh dương
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 44
+Trên thiết bị AG-MP1288, nếu một cổng Ethernet không có kết nối mạng (cáp bị ngắt kết nối), biểu tượng của nó sẽ có màu gì?
+A)
+Xanh lá cây
+B)
+Đỏ
+C)
+Vàng
+D)
+Xanh dương
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 45
+Trên thiết bị AG-MP1288, để reset trạng thái cổng FXS, cần thao tác ở mục nào trên giao diện Web?
+A)
+Monitor -> Port Status
+B)
+Maintenance -> Configuration File
+C)
+Troubleshoot -> Message Log
+D)
+Administration -> Reset Port
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 46
+Theo quy định của Binh chủng thông tin luồng E1 được chia thành mấy cấp
+A)
+1
+B)
+2
+C)
+3
+D)
+4
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 47
+Trung tâm điều sửa cấp 3 là đơn vị nào
+A)
+Các tổ sửa chữa dây máy điện thoại
+B)
+Các buồng dây của Tổng đài nút
+C)
+Các buồng dây của Tổng đài vệ tinh
+D)
+Các tổ bảo đảm kỹ thuật tại các tiểu đoàn.
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 48
+Theo quy định của Binh chủng thông tin các máy quân sự được chia thành mấy cấp
+A)
+1
+B)
+2
+C)
+3
+D)
+4
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+Câu 49
+Theo quy định của Binh chủng thông tin máy cấp A được định nghĩa là
+A)
+Được phép liên lạc tới mọi thuê bao trong lãnh thổ Việt Nam
+B)
+Được phép liên lạc tới mọi thuê bao khu vực Hà Nội
+C)
+Được phép liên lạc tới mọi thuê bao khu vực Miền Bắc
+D)
+Được phép liên lạc tới mọi thuê bao khu vực nội thành Hà Nội
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 50
+Theo quy định của Binh chủng thông tin máy cấp B được định nghĩa là
+A)
+Được phép liên lạc nội đài, Bưu điện tại khu vực khai thác tổng đài, mạng điện thoại di động
+B)
+Được phép liên lạc nội đài, Bưu điện Hà Nội
+C)
+Được phép liên lạc nội đài, mạng điện thoại di động
+D)
+Được phép liên lạc nội đài, Bưu điện Hà Nội, mạng điện thoại di động, gọi toàn quốc
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 51
+Điện trở vòng trung bình của cáp Việt Nam đối với cỡ dây 0.4mm là 
+A)
+278 /Km
+B)
+268 /Km
+C)
+178 /Km
+D)
+175 /Km
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 52
+Nội dung kiểm tra, đánh giá chất lượng của dây điện thoại dã chiến?
+A)
+Kiểm tra chiều dài của dây, chất lượng dẫn điện, cách điện của dây
+B)
+Kiểm tra tiết diện, độ bền
+C)
+Kiểm tra chất lượng dẫn điện, cách điện
+D)
+Kiểm tra độ suy hao, chiều dài của dây
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 53
+Có bao nhiêu phương pháp để kiểm tra chiều dài của dây điện thoại dã chiến
+A)
+2
+B)
+3
+C)
+4
+D)
+5
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 54
+Các cách kiểm tra chấ lượng dẫn điện của dây điện thoại dã chiến ?
+A)
+Bằng mắt, bằng máy điện thoại
+B)
+Bằng mắt, bằng đồng hồ đo
+C)
+Bằng máy điện thoại, bằng đồng hồ đo
+D)
+Bằng mắt, bằng máy điện thoại, bằng đồng hồ đo
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 55
+Cáp đồng nhập trạm được đấu nối trực tiếp tới
+A)
+Phiến ngang trên giá dây MDF
+B)
+Phiến dọc trên giá dây MDF
+C)
+Cả phiến ngang và phiến dọc
+D)
+Tủ ODF
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 56
+Một phiến ngang trên giá dây MDF gồm
+A)
+100 đôi từ đôi 01 đến 100
+B)
+128 đôi từ đôi 01 đến 128
+C)
+100 đôi từ đôi 00 đến 99
+D)
+128 đôi từ đôi 00 đến 127
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+D
+Câu 57
+Có bao nhiêu cách kiểm tra chất lượng dẫn điện của dây điện thoại dã chiến ?
+A)
+2
+B)
+3
+C)
+4
+D)
+5
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 58
+Có bao nhiêu cách kiểm tra chất lượng cách điện của dây điện thoại dã chiến ?
+A)
+2
+B)
+3
+C)
+4
+D)
+5
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+B
+Câu 59
+Một phiến dọc trên giá dây MDF bao gồm
+A)
+100 đôi từ đôi 01 đến 100
+B)
+128 đôi từ đôi 01 đến 128
+C)
+100 đôi từ đôi 00 đến 99
+D)
+128 đôi từ đôi 00 đến 127
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+A
+Câu 60
+Một sợi cáp điện thoại nhiều đôi được đánh giá là cáp tốt khi nào ?
+A)
+Khi có trên 50% tổng số sợi đo có kết quả tốt
+B)
+Khi có trên 75% tổng số sợi đo có kết quả tốt
+C)
+Khi có trên 50% số sợi chưa sử dụng đo có kết quả tốt
+D)
+Khi có trên 75% số sợi chưa sử dụng có kết quả tốt
+
+
+E)
+
+F)
+
+G)
+
+H)
+
+Đáp án
+C
+
+

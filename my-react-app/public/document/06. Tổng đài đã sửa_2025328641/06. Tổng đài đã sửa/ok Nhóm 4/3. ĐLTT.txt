@@ -1,0 +1,1210 @@
+Câu hỏi
+
+Nội dung câu hỏi, trả lời
+
+Câu 1
+
+Để thực hiện phép đo luồng 1 E1 (E1SINGL) trên máy sunset E20  ta sử dụng: 
+
+A)
+
+Cổng Line 2
+
+B)
+
+Cổng Line 1
+
+C)
+
+Cổng Line 4
+
+D)
+
+Cổng Line 3
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 2
+
+Để thực hiện phép đo luồng 2 E1 (E1DUAL) trên máy sunset E20  ta sử dụng: 
+
+A)
+
+Cổng Line 1 & Line 2
+
+B)
+
+Cổng Line 1
+
+C)
+
+Cổng Line 2
+
+D)
+
+Cổng Line 3
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 3
+
+Chế độ đo E1SINGL trên máy sunset E20  được ứng dụng để đo:
+
+A)
+
+Tần số thoại
+
+B)
+
+Tần số âm tần
+
+C)
+
+Tỉ lệ lỗi bit trên luồng tốc độ 2048Mbps
+
+D)
+
+Tần số thoại; Tần số âm tần; Tỉ lệ lỗi bit trên luồng tốc độ 2048Mbps
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 4
+
+Chế độ đo E1DUAL  trên máy sunset E20  được ứng dụng để đo: 
+
+A)
+
+Tần số thoại
+
+B)
+
+Tần số âm tần
+
+C)
+
+Giám sát chèn & tách song công hoàn toàn trên cả hai hướng 
+
+D)
+
+Tỉ lệ lỗi bit trên luồng tốc độ 2048Mbps
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 5
+
+Chế độ đo E1SINGL trên máy sunset E20  được ứng dụng để thực hiện  bài đo phải khai báo các tham số: 
+
+A)
+
+Tx SOURCE ( Nguồn phát), L1- Rx PORT (Cổng tín hiệu thu)
+
+B)
+
+FRAMING (Định dạng khung)
+
+C)
+
+TEST RATE (Đo tốc độ), CRC-4 ( Phát hiện lỗi CRC-4)    
+
+D)
+
+Tx SOURCE , L1- Rx PORT, FRAMING, TEST RATE, CRC-4.    
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 6
+
+Máy đo truyền dẫn mạng viễn thông đa công nghệ MTX150 được sử dụng để đo:
+
+A)
+
+IP/Ethernet
+
+B)
+
+PDH/SDH
+
+C)
+
+OTN
+
+D)
+
+IP/Ethernet, PDH/SDH, OTN
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 7
+
+Với đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S cung chia độ A là cung chia thang đo nào?
+
+A)
+
+Ôm
+
+B)
+
+Ampe
+
+C)
+
+Jun
+
+D)
+
+Vôn
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 8
+
+Với đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S cung chia độ C là cung chia thang đo nào?
+
+A)
+
+Điện trở
+
+B)
+
+Điện áp (Điện áp một chiều và điện áp xoay chiều từ 50v trở lên)
+
+C)
+
+Nội trở
+
+D)
+
+Cường độ dòng điện
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 9
+
+Với đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S chia độ D là cung chia thang đo nào?
+
+A)
+
+Cung chia độ điện áp xoay chiều dưới 10V
+
+B)
+
+Cung chia độ điện áp xoay chiều trên 10V
+
+C)
+
+Cung chia độđiện áp  một chiều dưới 10V
+
+D)
+
+Cung chia độ điện áp một chiều trên 10V
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 10
+
+Với đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S cung chia độ E là cung chia thang đo nào?
+
+A)
+
+Là cung chia độ dòng điện xoay chiều tới 30A 
+
+B)
+
+Là cung chia độ dòng điện xoay chiều tới 20A
+
+C)
+
+Là cung chia độ dòng điện xoay chiều tới 25A
+
+D)
+
+Là cung chia độ dòng điện xoay chiều tới 15A
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 11
+
+Với đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S cung chia độ F là cung chia thang đo nào?
+
+A)
+
+Là cung chia độ đo hệ số khuếch đại dòng 1 chiều của transistor - hfe.
+
+B)
+
+Là cung chia độ đo hệ số khuếch đại dòng xoay chiều của transistor - hfe.
+
+C)
+
+Là cung chia độ đo hệ số khuếch đại dòng hai chiều của transistor - hfe.
+
+D)
+
+Là cung chia độ đo hệ số khuếch đại dòng đảo chiều của transistor - hfe.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 12
+
+Với đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S cung chia độ G là cung chia thang đo nào?
+
+A)
+
+Là cung chia độ dòng điện xoay chiều 
+
+B)
+
+Là cung chia độ kiểm tra điện áp của tải đầu cuối
+
+C)
+
+Là cung chia độ kiểm tra dòng điện của tải đầu cuối 
+
+D)
+
+Là cung chia độ dòng điện một chiều
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 13
+
+Với đồng hồ vạn năng chỉ thị kim Kyoritsu 1109S cung chia độ H là cung chia thang đo nào?
+
+A)
+
+Là cung chia độ kiểm tra dòng điện của tải đầu cuối
+
+B)
+
+Là cung chia độ kiểm tra điện áp của tải đầu cuối
+
+C)
+
+Là cung chia độ dòng điện xoay chiều 
+
+D)
+
+Là cung chia độ dòng điện một chiều
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 14
+
+Với đồng hồ vạn năng cung chia độ I là cung chia thang đo nào?
+
+A)
+
+Là cung chia độ thang đo kiểm tra dB
+
+B)
+
+Là cung chia độ thang đo kiểm tra dòng điện
+
+C)
+
+Là cung chia độ thang đo kiểm tra điện trở
+
+D)
+
+Là cung chia độ thang đo kiểm tra nội trở
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 15
+
+Khi đo cách điện giữa dây A với dây B (Rab) bằng đồng hồ SANWA thì bật đảo mạch về vị trí nào?
+
+A)
+
+Lấy que đo ra khỏi túi, tách cho dây que đo thẳng xoắn vào nhau, que đo màu đỏ cắm vào trụ E của đồng hồ, que màu đen cắm vào trụ L 
+
+B)
+
+Bật đảo mạch L về thang đo MΩ bán tự động hoặc thang đo MΩ POWER 
+
+C)
+
+Lấy que đo ra khỏi túi, tách cho dây que đo thẳng xoắn vào nhau, que đo màu đỏ cắm vào trụ A của đồng hồ, que màu đen cắm vào trụ E.
+
+D)
+
+Bật đảo mạch F về thang đo MΩ bán tự động hoặc thang đo MΩ POWER 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 16
+
+Khi dùng đồng hồ vạn năng để đo điện áp xoay chiều thì ta chuyển về thang đo AC và để ở vị trí:  
+
+A)
+
+Thang đo AC cao hơn điện áp cần đo một nấc
+
+B)
+
+Thang đo AC bằng điện áp cần đo
+
+C)
+
+Thang đo AC thấp hơn điện áp cần đo
+
+D)
+
+Thang đo AC cao nhất
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 17
+
+Khi dùng đồng hồ vạn năng để đo điện áp xoay chiều mà chuyển về thang đo DC thì:
+
+A)
+
+Đồng hồ bị hỏng
+
+B)
+
+Đồng hồ không hiển thị giá trị 
+
+C)
+
+Đồng hồ vẫn lên giá trị bình thường
+
+D)
+
+Đồng hồ hiển thị sai giá trị
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 18
+
+Khi dùng đồng hồ vạn năng để đo điện áp một chiều thì ta chuyển về thang đo DC và để ở vị trí:  
+
+A)
+
+Thang đo AC bằng điện áp cần đo
+
+B)
+
+Thang đo DC cao hơn điện áp cần đo một nấc
+
+C)
+
+Thang đo DC thấp hơn điện áp cần đo
+
+D)
+
+Thang đo DC cao nhất
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 19
+
+Khi dùng đồng hồ vạn năng để đo điện áp một chiều mà ta chuyển về thang đo AC để đo thì:
+
+A)
+
+Đồng hồ sẽ bị hỏng
+
+B)
+
+Đồng hồ không hiển thị giá trị
+
+C)
+
+Đồng hồ vẫn hiển thị giá trị bình thường
+
+D)
+
+Đồng hồ hiển thị sai giá trị
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 20
+
+Khi dùng đồng hồ vạn năng để đo điện áp xoay chiều mà ta chuyển về thang đo DC để đo thì:
+
+A)
+
+Đồng hồ sẽ bị hỏng
+
+B)
+
+Đồng hồ không hiển thị giá trị
+
+C)
+
+Đồng hồ vẫn hiển thị giá trị bình thường
+
+D)
+
+Đồng hồ hiển thị sai giá trị
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 21
+
+Khi dùng đồng hồ vạn năng để đo điện áp một chiều mà ta chuyển về thang đo điện trở để đo thì:
+
+A)
+
+Đồng hồ sẽ bị hỏng
+
+B)
+
+Đồng hồ không hiển thị giá trị
+
+C)
+
+Đồng hồ vẫn hiển thị giá trị bình thường
+
+D)
+
+Đồng hồ hiển thị sai giá trị
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 22
+
+Khi dùng đồng hồ vạn năng để đo điện áp một chiều mà ta chuyển về thang đo dòng điện để đo thì:
+
+A)
+
+Đồng hồ vẫn hiển thị giá trị bình thường 
+
+B)
+
+Đồng hồ không hiển thị giá trị
+
+C)
+
+Đồng hồ sẽ bị hỏng
+
+D)
+
+Đồng hồ hiển thị sai giá trị
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 23
+
+Đối với các dụng cụ đo lường của đơn vị đồng chí quản lý bao lâu phải đi kiểm định?
+
+A)
+
+3 tháng
+
+B)
+
+6 tháng
+
+C)
+
+1 năm
+
+D)
+
+2 năm
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 24
+
+Khi đo cách điện giữa dây A với dây B (Rab) bằng đồng hồ SANWA thì bật đảo mạch về vị trí nào?
+
+A)
+
+Lấy que đo ra khỏi túi, tách cho dây que đo thẳng xoắn vào nhau, que đo màu đỏ cắm vào trụ E của đồng hồ, que màu đen cắm vào trụ L
+
+B)
+
+Bật đảo mạch L về thang đo MΩ bán tự động hoặc thang đo MΩ POWER 
+
+C)
+
+Lấy que đo ra khỏi túi, tách cho dây que đo thẳng xoắn vào nhau, que đo màu đỏ cắm vào trụ A của đồng hồ, que màu đen cắm vào trụ E.
+
+D)
+
+Bật đảo mạch F về thang đo MΩ bán tự động hoặc thang đo MΩ POWER 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 25
+
+Nguyên tắc an toàn khi sử dụng máy đo?
+
+A)
+
+Chế độ nguồn điện phải đặt đúng chế độ nguồn cho máy đo, thông thường về điện lưới 220V/50Hz
+
+B)
+
+Nối đất với vỏ máy đo lường và các máy thông tin cần kiểm tra
+
+C)
+
+Nối đúng đầu ra của máy đo lường với các đầu ra của máy thông tin
+
+D)
+
+Tất cả đều đúng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 26
+
+Trong đo lường sai số được phân loại như thế nào? 
+
+A)
+
+Sai số hệ thống
+
+B)
+
+Sai số ngẫu nhiên
+
+C)
+
+Sai số hệ thống và sai số ngẫu nhiên
+
+D)
+
+Sai số tự do và sai số theo quy luật
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 27
+
+Sai số hệ thống máy đo là gì?
+
+A)
+
+Sai số mà khi đo lặp lại một đại lượng giá trị của sai số đó không thay đổi hoặc thay đổi theo một quy luật nhất định
+
+B)
+
+Sai số mà khi đo một đại lượng giá trị của sai số đó không thay đổi hoặc thay đổi theo một quy luật nhất định
+
+C)
+
+Sai số mà khi đo lặp lại một đại lượng giá trị của sai số đó thay đổi 
+
+D)
+
+Sai số mà khi đo lặp lại một đại lượng giá trị của sai số đó thay đổi không theo một quy luật nhất định
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 28
+
+Một thiết bị đo có độ nhạy càng lớn thì sai số do thiết bị đo gây sẽ như thế nào?
+
+A)
+
+Càng nhỏ                                
+
+B)
+
+Càng lớn
+
+C)
+
+Tùy thuộc phương pháp đo
+
+D)
+
+Không thay đổi
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 29
+
+Trong đo lường, sai số hệ thống thường được gây ra bởi?
+
+A)
+
+Người thực hiện
+
+B)
+
+Dụng cụ đo
+
+C)
+
+Đại lượng cần đo
+
+D)
+
+Môi trường
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 30
+
+Để giảm nhỏ sai số hệ thống thường dùng phương pháp?
+
+A)
+
+Cải tiến phương pháp đo
+
+B)
+
+Kiểm định thiết bị đo thường xuyên
+
+C)
+
+Thực hiện phép đo nhiều lần
+
+D)
+
+Khắc phục môi trường
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+
+
+
+
+
+

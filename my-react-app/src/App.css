@@ -44,6 +44,7 @@ body {
   color: black;
   width: 100%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  min-height: 100px;
 }
 
 .App-link {
@@ -1204,4 +1205,115 @@ body {
   .message {
     max-width: 90%;
   }
+}
+
+/* ++ Quiz Result Modal ++ */
+.quiz-result-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  backdrop-filter: blur(5px);
+}
+
+.quiz-result-content {
+  background: #2c2c2e; /* Dark theme background */
+  color: #f2f2f7; /* Light text */
+  padding: 30px 40px;
+  border-radius: 16px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  animation: fadeInScale 0.3s ease-out;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.result-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.result-score {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.result-score strong {
+  font-size: 1.3rem;
+  color: #58a6ff; /* A nice blue color for the score */
+}
+
+.result-message-container {
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.result-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.result-message {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.result-message.success {
+  color: #3ddc84; /* Green for success */
+}
+
+.result-message.decent {
+  color: #ffc400; /* Yellow for decent */
+}
+
+.result-message.encouragement {
+  color: #ff9f0a; /* Orange for encouragement */
+}
+
+.result-message.neutral {
+  color: #a0a0a5; /* Gray for neutral/error */
+}
+
+.result-close-btn {
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  margin-top: 20px;
+}
+
+.result-close-btn:hover {
+  background-color: #0a84ff;
+  transform: scale(1.05);
 }

@@ -1,0 +1,2406 @@
+Câu hỏi
+
+Nội dung câu hỏi, trả lời
+
+Câu 1
+
+Trong tổng đài EWSD, dung lượng thuê bao tối đa của một DLU(B) là bao nhiêu
+
+A)
+
+768 thuê bao
+
+B)
+
+888 thuê bao
+
+C)
+
+944 thuê bao
+
+D)
+
+880 thuê bao
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 2
+
+Card nào sau đây là đơn vị xử lý nhóm của LTGM trong tổng đài EWSD?
+
+A)
+
+Card GSM
+
+B)
+
+Card GPL
+
+C)
+
+Card TSMB
+
+D)
+
+Card DIU120A
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 3
+
+Tổng đài EWSD có bao nhiêu khối chính?
+
+A)
+
+4 khối
+
+B)
+
+5 khối
+
+C)
+
+7 khối
+
+D)
+
+6 khối 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 4
+
+Card nào sau đây là đơn vị chuyển mạch nhóm của LTGM trong tổng đài EWSD?
+
+A)
+
+Card GSM
+
+B)
+
+Card GPL
+
+C)
+
+Card SSM16B
+
+D)
+
+Card TSMB
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 5
+
+Trong tổng đài EWSD đường kết nối từ CCNC được kết nối đến SN có tốc độ bao nhiêu?
+
+A)
+
+2,048 Mb/s
+
+B)
+
+8,192 Mb/s
+
+C)
+
+6,048 Mb/s
+
+D)
+
+4,096 Mb/s
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 6
+
+Trong tổng đài EWSD, DLUB (kết nối gần) có đơn vị trung tâm DLUsystem phần cứng gồm những card nào?
+
+A)
+
+DLUC, DIU: LDID, GCG
+
+B)
+
+DLUC, DIUD, GCG
+
+C)
+
+DLUC, DIU: LDID, BD
+
+D)
+
+DLUC, BDCG, GCG
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 7
+
+Trong tổng đài EWSD trạng thái hoạt động tốt của DLU có trạng thái gì?
+
+A)
+
+ACT- NON
+
+B)
+
+ACT- DST
+
+C)
+
+ACT -NAC
+
+D)
+
+NON-NON
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 8
+
+Bộ tập trung thuê bao DLU có một trong các nhiệm vụ sau?
+
+A)
+
+Cung cấp danh bạ thuê bao cho đối tượng sử dụng
+
+B)
+
+Ngắt tone quay số, nhận và hợp nhất các xung quay số; gửi các tín hiệu và các thông báo qua đường kênh chung tới các LTG
+
+C)
+
+Lấy thông tin, dữ liệu điều khiển đến card thuê bao và ngược lại từ card thuê bao về card DLU.
+
+D)
+
+Nhiệm vụ cung cấp tín hiệu cho các thuê bao.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 9
+
+Đường kết nối từ DLU (Remote) đến LTG có tốc độ bao nhiêu?
+
+A)
+
+2,048 Mb/s
+
+B)
+
+6,048 Mb/s
+
+C)
+
+4,096 Mb/s
+
+D)
+
+8,192 Mb/s
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 10
+
+Trong tổng đài EWSD nhóm đường dây trung kế LTGP có bao nhiêu luồng E1?
+
+A)
+
+2E1
+
+B)
+
+4E1
+
+C)
+
+8E1
+
+D)
+
+16E1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 11
+
+Card RGMG trong DLUA của tổng đài EWSD có chức năng gì?
+
+A)
+
+Bộ cấp điện áp rung chuông và điện áp cho đồng hồ đo xung tính cước. 
+
+B)
+
+Cấp dòng dung chuông và điện áp cho đòng hồ đo xung tính cước cho các card thuê bao ở nửa ngăn bên trái
+
+C)
+
+Cấp dòng dung chuông và điện áp cho đòng hồ đo xung tính cước cho các card thuê bao ở nửa ngăn bên phải.
+
+D)
+
+Đưa ra cảnh báo nếu điện áp nhỏ hơn mức cho phép thì đèn sẽ báo. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 12
+
+Để DLUA của tổng đài EWSD hoạt động được độc lập khi mất kết nối với host thì trong DLUA phải có card gì?
+
+A)
+
+Card DIUD và Card SASC
+
+B)
+
+Card EMSP và Card SASC
+
+C)
+
+Chỉ cần card SASC
+
+D)
+
+Chỉ cần card EMSP
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 13
+
+Mỗi RCX cung cấp ra bao nhiêu đường LRI
+
+A)
+
+47
+
+B)
+
+48
+
+C)
+
+49
+
+D)
+
+50
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 14
+
+Trong CSN đường LRI0, LRI1 dùng được dùng để làm gì
+
+A)
+
+Mang báo hiệu
+
+B)
+
+Đồng bộ
+
+C)
+
+Mã hóa
+
+D)
+
+Tất cả các đáp án trên
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 15
+
+Trong CSN đường LRI1, LRI2, LRI3 dùng được dùng để làm gì
+
+A)
+
+Dùng cho GTA
+
+B)
+
+Dùng cho UCX
+
+C)
+
+Dùng cho RCX
+
+D)
+
+Dùng cho CN20
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 16
+
+Trong tổng đài ALCATEL1000E10 (OCB283)  trạm điều khiển chính SMC có các phần mềm điều khiển sau:
+
+A)
+
+MR,MQ,TR,TX,PC,GX
+
+B)
+
+MR,MQ,TR,TX,ETA,GX
+
+C)
+
+BT,MQ,TR,TX,PC,GX
+
+D)
+
+MR,MQ,OM,TX,PC,GX
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 17
+
+Trong tổng đài ALCATEL1000E10 (OCB283) chức năng thiết lập và giải phóng các cuộc gọi thuộc phần mềm nào của trạm SMC:
+
+A)
+
+MR
+
+B)
+
+MQ
+
+C)
+
+TX
+
+D)
+
+TR
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 18
+
+Trong tổng đài ALCATEL1000E10 (OCB283) chức năng tính cước thuộc phần mềm nào của trạm SMC:
+
+A)
+
+MR
+
+B)
+
+MQ
+
+C)
+
+TX
+
+D)
+
+TR
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 19
+
+Trong tổng đài ALCATEL1000E10 (OCB283) chức năng quản lý cơ sở dữ liệu về thuê bao, trung kế, biên dịch thuộc phần mềm nào của trạm SMC:
+
+A)
+
+MR
+
+B)
+
+MQ
+
+C)
+
+TX
+
+D)
+
+TR
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 20
+
+Trong tổng đài ALCATEL1000E10 (OCB283) chức năng phân phối và tạo các bản tin giữa các phần mềm với nhau thuộc phần mềm nào của trạm SMC:
+
+A)
+
+MR
+
+B)
+
+MQ
+
+C)
+
+GX
+
+D)
+
+TR
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 21
+
+Trong tổng đài ALCATEL1000E10 (OCB283) chức năng giám sát trường chuyển mạch (COM), phòng vệ kết nối qua trường chuyển mạch chủ thuộc phần mềm nào của trạm SMC:
+
+A)
+
+MR
+
+B)
+
+MQ
+
+C)
+
+GX
+
+D)
+
+PC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 22
+
+Trong tổng đài ALCATEL1000E10 (OCB283) chức năng  quản lý mức 3 của báo hiệu số 7 thuộc phần mềm nào của trạm SMC?
+
+A)
+
+MR
+
+B)
+
+MQ
+
+C)
+
+GX
+
+D)
+
+PC
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 23
+
+Trong tổng đài ALCATEL phần mềm PUPE có chức năng?
+
+A)
+
+Tạo tone (GT).
+
+B)
+
+Thu phát tín hiệu đa tần (RGF).
+
+C)
+
+Thoại hội nghị
+
+D)
+
+Quản lý báo hiệu số 7
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 24
+
+Trong tổng đài ALCATEL phần mềm ETA có chức năng:
+
+A)
+
+Tạo tone (GT), thu phát tín hiệu đa tần (RGF); Thoại hội nghị
+
+B)
+
+Tạo tone (GT); Giờ thực của tổng đài; Thoại hội nghị
+
+C)
+
+Tạo tone (GT), thu phát tín hiệu đa tần (RGF)
+
+D)
+
+Tạo tone (GT), thu phát tín hiệu đa tần (RGF); Giờ thực của tổng đài; Thoại hội nghị
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 25
+
+Thiết bị AG-MP1288 hỗ trợ những chuẩn mã hóa âm thanh nào?
+
+A)
+
+G711, G723.1, G726, G729, G.722, Opus
+
+B)
+
+G711, G729
+
+C)
+
+G711
+
+D)
+
+G729
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 26
+
+Giao thức báo hiệu sử dụng trên AG-MP1288?
+
+A)
+
+SIP
+
+B)
+
+H323
+
+C)
+
+Báo hiệu số 7
+
+D)
+
+R2
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 27
+
+Thiết bị AG-MP1288 có những bảng mạch nào?
+
+A)
+
+Bảng mạch nguồn, bảng mạch CPU, bảng mạch FXS
+
+B)
+
+Bảng mạch nguồn,bảng mạch CPU,bảng mạch FXS, bảng mạch luồng E1
+
+C)
+
+Bảng mạch nguồn, bảng mạch CPU, bảng mạch FXS, bảng mạch báo hiệu SIP.
+
+D)
+
+Bảng mạch nguồn, bảng mạch CPU, bảng mạch FXS, bảng mạch báo hiệu số 7.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 28
+
+Thiết bị AG-MP1288 hỗ trợ những tính năng, dịch vụ thoại nào?
+
+A)
+
+Hiển thị số chủ gọi, tự động thực hiện cuộc gọi khi nhấc máy, chuyển tiếp cuộc gọi, thoại hội nghị.
+
+B)
+
+Hiển thị số chủ gọi, tự động thực hiện cuộc gọi khi nhấc máy, chuyển tiếp cuộc gọi, thoại hội nghị, chặn cuộc gọi.
+
+C)
+
+Hiển thị số chủ gọi, tự động thực hiện cuộc gọi khi nhấc máy, chuyển tiếp cuộc gọi, thoại hội nghị, quay số tắt, chặn cuộc gọi.
+
+D)
+
+Hiển thị số chủ gọi, tự động thực hiện cuộc gọi khi nhấc máy, chuyển tiếp cuộc gọi, thoại hội nghị, quay số tắt, chặn cuộc gọi, thu, nghe, xóa thông báo và DISA.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 29
+
+AG-MP1288 hỗ trợ giao thức truyền dữ liệu nào?
+
+A)
+
+RTP, SRTP
+
+B)
+
+TCP, UDP, RTP
+
+C)
+
+UDP, TCP, RTP, SRTP
+
+D)
+
+UDP, TCP, RTP, SRTP, HTTP
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 30
+
+Chức năng chính của thiết bị AG-MP1288 là gì?
+
+A)
+
+Chuyển đổi tín hiệu video
+
+B)
+
+Là bộ tập trung thuê bao thoại analog
+
+C)
+
+Kết nối mạng LAN
+
+D)
+
+Chuyển đổi dữ liệu quang
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 31
+
+Thiết bị AG-MP1288 kết nối với tổng đài SS bằng?
+
+A)
+
+Luồng E1
+
+B)
+
+Luồng FE
+
+C)
+
+Luồng GE
+
+D)
+
+Luồng SDH
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 32
+
+Thiết bị AG-MP1288 địa chỉ mặc định của nhà sản xuất là: 
+
+A)
+
+192.168.0.2
+
+B)
+
+192.168.0.1
+
+C)
+
+192.168.1.2
+
+D)
+
+192.168.1.1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 33
+
+Thiết bị AG-MP1288:Trạng thái màu xám của cổng FXS thể hiện điều gì?
+
+A)
+
+Cổng đang rảnh rỗi
+
+B)
+
+Cổng đang hoạt động
+
+C)
+
+Cổng bị lỗi
+
+D)
+
+Cổng chưa cấu hình đúng
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 34
+
+Thiết bị AG-MP1288 có thể giám sát những thông tin gì trên giao diện Web?
+
+A)
+
+Log Message
+
+B)
+
+Trạng thái của thiết bị AG và các thông số: IP, Firrmware, Type, serial number, trạng thái báo cổng, thông số cuộc gọi.
+
+C)
+
+Báo cảnh, lịch sử báo cảnh.
+
+D)
+
+Cả 3 phương án trên.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 35
+
+Khi cấu hình thiết bị AG-MP1288 khai báo tham số của hệ thống cần cài đặt những thông tin gì? 
+
+A)
+
+Cài đặt địa chỉ IP
+
+B)
+
+Cài đặt đồng bộ thời gian NTP
+
+C)
+
+Cài đặt tên thiết bị
+
+D)
+
+Cài đặt địa chỉ IP, đồng bộ thời gian và đặt tên cho thiết bị
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 36
+
+Thiết bị AG-MP1288 muốn hoạt động tự trị khi mất đường truyền cần khai báo tham sô: 
+
+A)
+
+Redundancy Mode: Parking
+
+B)
+
+Redundancy Mode: Homing
+
+C)
+
+Redundancy Mode: Setting
+
+D)
+
+Redundancy Mode: Testing
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 37
+
+Thiết bị AG-MP1288 khai báo tham số SIPInterface có ý nghĩa gì?
+
+A)
+
+Khai báo số cổng và loại cổng mang báo hiệu R2
+
+B)
+
+Khai báo số cổng và loại cổng mang báo hiệu SS7
+
+C)
+
+Khai báo số cổng và loại cổng mang báo hiệu SIP
+
+D)
+
+Khai báo số cổng và loại cổng mang báo hiệu SS7 và SIP
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 38
+
+Thiết bị AG-MP1288 muốn không hoạt động tự trị khi mất đường truyền cần khai báo tham sô: 
+
+A)
+
+Redundancy Mode: Parking
+
+B)
+
+Redundancy Mode: Homing
+
+C)
+
+Redundancy Mode: Setting
+
+D)
+
+Redundancy Mode: Testing
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 39
+
+Thiết bị AG-MP1288: khai báo tham số Media Realms có ý nghĩa gì?
+
+A)
+
+Khai báo cổng truyền kênh báo hiệu 
+
+B)
+
+Khai báo cổng truyền dữ liệu thoại 
+
+C)
+
+Khai báo cổng truyền dữ liệu hình ảnh
+
+D)
+
+Khai báo cổng truyễn dữ liệu thoại và báo hiệu
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 40
+
+Thiết bị AG-MP1288: Khai báo tham số ProxySet có ý nghĩa gì?
+
+A)
+
+Khai báo địa chỉ cổng của đài đối mà AG kết nối trực tiếp.
+
+B)
+
+Khai báo địa chỉ cổng của đài đối mà AG không kết nối đến
+
+C)
+
+Khai báo địa chỉ cổng của đài bất kỳ trên hệ thống 
+
+D)
+
+Khai báo địa chỉ cổng của thiết bị SW
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 41
+
+Thiết bị AG-MP1288: Các bước khai báo một thuê bao đơn đăng ký thành công trêm SS?
+
+A)
+
+ Khai báo phần Trunk group
+
+B)
+
+Khai báo phần xác thực Authentication
+
+C)
+
+Khai báo Trunk Groups setting
+
+D)
+
+Khai báo phần Trunk group và phần xác thực Authentication
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 42
+
+Đèn LED 7 đoạn của tổng đài TIP 24 chỉ thị 
+
+A)
+
+Ngày, tháng, năm; giờ, phút; các tham số tương ứng với câu lệnh 
+
+B)
+
+Ngày, tháng; giờ, phút, giây; các tham số tương ứng với câu lệnh 
+
+C)
+
+Ngày, giờ; nhiệt độ bên trong đài; các tham số tương ứng với câu lệnh
+
+D)
+
+Ngày, tháng, năm; giờ, phút giây; các tham số tương ứng với câu lệnh 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 43
+
+Đèn DSP của tổng đài TIP 24 sáng xanh chỉ thị 
+
+A)
+
+Sáng rõ là card CPU hoạt động tốt, tắt là card CPU bị lỗi
+
+B)
+
+Là trạng thái DSP hoạt động tốt 
+
+C)
+
+Trạng thái khối IP hoạt động tốt
+
+D)
+
+Báo hiệu đồng bộ luồng E1 tốt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 44
+
+Đèn chỉ thị mức điện áp 75VAC ở mặt trước tổng đài TIP 24
+
+A)
+
+Đèn tắt là tốt
+
+B)
+
+Sáng theo nhịp điều khiển của CPU là tốt
+
+C)
+
+Sáng liên tục là tốt
+
+D)
+
+Sáng vàng là tốt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 45
+
+Đèn SYNC của tổng đài TIP 24 chỉ thị 
+
+A)
+
+Đèn tắt là tốt
+
+B)
+
+Sáng nhấp nháy là tốt
+
+C)
+
+Sáng liên tục là đồng bộ luồng E1 tốt
+
+D)
+
+Sáng vàng là đồng bộ tốt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 46
+
+Đèn IPU của tổng đài TIP 24 sáng xanh chỉ thị
+
+A)
+
+Sáng rõ là card CPU hoạt động tốt, tắt là card CPU bị lỗi
+
+B)
+
+Là trạng thái DSP hoạt động tốt 
+
+C)
+
+Trạng thái khối IP hoạt động tốt
+
+D)
+
+Báo hiệu đồng bộ luồng E1 tốt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 47
+
+Tổng đài TIP 24 có mấy loại trung kế
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 48
+
+Cổng LAN1 của tổng đài TIP 24 dùng để làm gì 
+
+A)
+
+Kết nối với máy tính khai báo IPU
+
+B)
+
+Kết nối với máy tính để quản lý dịch vụ
+
+C)
+
+Kết nối với máy tính để lấy cước
+
+D)
+
+Kết nối với máy tính để lưu dữ liệu
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 49
+
+Trở kháng luồng E1 của tổng đài TIP 24?
+
+A)
+
+75 Ω
+
+B)
+
+120 Ω
+
+C)
+
+75 Ω và 120 Ω
+
+D)
+
+75 Ω hoặc 120 Ω
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 50
+
+Cấu hình 0 của tổng đài TIP 24 bao gồm
+
+A)
+
+Danh bạ nội bộ là 100 ÷ 127, có hai máy PO là 100 và 101, Class của các thuê bao  ở mức 1, riêng máy trực PO1 ở mức 3, hai hướng TK CO, có 01 luồng E1, có 01 trung kế TDM kết nối thuê bao analog sang thuê bao IP
+
+B)
+
+Danh bạ nội bộ là 100 ÷ 127, có hai máy PO là 100 và 101, Class của các thuê bao  ở mức 1, riêng máy trực PO1 ở mức 3, hai hướng TK CO, có 01 luồng E1
+
+C)
+
+Danh bạ nội bộ là 100 ÷ 127, có hai máy PO là 100 và 101, Class của các thuê bao  ở mức 1, riêng máy trực PO1 ở mức 3, có 01 luồng E1
+
+D)
+
+Danh bạ nội bộ là 100 ÷ 127, có hai máy PO là 100 và 101, Class của các thuê bao  ở mức 1, có 01 luồng E1
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 51
+
+Số cặp dây trong cáp cat5, cat6  là
+
+A)
+
+4
+
+B)
+
+5
+
+C)
+
+6
+
+D)
+
+8
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 52
+
+Nội dung kiểm tra, đánh giá chất lượng của dây điện thoại dã chiến?
+
+A)
+
+Kiểm tra chiều dài của dây, chất lượng dẫn điện, cách điện của dây
+
+B)
+
+Kiểm tra tiết diện, độ bền
+
+C)
+
+Kiểm tra chất lượng dẫn điện, cách điện
+
+D)
+
+Kiểm tra độ suy hao, chiều dài của dây
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 53
+
+Có bao nhiêu phương pháp để kiểm tra chiều dài của dây điện thoại dã chiến
+
+A)
+
+2
+
+B)
+
+3
+
+C)
+
+4
+
+D)
+
+5
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 54
+
+Vật liệu làm vỏ cáp điện thoại có tác dụng gì? 
+
+A)
+
+Bảo vệ ruột cáp với độ dẻo, độ bền, độ dai cần thiết để tránh sự cố khi thi công và đảm bảo an toàn cho cáp trong điều kiện làm việc.
+
+B)
+
+Bảo vệ ruột cáp với độ bền cần thiết để tránh sự cố khi thi công và đảm bảo an toàn cho cáp trong điều kiện làm việc.
+
+C)
+
+Bảo vệ ruột cáp với độ cứng cần thiết để tránh sự cố khi thi công và đảm bảo an toàn cho cáp trong điều kiện làm việc.
+
+D)
+
+Bảo vệ ruột cáp với độ dẻo cần thiết để tránh sự cố khi thi công và đảm bảo an toàn cho cáp trong điều kiện làm việc.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 55
+
+Cáp đồng nhập trạm được đấu nối trực tiếp tới
+
+A)
+
+Phiến ngang trên giá dây MDF
+
+B)
+
+Phiến dọc trên giá dây MDF
+
+C)
+
+Cả phiến ngang và phiến dọc
+
+D)
+
+Tủ ODF
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 56
+
+Một phiến ngang trên giá dây MDF gồm
+
+A)
+
+100 đôi từ đôi 01 đến 100
+
+B)
+
+128 đôi từ đôi 01 đến 128
+
+C)
+
+100 đôi từ đôi 00 đến 99
+
+D)
+
+128 đôi từ đôi 00 đến 127
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 57
+
+Có bao nhiêu cách kiểm tra chất lượng dẫn điện của dây điện thoại dã chiến?
+
+A)
+
+2
+
+B)
+
+3
+
+C)
+
+4
+
+D)
+
+5
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 58
+
+Có bao nhiêu cách kiểm tra chất lượng cách điện của dây điện thoại dã chiến ?
+
+A)
+
+2
+
+B)
+
+3
+
+C)
+
+4
+
+D)
+
+5
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 59
+
+Một phiến dọc trên giá dây MDF bao gồm
+
+A)
+
+100 đôi từ đôi 01 đến 100
+
+B)
+
+128 đôi từ đôi 01 đến 128
+
+C)
+
+100 đôi từ đôi 00 đến 99
+
+D)
+
+128 đôi từ đôi 00 đến 127
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 60
+
+Một sợi cáp điện thoại nhiều đôi được đánh giá là cáp tốt khi nào ?
+
+A)
+
+Khi có trên 50% tổng số sợi đo có kết quả tốt
+
+B)
+
+Khi có trên 75% tổng số sợi đo có kết quả tốt
+
+C)
+
+Khi có trên 50% số sợi chưa sử dụng đo có kết quả tốt
+
+D)
+
+Khi có trên 75% số sợi chưa sử dụng có kết quả tốt
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+
+

@@ -1,0 +1,3226 @@
+Câu hỏi
+
+Nội dung câu hỏi, trả lời
+
+Câu 1
+
+Trong kỹ thuật truyền dẫn các trung kế chỉ truyền tải tín hiệu điện thoại trong phạm vi dải tần bao nhiêu? 
+
+A)
+
+300 - 3400HZ
+
+B)
+
+3000 - 3400HZ
+
+C)
+
+3000 - 3500HZ
+
+D)
+
+300 - 3520HZ
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 2
+
+Khái niệm ghép kênh là gì?
+
+A)
+
+Ghép kênh là quá trình xử lý kỹ thuật tín hiệu để bảo đảm truyền được nhiều kênh  độc lập không ảnh hưởng lẫn nhau trên một đường truyền.
+
+B)
+
+Ghép kênh là quá trình xử lý tín hiệu để bảo ghép nhiều kênh   không ảnh hưởng lẫn nhau trên một đường truyền.
+
+C)
+
+Ghép kênh là ghép nhiều kênh  độc lập không ảnh hưởng lẫn nhau trên một đường truyền.
+
+D)
+
+Ghép kênh là quá trình xử lý tín hiệu để ghép nhiều kênh không ảnh hưởng lẫn nhau trên một đường truyền.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 3
+
+Khái niệm chuyển mạch được hiểu như thế nào?
+
+A)
+
+Chuyển mạch là quá trình thực hiên đấu nối tuyến liên lạc giữa 2 thuê bao (điện thoại máy tính, Fax…) thông qua một hay nhiều hệ thống. Hệ thống đó gọi là chuyển mạch.
+
+B)
+
+Chuyển mạch là quá trình thực hiên đấu nối tuyến liên lạc giữa 2 thuê bao thông qua một  hệ thống. Hệ thống đó gọi là chuyển mạch.
+
+C)
+
+Chuyển mạch là quá trình thực hiên đấu nối tuyến liên lạc giữa một số thuê bao thông qua  nhiều hệ thống. Hệ thống đó gọi là chuyển mạch.
+
+D)
+
+Chuyển mạch là quá trình thực hiên kết nối giữa 2 thuê bao (điện thoại máy tính, Fax…) thông qua một  hệ thống. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 4
+
+ Tổng đài tự động được hiểu như thế nào?
+
+A)
+
+Là tổng đài mà việc kết nối mạch liên lạc cho các máy điện thoại được thực hiện tự động
+
+B)
+
+Là tổng đài mà việc kết nối nút liên lạc cho các máy điện thoại được thực hiện tự động
+
+C)
+
+Là tổng đài mà việc kết nối mạch liên lạc của tổng đài cho các máy điện thoại  được thực hiện nhân công
+
+D)
+
+Là tổng đài mà việc kết nối nút liên lạc cho các máy điện thoại được thực hiện nhân công
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 5
+
+Thuê bao số 2B+ D có tốc độ cơ sở là bao nhiêu?
+
+A)
+
+16 Kbit/s
+
+B)
+
+64 Kbit/s
+
+C)
+
+144 Kbit/s
+
+D)
+
+2048 Kbit/s
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 6
+
+Thuê bao số 30B+ D có tốc độ là bao nhiêu?
+
+A)
+
+16 Kbit/s
+
+B)
+
+64 Kbit/s
+
+C)
+
+144 Kbit/s
+
+D)
+
+2048 Kbit/s
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 7
+
+Đơn vị xử lý thông tin dùng trong chuyển mạch số là?
+
+A)
+
+Bít
+
+B)
+
+Time Slot
+
+C)
+
+Packet
+
+D)
+
+Cell
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 8
+
+Chuyển mạch không gian được hiểu như thế nào?
+
+A)
+
+Là thiết bị dùng để truyền một mã nhị phân 8 bít từ một tuyến đi vào đến bất kỳ một tuyến đi ra nào mà không làm thay đổi khe thời gian
+
+B)
+
+Là thiết bị dùng để truyền một mã nhị phân 8 bít từ một tuyến đi vào đến bất kỳ một tuyến đi ra nào mà làm thay đổi khe thời gian
+
+C)
+
+Là thiết bị dùng để truyền một mã nhị phân 16 bít từ một tuyến đi vào đến bất kỳ một tuyến đi ra nào mà làm thay đổi khe thời gian
+
+D)
+
+Là thiết bị dùng để truyền một mã nhị phân 2 bít từ một tuyến đi vào đến bất kỳ một tuyến đi ra nào mà không làm thay đổi khe thời gian
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 9
+
+Mạng chuyển mạch của tổng đài điện tử thường có cấu trúc như thế nào?
+
+A)
+
+Mạng chuyển mạch của tổng đài có cấu trúc phụ thuộc vào dung lượng của từng loại tổng đài và thiết kế riêng của từng hãng sản suất.
+
+B)
+
+Mạng chuyển mạch của tổng đài có cấu trúc phụ không thuộc vào dung lượng của từng loại tổng đài và thiết kế riêng của từng hãng sản suất.
+
+C)
+
+Mạng chuyển mạch của tổng đài có cấu trúc phụ thuộc vào dung lượng của từng loại tổng đài và thiết kế giống nhau với tất cả các hãng sản suất.
+
+D)
+
+Mạng chuyển mạch của tổng đài có cấu trúc phụ không thuộc vào dung lượng của từng loại tổng đài và được thiết kếchung của các hãng sản suất.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 10
+
+Trong tổng đài điện tử tín hiệu nào là tín hiệu mà thuê bao chủ gọi ở chế độ làm việc không nghe thấy?
+
+A)
+
+Âm hồi âm chuông;
+
+B)
+
+Tín hiệu chuông
+
+C)
+
+Âm quay số thông thường
+
+D)
+
+Âm báo trước cuộc gọi
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 11
+
+Lúc nào điện áp một chiều do tổng đài cung cấp đo được ở máy điện thoại là nhỏ nhất?
+
+A)
+
+Nhấc máy và ấn phím Hold
+
+B)
+
+Gác máy
+
+C)
+
+Nhấc máy
+
+D)
+
+Tất cả đều như nhau
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 12
+
+Trong viễn thông khái niệm dịch vụ đa phương tiện là?
+
+A)
+
+Dịch vụ chỉ truyền thoại
+
+B)
+
+Dịch vụ chỉ truyền hình ảnh
+
+C)
+
+Dịch vụ chỉ truyền thoại và hình ảnh
+
+D)
+
+Dịch vụ truyền từ ít nhất hai loại hình thông tin trở lên.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 13
+
+Lúc nào điện áp một chiều đo được tại máy điện thoại đạt 48V?
+
+A)
+
+Gác máy
+
+B)
+
+Nhấc máy và ấn phím Hold
+
+C)
+
+Nhấc máy
+
+D)
+
+Tất cả đều như nhau
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 14
+
+Hiện nay trong hệ thống tổng đài thì báo hiệu số 7 được triển khai bao gồm?
+
+A)
+
+Phần chuyển giao tin báo (MTP) và phần đối tượng sử dụng ISDN (ISUP)
+
+B)
+
+Phần chuyển giao tin báo (MTP) 
+
+C)
+
+Phần đối tượng sử dụng ISDN (ISUP)
+
+D)
+
+Phần mã điểm báo hiệu (SP) và điểm truyền báo hiệu (STP).
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 15
+
+Luồng E1 theo tiêu chuẩn Châu Âu có tốc độ bao nhiêu? 
+
+A)
+
+2,048Mbps
+
+B)
+
+1,544Mbps
+
+C)
+
+4,096 Mbps
+
+D)
+
+8,192 Mbps
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 16
+
+Luồng T1 theo tiêu chuẩn Bắc Mỹ có tốc độ bao nhiêu? 
+
+A)
+
+2,048Mbps
+
+B)
+
+1,544Mbps
+
+C)
+
+4,096 Mbps
+
+D)
+
+8,192 Mbps
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 17
+
+Trong các tổng đài mỗi tổng đài có bao nhiêu điểm báo hiệu cho kết nối trung kế báo hiệu số 7?
+
+A)
+
+1
+
+B)
+
+2
+
+C)
+
+3
+
+D)
+
+4
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 18
+
+Tốc độ ghép kênh cơ sở của SDH là bao nhiêu? 
+
+A)
+
+155,52Mbps
+
+B)
+
+622,08Mbps
+
+C)
+
+144Mbps
+
+D)
+
+25,52Mbps
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 19
+
+Bộ chuyển mạch không gian - thời gian được hiểu như thế nào?
+
+A)
+
+Là thiết bị dùng để truyền một mã nhị phân 8 bít từ một vài tuyến đi vào đến bất kỳ khe thời gian nào của một vài tuyến đi ra.
+
+B)
+
+Là thiết bị dùng để truyền một mã nhị phân 2 bít từ một vài tuyến đi vào đến bất kỳ khe thời gian nào của một vài tuyến đi ra.
+
+C)
+
+Là thiết bị dùng để truyền một mã nhị phân 4 bít từ một vài tuyến đi vào đến bất kỳ khe thời gian nào của một vài tuyến đi ra.
+
+D)
+
+Là thiết bị dùng để truyền một mã nhị phân 16 bít từ một vài tuyến đi vào đến bất kỳ khe thời gian nào của một vài tuyến đi ra.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 20
+
+Hãy sắp xếp mức độ tăng dần quy mô của các mạng máy tính sau:
+
+A)
+
+LAN, MAN, WAN
+
+B)
+
+WAN, LAN, MAN
+
+C)
+
+LAN, WAN, MAN
+
+D)
+
+MAN, LAN, WAN
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 21
+
+Từ nào sau đây được định nghĩa là đường truyền dẫn tín hiệu liên tục giữa 2 điểm trên mạng?
+
+A)
+
+Link
+
+B)
+
+HOST
+
+C)
+
+Modem
+
+D)
+
+Node
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 22
+
+Để đánh giá chất lượng cáp điện thoại nhiều đôi người ta dùng tham số gì?
+
+A)
+
+Điện trở cách điện và điện trở vòng của các đôi dây dẫn
+
+B)
+
+Điện trở đất và điện trở vòng của các đôi dây dẫn
+
+C)
+
+Điện trở vòng của các đôi dây dẫn
+
+D)
+
+Điện dung cách điện và điện trở vòng của các đôi dây dẫn
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 23
+
+Màn che tĩnh điện thường đặt ở vị trí nào của sợi cáp và có tác dụng gì?
+
+A)
+
+Màn che nằm ngoài vỏ cáp, được cấu tạo bởi một lớp kim loại mỏng sát lớp vỏ nhựa có tác dụng giảm mức nhiễu.
+
+B)
+
+Màn che nằm ngoài ruột cáp và nằm trong vỏ cáp, được cấu tạo bởi một lớp sắt mỏng sát lớp vỏ nhựa có tác dụng giảm mức nhiễu.
+
+C)
+
+Màn che nằm trong cấu trúc cáp, được cấu tạo bởi một lớp kim loại mỏng sát lớp vỏ nhựa có tác dụng giảm mức nhiễu.
+
+D)
+
+Màn che nằm trong cấu trúc cáp, được cấu tạo bởi một lớp giấy mỏng sát lớp vỏ nhựa có tác dụng giảm mức nhiễu.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 24
+
+Lớp lõi dây điện thoại dã chiến được cấu tạo từ chất gì? 
+
+A)
+
+Bằng các sợi sắt, đồng soắn lại với nhau.
+
+B)
+
+Bằng các sợi kim loại, đồng soắn lại với nhau.
+
+C)
+
+Bằng các sợi sắt, kẽm soắn lại với nhau.
+
+D)
+
+Bằng các sợi chì, đồng soắn lại với nhau.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 25
+
+Lớp vỏ dây điện thoại dã chiến được cấu tạo từ chất gì? 
+
+A)
+
+Cấu tạo bằng giấy dai bọc ngoài hoặc nhựa PVC, PE.
+
+B)
+
+Cấu tạo bằng cao su hoặc nhựa PVC, PE.
+
+C)
+
+Cấu tạo bằng Lớp lilon mỏng hoặc nhựa PVC, PE.
+
+D)
+
+Cấu tạo bằng giấy dai bọc ngoài hoặc nhựa dẻo PE.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 26
+
+Thông thường báo hiệu được chia thành những loại nào?
+
+A)
+
+Báo hiệu kênh riêng và báo hiệu kênh chung
+
+B)
+
+Báo hiệu kênh liên kết và báo hiệu kênh chung.
+
+C)
+
+Báo hiệu kênh riêng và báo hiệu liên đài.
+
+D)
+
+Báo hiệu đường dây thuê bao và báo hiệu liên đài.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 27
+
+Bộ nhớ điều khiển trong chuyển mạch số được hiểu như thế nào?
+
+A)
+
+Là bộ nhớ lưu trữ tuần tự của các yêu cầu cuộc gọi.
+
+B)
+
+Là bộ nhớ lưu trữ không tuần tự của các yêu cầu cuộc gọi.
+
+C)
+
+Là bộ nhớ lưu trữ các thông tin của các yêu cầu kết nối cuộc gọi.
+
+D)
+
+Là bộ nhớ lưu trữ tuần tự tín hiệu điều khiển các kết nối cuộc gọi.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 28
+
+Trong chuyển mạch số tín hiệu đầu vào bộ chuyển mạch phải là tín hiệu nào?
+
+A)
+
+Tín hiệu tương tự
+
+B)
+
+Tín hiệu số
+
+C)
+
+Tín hiệu số dạng PCM
+
+D)
+
+Tín hiệu rời rạc dạng PAM
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 29
+
+Đồng chí so sánh 2 loại tín hiệu luồng E1 và luồng FE/GE?
+
+A)
+
+2 luồng trên là một dạng
+
+B)
+
+Tính chất như nhau
+
+C)
+
+Luồng E1 thì dữ liệu được truyền theo các khe thời gian. Còn luồng FE/GE dữ liệu truyền theo các gói tin (Packet). 
+
+D)
+
+Đều truyền dữ liệu trên các khe thời gian
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 30
+
+Thông tin viễn thông được hiểu như thế nào?
+
+A)
+
+Là hình thức truyền thông tin từ nơi này tới nơi khác bằng cách sử dụng tín hiệu điện, điện từ, quang điện thông qua các thiết bị mạng.
+
+B)
+
+Là hình thức truyền thông tin từ nơi này tới nơi khác bằng cách sử dụng các tín điện thoại để truyền  thông tin.
+
+C)
+
+Là hình thức truyền thông tin từ nơi này tới nơi khác bằng cách sử dụng tín hiệu quang thông qua các thiết bị mạng.
+
+D)
+
+Là hình thức truyền thông tin từ nơi này tới nơi khác bằng cách sử dụng tín hiệu điện, thông qua các thiết bị mạng.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 31
+
+Thiết bị đầu cuối trong mạng viễn thông được hiểu như thế nào?
+
+A)
+
+Các thiết bị thực hiện chức năng truyền thông tin vào mạng viễn thông hoặc thiết bị nhận thông tin từ mạng hoặc loại thiết bị thực hiện cả hai chức năng trên đều có tên gọi chung là thiết bị đầu cuối viễn thông.
+
+B)
+
+Các thiết bị thực hiện chức năng truyền thông tin vào mạng viễn thông hoặc thiết bị nhận thông tin từ mạng gọi chung là thiết bị đầu cuối viễn thông.
+
+C)
+
+Các thiết bị thực hiện chức năng nhận thông tin từ mạng là thiết bị đầu cuối viễn thông.
+
+D)
+
+Các thiết bị thực hiện chức năng truyền và nhận thông tin từ mạng viễn thông đều có tên gọi chung là thiết bị đầu cuối viễn thông.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 32
+
+Chức năng chính của tổng đài là gì?
+
+A)
+
+Là tạo ra các kết nối thoại từ thuê bao này tới thuê bao khác khi chúng cần liên lạc với nhau.
+
+B)
+
+Là tạo tuyến truyền thông tin từ thuê bao này tới thuê bao khác khi chúng cần liên lạc với nhau.
+
+C)
+
+Là trao đổi và truyền thông tin từ thuê bao này tới thuê bao khác khi chúng cần liên lạc với nhau.
+
+D)
+
+Là tạo tuyến kết nối từ thuê bao này của  tổng đài này với thuê bao của tổng đài khác khi chúng cần liên lạc với nhau.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 33
+
+Tổng đài là thiết bị mạng dùng để tạo ra tuyến thông tin giữa các thiết bị nào?
+
+A)
+
+Các thiết bị đầu cuối của cuộc gọi nội hạt, hoặc giữa thiết bị đầu cuối của tổng đài này với thiết bị đầu cuối của tổng đài khác qua đường trung kế.
+
+B)
+
+Các thiết bị đầu cuối của tổng đài này với thiết bị đầu cuối của tổng đài khác qua đường trung kế hoặc giữa các trung kế với nhau.
+
+C)
+
+Các thiết bị đầu cuối của cùng tổng đài với nhau hoặc giữa các trung kế với nhau (cuộc gọi quá giang).
+
+D)
+
+Các thiết bị đầu cuối của cùng tổng đài với nhau (cuộc gọi nội hạt), hoặc giữa thiết bị đầu cuối của tổng đài này với thiết bị đầu cuối của tổng đài khác qua đường trung kế (cuộc gọi liên tổng đài, cuộc gọi đường dài), hoặc giữa các trung kế với nhau (cuộc gọi quá giang).
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 34
+
+Chức năng chuyển mạch của tổng đài là gì?
+
+A)
+
+Cung cấp và xử lý các báo hiệu thuê bao.
+
+B)
+
+Tạo tuyến nối, duy trì, giải phóng tuyến nối đối với từng cuộc gọi.
+
+C)
+
+Cung cấp và xử lý báo hiệu trung kế.
+
+D)
+
+Cung cấp và xử lý các báo hiệu thuê bao và báo hiệu trung kế để phục vụ chức năng chuyển mạch.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 35
+
+Chức năng báo hiệu của tổng đài là gì?
+
+A)
+
+Cung cấp và xử lý các báo hiệu thuê bao.
+
+B)
+
+Tạo tuyến nối, duy trì, giải phóng tuyến nối đối với từng cuộc gọi.
+
+C)
+
+Cung cấp và xử lý báo hiệu trung kế.
+
+D)
+
+Cung cấp và xử lý các báo hiệu thuê bao và báo hiệu trung kế để phục vụ chức năng chuyển mạch.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 36
+
+ Mạng LAN được hiểu như thế nào?
+
+A)
+
+Mạng LAN được hiểu là sự kết hợp của nhiều thiết bị được kết nối lại với nhau trong một hệ thống mạng tại một khu vực nhất định, giao tiếp này cho phép các máy tính kết nối với nhau để cùng làm việc và chia sẻ dữ liệu.
+
+B)
+
+Mạng LAN được hiểu là sự kết hợp của một thiết bị được kết nối lại với nhau trong một hệ thống mạng giao tiếp này cho phép các máy tính kết nối với nhau để cùng làm việc và chia sẻ dữ liệu.
+
+C)
+
+Mạng LAN được hiểu là sự kết hợp của nhiều kết nối trong một hệ thống mạng tại một khu vực nhất định.
+
+D)
+
+Các mạng LAN được kết nối lại với nhau thông qua thiết bị định tuyến (Route). 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 37
+
+Chuyển mạch kênh gồm những loại nào?
+
+A)
+
+Chuyển mạch không gian tương tự và chuyển mạch nhảy nấc
+
+B)
+
+Chuyển mạch nhân công, chuyển mạch tọa độ và chuyển mạch nhảy nấc.
+
+C)
+
+Chuyển mạch tự động, chuyển mạch tọa độ và chuyển mạch ma trận.
+
+D)
+
+Chuyển mạch không gian tương tự, chuyển mach PAM và chuyển mạch số 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 38
+
+Chuyển mạch không gian tương tự gồm những loại nào?
+
+A)
+
+Chuyển mạch nhân công và chuyển mạch tự động.
+
+B)
+
+Chuyển mạch nhân công và chuyển mạch ma trận
+
+C)
+
+Chuyển mạch nhảy nấc và chuyển mạch số
+
+D)
+
+Chuyển mạch PAM và chuyển mach số.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 39
+
+Bộ chuyển mạch tiếp thông hoàn toàn (toàn thông) là gì? 
+
+A)
+
+Là ở một số giao điểm của ma trận chuyển không có phần tử chuyển mạch.
+
+B)
+
+Là bộ chuyển mạch mà mỗi đầu vào đều có khả năng nối tới đầu ra bất kỳ.
+
+C)
+
+Là số đầu vào và đầu ra của bộ chuyển mạch bằng nhau và toàn thông.
+
+D)
+
+Là bộ chuyển mạch toàn thông nhưng số đầu vào và đầu ra khác nhau.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 40
+
+Bộ chuyển mạch không toàn thông (tiếp thông không hoàn toàn) là gì?
+
+A)
+
+Là ở một số giao điểm của ma trận chuyển mạch không có phần tử chuyển mạch.
+
+B)
+
+Là bộ chuyển mạch mà mỗi đầu vào đều có khả năng nối tới đầu ra bất kỳ.
+
+C)
+
+Là số đầu vào và đầu ra của bộ chuyển mạch bằng nhau và toàn thông.
+
+D)
+
+Là bộ chuyển mạch toàn thông nhưng số đầu vào và đầu ra khác nhau.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 41
+
+Đặc điểm của trường chuyển mạch không gian 1 khâu là gì? 
+
+A)
+
+Mỗi yêu cầu chuyển mạch giữa một đầu vào với một đầu ra của trường chuyển mạch chỉ qua một phần tử chuyển mạch.
+
+B)
+
+Mỗi yêu cầu chuyển mạch giữa hai đầu vào với hai đầu ra của trường chuyển mạch chỉ qua một phần tử chuyển mạch.
+
+C)
+
+Mỗi yêu cầu chuyển mạch giữa ba đầu vào với ba đầu ra của trường chuyển mạch chỉ qua một phần tử chuyển mạch.
+
+D)
+
+Mỗi yêu cầu chuyển mạch giữa bốn đầu vào với bốn đầu ra của trường chuyển mạch chỉ qua một phần tử chuyển mạch.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 42
+
+Nguyên lý điều biên xung cho phép tần số rời rạc hóa lớn hơn bao nhiêu?
+
+A)
+
+2Fmax.
+
+B)
+
+3Fmax.
+
+C)
+
+4Fmax.
+
+D)
+
+5Fmax.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 43
+
+Mạng WAN được hiểu như thế nào? 
+
+A)
+
+Mạng WAN là một mạng giao tiếp giúp mở rộng các kết nối trên nhiều khu vực địa lý rộng lớn từ các thành phố, cho tới các tiểu ban và các quốc gia.
+
+B)
+
+Mạng WAN được hiểu là sự kết hợp của nhiều thiết bị được kết nối lại với nhau trong một hệ thống mạng tại một khu vực nhất định, giao tiếp này cho phép các máy tính kết nối với nhau để cùng làm việc và chia sẻ dữ liệu.
+
+C)
+
+Mạng WAN được hiểu là sự kết hợp của một thiết bị được kết nối lại với nhau trong một hệ thống mạng giao tiếp này cho phép các máy tính kết nối với nhau để cùng làm việc và chia sẻ dữ liệu.
+
+D)
+
+Mạng WAN được hiểu là sự kết hợp của nhiều kết nối trong một hệ thống mạng tại một khu vực nhất định.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 44
+
+Địa chỉ IP là gì? 
+
+A)
+
+Địa chỉ IP (Internet Protocol- Giao thức Internet) là một địa chỉ mà những thiết bị sử dụng để nhận diện và liên lạc với nhau trên mạng máy tính.
+
+B)
+
+Địa chỉ IP (Internet Protocol- Giao thức Internet) là địa chỉ logic được sử dụng trong giao thức IP của lớp Internet thuộc mô hình TCP/IP (tương ứng với lớp thứ 3 – lớp network của mô hình OSI).
+
+C)
+
+Địa chỉ IP (Internet Protocol- Giao thức Internet) là một dãy số nhị phân mà những thiết bị điện tử sử dụng để nhận diện và liên lạc với nhau.
+
+D)
+
+Địa chỉ IP (Internet Protocol- Giao thức Internet) là một địa chỉ mà những thiết bị sử dụng để nhận diện và liên lạc với nhau trên mạng máy tính.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 45
+
+Chuyển mạch mềm là gì?
+
+A)
+
+Chuyển mạch mềm là tập hợp các công nghệ cho phép các dịch vụ viễn thông thế hệ mới dựa trên các tiêu chuẩn mở.
+
+B)
+
+Chuyển mạch mềm là công nghệ chuyển mạch các cuộc gọi trên nền công nghệ gói.
+
+C)
+
+Chuyển mạch mềm là phần mềm chạy trên máy chủ có kiến trúc mở.
+
+D)
+
+Chuyển mạch mềm là hỗ trợ đa dịch vụ, từ thoại, fax, video, tin nhắn,…
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 46
+
+Báo hiệu đường dây thuê bao là gì?
+
+A)
+
+Là báo hiệu được thực hiện giữa các tổng đài với nhau.
+
+B)
+
+Là báo hiệu được thực hiện giữa thuê bao với tổng đài hay giữa tổng đài với thuê bao.
+
+C)
+
+Là báo hiệu kênh liên kết CAS
+
+D)
+
+Là báo hiệu kênh chung CCS
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 47
+
+Báo hiệu liên tổng đài là gì?
+
+A)
+
+Là báo hiệu được thực hiện giữa các tổng đài với nhau.
+
+B)
+
+Là báo hiệu được thực hiện giữa thuê bao với tổng đài hay giữa tổng đài với
+
+thuê bao.
+
+C)
+
+Là báo hiệu kênh liên kết CAS
+
+D)
+
+Là báo hiệu kênh chung CCS
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 48
+
+Báo hiệu là gì? 
+
+A)
+
+Là việc trao đổi thông tin giữa các thành phần để thiết lập và giải phóng cuộc gọi. Đồng thời báo hiệu cũng được dùng để vận hành và quản lý mạng viễn thông.
+
+B)
+
+Là việc trao đổi thông tin giữa các thiết bị viễn thông tham gia để thiết lập, giám sát và giải phóng cuộc gọi. 
+
+C)
+
+Là việc trao đổi thông tin để thiết lập, giám sát và giải phóng cuộc gọi. Đồng thời dùng để vận hành và quản lý mạng viễn thông.
+
+D)
+
+Là việc trao đổi thông tin giữa các thành phần tham gia vào cuộc nối để thiết lập, giám sát và giải phóng cuộc gọi. Đồng thời báo hiệu cũng được dùng để vận hành và quản lý mạng viễn thông.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 49
+
+Báo hiệu liên tổng đài bao gồm những loại nào?
+
+A)
+
+Báo hiệu đường dây thuê bao và báo hiệu kênh liên kết.
+
+B)
+
+Báo hiệu dường dây thuê bao và báo hiệu kênh chung.
+
+C)
+
+Báo hiệu dường dây thuê bao và báo hiệu liên tổng đài.
+
+D)
+
+Báo hiệu kênh liên kết và báo hiệu kênh chung.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 50
+
+Trạng thái “Nhấc tổ hợp” thuộc loại báo hiệu nào? 
+
+A)
+
+Báo hiệu kênh liên kết
+
+B)
+
+Báo hiệu kênh chung
+
+C)
+
+Báo hiệu đường dây thuê bao
+
+D)
+
+Báo hiệu liên tổng đài
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 51
+
+Tín hiệu “hồi âm chuông” thuộc loại báo hiệu nào?
+
+A)
+
+Báo hiệu đường dây thuê bao
+
+B)
+
+Báo hiệu kênh chung
+
+C)
+
+Báo hiệu kênh liên kết
+
+D)
+
+Báo hiệu liên tổng đài
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 52
+
+Trong báo hiệu kênh liên kết, các tín hiệu báo hiệu đường dây được chuyển giao trong khe thời gian nào?
+
+A)
+
+TS16
+
+B)
+
+TS1
+
+C)
+
+TS31
+
+D)
+
+TS0
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 53
+
+Hệ thống báo hiệu R2, thuộc loại báo hiệu nào?
+
+A)
+
+Báo hiệu thanh ghi
+
+B)
+
+Báo hiệu kênh liên kết
+
+C)
+
+Báo hiệu đường dây thuê bao
+
+D)
+
+Báo hiệu kênh chung
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 54
+
+Tín hiệu báo hiệu được truyền cùng với trung kế tiếng là loại báo hiệu gì?
+
+A)
+
+Là báo hiệu thanh ghi 
+
+B)
+
+Là báo hiệu đường dây thuê bao 
+
+C)
+
+Là báo hiệu kênh liên kết.
+
+D)
+
+Là báo hiệu kênh chung  
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 55
+
+Tín hiệu báo hiệu được truyền trên một đường số liệu tốc độ cao độc lập với trung kế tiếng là loại báo hiệu nào?
+
+A)
+
+Là báo hiệu thanh ghi 
+
+B)
+
+Là báo hiệu đường dây thuê bao 
+
+C)
+
+Là báo hiệu kênh liên kết.
+
+D)
+
+Là báo hiệu kênh chung  
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 56
+
+Báo hiệu số 7 thuộc loại báo hiệu nào?
+
+A)
+
+Báo hiệu thanh ghi 
+
+B)
+
+Báo hiệu đường dây thuê bao 
+
+C)
+
+Báo hiệu kênh liên kết.
+
+D)
+
+Báo hiệu kênh chung  
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 57
+
+Thông tin truyền đi trong báo hiệu kênh chung dưới dạng nào? 
+
+A)
+
+Bít nhị phân
+
+B)
+
+Tín hiệu số
+
+C)
+
+Tín hiệu analog
+
+D)
+
+Gói dữ liệu
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 58
+
+Chức năng giám sát của báo hiệu để làm gì?
+
+A)
+
+Để giám sát và phát hiện sự thay đổi trạng thái của các phần tử (đường dây thuê bao, đường dây trung kế…)
+
+B)
+
+Chức năng này liên quan đến thủ tục thiết lập cuộc gọi, đó là việc truyền
+
+số liệu thuê bao bị gọi và tìm tuyến nối tối ưu tới thuê bao bị gọi.
+
+C)
+
+Để thực hiện chính xác chức năng chuyển mạch, thiết lập cuộc gọi thành công, giảm thời gian trễ quay số.
+
+D)
+
+Để thường xuyên thông báo tình hình của các thiết bị, các phần tử trong hệ thống.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 59
+
+Chức năng vận hành và quản lý mạng của báo hiệu để làm gì?
+
+A)
+
+Để giám sát và phát hiện sự thay đổi trạng thái của các phần tử (đường dây thuê bao, đường dây trung kế…)
+
+B)
+
+Chức năng này liên quan đến thủ tục thiết lập cuộc gọi, đó là việc truyền
+
+số liệu thuê bao bị gọi và tìm tuyến nối tối ưu tới thuê bao bị gọi.
+
+C)
+
+Để thu thập các thông tin báo cảnh, tín hiệu đo lường kiểm tra để thường xuyên thông báo tình hình của các thiết bị, các phần tử trong hệ thống.
+
+D)
+
+Để thực hiện chính xác chức năng chuyển mạch, thiết lập cuộc gọi thành công, giảm thời gian trễ quay số.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 60
+
+Chức năng tìm chọn của báo hiệu để làm gì?
+
+A)
+
+Để giám sát và phát hiện sự thay đổi trạng thái của các phần tử (đường dây thuê bao, đường dây trung kế…)
+
+B)
+
+Chức năng này liên quan đến thủ tục thiết lập cuộc gọi, đó là việc truyền
+
+số liệu thuê bao bị gọi và tìm tuyến nối tối ưu tới thuê bao bị gọi.
+
+C)
+
+Để thực hiện chính xác chức năng chuyển mạch, thiết lập cuộc gọi thành công, giảm thời gian trễ quay số.
+
+D)
+
+Để thường xuyên thông báo tình hình của các thiết bị, các phần tử trong hệ thống.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 61
+
+Trong mạng viễn thông báo hiệu R2 được thiết kế để làm gì?
+
+A)
+
+Phục vụ cho chức năng trao đổi thông tin báo hiệu giữa các tổng đài trong mạng viễn thông.
+
+B)
+
+Để thực hiện chính xác chức năng chuyển mạch, thiết lập cuộc gọi thành công, giảm thời gian trễ quay số.
+
+C)
+
+Để thường xuyên thông báo tình hình của các thiết bị, các phần tử trong hệ thống.
+
+D)
+
+Để giám sát và phát hiện sự thay đổi trạng thái của các phần tử trong mạng.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 62
+
+Hệ thống báo hiệu R2 được sử dụng trong mạng nào?
+
+A)
+
+Sử dụng trong mạng quốc gia.
+
+B)
+
+Sử dụng trong mạng quốc tế.
+
+C)
+
+Sử dụng trong cả mạng nội bộ của một địa phương và mạng nội bộ một quốc gia.
+
+D)
+
+Sử dụng trong cả mạng quốc gia và mạng quốc tế
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 63
+
+Phương thức truyền tín hiệu từ bộ truyền mã đến bộ nhận mã trong báo hiệu R2 như thế nào?
+
+A)
+
+Liên tục dưới dạng mã đa tần
+
+B)
+
+Liên tục dưới dạng tín hiệu mã hóa.
+
+C)
+
+Liên tục dưới dạng mã nhị phân
+
+D)
+
+Liên tục dưới dạng mã HDB3
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 64
+
+Subnet mask được hiểu như thế nào?
+
+A)
+
+Subnet mask là một con số 32 bit bao gồm n bit 1 (thường là các bit cao nhất) dùng để đánh địa chỉ mạng con và m bit 0 dùng để đánh địa chỉ máy trong mạng con với n + m=32.
+
+B)
+
+Subnet mask là một con số 64 bit bao gồm n bit 1 (thường là các bit cao nhất) dùng để đánh địa chỉ mạng con và m bit 0 dùng để đánh địa chỉ máy trong mạng con với n + m=64.
+
+C)
+
+Subnet mask là một con số 64 bit bao gồm n bit 1 (thường là các bit cao nhất) dùng để đánh địa chỉ mạng con và m bit 0 dùng để đánh địa chỉ máy trong mạng con với n + m=32.
+
+D)
+
+Subnet mask là một con số 32 bit bao gồm n bit 1 (thường là các bit cao nhất) dùng để đánh địa chỉ mạng con và m bit 0 dùng để đánh địa chỉ máy trong mạng con với n + m=64.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 65
+
+Địa chỉ IPv4 được biểu diễn dưới dạng bao nhiêu bít nhị phân?
+
+A)
+
+16
+
+B)
+
+32
+
+C)
+
+64
+
+D)
+
+128
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 66
+
+Địa chỉ IPv6 được biểu diễn dưới dạng bao nhiêu bít nhị phân?
+
+A)
+
+16
+
+B)
+
+32
+
+C)
+
+64
+
+D)
+
+128
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 67
+
+Địa chỉ IP gồm bao nhiêu bít nhị phân?
+
+A)
+
+16
+
+B)
+
+32
+
+C)
+
+64
+
+D)
+
+128
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 68
+
+Địa chỉ IP được chia thành mấy lớp?
+
+A)
+
+3
+
+B)
+
+4
+
+C)
+
+5
+
+D)
+
+6
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 69
+
+Tín hiệu chiếm trong báo hiệu đường dây hướng đi của R2 được hiểu như thế nào?
+
+A)
+
+Là tín hiệu được gửi đi khi bắt đầu cuộc gọi nhằm thiết lập lại trạng thái
+
+mạch vào từ trạng thái rỗi sang trạng thái bị chiếm.
+
+B)
+
+Là tín hiệu được gửi đi để kết thúc cuộc gọi, nhằm giải phóng tổng đài bị gọi
+
+và các khối chuyển mạch đang tham gia phục vụ cho cuộc gọi.
+
+C)
+
+Tín hiệu này được truyền từ tổng đài bị gọi về tổng đài gọi khi thuê bao bị
+
+gọi nhấc tổ hợp nhằm phục vụ cho việc tính cước của tổng đài gọi.
+
+D)
+
+Là tín hiệu gửi đến tổng đài gọi khi thuê bao bị gọi đặt máy. Trong chế độ
+
+bán tự động, tín hiệu này thực hiện chức năng giám sát.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 70
+
+Tín hiệu xóa thuận trong báo hiệu đường dây hướng đi của R2 được hiểu như thế nào?
+
+A)
+
+Là tín hiệu được gửi đi khi bắt đầu cuộc gọi nhằm thiết lập lại trạng thái mạch vào từ trạng thái rỗi sang trạng thái bị chiếm.
+
+B)
+
+Là tín hiệu được gửi đi để kết thúc cuộc gọi, nhằm giải phóng tổng đài bị gọi và các khối chuyển mạch đang tham gia phục vụ cho cuộc gọi.
+
+C)
+
+Tín hiệu này được truyền từ tổng đài bị gọi về tổng đài gọi khi thuê bao bị gọi nhấc tổ hợp nhằm phục vụ cho việc tính cước của tổng đài gọi.
+
+D)
+
+Là tín hiệu gửi đến tổng đài gọi khi thuê bao bị gọi đặt máy. Trong chế độ bán tự động, tín hiệu này thực hiện chức năng giám sát.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+Câu 71
+
+Trong nguyên lý kỹ thuật PCM phía phát có nhiệm vụ gì? 
+
+A)
+
+Giới hạn dải tần tín hiệu điện thoại, tạo ra tín hiệu PCM (bằng cách lấy mẫu tín hiệu điện thoại).
+
+B)
+
+ Lượng tử và mã hóa các mẫu
+
+C)
+
+ Chèn các mã nhị phân PCM trong tín hiệu điện thoại với các mã nhị phân PCM của các tín hiệu điện thoại khác để tạo nên tín hiệu ghép kênh phân thời gian PCM
+
+D)
+
+Lấy mẫu tín hiệu điện thoại; Lượng tử, mã hóa các mẫu và chèn các mã nhị phân PCM trong tín hiệu điện thoại với các mã nhị phân PCM của các tín hiệu điện thoại khác.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 72
+
+Trong nguyên lý kỹ thuật PCM phía thu có nhiệm vụ gì? 
+
+A)
+
+Phân phối các mã nhị phân đến các đường dây riêng biệt (phân kênh)
+
+B)
+
+Phục hồi tín hiệu PAM từ từ mã (giải mã)
+
+C)
+
+Phục hồi tín hiệu điện thoại tương tự ban đầu từ tín hiệu PAM
+
+D)
+
+Phân phối các mã nhị phân đến các đường dây riêng biệt (phân kênh); Phục hồi tín hiệu PAM từ từ mã (giải mã); Phục hồi tín hiệu điện thoại tương tự ban đầu từ tín hiệu PAM
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 73
+
+ Tổng đài SPC có cấu trúc thành hai hệ thống chính đó là?
+
+A)
+
+Hệ thống thoại và Hệ thống xử lý điều khiển.
+
+B)
+
+Hệ thống thoại và Hệ thống xử lý báo hiệu.
+
+C)
+
+Hệ thống thoại và Hệ thống kết nối với tổng đài khác.
+
+D)
+
+Hệ thống thoại và Hệ thống xử lý cảnh báo.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 74
+
+Trong tổng đài SPC phân hệ thuê bao và báo hiệu thuê bao gồm các mạch gì?
+
+A)
+
+ Các mạch kết nối đường dây thuê bao analog và số thực  hiện  các  chức  năng  BOCHTRS.
+
+B)
+
+Các mạch kết nối đường dây thuê bao và trung kế thực hiện các chức năng  BOCHTRS
+
+C)
+
+Các mạch kết nối đường dây thuê bao không thực hiện các chức năng  BOCHTRS
+
+D)
+
+Các mạch kết nối đường dây thuê bao và các thiết bị đầu cuối thực  hiện  các  chức  năng  BOCHTRS
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 75
+
+Mỗi nhóm đối với cáp Mỹ có bao nhiêu đôi?
+
+A)
+
+10
+
+B)
+
+15
+
+C)
+
+20
+
+D)
+
+25
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+D
+
+Câu 76
+
+Có những loại xuyên nhiễu nào?
+
+A)
+
+Xuyên nhiễu  không hiểu được
+
+B)
+
+Xuyên nhiễu hiều được
+
+C)
+
+Xuyên nhiễu hiều được và không hiểu được
+
+D)
+
+Xuyên nhiễu đều
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+C
+
+Câu 77
+
+Nguyên nhân gây suy hao quang?
+
+A)
+
+Do hấp thụ, tán xạ và uốn cong
+
+B)
+
+Do hấp thụ và uốn cong
+
+C)
+
+Do hấp thụ, tán xạ 
+
+D)
+
+Tán xạ và uốn cong
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 78
+
+Nguồn tin trong hệ thống truyền dẫn là gì?
+
+A)
+
+Là các tin tức cần truyền đi như: thoại, số liệu, âm thanh, hình ảnh,…
+
+B)
+
+Biến đổi tin tức thành tín hiệu, xử lý tín hiệu phù hợp để  truyền lên môi trường truyền dẫn.
+
+C)
+
+Thu và xử lý tín hiệu từ môi trường truyền dẫn thành tin tức ban đầu để đưa đến nơi nhận tin.
+
+D)
+
+Truyền tải năng lượng tín hiệu từ đầu phát đến đầu thu. 
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 79
+
+Luật màu dây chính cáp mỹ?
+
+A)
+
+Trắng,đỏ,đen,vàng,tím
+
+B)
+
+Trắng,đen,đỏ,vàng,tím
+
+C)
+
+Đen,đỏ,vàng,trắng ,tím
+
+D)
+
+Vàng,đen,đỏ,trắng,tím
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+A
+
+Câu 80
+
+Đặc điểm chính của cáp Mỹ?
+
+A)
+
+Cáp Mỹ có nhiều loại phân biệt với nhau bằng lớp bọc kim và vỏ bảo vệ Mỗi nhóm thường có 20 đôi, luật màu dựa trên sự kết hợp của 5 màu, gồm 5 màu chính và 5 màu phụ, mỗi nhóm có 1 dây buộc nhóm có màu khác nhau.
+
+B)
+
+Cáp Mỹ có nhiều loại phân biệt với nhau bằng lớp bọc kim và vỏ bảo vệ. Mỗi nhóm thường có 25 đôi, luật màu dựa trên sự kết hợp của 10 màu, gồm 5 màu chính và 5 màu phụ, mỗi nhóm có 1 dây buộc nhóm có màu khác nhau.
+
+C)
+
+Cáp Mỹ có nhiều loại phân biệt với nhau bằng lớp bọc kim và vỏ bảo vệ. Mỗi nhóm thường có 30 đôi, luật màu dựa trên sự kết hợp của 15 màu, gồm 5 màu chính và 10 màu phụ, mỗi nhóm có 1 dây buộc nhóm có màu khác nhau.
+
+D)
+
+Cáp Mỹ có nhiều loại phân biệt với nhau bằng lớp bọc kim và vỏ bảo vệ. Mỗi nhóm thường có 50 đôi, luật màu dựa trên sự kết hợp của15 màu, gồm 10 màu chính và 5 màu phụ, mỗi nhóm có 1 dây buộc nhóm có màu khác nhau.
+
+E)
+
+
+
+F)
+
+
+
+G)
+
+
+
+H)
+
+
+
+Đáp án
+
+B
+
+
+
+
+
+
+
