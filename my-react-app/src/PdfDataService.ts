@@ -8,12 +8,28 @@ export interface PdfContent {
   category: string;
 }
 
+interface DocumentItem {
+  title: string;
+  path: string;
+  category: string;
+  rawText: string;
+  chunks: string[];
+}
+
+// MenuItem definition to be used by the service
+interface MenuItem {
+    title: string;
+    path?: string; // Path is optional
+    category: string;
+}
+
 // Singleton service to manage PDF content
 class PdfDataService {
   private static instance: PdfDataService;
   private pdfContents: PdfContent[] = [];
   private isInitialized: boolean = false;
   private initializationPromise: Promise<void> | null = null;
+  private documents: DocumentItem[] = [];
 
   private constructor() {
     // Private constructor for singleton pattern
@@ -26,47 +42,43 @@ class PdfDataService {
     return PdfDataService.instance;
   }
 
-  public async initialize(pdfList: { title: string; path: string; category: string }[]): Promise<void> {
+  public async initialize(menuItems: MenuItem[]): Promise<void> {
     if (this.isInitialized) {
-      return Promise.resolve();
-    }
-    
-    if (this.initializationPromise) {
-      return this.initializationPromise;
+      console.log("PDF data service is already initialized.");
+      return;
     }
 
-    this.initializationPromise = new Promise<void>(async (resolve) => {
-      console.log("Initializing PDF Data Service...");
-      
-      // Make sure PDF.js worker is set
-      if (!pdfjs.GlobalWorkerOptions.workerSrc) {
-        pdfjs.GlobalWorkerOptions.workerSrc = `${window.location.origin}/pdf-worker/pdf.worker.js`;
-      }
+    console.log("Initializing PDF data service...");
 
-      // Load first 5 PDFs for demonstration (to avoid loading all at once)
-      const pdfListToLoad = pdfList.slice(0, 5);
-      
-      for (const pdfInfo of pdfListToLoad) {
-        try {
-          const content = await this.extractTextFromPdf(`${process.env.PUBLIC_URL}${pdfInfo.path}`);
-          this.pdfContents.push({
-            title: pdfInfo.title,
-            path: pdfInfo.path,
-            content: content,
-            category: pdfInfo.category
-          });
-          console.log(`Loaded PDF: ${pdfInfo.title}`);
-        } catch (error) {
-          console.error(`Error loading PDF ${pdfInfo.title}:`, error);
+    // Filter out items that don't have a path, as they cannot be processed.
+    const itemsToLoad = menuItems.filter(item => item.path && item.path.endsWith('.pdf'));
+
+    const loadPromises = itemsToLoad.map(async (item) => {
+      try {
+        // Since we filtered, item.path is guaranteed to be a string here.
+        const fullPath = `${process.env.PUBLIC_URL}${item.path!}`;
+        const response = await fetch(fullPath);
+        if (!response.ok) {
+          console.error(`Error loading PDF ${item.title}:`, response.statusText);
+          return;
         }
-      }
 
-      console.log("PDF Data Service initialization complete");
-      this.isInitialized = true;
-      resolve();
+        const content = await this.extractTextFromPdf(fullPath);
+        this.pdfContents.push({
+          title: item.title,
+          path: item.path!,
+          content: content,
+          category: item.category
+        });
+        console.log(`Loaded PDF: ${item.title}`);
+      } catch (error) {
+        console.error(`Error loading PDF ${item.title}:`, error);
+      }
     });
 
-    return this.initializationPromise;
+    await Promise.all(loadPromises);
+    this.isInitialized = true;
+    console.log("PDF Data Service initialization complete");
   }
 
   private async extractTextFromPdf(url: string): Promise<string> {

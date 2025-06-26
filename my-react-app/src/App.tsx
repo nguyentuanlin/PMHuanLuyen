@@ -1,9 +1,254 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
+import * as XLSX from 'xlsx';
+import ReactDOM from 'react-dom';
 import './App.css';
 import PdfViewer from './PdfViewer';
 import PdfDataService from './PdfDataService';
 import Quiz, { QuizSection } from './Quiz';
 import QuizMenu from './QuizMenu';
+
+// ++ EXCEL VIEWER COMPONENT (IN-FILE)
+// CellData Interface
+interface CellData {
+  value: string;
+  style: React.CSSProperties;
+}
+
+const ExcelViewer: React.FC<{ excelUrl: string, title: string, onClose: () => void }> = ({ excelUrl, title, onClose }) => {
+  const [data, setData] = useState<CellData[][]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [activeCell, setActiveCell] = useState<{ row: number; col: number } | null>(null);
+  const [isFullScreen, setIsFullScreen] = useState(false);
+
+  const NUM_ROWS = 100;
+  const NUM_COLS = 26; // A-Z
+
+  // ++ INITIAL DATA LOADING LOGIC
+  useEffect(() => {
+    const loadData = async () => {
+      setLoading(true);
+      const savedData = localStorage.getItem(excelUrl);
+      if (savedData) {
+        setData(JSON.parse(savedData));
+      } else {
+        try {
+          const response = await fetch(excelUrl);
+          if (!response.ok) throw new Error('Fetch failed');
+          const arrayBuffer = await response.arrayBuffer();
+          const workbook = XLSX.read(arrayBuffer, { type: 'buffer' });
+          const worksheetName = workbook.SheetNames[0];
+          const worksheet = workbook.Sheets[worksheetName];
+          const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 }) as any[][];
+          
+          const newGrid: CellData[][] = Array.from({ length: NUM_ROWS }, () => 
+              Array(NUM_COLS).fill({ value: '', style: {} })
+          );
+
+          if (jsonData && jsonData.length > 0) {
+            for (let r = 0; r < jsonData.length && r < NUM_ROWS; r++) {
+              if (jsonData[r]) {
+                for (let c = 0; c < jsonData[r].length && c < NUM_COLS; c++) {
+                  newGrid[r][c] = { value: jsonData[r][c] || '', style: {} };
+                }
+              }
+            }
+          }
+          setData(newGrid);
+        } catch (err) {
+          console.error("Error loading Excel file, showing a blank grid.", err);
+          setData(Array.from({ length: NUM_ROWS }, () => 
+              Array(NUM_COLS).fill({ value: '', style: {} })
+          ));
+        }
+      }
+      setLoading(false);
+    };
+    loadData();
+  }, [excelUrl]);
+
+  // Tự động lưu dữ liệu vào localStorage mỗi khi có thay đổi
+  useEffect(() => {
+    if (loading) {
+      return; // Không lưu trong quá trình tải ban đầu
+    }
+
+    const handler = setTimeout(() => {
+      if (data.length > 0) {
+        localStorage.setItem(excelUrl, JSON.stringify(data));
+      }
+    }, 1000); // Lưu sau 1 giây kể từ lần thay đổi cuối cùng
+
+    return () => {
+      clearTimeout(handler);
+    };
+  }, [data, excelUrl, loading]);
+
+  // ++ CELL AND STYLE HANDLERS
+  const handleCellChange = (rowIndex: number, cellIndex: number, value: string) => {
+    const newData = data.map(r => [...r]);
+    newData[rowIndex][cellIndex] = { ...newData[rowIndex][cellIndex], value };
+    setData(newData);
+  };
+
+  const updateStyle = (style: Partial<React.CSSProperties>) => {
+    if (!activeCell) return;
+    const { row, col } = activeCell;
+    const newData = data.map(r => [...r]);
+    const currentStyle = newData[row][col].style || {};
+    newData[row][col].style = { ...currentStyle, ...style };
+    setData(newData);
+  };
+  
+  const toggleStyle = (styleName: 'fontWeight' | 'fontStyle' | 'textDecoration', onValue: string) => {
+    if (!activeCell) return;
+    const { row, col } = activeCell;
+    const newData = data.map(r => [...r]);
+    const currentStyle = { ...(newData[row][col].style || {}) };
+    
+    if (currentStyle[styleName] === onValue) {
+      delete currentStyle[styleName];
+    } else {
+      currentStyle[styleName] = onValue;
+    }
+    
+    newData[row][col].style = currentStyle;
+    setData(newData);
+  };
+
+  // ++ SAVE TO LOCALSTORAGE
+  const saveData = () => {
+    localStorage.setItem(excelUrl, JSON.stringify(data));
+    alert('Đã lưu bảng tính!');
+  };
+  
+  const exportToFile = () => {
+    const worksheetData = data.map(row => row.map(cell => cell.value));
+    const worksheet = XLSX.utils.aoa_to_sheet(worksheetData);
+    const workbook = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(workbook, worksheet, "Sheet1");
+    const fileName = `${title.replace(/[^a-z0-9]/gi, '_').toLowerCase() || 'spreadsheet'}.xlsx`;
+    XLSX.writeFile(workbook, fileName);
+  };
+  
+  const getActiveCellStyle = () => {
+      if (!activeCell || !data[activeCell.row] || !data[activeCell.row][activeCell.col]) {
+        return {};
+      }
+      return data[activeCell.row][activeCell.col].style || {};
+  };
+
+  // ++ COMPONENT STYLES
+  const styles = `
+    .excel-viewer-modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; z-index: 1001; transition: padding 0.3s ease; }
+    .excel-viewer-modal.fullscreen { padding: 0; }
+    .excel-viewer-content { background-color: #fff; padding: 1.5rem; border-radius: 12px; width: 95%; height: 90%; max-width: 1600px; display: flex; flex-direction: column; box-shadow: 0 12px 28px rgba(0,0,0,0.2); transition: all 0.3s ease; }
+    .excel-viewer-modal.fullscreen .excel-viewer-content { width: 100%; height: 100%; max-width: 100%; max-height: 100%; border-radius: 0; box-shadow: none; }
+    .excel-viewer-header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 1rem; margin-bottom: 1rem; border-bottom: 1px solid #e0e0e0; flex-shrink: 0; }
+    .excel-viewer-close-btn { background: none; border: none; font-size: 1.8rem; cursor: pointer; color: #666; transition: color 0.2s; }
+    .excel-viewer-close-btn:hover { color: #000; }
+    .excel-toolbar { display: flex; align-items: center; gap: 4px; margin-bottom: 1rem; padding: 8px; background-color: #f9fafb; border-radius: 8px; border: 1px solid #e5e7eb; flex-wrap: wrap; flex-shrink: 0; }
+    .toolbar-btn { background-color: transparent; border: 1px solid transparent; border-radius: 6px; width: 36px; height: 36px; cursor: pointer; transition: background-color 0.2s, border-color 0.2s; font-size: 1rem; color: #374151; display: flex; align-items: center; justify-content: center; }
+    .toolbar-btn:hover { background-color: #f3f4f6; }
+    .toolbar-btn.active { background-color: #e0e7ff; color: #3730a3; }
+    .toolbar-separator { width: 1px; height: 24px; background-color: #d1d5db; margin: 0 8px; }
+    .toolbar-color-picker-wrapper { position: relative; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; border-radius: 6px; border: 1px solid transparent; }
+    .toolbar-color-picker-wrapper:hover { background-color: #f3f4f6; border-color: #d1d5db; }
+    .toolbar-color-icon { pointer-events: none; position: absolute; }
+    .toolbar-color-picker { opacity: 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer; }
+    .excel-viewer-body { flex-grow: 1; overflow: auto; }
+    .excel-viewer-body table { border-collapse: collapse; table-layout: fixed; }
+    .excel-viewer-body th, .excel-viewer-body td { border: 1px solid #ddd; padding: 0; min-width: 120px; height: 28px; text-align: center; }
+    .excel-viewer-body thead th { position: sticky; top: 0; background-color: #f8f9fa; z-index: 2; font-weight: 600; }
+    .excel-viewer-body tbody th { position: sticky; left: 0; background-color: #f8f9fa; z-index: 1; font-weight: 600; }
+    .excel-viewer-body thead th:first-child { left: 0; z-index: 3; }
+    .excel-cell-input { width: 100%; height: 100%; padding: 4px 8px; border: none; box-sizing: border-box; background-color: transparent; outline: none; }
+    .excel-viewer-body td.active { outline: 2px solid #007bff; outline-offset: -2px; }
+  `;
+
+  const activeCellStyle = getActiveCellStyle();
+
+  return ReactDOM.createPortal(
+    <>
+      <style>{styles}</style>
+      <div className={`excel-viewer-modal ${isFullScreen ? 'fullscreen' : ''}`}>
+        <div className="excel-viewer-content">
+          <div className="excel-viewer-header">
+            <h3>{title}</h3>
+            <button onClick={onClose} className="excel-viewer-close-btn">&times;</button>
+          </div>
+          
+          <div className="excel-toolbar">
+            <button onClick={saveData} className="toolbar-btn" title="Lưu"><i className="fas fa-save"></i></button>
+            <button onClick={exportToFile} className="toolbar-btn" title="Xuất file Excel"><i className="fas fa-file-download"></i></button>
+            <div className="toolbar-separator"></div>
+            <button onClick={() => toggleStyle('fontWeight', 'bold')} className={`toolbar-btn ${activeCellStyle.fontWeight === 'bold' ? 'active' : ''}`} title="In đậm"><i className="fas fa-bold"></i></button>
+            <button onClick={() => toggleStyle('fontStyle', 'italic')} className={`toolbar-btn ${activeCellStyle.fontStyle === 'italic' ? 'active' : ''}`} title="In nghiêng"><i className="fas fa-italic"></i></button>
+            <button onClick={() => toggleStyle('textDecoration', 'underline')} className={`toolbar-btn ${activeCellStyle.textDecoration === 'underline' ? 'active' : ''}`} title="Gạch chân"><i className="fas fa-underline"></i></button>
+            <button onClick={() => toggleStyle('textDecoration', 'line-through')} className={`toolbar-btn ${activeCellStyle.textDecoration === 'line-through' ? 'active' : ''}`} title="Gạch ngang"><i className="fas fa-strikethrough"></i></button>
+            <div className="toolbar-separator"></div>
+            <div className="toolbar-color-picker-wrapper" title="Màu chữ">
+                <i className="fas fa-font" style={{ color: activeCellStyle.color || '#000000' }}></i>
+                <input type="color" className="toolbar-color-picker" onChange={(e) => updateStyle({ color: e.target.value })} />
+            </div>
+            <div className="toolbar-color-picker-wrapper" title="Màu nền ô">
+                <i className="fas fa-fill-drip" style={{ color: activeCellStyle.backgroundColor || 'transparent' }}></i>
+                <input type="color" className="toolbar-color-picker" onChange={(e) => updateStyle({ backgroundColor: e.target.value })} />
+            </div>
+            <div className="toolbar-separator"></div>
+            <button onClick={() => updateStyle({ textAlign: 'left' })} className={`toolbar-btn ${activeCellStyle.textAlign === 'left' ? 'active' : ''}`} title="Căn trái"><i className="fas fa-align-left"></i></button>
+            <button onClick={() => updateStyle({ textAlign: 'center' })} className={`toolbar-btn ${!activeCellStyle.textAlign || activeCellStyle.textAlign === 'center' ? 'active' : ''}`} title="Căn giữa"><i className="fas fa-align-center"></i></button>
+            <button onClick={() => updateStyle({ textAlign: 'right' })} className={`toolbar-btn ${activeCellStyle.textAlign === 'right' ? 'active' : ''}`} title="Căn phải"><i className="fas fa-align-right"></i></button>
+            <div className="toolbar-separator"></div>
+            <button onClick={() => setIsFullScreen(!isFullScreen)} className="toolbar-btn" title={isFullScreen ? 'Thoát toàn màn hình' : 'Toàn màn hình'}>
+              <i className={`fas ${isFullScreen ? 'fa-compress' : 'fa-expand'}`}></i>
+            </button>
+          </div>
+
+          <div className="excel-viewer-body">
+            {loading ? (
+              <p>Đang tải...</p>
+            ) : (
+              <table>
+                <thead>
+                  <tr>
+                    <th></th>
+                    {Array.from({ length: NUM_COLS }).map((_, i) => (
+                      <th key={i}>{String.fromCharCode(65 + i)}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {data.map((row, rowIndex) => (
+                    <tr key={rowIndex}>
+                      <th>{rowIndex + 1}</th>
+                      {row.map((cell, cellIndex) => (
+                        <td 
+                          key={cellIndex} 
+                          onClick={() => setActiveCell({ row: rowIndex, col: cellIndex })}
+                          className={activeCell && activeCell.row === rowIndex && activeCell.col === cellIndex ? 'active' : ''}
+                        >
+                          <input
+                            type="text"
+                            value={cell.value}
+                            style={{...cell.style, textAlign: cell.style?.textAlign || 'left'}}
+                            onChange={(e) => handleCellChange(rowIndex, cellIndex, e.target.value)}
+                            onFocus={() => setActiveCell({ row: rowIndex, col: cellIndex })}
+                            className="excel-cell-input"
+                          />
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            )}
+          </div>
+        </div>
+      </div>
+    </>,
+    document.body
+  );
+};
 
 // Hàm chuyển đổi text markdown đơn giản sang HTML
 const formatMessage = (text: string): React.ReactNode => {
@@ -46,8 +291,113 @@ const formatMessage = (text: string): React.ReactNode => {
   });
 };
 
+// Define the menu item data structure
+interface MenuItem {
+  title: string;
+  path?: string; // PDF path
+  category: string; // Category/section name
+}
+
+// ++ FUNCTION TO PARSE QUIZ FILES
+const parseQuizFile = (text: string, title: string): QuizSection => {
+    const questions: { id: number, numberLabel: string, question: string, options: string[], answer: string }[] = [];
+    const lines = text.replace(/\r/g, '').split('\n');
+
+    let i = 0;
+    while (i < lines.length) {
+        const line = lines[i]?.trim();
+
+        // Find the start of a question
+        if (line && line.match(/^Câu \d+/)) {
+            const numberLabel = line;
+            i++; // Move to the next line
+
+            // Find question text (next non-empty line)
+            let questionText = '';
+            while (i < lines.length && !lines[i]?.trim()) { i++; } // Skip empty lines
+            if (i < lines.length) {
+                questionText = lines[i]?.trim();
+                i++;
+            }
+
+            const options: string[] = [];
+            let answer = '';
+
+            // Loop until we find the next question or end of file
+            while (i < lines.length && !lines[i]?.trim().match(/^Câu \d+/)) {
+                const currentLine = lines[i]?.trim();
+
+                if (!currentLine) { // Skip empty lines
+                    i++;
+                    continue;
+                }
+
+                // Check for an option (e.g., "A)")
+                if (currentLine.match(/^[A-H]\)/)) {
+                    let optionText = currentLine;
+                    
+                    // If option text is on a separate line
+                    if (optionText.length <= 2) {
+                        let nextLineIndex = i + 1;
+                        // Find next non-empty line
+                        while (nextLineIndex < lines.length && !lines[nextLineIndex]?.trim()) {
+                            nextLineIndex++;
+                        }
+
+                        if (nextLineIndex < lines.length) {
+                            const nextLineText = lines[nextLineIndex]?.trim();
+                            // If the next line is not another option or the answer key
+                            if (!nextLineText.match(/^[A-H]\)/) && !nextLineText.startsWith('Đáp án')) {
+                                optionText += ` ${nextLineText}`;
+                                i = nextLineIndex; // Move parser to the line with option text
+                            }
+                        }
+                    }
+                    options.push(optionText);
+                } 
+                // Check for the answer line
+                else if (currentLine.startsWith('Đáp án')) {
+                    let nextLineIndex = i + 1;
+                    // Find next non-empty line for the answer
+                    while (nextLineIndex < lines.length && !lines[nextLineIndex]?.trim()) {
+                        nextLineIndex++;
+                    }
+
+                    if (nextLineIndex < lines.length) {
+                        answer = lines[nextLineIndex]?.trim();
+                    }
+                    // Break from this inner loop once answer is found
+                    break;
+                }
+                i++;
+            }
+
+            // Only add the question if it's valid
+            if (questionText && options.length > 0 && answer) {
+                questions.push({
+                    id: questions.length + 1,
+                    numberLabel,
+                    question: questionText,
+                    options,
+                    answer,
+                });
+            }
+             // The outer loop will continue from the new 'i' position
+        } else {
+            i++;
+        }
+    }
+    
+    // Add a check here before returning
+    if (questions.length === 0 && lines.length > 10) { 
+        console.warn(`Parsing finished for "${title}", but no questions were found. The file format might be incorrect.`);
+    }
+
+    return { title, questions };
+};
+
 // New Chatbot component
-function Chatbot() {
+function Chatbot({ documents }: { documents: MenuItem[] }) {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<{text: string, sender: 'user' | 'bot'}[]>([
     {text: 'Xin chào! Tôi là trợ lý ảo A40. Tôi có thể giúp gì cho bạn về tổng đài Softswitch?', sender: 'bot'}
@@ -63,31 +413,21 @@ function Chatbot() {
     "Việc bảo quản, bảo dưỡng tổng đài Softswitch gồm những gì?",
   ];
 
-  // Reference to all menu items (PDF documents)
-  const allMenuItems = useMemo(() => [
-    // Kiến thức về chuyển mạch
-    { title: '1. Cơ sở kỹ thuật về máy điện thoại', path: '/document/1/1. Cơ sở kỹ thuật về máy điện thoại.pdf', category: 'Kiến thức về chuyển mạch' },
-    { title: '2. Kỹ thuật chuyển mạch gói VoIP', path: '/document/1/5. Kỹ thuật chuyển mạch gói.pdf', category: 'Kiến thức về chuyển mạch' },
-    { title: '3. Báo hiệu trong mạng điện thoại', path: '/document/1/6. Báo hiệu trong mạng điện thoại.pdf', category: 'Kiến thức về chuyển mạch' },
-    { title: '4. Cơ sở kỹ thuật về chuyển mạch', path: '/document/1/7. Cơ sở kỹ thuật chuyển mạch.pdf', category: 'Kiến thức về chuyển mạch' },
-    { title: '5. Tổng quan tổng đài Softswitch', path: '/document/1/3. Tổng quan về Tổng đài điện tử KTS.pdf', category: 'Kiến thức về chuyển mạch' },
-  ], []);
-
   // Initialize PDF data service
   useEffect(() => {
     const initService = async () => {
       try {
         const pdfService = PdfDataService.getInstance();
-        await pdfService.initialize(allMenuItems);
+        await pdfService.initialize(documents);
         setIsInitialized(true);
-        console.log("PDF data service initialized successfully");
+        console.log("PDF data service initialized successfully with", documents.length, "documents.");
       } catch (error) {
         console.error("Failed to initialize PDF data service:", error);
       }
     };
     
     initService();
-  }, [allMenuItems]);
+  }, [documents]);
 
   // Scroll to bottom of chat
   useEffect(() => {
@@ -304,115 +644,11 @@ TRẢ LỜI:`;
   );
 }
 
-// Define the menu item data structure
-interface MenuItem {
-  title: string;
-  path?: string; // PDF path
-  category: string; // Category/section name
-}
-
-// ++ FUNCTION TO PARSE QUIZ FILES
-const parseQuizFile = (text: string, title: string): QuizSection => {
-    const questions: { id: number, numberLabel: string, question: string, options: string[], answer: string }[] = [];
-    const lines = text.replace(/\r/g, '').split('\n');
-
-    let i = 0;
-    while (i < lines.length) {
-        const line = lines[i]?.trim();
-
-        // Find the start of a question
-        if (line && line.match(/^Câu \d+/)) {
-            const numberLabel = line;
-            i++; // Move to the next line
-
-            // Find question text (next non-empty line)
-            let questionText = '';
-            while (i < lines.length && !lines[i]?.trim()) { i++; } // Skip empty lines
-            if (i < lines.length) {
-                questionText = lines[i]?.trim();
-                i++;
-            }
-
-            const options: string[] = [];
-            let answer = '';
-
-            // Loop until we find the next question or end of file
-            while (i < lines.length && !lines[i]?.trim().match(/^Câu \d+/)) {
-                const currentLine = lines[i]?.trim();
-
-                if (!currentLine) { // Skip empty lines
-                    i++;
-                    continue;
-                }
-
-                // Check for an option (e.g., "A)")
-                if (currentLine.match(/^[A-H]\)/)) {
-                    let optionText = currentLine;
-                    
-                    // If option text is on a separate line
-                    if (optionText.length <= 2) {
-                        let nextLineIndex = i + 1;
-                        // Find next non-empty line
-                        while (nextLineIndex < lines.length && !lines[nextLineIndex]?.trim()) {
-                            nextLineIndex++;
-                        }
-
-                        if (nextLineIndex < lines.length) {
-                            const nextLineText = lines[nextLineIndex]?.trim();
-                            // If the next line is not another option or the answer key
-                            if (!nextLineText.match(/^[A-H]\)/) && !nextLineText.startsWith('Đáp án')) {
-                                optionText += ` ${nextLineText}`;
-                                i = nextLineIndex; // Move parser to the line with option text
-                            }
-                        }
-                    }
-                    options.push(optionText);
-                } 
-                // Check for the answer line
-                else if (currentLine.startsWith('Đáp án')) {
-                    let nextLineIndex = i + 1;
-                    // Find next non-empty line for the answer
-                    while (nextLineIndex < lines.length && !lines[nextLineIndex]?.trim()) {
-                        nextLineIndex++;
-                    }
-
-                    if (nextLineIndex < lines.length) {
-                        answer = lines[nextLineIndex]?.trim();
-                    }
-                    // Break from this inner loop once answer is found
-                    break;
-                }
-                i++;
-            }
-
-            // Only add the question if it's valid
-            if (questionText && options.length > 0 && answer) {
-                questions.push({
-                    id: questions.length + 1,
-                    numberLabel,
-                    question: questionText,
-                    options,
-                    answer,
-                });
-            }
-             // The outer loop will continue from the new 'i' position
-        } else {
-            i++;
-        }
-    }
-    
-    // Add a check here before returning
-    if (questions.length === 0 && lines.length > 10) { 
-        console.warn(`Parsing finished for "${title}", but no questions were found. The file format might be incorrect.`);
-    }
-
-    return { title, questions };
-};
-
 function App() {
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
   const [loaded, setLoaded] = useState(false);
   const [selectedPdf, setSelectedPdf] = useState<string | null>(null);
+  const [selectedExcel, setSelectedExcel] = useState<{ path: string; title: string } | null>(null);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [showSearchResults, setShowSearchResults] = useState<boolean>(false);
   // Add state for mobile menu
@@ -443,20 +679,20 @@ function App() {
     { title: '4. Nhật ký kỹ thuật ', path: '/document/2/4. Nhật ký kỹ thuật.xlsx', category: 'Khai thác sử dụng tổng đài Softswitch' },
     { title: '5. Khai thác, sử dụng tổng đài Softswitch', path: '/document/2/5. Khai thác, sử dụng tổng đài Softswitch.pdf', category: 'Khai thác sử dụng tổng đài Softswitch' },
     { title: '6. Hướng dẫn Backup-Restore', path: '/document/2/6. Hướng dẫn Backup-Restore.pdf', category: 'Khai thác sử dụng tổng đài Softswitch' },
-    { title: '7. Hướng dẫn khai thác sử dụng OVOC', path: '/document/2/7. Hướng dẫn khai thác sử dụng OVOC.pdf', category: 'Khai thác sử dụng tổng đài Softswitch' },
+    { title: '7. Hướng dẫn khai thác sử dụng OVOC', path: '/document/2. OVOC - AudioCodes One Voice Operations Center.pdf', category: 'Khai thác sử dụng tổng đài Softswitch' },
     { title: '8. Hướng dẫn khai thác sử dụng IMG-2020', path: '/document/2/8. Hướng dẫn khai thác sử dụng IMG-2020.pdf', category: 'Khai thác sử dụng tổng đài Softswitch' },
     
     // Tài liệu khai thác
     { title: '1. Khai thác, sử dụng bộ tập trung thuê bao AG', path: '/document/3/1. Khai thác, sử dụng bộ tập trung thuê bao AG.pdf', category: 'Tài liệu khai thác' },
-    { title: '2. Khai thác, sử dụng tổng đài TP-64', path: '/document/3/2. Khai thác, sử dụng tổng đài TP-64.pdf', category: 'Tài liệu khai thác' },
-    { title: '3. Khai thác, sử dụng tổng đài TP-128', path: '/document/3/3. Khai thác, sử dụng tổng đài TP-128.pdf', category: 'Tài liệu khai thác' },
-    { title: '4. Khai thác, sử dụng tổng đài TP-256', path: '/document/3/4. Khai thác, sử dụng tổng đài TP-256.pdf', category: 'Tài liệu khai thác' },
-    { title: '5. Khai thác, sử dụng tổng đài TP-512', path: '/document/3/5. Khai thác, sử dụng tổng đài TP-512.pdf', category: 'Tài liệu khai thác' },
-    { title: '6. Khai thác, sử dụng tổng đài IP-512', path: '/document/3/6. Khai thác, sử dụng tổng đài IP-512.pdf', category: 'Tài liệu khai thác' },
+    { title: '2. Khai thác, sử dụng tổng đài TP-64', path: '/document/TP-64-HDSD_20230710.pdf', category: 'Tài liệu khai thác' },
+    { title: '3. Khai thác, sử dụng tổng đài TP-128', path: '/document/TP-128-HDSD_20230620.pdf', category: 'Tài liệu khai thác' },
+    { title: '4. Khai thác, sử dụng tổng đài TP-256', path: '/document/TP-256-HDSD.pdf', category: 'Tài liệu khai thác' },
+    { title: '5. Khai thác, sử dụng tổng đài TP-512', path: '/document/TP-512-HDSD_20230708.pdf', category: 'Tài liệu khai thác' },
+    { title: '6. Khai thác, sử dụng tổng đài IP-512', path: '/document/IP-512-HDSD.pdf', category: 'Tài liệu khai thác' },
     
     // Bảo quản, bảo dưỡng
-    { title: '1. Bảo quản, bảo dưỡng tổng đài Softswitch', path: '/document/4/1. Bảo quản, bảo dưỡng tổng đài Softswitch.pdf', category: 'Bảo quản, bảo dưỡng' },
-    { title: '2. Bảo quản, bảo dưỡng bộ tập trung thuê bao AG', path: '/document/4/2. Bảo quản, bảo dưỡng bộ tập trung thuê bao AG.pdf', category: 'Bảo quản, bảo dưỡng' },
+    { title: '1. Bảo quản, bảo dưỡng tổng đài Softswitch', path: '/document/BẢO QUẢN, bảo dưỡng tổng đài Softswitch.pdf', category: 'Bảo quản, bảo dưỡng' },
+    { title: '2. Bảo quản, bảo dưỡng bộ tập trung thuê bao AG', path: '/document/BẢO QUẢN, Bảo dưỡng AG.pdf', category: 'Bảo quản, bảo dưỡng' },
     { title: '3. Bảo quản, bảo dưỡng tổng đài TP-64', path: '/document/4/3. Bảo quản, bảo dưỡng tổng đài TP-64.pdf', category: 'Bảo quản, bảo dưỡng' },
     { title: '4. Bảo quản, bảo dưỡng tổng đài TP-128', path: '/document/4/4. Bảo quản, bảo dưỡng tổng đài TP-128.pdf', category: 'Bảo quản, bảo dưỡng' },
     { title: '5. Bảo quản, bảo dưỡng tổng đài TP-256', path: '/document/4/5. Bảo quản, bảo dưỡng tổng đài TP-256.pdf', category: 'Bảo quản, bảo dưỡng' },
@@ -570,12 +806,24 @@ function App() {
     const encodedPath = encodeURI(pdfPath);
     console.log('Opening PDF:', process.env.PUBLIC_URL + encodedPath);
     setSelectedPdf(process.env.PUBLIC_URL + encodedPath);
+    setSelectedExcel(null);
     // Clear search when opening a PDF
     setSearchQuery('');
   };
 
   const closePdf = () => {
     setSelectedPdf(null);
+  };
+  
+  const openExcel = (excelPath: string, title: string) => {
+    const encodedPath = encodeURI(excelPath);
+    setSelectedExcel({ path: process.env.PUBLIC_URL + encodedPath, title });
+    setSelectedPdf(null);
+    setSearchQuery('');
+  };
+
+  const closeExcel = () => {
+    setSelectedExcel(null);
   };
   
   // ++ FUNCTION TO START A QUIZ
@@ -830,11 +1078,11 @@ function App() {
                     <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/2/2. HSKT tổng đài Softswitch.pdf'); }}>
                       2. HSKT tổng đài Softswitch
                     </div>
-                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/2/3. Quản lý số liệu tổng đài.xlsx'); }}>
-                      3. Quản lý số liệu tổng đài (File excel)
+                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openExcel('/document/2/3. Quản lý số liệu tổng đài.xlsx', 'Quản lý số liệu tổng đài'); }}>
+                      3. Quản lý số liệu tổng đài
                     </div>
-                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/2/4. Nhật ký kỹ thuật.xlsx'); }}>
-                      4. Nhật ký kỹ thuật (file excel)
+                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openExcel('/document/2/4. Nhật ký kỹ thuật.xlsx', 'Nhật ký kỹ thuật'); }}>
+                      4. Nhật ký kỹ thuật
                     </div>
                     <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/2/5. Khai thác, sử dụng tổng đài Softswitch.pdf'); }}>
                       5. Khai thác, sử dụng tổng đài Softswitch
@@ -862,7 +1110,7 @@ function App() {
                     <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/2/6. Hướng dẫn Backup-Restore.pdf'); }}>
                       6. Hướng dẫn Backup-Restore
                     </div>
-                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/2/7. Hướng dẫn khai thác sử dụng OVOC.pdf'); }}>
+                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/2. OVOC - AudioCodes One Voice Operations Center.pdf'); }}>
                       7. Hướng dẫn khai thác sử dụng OVOC
                     </div>
                     <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/2/8. Hướng dẫn khai thác sử dụng IMG-2020.pdf'); }}>
@@ -882,19 +1130,19 @@ function App() {
                     <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/3/1. Khai thác, sử dụng bộ tập trung thuê bao AG.pdf'); }}>
                       1. Khai thác, sử dụng bộ tập trung thuê bao AG
                     </div>
-                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/3/2. Khai thác, sử dụng tổng đài TP-64.pdf'); }}>
+                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/TP-64-HDSD_20230710.pdf'); }}>
                       2. Khai thác, sử dụng tổng đài TP-64
                     </div>
-                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/3/3. Khai thác, sử dụng tổng đài TP-128.pdf'); }}>
+                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/TP-128-HDSD_20230620.pdf'); }}>
                       3. Khai thác, sử dụng tổng đài TP-128
                     </div>
-                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/3/4. Khai thác, sử dụng tổng đài TP-256.pdf'); }}>
+                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/TP-256-HDSD.pdf'); }}>
                       4. Khai thác, sử dụng tổng đài TP-256
                     </div>
-                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/3/5. Khai thác, sử dụng tổng đài TP-512.pdf'); }}>
+                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/TP-512-HDSD_20230708.pdf'); }}>
                       5. Khai thác, sử dụng tổng đài TP-512
                     </div>
-                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/3/6. Khai thác, sử dụng tổng đài IP-512.pdf'); }}>
+                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/IP-512-HDSD.pdf'); }}>
                       6. Khai thác, sử dụng tổng đài IP-512
                     </div>
                   </div>
@@ -908,10 +1156,10 @@ function App() {
                 Bảo quản, bảo dưỡng
                 {activeMenu === 'baoquan' && !showSearchResults && (
                   <div className="submenu">
-                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/4/1. Bảo quản, bảo dưỡng tổng đài Softswitch.pdf'); }}>
+                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/BẢO QUẢN, bảo dưỡng tổng đài Softswitch.pdf'); }}>
                       1. Bảo quản, bảo dưỡng tổng đài Softswitch
                     </div>
-                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/4/2. Bảo quản, bảo dưỡng bộ tập trung thuê bao AG.pdf'); }}>
+                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/BẢO QUẢN, Bảo dưỡng AG.pdf'); }}>
                       2. Bảo quản, bảo dưỡng bộ tập trung thuê bao AG
                     </div>
                     <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/4/3. Bảo quản, bảo dưỡng tổng đài TP-64.pdf'); }}>
@@ -954,6 +1202,10 @@ function App() {
           </div>
         )}
 
+        {selectedExcel && !showQuiz && (
+            <ExcelViewer excelUrl={selectedExcel.path} title={selectedExcel.title} onClose={closeExcel} />
+        )}
+
         {quizResult && (
           <div className="quiz-result-modal">
               <div className="quiz-result-content">
@@ -969,7 +1221,7 @@ function App() {
           </div>
         )}
 
-        <Chatbot />
+        <Chatbot documents={allMenuItems} />
       </div>
     </>
   );
