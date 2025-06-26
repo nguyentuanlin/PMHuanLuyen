@@ -49,7 +49,7 @@ class PdfDataService {
     }
 
     console.log("Initializing PDF data service...");
-
+      
     // Filter out items that don't have a path, as they cannot be processed.
     const itemsToLoad = menuItems.filter(item => item.path && item.path.endsWith('.pdf'));
 
@@ -64,14 +64,14 @@ class PdfDataService {
         }
 
         const content = await this.extractTextFromPdf(fullPath);
-        this.pdfContents.push({
+          this.pdfContents.push({
           title: item.title,
           path: item.path!,
-          content: content,
+            content: content,
           category: item.category
-        });
+          });
         console.log(`Loaded PDF: ${item.title}`);
-      } catch (error) {
+        } catch (error) {
         console.error(`Error loading PDF ${item.title}:`, error);
       }
     });

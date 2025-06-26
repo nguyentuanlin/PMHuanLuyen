@@ -250,7 +250,34 @@ const ExcelViewer: React.FC<{ excelUrl: string, title: string, onClose: () => vo
   );
 };
 
-// Hàm chuyển đổi text markdown đơn giản sang HTML
+const processInlineFormatting = (text: string): React.ReactNode => {
+  const parts = text.split(/(\[.*?\]\(.*?\))|(\*\*.*?\*\*)|(\*.*?\*)/g).filter(Boolean);
+
+  return parts.map((part, index) => {
+    // Match for link: [text](url)
+    const linkMatch = part.match(/^\[(.*?)\]\((.*?)\)$/);
+    if (linkMatch) {
+      return (
+        <a key={index} href={linkMatch[2]} target="_blank" rel="noopener noreferrer">
+          {linkMatch[1]}
+        </a>
+      );
+    }
+    // Match for bold: **text**
+    const boldMatch = part.match(/^\*\*(.*?)\*\*$/);
+    if (boldMatch) {
+      return <strong key={index}>{boldMatch[1]}</strong>;
+    }
+    // Match for italic: *text*
+    const italicMatch = part.match(/^\*(.*?)\*$/);
+    if (italicMatch) {
+      return <em key={index}>{italicMatch[1]}</em>;
+    }
+    return part;
+  });
+};
+
+// Hàm chuyển đổi text markdown sang HTML, hỗ trợ nhiều định dạng hơn
 const formatMessage = (text: string): React.ReactNode => {
   const lines = text.split('\n');
   
@@ -258,36 +285,39 @@ const formatMessage = (text: string): React.ReactNode => {
     if (line.trim() === '') {
       return <div key={index} className="message-line" style={{ height: '0.5em' }} />;
     }
-    
-    // Xử lý các dòng trong danh sách
-    const listItemMatch = line.match(/^\s*•\s(.*)/);
-    if (listItemMatch) {
-      let content: React.ReactNode = listItemMatch[1];
-      // Bold
-      content = content.toString().split(/\*(.*?)\*/g).map((part, i) => i % 2 === 1 ? <strong key={i}>{part}</strong> : part);
-      // Italic
-      content = React.Children.toArray(content).map((seg: any) => typeof seg === 'string' ? seg.split(/_(.*?)_/g).map((part, i) => i % 2 === 1 ? <em key={i}>{part}</em> : part) : seg);
 
-      return (
-          <div key={index} className="message-line list-item">
-              <span className="bullet">•</span>
-              <span className="text-content">{content}</span>
-          </div>
-      )
+    // Handle headers (##, ###)
+    const headerMatch = line.match(/^(#+)\s(.*)/);
+    if (headerMatch) {
+      const level = headerMatch[1].length;
+      const Tag = `h${level + 1}` as "h2" | "h3" | "h4";
+      return <Tag key={index}>{processInlineFormatting(headerMatch[2])}</Tag>;
     }
 
-    // Xử lý các dòng khác
-    let content: React.ReactNode = line;
-    // Bold
-    content = content.toString().split(/\*(.*?)\*/g).map((part, i) => i % 2 === 1 ? <strong key={i}>{part}</strong> : part);
-    // Italic
-    content = React.Children.toArray(content).map((seg: any) => typeof seg === 'string' ? seg.split(/_(.*?)_/g).map((part, i) => i % 2 === 1 ? <em key={i}>{part}</em> : part) : seg);
+    // Handle blockquotes
+    const blockquoteMatch = line.match(/^>\s(.*)/);
+    if (blockquoteMatch) {
+      return <blockquote key={index} className="message-line">{processInlineFormatting(blockquoteMatch[1])}</blockquote>;
+    }
 
-    return (
-      <div key={index} className="message-line">
-        {content}
-      </div>
-    );
+    // Handle list items
+    const listItemMatch = line.match(/^\s*•\s(.*)/);
+    if (listItemMatch) {
+      return (
+        <div key={index} className="message-line list-item">
+          <span className="bullet">•</span>
+          <span className="text-content">{processInlineFormatting(listItemMatch[1])}</span>
+        </div>
+      );
+    }
+    
+    // Handle horizontal rule
+    if (line.trim() === '---') {
+        return <hr key={index} className="message-separator" />;
+    }
+
+    // Handle regular text lines
+    return <div key={index} className="message-line">{processInlineFormatting(line)}</div>;
   });
 };
 
@@ -442,7 +472,7 @@ function Chatbot({ documents }: { documents: MenuItem[] }) {
     setInputText(e.target.value);
   };
 
-  const handleSendMessage = async (messageOverride?: string) => {
+  const handleSendMessage = (messageOverride?: string) => {
     const messageToSend = (messageOverride || inputText).trim();
     if (!messageToSend) return;
     
@@ -451,103 +481,90 @@ function Chatbot({ documents }: { documents: MenuItem[] }) {
     setInputText('');
     setIsLoading(true);
     
-    try {
+    // The chatbot logic is now offline.
+    // A small delay is added for better user experience.
+    setTimeout(() => {
       let responseText: string;
       const pdfService = PdfDataService.getInstance();
 
       if (isInitialized && pdfService) {
-        // Step 1: Retrieve context from documents
         const searchResults = pdfService.searchContent(messageToSend);
         
-        let systemPrompt: string;
-        let userPrompt: string;
-
         if (searchResults.length > 0) {
-          // Case 1: Context found, act as a document expert
-          const context = searchResults
-            .map(r => `Trích từ tài liệu "${r.title}":\n${r.text}`)
-            .join('\n\n---\n\n');
-
-          systemPrompt = `Bạn là một trợ lý ảo chuyên gia về hệ thống tổng đài Softswitch.
-Nhiệm vụ của bạn là cung cấp câu trả lời rõ ràng, có cấu trúc cho người dùng.
-
-**QUY TẮC TRẢ LỜI:**
-1.  **Luôn trả lời bằng tiếng Việt.**
-2.  **Ưu tiên hàng đầu:** Dựa vào thông tin trong "BỐI CẢNH" được cung cấp để trả lời câu hỏi.
-3.  **Cấu trúc câu trả lời:**
-    *   **Giới thiệu:** Bắt đầu bằng một câu giới thiệu ngắn gọn, trực tiếp vào vấn đề.
-    *   **Các ý chính:** Trình bày các điểm chính hoặc các bước bằng cách sử dụng danh sách có dấu gạch đầu dòng (\`•\`). Mỗi ý nên rõ ràng và súc tích.
-    *   **Kết luận:** Kết thúc bằng một đoạn tóm tắt ngắn gọn hoặc một kết luận hợp lý.
-4.  **Nếu không có bối cảnh:** Nếu "BỐI CẢNH" không chứa thông tin liên quan hoặc không được cung cấp, hãy trả lời câu hỏi dựa trên kiến thức chung của bạn về Softswitch và các chủ đề liên quan, nhưng vẫn tuân thủ cấu trúc trên.
-5.  **Giọng văn:** Chuyên nghiệp, hữu ích và dễ hiểu.`;
+          // Create a header with search info
+          const header = `## Kết quả tìm kiếm\n\nTôi đã tìm thấy *${searchResults.length} kết quả* liên quan đến: "**${messageToSend}**"\n\n`;
           
-          userPrompt = `Dựa vào bối cảnh dưới đây (nếu có liên quan), hãy trả lời câu hỏi sau.
-
-BỐI CẢNH:
----
-${context}
----
-
-CÂU HỎI: ${messageToSend}
-
-TRẢ LỜI:`;
-
+          // Build the response with all results
+          let resultSections = '';
+          
+          // Group results by document title for better organization
+          const resultsByTitle: Record<string, typeof searchResults> = {};
+          
+          searchResults.forEach(result => {
+            if (!resultsByTitle[result.title]) {
+              resultsByTitle[result.title] = [];
+            }
+            resultsByTitle[result.title].push(result);
+          });
+          
+          // Format each document's results
+          Object.keys(resultsByTitle).forEach(title => {
+            // Find the first result with this title to get its path
+            const firstResult = resultsByTitle[title][0];
+            const documentPath = firstResult.path;
+            const documentUrl = `${process.env.PUBLIC_URL}${documentPath}`;
+            
+            // Create a header where the title is a clickable link
+            resultSections += `### 📄 [${title}](${documentUrl})\n\n`;
+            
+            // Add document type badge based on file extension
+            const fileExtension = documentPath.split('.').pop()?.toLowerCase();
+            let documentType = "Tài liệu";
+            let documentIcon = "📄";
+            
+            if (fileExtension === 'pdf') {
+              documentType = "PDF";
+              documentIcon = "📕";
+            } else if (fileExtension === 'xlsx' || fileExtension === 'xls') {
+              documentType = "Excel";
+              documentIcon = "📊";
+            } else if (fileExtension === 'docx' || fileExtension === 'doc') {
+              documentType = "Word";
+              documentIcon = "📝";
+            }
+            
+            resultSections += `**Loại tài liệu:** ${documentIcon} ${documentType}\n\n`;
+            resultSections += `**Trích đoạn nội dung:**\n\n`;
+            
+            // Add each text snippet with better formatting
+            resultsByTitle[title].forEach((result, index) => {
+              const highlightedText = result.text.trim();
+              resultSections += `> ${highlightedText.replace(/\n/g, '\n> ')}\n\n`;
+              
+              // Add a separator between snippets if there are multiple
+              if (index < resultsByTitle[title].length - 1) {
+                resultSections += `---\n`;
+              }
+            });
+            
+            // Add a separator between documents
+            resultSections += `\n\n`;
+          });
+          
+          // Add a footer with suggestion and instructions
+          const footer = `\n---\n**💡 Gợi ý:** \n* Bạn có thể nhấp vào đường dẫn để mở tài liệu gốc\n* Đặt câu hỏi cụ thể hơn để nhận kết quả chính xác hơn\n* Sử dụng từ khóa chính xác để tìm kiếm hiệu quả`;
+          
+          responseText = header + resultSections + footer;
         } else {
-          // Case 2: No context found, act as a general-purpose assistant
-          systemPrompt = `Bạn là một trợ lý ảo đa năng, hữu ích.
-
-**QUY TẮC TRẢ LỜI:**
-1.  **Luôn trả lời bằng tiếng Việt.**
-2.  **Cấu trúc câu trả lời:**
-    *   **Giới thiệu:** Bắt đầu bằng một câu giới thiệu ngắn gọn, trực tiếp vào vấn đề.
-    *   **Các ý chính:** Trình bày các điểm chính hoặc các bước bằng cách sử dụng danh sách có dấu gạch đầu dòng (\`•\`). Mỗi ý nên rõ ràng và súc tích.
-    *   **Kết luận:** Kết thúc bằng một đoạn tóm tắt ngắn gọn hoặc một kết luận hợp lý.
-3.  **Giọng văn:** Chuyên nghiệp, hữu ích và dễ hiểu.`;
-          
-          userPrompt = messageToSend;
+          responseText = "### Không tìm thấy kết quả\n\nRất tiếc, tôi không tìm thấy thông tin nào liên quan đến câu hỏi của bạn trong các tài liệu hiện có.\n\nBạn có thể:\n\n• Thử sử dụng các từ khóa khác\n• Kiểm tra lỗi chính tả\n• Đặt câu hỏi ngắn gọn hơn";
         }
-
-        // --- UNIFIED GROQ API CALL ---
-        const GROQ_API_KEY = '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';
-
-        const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
-          method: "POST",
-          headers: {
-            "Authorization": `Bearer ${GROQ_API_KEY}`,
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({
-            messages: [
-              { role: "system", content: systemPrompt },
-              { role: "user", content: userPrompt }
-            ],
-            model: "llama3-8b-8192"
-          })
-        });
-
-        if (!response.ok) {
-          const errorData = await response.json();
-          console.error("Groq API Error:", errorData);
-          throw new Error(`Groq API error: ${response.statusText}`);
-        }
-        
-        const result = await response.json();
-        responseText = result.choices[0]?.message?.content || "Không nhận được phản hồi hợp lệ từ AI.";
-        // --- END OF GROQ API CALL ---
-
       } else {
-        // Fallback if PDF service is not ready
-        responseText = 'Hệ thống đang khởi tạo, vui lòng đợi trong giây lát...';
+        responseText = '### Đang khởi tạo\n\nHệ thống đang khởi tạo, vui lòng đợi trong giây lát...';
       }
       
       setMessages(prev => [...prev, {text: responseText, sender: 'bot'}]);
-
-    } catch (error) {
-      console.error("Error generating response with AI:", error);
-      setMessages(prev => [...prev, {text: "❌ Rất tiếc, đã có lỗi xảy ra khi kết nối với AI. Vui lòng thử lại sau.", sender: 'bot'}]);
-    } finally {
       setIsLoading(false);
-    }
+    }, 300); // 300ms delay
   };
 
   const handleSuggestionClick = (question: string) => {
