@@ -386,25 +386,47 @@ const parseQuizFile = (text: string, title: string): QuizSection => {
                     }
                     options.push(optionText);
                 } 
-                // Check for the answer line
-                else if (currentLine.startsWith('Đáp án')) {
-                    let nextLineIndex = i + 1;
-                    // Find next non-empty line for the answer
-                    while (nextLineIndex < lines.length && !lines[nextLineIndex]?.trim()) {
-                        nextLineIndex++;
+                // Check for the answer line - more flexible detection
+                else if (currentLine.startsWith('Đáp án') || currentLine.match(/^đáp\s*án/i) || currentLine === 'ĐA' || currentLine === 'DA' || currentLine === 'Đ/A') {
+                    let answerText = '';
+                    
+                    // Try to find answer on the same line after colon or equals sign
+                    const answerInLine = currentLine.split(/[:.=]/);
+                    if (answerInLine.length > 1 && answerInLine[1].trim()) {
+                        answerText = answerInLine[1].trim();
+                    } else {
+                        // Look for answer on the next non-empty line
+                        let nextLineIndex = i + 1;
+                        while (nextLineIndex < lines.length && !lines[nextLineIndex]?.trim()) {
+                            nextLineIndex++;
+                        }
+                        
+                        if (nextLineIndex < lines.length) {
+                            answerText = lines[nextLineIndex]?.trim();
+                        }
                     }
-
-                    if (nextLineIndex < lines.length) {
-                        answer = lines[nextLineIndex]?.trim();
-                    }
+                    
+                    console.log(`Raw answer found: "${answerText}" for question "${questionText.substring(0, 30)}..."`);
+                    
+                    // Just store the raw answer letter
+                    answer = answerText.trim();
+                    
                     // Break from this inner loop once answer is found
                     break;
                 }
                 i++;
             }
 
-            // Only add the question if it's valid
-            if (questionText && options.length > 0 && answer) {
+            // Only add the question if it has at least options
+            if (questionText && options.length > 0) {
+                // If no explicit answer was found, use option A as default
+                if (!answer && options.length > 0) {
+                    const firstOption = options[0];
+                    const optionMatch = firstOption.match(/^([A-H])\)/);
+                    answer = optionMatch ? optionMatch[1] : "A";
+                    console.log(`No answer found for question "${questionText.substring(0, 30)}...", defaulting to ${answer}`);
+                }
+                
                 questions.push({
                     id: questions.length + 1,
                     numberLabel,
@@ -412,6 +434,7 @@ const parseQuizFile = (text: string, title: string): QuizSection => {
                     options,
                     answer,
                 });
+                console.log(`Added question ${questions.length}: answer = "${answer}"`);
             }
              // The outer loop will continue from the new 'i' position
         } else {
@@ -422,6 +445,8 @@ const parseQuizFile = (text: string, title: string): QuizSection => {
     // Add a check here before returning
     if (questions.length === 0 && lines.length > 10) { 
         console.warn(`Parsing finished for "${title}", but no questions were found. The file format might be incorrect.`);
+    } else {
+        console.log(`Successfully parsed ${questions.length} questions from "${title}"`);
     }
 
     return { title, questions };
@@ -954,6 +979,14 @@ function App() {
   const handleQuizComplete = (score: number, total: number) => {
     setShowQuiz(false);
     setQuizSections(null);
+    
+    // If score and total are both 0, it means the user clicked "Thoát"
+    // Don't show results in this case
+    if (score === 0 && total === 0) {
+      return;
+    }
+    
+    // Otherwise show the quiz results
     setQuizResult({ score, total });
   };
 

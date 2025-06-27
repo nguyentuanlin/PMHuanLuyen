@@ -24,6 +24,8 @@ const Quiz: React.FC<QuizProps> = ({ sections, onQuizComplete }) => {
   const [currentSectionIndex, setCurrentSectionIndex] = useState(0);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState<{ [key: string]: string }>({});
+  const [showResults, setShowResults] = useState(false);
+  const [quizScore, setQuizScore] = useState<{ score: number, total: number } | null>(null);
   
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearchVisible, setIsSearchVisible] = useState(false);
@@ -125,25 +127,67 @@ const Quiz: React.FC<QuizProps> = ({ sections, onQuizComplete }) => {
 
   const calculateScore = () => {
     let score = 0;
-    sections.forEach(section => {
-      section.questions.forEach(q => {
-        const correctOptionPrefix = q.answer.trim() + ')';
-        if (userAnswers[q.id] && userAnswers[q.id].startsWith(correctOptionPrefix)) {
-          score++;
+    
+    Object.keys(userAnswers).forEach(questionIdStr => {
+      const questionId = parseInt(questionIdStr, 10);
+      
+      let foundQuestion: Question | undefined;
+      for (const section of sections) {
+        foundQuestion = section.questions.find(q => q.id === questionId);
+        if (foundQuestion) {
+          break;
         }
-      });
+      }
+      
+      const question = foundQuestion;
+      
+      if (!question) {
+        console.warn(`Cannot find question with ID ${questionId}`);
+        return;
+      }
+      
+      const userAnswer = userAnswers[questionId];
+      const userAnswerMatch = userAnswer.match(/^([A-H])\)/);
+      if (userAnswerMatch) {
+        const userAnswerLetter = userAnswerMatch[1];
+        if (userAnswerLetter === question.answer) {
+          score++;
+          console.log(`Câu ${questionId} trả lời đúng: ${userAnswerLetter} = ${question.answer}`);
+        } else {
+          console.log(`Câu ${questionId} trả lời sai: ${userAnswerLetter} ≠ ${question.answer}`);
+        }
+      }
     });
+    
+    console.log(`Tổng điểm cuối cùng: ${score} (từ ${Object.keys(userAnswers).length} câu trả lời)`);
     return score;
+  };
+
+  const exitQuiz = () => {
+    onQuizComplete(0, 0);
   };
 
   const handleFinishQuiz = () => {
     const score = calculateScore();
     const total = sections.reduce((total, section) => total + section.questions.length, 0);
-    onQuizComplete(score, total);
+    setQuizScore({ score, total });
+    setShowResults(true);
+  };
+
+  const restartQuiz = () => {
+    setUserAnswers({});
+    setCurrentSectionIndex(0);
+    setCurrentQuestionIndex(0);
+    setShowResults(false);
+    setQuizScore(null);
   };
   
   const totalQuestions = sections.reduce((total, section) => total + section.questions.length, 0);
   const questionsCompleted = sections.slice(0, currentSectionIndex).reduce((total, section) => total + section.questions.length, 0) + currentQuestionIndex + 1;
+
+  const isActuallyLastQuestion = useMemo(() => {
+    return questionsCompleted === totalQuestions;
+  }, [questionsCompleted, totalQuestions]);
 
   useEffect(() => {
     document.body.style.backgroundColor = '#f0f2f5';
@@ -151,6 +195,45 @@ const Quiz: React.FC<QuizProps> = ({ sections, onQuizComplete }) => {
       document.body.style.backgroundColor = '';
     };
   }, []);
+
+  // Add helper function to extract the answer letter from the option string
+  const getAnswerLetter = (option: string): string => {
+    const match = option.match(/^([A-H])\)/);
+    return match ? match[1] : '';
+  };
+
+  const getResultMessage = (score: number, total: number) => {
+    const percentage = (score / total) * 100;
+
+    if (percentage >= 80) {
+        return (
+            <div className="result-message-container">
+                <span className="result-icon">🎉</span>
+                <p className="result-message success">
+                    Xuất sắc! Bạn đã làm rất tốt!
+                </p>
+            </div>
+        );
+    } else if (percentage >= 50) {
+        return (
+            <div className="result-message-container">
+                <span className="result-icon">👍</span>
+                <p className="result-message decent">
+                    Khá lắm! Hãy tiếp tục cố gắng nhé!
+                </p>
+            </div>
+        );
+    } else {
+        return (
+            <div className="result-message-container">
+                <span className="result-icon">💪</span>
+                <p className="result-message encouragement">
+                    Đừng bỏ cuộc! Ôn tập lại và thử lại nào. Bạn sẽ làm được!
+                </p>
+            </div>
+        );
+    }
+  };
 
   const quizStyles = `
     .quiz-page-container {
@@ -226,12 +309,29 @@ const Quiz: React.FC<QuizProps> = ({ sections, onQuizComplete }) => {
         aspect-ratio: 1 / 1; border: 1px solid #dee2e6;
         border-radius: 8px; cursor: pointer; font-size: 0.9rem; font-weight: 500;
         background-color: #f8f9fa; color: #495057; transition: all 0.2s ease;
+        position: relative;
     }
     .question-grid-item:hover { border-color: #007bff; color: #007bff; }
     .question-grid-item.answered { background-color: #e7f1ff; border-color: #a0c7ff; color: #0056b3; }
     .question-grid-item.current {
         background-color: #007bff; border-color: #007bff; color: #fff;
         transform: scale(1.05); box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+    }
+    .answer-indicator {
+        position: absolute;
+        bottom: -3px;
+        right: -3px;
+        width: 16px;
+        height: 16px;
+        font-size: 10px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #28a745;
+        color: white;
+        border-radius: 50%;
+        border: 1px solid white;
     }
     
     .quiz-header {
@@ -334,14 +434,174 @@ const Quiz: React.FC<QuizProps> = ({ sections, onQuizComplete }) => {
         box-shadow: 0 0 0 3px #fff inset;
     }
     
-    .navigation-buttons { display: flex; justify-content: space-between; margin-top: 2.5rem; flex-shrink: 0; }
-    .nav-btn {
-        padding: 0.8rem 2rem; font-size: 1rem; font-weight: 600;
-        border-radius: 10px; border: none; cursor: pointer;
-        background-color: #007bff; color: white; transition: background-color 0.2s;
+    .navigation-buttons { 
+        display: flex; 
+        justify-content: space-between; 
+        margin-top: 2.5rem; 
+        flex-shrink: 0; 
+        gap: 12px;
     }
-    .nav-btn:hover { background-color: #0056b3; }
-    .nav-btn:disabled { background-color: #ced4da; cursor: not-allowed; }
+    
+    .nav-btn-group {
+        display: flex;
+        gap: 12px;
+    }
+    
+    .nav-btn {
+        padding: 0.8rem 2rem; 
+        font-size: 1rem; 
+        font-weight: 600;
+        border-radius: 10px; 
+        border: none; 
+        cursor: pointer;
+        background-color: #007bff; 
+        color: white; 
+        transition: all 0.2s ease;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .nav-btn:hover { 
+        background-color: #0056b3; 
+        transform: translateY(-2px);
+        box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+    }
+    .nav-btn:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .nav-btn:disabled { 
+        background-color: #ced4da; 
+        cursor: not-allowed; 
+        box-shadow: none;
+        transform: none;
+    }
+    
+    .nav-btn.exit-btn {
+        background-color: #6c757d;
+    }
+    .nav-btn.exit-btn:hover {
+        background-color: #5a6268;
+    }
+    
+    .nav-btn.next-btn {
+        background-color: #007bff;
+    }
+    .nav-btn.next-btn:hover {
+        background-color: #0056b3;
+    }
+    
+    .nav-btn.submit-btn {
+        background-color: #28a745;
+        min-width: 120px;
+    }
+    .nav-btn.submit-btn:hover {
+        background-color: #218838;
+    }
+    
+    .nav-btn.submit-now-btn {
+        background-color: #dc3545;
+    }
+    .nav-btn.submit-now-btn:hover {
+        background-color: #c82333;
+    }
+
+    /* Results screen styles */
+    .quiz-results-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      height: 100%;
+    }
+    
+    .quiz-results-title {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 1.5rem;
+    }
+    
+    .quiz-score {
+      font-size: 4rem;
+      font-weight: bold;
+      color: #007bff;
+      margin: 1.5rem 0;
+    }
+    
+    .quiz-score-text {
+      font-size: 1.5rem;
+      color: #666;
+      margin-bottom: 1.5rem;
+    }
+    
+    .result-message-container {
+      margin: 2rem 0;
+      padding: 1.5rem;
+      background: #f8f9fa;
+      border-radius: 1rem;
+      max-width: 600px;
+    }
+    
+    .result-icon {
+      font-size: 3rem;
+      display: block;
+      margin-bottom: 1rem;
+    }
+    
+    .result-message {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+    
+    .result-message.success {
+      color: #28a745;
+    }
+    
+    .result-message.decent {
+      color: #fd7e14;
+    }
+    
+    .result-message.encouragement {
+      color: #dc3545;
+    }
+    
+    .result-buttons {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    
+    .result-button {
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    
+    .result-button.primary {
+      background-color: #28a745;
+      color: white;
+    }
+    
+    .result-button.primary:hover {
+      background-color: #218838;
+      transform: translateY(-2px);
+    }
+    
+    .result-button.secondary {
+      background-color: #6c757d;
+      color: white;
+    }
+    
+    .result-button.secondary:hover {
+      background-color: #5a6268;
+      transform: translateY(-2px);
+    }
   `;
 
   if (!currentQuestion) {
@@ -349,6 +609,42 @@ const Quiz: React.FC<QuizProps> = ({ sections, onQuizComplete }) => {
       <div className="quiz-page-container">
         <p>Đang tải bài kiểm tra...</p>
       </div>
+    );
+  }
+
+  if (showResults && quizScore) {
+    return (
+      <>
+        <style>{quizStyles}</style>
+        <div className="quiz-page-container">
+          <div className="quiz-layout-container">
+            <div className="quiz-main-content">
+              <div className="quiz-content-card">
+                <div className="quiz-results-container">
+                  <h2 className="quiz-results-title">Kết quả bài kiểm tra</h2>
+                  <div className="quiz-score">
+                    {quizScore.score} / {quizScore.total}
+                  </div>
+                  <div className="quiz-score-text">
+                    Điểm của bạn: {((quizScore.score / quizScore.total) * 100).toFixed(1)}%
+                  </div>
+                  
+                  {getResultMessage(quizScore.score, quizScore.total)}
+                  
+                  <div className="result-buttons">
+                    <button className="result-button primary" onClick={restartQuiz}>
+                      Làm lại bài
+                    </button>
+                    <button className="result-button secondary" onClick={exitQuiz}>
+                      Thoát
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </>
     );
   }
 
@@ -394,9 +690,6 @@ const Quiz: React.FC<QuizProps> = ({ sections, onQuizComplete }) => {
                     </div>
                   )}
                 </div>
-                <button className="back-btn" onClick={() => onQuizComplete(calculateScore(), totalQuestions)}>
-                  Thoát
-                </button>
               </div>
               <div className="progress-bar-container">
                 <div className="progress-bar" style={{ width: `${(questionsCompleted / totalQuestions) * 100}%` }}></div>
@@ -424,22 +717,41 @@ const Quiz: React.FC<QuizProps> = ({ sections, onQuizComplete }) => {
                 </div>
               </div>
               <div className="navigation-buttons">
-                <button
-                  className="nav-btn"
-                  onClick={goToPreviousQuestion}
-                  disabled={currentSectionIndex === 0 && currentQuestionIndex === 0}
-                >
-                  Quay lại
-                </button>
-                {isLastQuestion ? (
-                  <button className="nav-btn" onClick={handleFinishQuiz}>
-                    Nộp bài
+                <div className="nav-btn-group">
+                  <button
+                    className="nav-btn exit-btn"
+                    onClick={exitQuiz}
+                    title="Thoát về màn hình chính"
+                  >
+                    <i className="fas fa-sign-out-alt"></i> Thoát
                   </button>
-                ) : (
-                  <button className="nav-btn" onClick={goToNextQuestion}>
-                    Tiếp theo
+                  
+                  <button
+                    className="nav-btn"
+                    onClick={goToPreviousQuestion}
+                    disabled={currentSectionIndex === 0 && currentQuestionIndex === 0}
+                  >
+                    <i className="fas fa-arrow-left"></i> Quay lại
                   </button>
-                )}
+                </div>
+                
+                <div className="nav-btn-group">
+                  {!isActuallyLastQuestion && (
+                    <button className="nav-btn submit-now-btn" onClick={handleFinishQuiz}>
+                      <i className="fas fa-check-circle"></i> Nộp bài
+                    </button>
+                  )}
+                  
+                  {isActuallyLastQuestion ? (
+                    <button className="nav-btn submit-btn" onClick={handleFinishQuiz}>
+                      <i className="fas fa-paper-plane"></i> Nộp bài
+                    </button>
+                  ) : (
+                    <button className="nav-btn next-btn" onClick={goToNextQuestion}>
+                      Tiếp theo <i className="fas fa-arrow-right"></i>
+                    </button>
+                  )}
+                </div>
               </div>
             </div>
           </div>
@@ -460,6 +772,13 @@ const Quiz: React.FC<QuizProps> = ({ sections, onQuizComplete }) => {
                       } else if (isAnswered) {
                           className += ' answered';
                       }
+                      
+                      // Get selected answer letter if available
+                      let answerLetter = '';
+                      if (isAnswered) {
+                        answerLetter = getAnswerLetter(userAnswers[question.id]);
+                      }
+                      
                       return (
                           <button
                               key={question.id}
@@ -467,6 +786,7 @@ const Quiz: React.FC<QuizProps> = ({ sections, onQuizComplete }) => {
                               onClick={() => jumpToQuestion(sectionIndex, questionIndex)}
                           >
                               {question.numberLabel.replace('Câu ', '')}
+                              {answerLetter && <span className="answer-indicator">{answerLetter}</span>}
                           </button>
                       );
                     })}
