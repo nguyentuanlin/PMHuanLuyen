@@ -6,6 +6,7 @@ import PdfViewer from './PdfViewer';
 import PdfDataService from './PdfDataService';
 import Quiz, { QuizSection } from './Quiz';
 import QuizMenu from './QuizMenu';
+import VideoPlayer from './VideoPlayer';
 
 // ++ EXCEL VIEWER COMPONENT (IN-FILE)
 // CellData Interface
@@ -666,6 +667,7 @@ function App() {
   const [loaded, setLoaded] = useState(false);
   const [selectedPdf, setSelectedPdf] = useState<string | null>(null);
   const [selectedExcel, setSelectedExcel] = useState<{ path: string; title: string } | null>(null);
+  const [selectedVideo, setSelectedVideo] = useState<{ path: string; title: string } | null>(null);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [showSearchResults, setShowSearchResults] = useState<boolean>(false);
   // Add state for mobile menu
@@ -706,6 +708,7 @@ function App() {
     { title: '4. Khai thác, sử dụng tổng đài TP-256', path: '/document/TP-256-HDSD.pdf', category: 'Tài liệu khai thác' },
     { title: '5. Khai thác, sử dụng tổng đài TP-512', path: '/document/TP-512-HDSD_20230708.pdf', category: 'Tài liệu khai thác' },
     { title: '6. Khai thác, sử dụng tổng đài IP-512', path: '/document/IP-512-HDSD.pdf', category: 'Tài liệu khai thác' },
+    { title: '7. Video huấn luyện', path: '/document/video-training.mp4', category: 'Tài liệu khai thác' },
     
     // Bảo quản, bảo dưỡng
     { title: '1. Bảo quản, bảo dưỡng tổng đài Softswitch', path: '/document/BẢO QUẢN, bảo dưỡng tổng đài Softswitch.pdf', category: 'Bảo quản, bảo dưỡng' },
@@ -824,6 +827,7 @@ function App() {
     console.log('Opening PDF:', process.env.PUBLIC_URL + encodedPath);
     setSelectedPdf(process.env.PUBLIC_URL + encodedPath);
     setSelectedExcel(null);
+    setSelectedVideo(null);
     // Clear search when opening a PDF
     setSearchQuery('');
   };
@@ -836,11 +840,24 @@ function App() {
     const encodedPath = encodeURI(excelPath);
     setSelectedExcel({ path: process.env.PUBLIC_URL + encodedPath, title });
     setSelectedPdf(null);
+    setSelectedVideo(null);
     setSearchQuery('');
   };
 
   const closeExcel = () => {
     setSelectedExcel(null);
+  };
+  
+  const openVideo = (videoPath: string, title: string) => {
+    const encodedPath = encodeURI(videoPath);
+    setSelectedVideo({ path: process.env.PUBLIC_URL + encodedPath, title });
+    setSelectedPdf(null);
+    setSelectedExcel(null);
+    setSearchQuery('');
+  };
+
+  const closeVideo = () => {
+    setSelectedVideo(null);
   };
   
   // ++ FUNCTION TO START A QUIZ
@@ -1010,50 +1027,6 @@ function App() {
               <i className={`fas ${showMobileMenu ? 'fa-times' : 'fa-bars'}`}></i>
             </button>
             
-            {/* Search box for mobile view - at the top */}
-            <div className="compact-search-container" ref={searchContainerRef}>
-              <div className="search-input-wrapper">
-                <input
-                  type="text"
-                  placeholder="Tìm kiếm tài liệu..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="compact-search-input"
-                />
-                <i className="search-icon fas fa-search"></i>
-              </div>
-              
-              {showSearchResults && filteredMenuItems.length > 0 && (
-                <div className="compact-search-results">
-                  <div className="search-results-list">
-                    {filteredMenuItems.map((item, index) => (
-                      <div 
-                        key={index}
-                        className="search-result-item"
-                        onClick={() => item.path && openPdf(item.path)}
-                      >
-                        <div className="search-result-title">
-                          <span className="search-result-category-tag">{item.category}</span>
-                          <span style={{ width: '100%' }}>{item.title}</span>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-              {showSearchResults && filteredMenuItems.length === 0 && searchQuery.trim() !== '' && (
-                <div className="compact-search-results">
-                  <div className="search-results-list">
-                    <div className="search-result-item">
-                      <div className="search-result-title">
-                        Không tìm thấy kết quả phù hợp
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              )}
-            </div>
-            
             <ul className={`menu-list ${showMobileMenu ? 'show' : ''}`}>
               <li 
                 className={`menu-item ${activeMenu === 'kienthuc' ? 'active' : ''}`}
@@ -1162,6 +1135,9 @@ function App() {
                     <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openPdf('/document/IP-512-HDSD.pdf'); }}>
                       6. Khai thác, sử dụng tổng đài IP-512
                     </div>
+                    <div className="submenu-item" onClick={(e) => { e.stopPropagation(); openVideo('/9974047-hd_1920_1080_30fps.mp4', 'Video Huấn Luyện'); }}>
+                      7. Video huấn luyện
+                    </div>
                   </div>
                 )}
               </li>
@@ -1208,6 +1184,50 @@ function App() {
                 )}
               </li>
             </ul>
+            
+            {/* Search box moved to the right */}
+            <div className="compact-search-container" ref={searchContainerRef}>
+              <div className="search-input-wrapper">
+                <input
+                  type="text"
+                  placeholder="Tìm kiếm tài liệu..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="compact-search-input"
+                />
+                <i className="search-icon fas fa-search"></i>
+              </div>
+              
+              {showSearchResults && filteredMenuItems.length > 0 && (
+                <div className="compact-search-results">
+                  <div className="search-results-list">
+                    {filteredMenuItems.map((item, index) => (
+                      <div 
+                        key={index}
+                        className="search-result-item"
+                        onClick={() => item.path && openPdf(item.path)}
+                      >
+                        <div className="search-result-title">
+                          <span className="search-result-category-tag">{item.category}</span>
+                          <span style={{ width: '100%' }}>{item.title}</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {showSearchResults && filteredMenuItems.length === 0 && searchQuery.trim() !== '' && (
+                <div className="compact-search-results">
+                  <div className="search-results-list">
+                    <div className="search-result-item">
+                      <div className="search-result-title">
+                        Không tìm thấy kết quả phù hợp
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
           </nav>
         </header>
 
@@ -1221,6 +1241,10 @@ function App() {
 
         {selectedExcel && !showQuiz && (
             <ExcelViewer excelUrl={selectedExcel.path} title={selectedExcel.title} onClose={closeExcel} />
+        )}
+
+        {selectedVideo && !showQuiz && (
+            <VideoPlayer videoUrl={selectedVideo.path} title={selectedVideo.title} onClose={closeVideo} />
         )}
 
         {quizResult && (
